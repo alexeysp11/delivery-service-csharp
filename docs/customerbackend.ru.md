@@ -10,7 +10,7 @@
 
 Описание приложения для потребителей: 
 - Часть высоконагруженной системы: каждый элемент системы должен быть способен выдержать нагрузку до 5 тыс. запросов в секунду на запись и чтение
-- Интегрируется напрямую с [authentication API](authapi.ru.md), [customer backend](customerbackend.ru.md), file service, statistical model, predictive model, email sender, push notifications
+- Интегрируется напрямую с [authentication API](authapi.ru.md), [customer backend](customerbackend.ru.md), [file service](fileservice.ru.md), statistical model, predictive model, [email sender](emailsender.ru.md), [push notifications](pushnotifications.ru.md)
 - Виды оплаты: наличная при получении, через валидатор при получении, через приложение банка по QR-коду, в приложении с помощью CVC
 - Загрузка файлов на сервер (изображения, видео, Word, Excel, PDF, XML, JSON)
 - Загрузка файлов с сервера (изображения, Word, Excel, PDF, XML, JSON)

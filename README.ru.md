@@ -8,7 +8,7 @@
 - Высоконагруженная система: каждый элемент системы должен быть способен выдержать нагрузку до 5 тыс. запросов в секунду на запись и чтение
 - Виды клиентских приложений по типу конечного пользователя: для потребителей, ресторан, курьер, админ
 - Виды клиентских приложений по типу развертывания: вэб, десктоп, мобильное (Android), бот в телеграм 
-- Бэкенд сервисы: [authentication API](docs/authapi.ru.md), [customer backend](docs/customerbackend.ru.md), kitchen backend, courier backend, file service, statistical model, predictive model, email sender, push notifications 
+- Бэкенд сервисы: [authentication API](docs/authapi.ru.md), [customer backend](docs/customerbackend.ru.md), kitchen backend, courier backend, [file service](docs/fileservice.ru.md), statistical model, predictive model, [email sender](docs/emailsender.ru.md), [push notifications](docs/pushnotifications.ru.md) 
 - Внешние сервисы: Firebase, email delivery service, payment gateway 
 - Виды оплаты: наличная при получении, через валидатор при получении, через приложение банка по QR-коду, в приложении с помощью CVC
 - Загрузка файлов на сервер (изображения, видео, Word, Excel, PDF, XML, JSON)
