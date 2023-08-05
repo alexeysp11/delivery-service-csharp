@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "DeliveryService.Models.Protos";
+
+package DeliveryFiles;
+
+// The Fileservice service definition.
+service Fileservice {
+  // Creates a specified file and returns it
+  rpc GetFile (FileserviceRequest) returns (FileserviceResponse);
+}
+
+// Input parameters: session token UID, attachment file type, values for creating the file.
+message FileserviceRequest {
+  string SessionTokenUid = 1;
+  string AttachmentFileType = 2;
+  string Values = 3;
+}
+
+// Output parameters: session token UID, UID of the created file, file type, byte representation of the file.
+message FileserviceResponse {
+  string SessionTokenUid = 1;
+  string CreatedFileUid = 2;
+  string AttachmentFileType = 3;
+  string FileBytes = 4; 
+}
