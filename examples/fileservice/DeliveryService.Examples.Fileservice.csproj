@@ -12,7 +12,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.23.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="../common/DeliveryService.Examples.Common.csproj" />
+    <ProjectReference Include="../../../workflow-lib/src/Cims.WorkflowLib.csproj" />
   </ItemGroup>
 
 </Project>

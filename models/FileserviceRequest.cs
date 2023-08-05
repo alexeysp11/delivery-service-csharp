@@ -1,4 +1,6 @@
-﻿namespace DeliveryService.Models;
+﻿using DeliveryService.Models.Enums; 
+
+namespace DeliveryService.Models;
 
 /// <summary>
 /// Represents the request to the file service, that has the following 

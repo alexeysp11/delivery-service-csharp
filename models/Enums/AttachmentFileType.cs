@@ -1,6 +1,9 @@
 namespace DeliveryService.Models.Enums; 
 
-public class AttachmentFileType
+/// <summary>
+/// 
+/// </summary>
+public enum AttachmentFileType
 {
     Image = 1,
     Video = 2,
