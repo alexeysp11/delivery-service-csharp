@@ -4,6 +4,8 @@
 
 Сервис доставки еды
 
+## Требования к системе и её описание 
+
 Описание системы: 
 - Высоконагруженная система: каждый элемент системы должен быть способен выдержать нагрузку до 5 тыс. запросов в секунду на запись и чтение
 - Виды клиентских приложений по типу конечного пользователя: для потребителей, ресторан, курьер, админ
@@ -11,8 +13,8 @@
 - Бэкенд сервисы: [authentication API](docs/authapi.ru.md), [customer backend](docs/customerbackend.ru.md), kitchen backend, courier backend, [file service](docs/fileservice.ru.md), statistical model, predictive model, [email sender](docs/emailsender.ru.md), [push notifications](docs/pushnotifications.ru.md) 
 - Внешние сервисы: Firebase, email delivery service, payment gateway 
 - Виды оплаты: наличная при получении, через валидатор при получении, через приложение банка по QR-коду, в приложении с помощью CVC
-- Загрузка файлов на сервер (изображения, видео, Word, Excel, PDF, XML, JSON)
-- Загрузка файлов с сервера (изображения, Word, Excel, PDF, XML, JSON)
+- Загрузка файлов на сервер (изображения, видео, Word, Excel, PDF)
+- Загрузка файлов с сервера (изображения, Word, Excel, PDF)
 - Формирование QR-кода для оплаты
 - Отправка уведомлений об акциях на почту и/или на телеграм
 - Отображение информации по заказам в виде списков: список всех заказов, информация по конкретному заказу (фактическое время оформления, готовки и доставки; ориентировочное время готовки и доставки, общая сумма заказа, стоимость позиций заказа, место доставки; статус)
@@ -33,3 +35,12 @@
 Общая модель системы: 
 
 ![system_overall](docs/img/system_overall.png)
+
+## Конфигурация проекта 
+
+Для скачивания данного проекта и всех его зависимостей необходимо последовательно выполнить в командной строке следующие команды:
+```
+git clone https://github.com/alexeysp11/Open-Xml-PowerTools.git 
+git clone https://github.com/alexeysp11/workflow-lib.git
+git clone https://github.com/alexeysp11/delivery-service-csharp.git
+```

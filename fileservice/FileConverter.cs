@@ -14,7 +14,7 @@ namespace DeliveryService.Fileservice;
 
 /// <summary>
 /// Converts the following file formats:
-/// images, video, Word, Excel, PDF, XML, JSON
+/// images, video, Word, Excel, PDF
 /// </summary>
 public class FileConverter
 {

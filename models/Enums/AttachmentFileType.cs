@@ -9,7 +9,5 @@ public enum AttachmentFileType
     Video = 2,
     PDF = 3,
     MSWord = 4,
-    MSExcel = 5,
-    XML = 6, 
-    JSON = 7
+    MSExcel = 5
 }

@@ -1,0 +1,27 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "DeliveryService.Models.Protos";
+
+package authgrcpapi;
+
+service AuthGrpcApi {
+  rpc CreateToken (google.protobuf.Empty) returns (SessionTokenInfo);
+  rpc CheckTokenPresense (CheckTokenRequest) returns (SessionTokenInfo);
+  rpc CheckTokenRelevance (CheckTokenRequest) returns (TokenRelevanceResponse);
+}
+
+message CheckTokenRequest {
+  string SessionTokenGuid = 1;
+}
+
+message SessionTokenInfo {
+  string SessionTokenGuid = 1;
+  google.protobuf.Timestamp TokenActivityBegin = 2;
+  google.protobuf.Timestamp TokenActivityEnd = 3;
+}
+
+message TokenRelevanceResponse {
+  bool IsRelevant = 1;
+}
