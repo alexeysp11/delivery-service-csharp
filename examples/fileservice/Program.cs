@@ -47,6 +47,6 @@ for (int i = 0; i < requestCount; i++)
 }
 // Act 
 var client = new GrpcClient();
-var timeInfo = await client.AnalizeGreeterClientAsync(hostname, requests); 
+var timeInfo = await client.AnalizeFileserviceClientAsync(hostname, requests); 
 // 
 System.Console.WriteLine($"Executed in: {timeInfo.TimeDifferenceString}"); 

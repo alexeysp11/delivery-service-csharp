@@ -4,15 +4,14 @@ import "google/protobuf/timestamp.proto";
 
 option csharp_namespace = "DeliveryService.Models.Protos";
 
-package authgrcpapi;
+package DeliveryFiles;
 
 service AuthGrpcApi {
   rpc CreateToken (google.protobuf.Empty) returns (SessionTokenInfo);
-  rpc CheckTokenPresense (CheckTokenRequest) returns (SessionTokenInfo);
-  rpc CheckTokenRelevance (CheckTokenRequest) returns (TokenRelevanceResponse);
+  rpc GetTokenByGuid (TokenRequest) returns (SessionTokenInfo);
 }
 
-message CheckTokenRequest {
+message TokenRequest {
   string SessionTokenGuid = 1;
 }
 

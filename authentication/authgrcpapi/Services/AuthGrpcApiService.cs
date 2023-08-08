@@ -1,5 +1,6 @@
 using Grpc.Core;
 using Google.Protobuf.WellKnownTypes;
+using DeliveryService.Authentication.AuthBL;
 using DeliveryService.Authentication.AuthGrpcApi;
 using DeliveryService.Models.Protos;
 
@@ -13,33 +14,31 @@ public class AuthGrpcApiService : DeliveryService.Models.Protos.AuthGrpcApi.Auth
         _logger = logger;
     }
 
+    /// <summary>
+    /// Creates unique token
+    /// </summary>
     public override Task<SessionTokenInfo> CreateToken(Empty request, ServerCallContext context)
     {
-        var dt = System.DateTime.Now;
+        var token = new TokenHelper().CreateToken();
         return Task.FromResult(new SessionTokenInfo
         {
-            SessionTokenGuid = System.Guid.NewGuid().ToString(),
-            TokenActivityBegin = Timestamp.FromDateTime(dt),
-            TokenActivityEnd = Timestamp.FromDateTime(dt.AddHours(5))
+            SessionTokenGuid = token.SessionTokenGuid.ToString(),
+            TokenActivityBegin = Timestamp.FromDateTimeOffset(token.TokenActivityBegin),
+            TokenActivityEnd = Timestamp.FromDateTimeOffset(token.TokenActivityEnd)
         });
     }
 
-    public override Task<SessionTokenInfo> CheckTokenPresense(CheckTokenRequest request, ServerCallContext context)
+    /// <summary>
+    /// Check if the specified token exists in the database
+    /// </summary>
+    public override Task<SessionTokenInfo> GetTokenByGuid(TokenRequest request, ServerCallContext context)
     {
-        var dt = System.DateTime.Now;
+        var token = new TokenHelper().GetTokenByGuid(new System.Guid(request.SessionTokenGuid));
         return Task.FromResult(new SessionTokenInfo
         {
             SessionTokenGuid = request.SessionTokenGuid,
-            TokenActivityBegin = Timestamp.FromDateTime(dt),
-            TokenActivityEnd = Timestamp.FromDateTime(dt.AddHours(5))
-        });
-    }
-
-    public override Task<TokenRelevanceResponse> CheckTokenRelevance(CheckTokenRequest request, ServerCallContext context)
-    {
-        return Task.FromResult(new TokenRelevanceResponse
-        {
-            IsRelevant = true
+            TokenActivityBegin = Timestamp.FromDateTimeOffset(token.TokenActivityBegin),
+            TokenActivityEnd = Timestamp.FromDateTimeOffset(token.TokenActivityEnd)
         });
     }
 }
