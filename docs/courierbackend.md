@@ -1,4 +1,4 @@
-# courier
+# courier backend
 
 Read this in other languages: [English](courier.md), [Russian/Русский](courier.ru.md). 
 
