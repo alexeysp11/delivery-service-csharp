@@ -1,6 +1,6 @@
 # manager
 
-Read this in other languages: [English](manager.md), [Russian/Русский](manager.ru.md). 
+Read this in other languages: [English](managerbackend.md), [Russian/Русский](managerbackend.ru.md). 
 
 Backend of the manager application 
 

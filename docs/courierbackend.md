@@ -1,6 +1,6 @@
 # courier backend
 
-Read this in other languages: [English](courier.md), [Russian/Русский](courier.ru.md). 
+Read this in other languages: [English](courierbackend.md), [Russian/Русский](courierbackend.ru.md). 
 
 Backend of the courier application 
 
