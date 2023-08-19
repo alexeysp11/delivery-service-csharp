@@ -6,7 +6,7 @@
 
 Общая модель системы: 
 
-![system_overall](img/system_overall.png)
+![system_overall](../img/system_overall.png)
 
 Описание сервиса: 
 - Загрузка файлов на сервер (изображения, видео, Word, Excel, PDF)

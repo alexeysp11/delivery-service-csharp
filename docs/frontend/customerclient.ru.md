@@ -8,11 +8,11 @@
 
 Общая модель системы: 
 
-![system_overall](img/system_overall.png)
+![system_overall](../img/system_overall.png)
 
 Описание приложения для потребителей: 
 - Часть высоконагруженной системы: каждый элемент системы должен быть способен выдержать нагрузку до 5 тыс. запросов в секунду на запись и чтение.
-- Интегрируется напрямую с [authentication API](authapi.ru.md), [customer backend](customerbackend.ru.md), [file service](fileservice.ru.md), statistical model, predictive model, [email sender](emailsender.ru.md), [push notifications](pushnotifications.ru.md).
+- Интегрируется напрямую с [authentication API](../backend/authapi.ru.md), [customer backend](../backend/customerbackend.ru.md), [file service](../backend/fileservice.ru.md), [statistical model](../backend/statisticalmodel.ru.md), [predictive model](../backend/predictivemodel.ru.md), [email sender](../backend/emailsender.ru.md), [push notifications](../backend/pushnotifications.ru.md).
 - Отображение меню: 
     - Выгружается из бэкенда: категории, отдельные позиции (наименование, картинка, цена, описание);
     - Указывается пользователем: размер, количество.
@@ -70,4 +70,4 @@
     - предпочитаемый вид оплаты,
     - привязанные карты.
 
-Описание бэкенд-сервиса для данного приложения представлено по [данной ссылке](customerbackend.ru.md).
+Описание бэкенд-сервиса для данного приложения представлено по [данной ссылке](../backend/customerbackend.ru.md).

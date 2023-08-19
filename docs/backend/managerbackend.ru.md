@@ -8,6 +8,6 @@
 
 Общая модель системы: 
 
-![system_overall](img/system_overall.png)
+![system_overall](../img/system_overall.png)
 
-Описание клиентского приложения представлено по [данной ссылке](managerclient.ru.md).
+Описание клиентского приложения представлено по [данной ссылке](../frontend/managerclient.ru.md).

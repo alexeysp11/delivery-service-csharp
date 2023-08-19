@@ -6,4 +6,4 @@ Push notifications
 
 Overall description of the system: 
 
-![system_overall](img/system_overall.png)
+![system_overall](../img/system_overall.png)
