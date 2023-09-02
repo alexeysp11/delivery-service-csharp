@@ -16,4 +16,3 @@
 ## Последовательность действий пользователя
 
 ![courier.deliverorder](../../img/courier.deliverorder.png)
-
