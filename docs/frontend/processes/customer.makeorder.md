@@ -7,7 +7,7 @@ Customer client application: make order
 ## Description of the process
 
 - Displaying the menu:
-    - Unloaded from the backend: categories, individual items (name, picture, price, description).
+    - Unloaded from the backend: categories (name, picture, description), individual items (name, picture, price, description).
 - When placing an order: 
     - User enters: list of selected items from menu, size, quantity, place of delivery.
     - Calculated on the backend: total order amount, estimated cooking and delivery time.
@@ -32,3 +32,9 @@ Customer client application: make order
     - Add payment geteway after filling out the form if a card is selected.
     - All selected products are stored on the frontend side until the user clicks "Finish checkout".
 - The user is on the "Pending orders" page.
+
+## Examples 
+
+Menu: 
+
+![menu](https://i.pinimg.com/1200x/1c/a7/5e/1ca75e1020ffe2d57ca4f2c674f15151.jpg)

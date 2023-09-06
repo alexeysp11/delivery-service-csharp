@@ -4,6 +4,7 @@ publish
 
 customerbackend
 authwebapi
-customerclient
+customerclientblazor
+customerclientwpf
 
 docs/spreadsheets/.~lock.processes.ods#

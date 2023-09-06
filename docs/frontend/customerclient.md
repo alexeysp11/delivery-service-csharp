@@ -12,11 +12,12 @@ Overall description of the system:
 
 Description of the customer application: 
 - Directly communicates with [authentication API](../backend/authapi.md), [customer backend](../backend/customerbackend.md), [file service](../backend/fileservice.md), [statistical model](../backend/statisticalmodel.md), [predictive model](../backend/predictivemodel.md), [email sender](../backend/emailsender.md), [push notifications](../backend/pushnotifications.md).
+- User's account.
 - [Making order](processes/customer.makeorder.md).
 - [All orders](processes/customer.orders.md): displayig information and statistical data about previous orders (in a form of lists and dashboards).
 - [Pending orders](processes/customer.pendingorders.md): order status tracking.
 - [Settings](processes/customer.settings.md).
-- Receiving push notifications.
+- Notifications.
 - Watching videos
 - Payment types:
     - cash on delivery, 
