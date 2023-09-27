@@ -11,7 +11,7 @@
 ![system_overall](../img/system_overall.png)
 
 Описание приложения для потребителей: 
-- Интегрируется напрямую с [authentication API](../backend/authapi.ru.md), [customer backend](../backend/customerbackend.ru.md), [file service](../backend/fileservice.ru.md), [statistical model](../backend/statisticalmodel.ru.md), [predictive model](../backend/predictivemodel.ru.md), [email sender](../backend/emailsender.ru.md), [push notifications](../backend/pushnotifications.ru.md).
+- Интегрируется напрямую с [authentication API](../backend/authbackend.ru.md), [customer backend](../backend/customerbackend.ru.md), [file service](../backend/fileservice.ru.md), [statistical model](../backend/statisticalmodel.ru.md), [predictive model](../backend/predictivemodel.ru.md), [email sender](../backend/emailsender.ru.md), [push notifications](../backend/pushnotifications.ru.md).
 - [Оформление заказа](processes/customer.makeorder.ru.md).
 - [Все заказы](processes/customer.orders.ru.md): отображение информации/статистики по предыдущим заказам в виде списков и дашбордов.
 - [Текущие заказы](processes/customer.pendingorders.ru.md): отслеживание статуса заказа.
