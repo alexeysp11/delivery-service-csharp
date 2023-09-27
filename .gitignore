@@ -3,7 +3,6 @@ obj
 publish 
 
 customerbackend
-authwebapi
 customerclientblazor
 customerclientwpf
 
