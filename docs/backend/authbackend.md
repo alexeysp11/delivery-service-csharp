@@ -17,5 +17,7 @@ Read this in other languages: [English](authbackend.md), [Russian/Русский
 ### Description of the service 
 
 - [workflow-auth](https://github.com/alexeysp11/workflow-auth) is used as an authentication service.
-- This service writes / reads session tokens to the database and through the message broker notifies services in which the availability of tokens is critical about changes in the database related to tokens (for example, such services include [customer backend](customerbackend.md ), [kitchen backend](kitchenbackend.md), [courier backend](courierbackend.md), [manager backend](managerbackend.md)).
-- This service can be accessed by all client applications shown in the figure above in the "End user applications" section: [customer](../frontend/customerclient.md), [kitchen](../frontend/kitchenclient.md), [courier](../frontend/courierclient.md), [manager](../frontend/managerclient.md), [admin](../frontend/adminclient.md).
+- In order to simplify the system model, we will assume that all backend services use the same database. Therefore, information on the names of tables and their fields can be found in the description of the corresponding service (for example, such services include [customer backend](customerbackend.md ), [kitchen backend](kitchenbackend.md), [courier backend](courierbackend.md), [manager backend](managerbackend.md)).
+<!--
+- This service writes / reads session tokens to the database and through the message broker notifies services in which the availability of tokens is critical about changes in the database related to tokens
+-->
