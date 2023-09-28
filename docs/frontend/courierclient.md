@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](courierclient.md), [Russian/Русский](courierclient.ru.md). 
 
-Courier client application 
+`courierclient` is a courier client application 
 
 Overall description of the system: 
 

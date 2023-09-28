@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](warehouseclient.md), [Russian/Русский](warehouseclient.ru.md). 
 
-Warehouse client application 
+`warehouseclient` is a warehouse client application 
 
 Overall description of the system: 
 

@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](adminclient.md), [Russian/Русский](adminclient.ru.md). 
 
-Admin client application 
+`adminclient` is an admin client application 
 
 Overall description of the system: 
 

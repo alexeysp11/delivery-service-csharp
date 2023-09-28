@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](kitchenclient.md), [Russian/Русский](kitchenclient.ru.md). 
 
-Kitchen client application 
+`kitchenclient` is a kitchen client application 
 
 Overall description of the system: 
 

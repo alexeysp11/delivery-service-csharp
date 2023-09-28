@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](managerclient.md), [Russian/Русский](managerclient.ru.md). 
 
-Manager client application 
+`managerclient` is a manager client application.
 
 Overall description of the system: 
 
