@@ -4,7 +4,7 @@ Read this in other languages: [English](courier.scanbackpack.md), [Russian/Ру�
 
 Courier client application: scan backpack QR code.
 
-The description of the client application is presented at [this link](../courierclient.md).
+The description of the **client application** is presented at [this link](../courierclient.md).
 
 ## Process description
 

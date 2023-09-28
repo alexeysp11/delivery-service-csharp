@@ -4,6 +4,8 @@ Read this in other languages: [English](kitchenclient.md), [Russian/Русски
 
 `kitchenclient` is a kitchen client application 
 
-Overall description of the system: 
+## Requirements and description of the system
+
+### Overall description of the system 
 
 ![system_overall](../img/system_overall.png)

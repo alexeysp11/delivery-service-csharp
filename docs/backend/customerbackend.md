@@ -10,7 +10,7 @@ Read this in other languages: [English](customerbackend.md), [Russian/Русск
 
 ![system_overall](../img/system_overall.png)
 
-The description of the client application is presented at [this link](../frontend/customerclient.md).
+The description of the **client application** is presented at [this link](../frontend/customerclient.md).
 Understanding how the client application will be used allows you to form requirements for its main backend service.
 
 ### Description of the application backend for consumers

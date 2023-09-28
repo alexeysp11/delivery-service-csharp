@@ -2,9 +2,11 @@
 
 Доступно на других языках: [English/Английский](statisticalmodel.md), [Russian/Русский](statisticalmodel.ru.md). 
 
-Сервис для статистических операций 
+`pushnotifications` - это сервис для статистических операций 
 
-Общая модель системы: 
+## Требования к системе и её описание 
+
+### Общая модель системы 
 
 ![system_overall](../img/system_overall.png)
 

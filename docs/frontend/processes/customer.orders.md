@@ -4,6 +4,8 @@ Read this in other languages: [English](customer.orders.md), [Russian/Русск
 
 Customer client application: orders
 
+The description of the **client application** is presented at [this link](../customerclient.md).
+
 ## Process description
 
 - Displaying information on previous orders in the form of lists:

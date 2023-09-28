@@ -4,6 +4,8 @@ Read this in other languages: [English](emailsender.md), [Russian/Русский
 
 Email sender 
 
-Overall description of the system: 
+## Requirements and description of the system
+
+### Overall description of the system 
 
 ![system_overall](../img/system_overall.png)

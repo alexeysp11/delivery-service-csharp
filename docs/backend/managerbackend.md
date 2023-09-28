@@ -4,6 +4,6 @@ Read this in other languages: [English](managerbackend.md), [Russian/Русск�
 
 Backend of the manager application 
 
-Overall description of the system: 
+### Overall description of the system 
 
 ![system_overall](../img/system_overall.png)

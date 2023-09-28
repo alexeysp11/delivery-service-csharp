@@ -4,7 +4,7 @@ Read this in other languages: [English](customer.settings.md), [Russian/Русс
 
 Customer client application: settings.
 
-The description of the client application is presented at [this link](../customerclient.md).
+The description of the **client application** is presented at [this link](../customerclient.md).
 
 ## Process description
 

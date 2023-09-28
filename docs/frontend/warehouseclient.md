@@ -4,6 +4,8 @@ Read this in other languages: [English](warehouseclient.md), [Russian/Русск
 
 `warehouseclient` is a warehouse client application 
 
-Overall description of the system: 
+## Requirements and description of the system
+
+### Overall description of the system 
 
 ![system_overall](../img/system_overall.png)

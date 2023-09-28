@@ -1,9 +1,11 @@
-# push notifications
+# pushnotifications
 
 Доступно на других языках: [English/Английский](pushnotifications.md), [Russian/Русский](pushnotifications.ru.md). 
 
-Сервис пуш уведомлений 
+`pushnotifications` - это сервис пуш уведомлений.
 
-Общая модель системы: 
+## Требования к системе и её описание 
+
+### Общая модель системы 
 
 ![system_overall](../img/system_overall.png)

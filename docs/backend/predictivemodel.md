@@ -4,6 +4,8 @@ Read this in other languages: [English](predictivemodel.md), [Russian/Русск
 
 Service for predictive operations
 
-Overall description of the system: 
+## Requirements and description of the system
+
+### Overall description of the system 
 
 ![system_overall](../img/system_overall.png)
