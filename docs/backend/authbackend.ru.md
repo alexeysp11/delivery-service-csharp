@@ -10,21 +10,17 @@
 
 ![system_overall](../img/system_overall.png)
 
-### Контекст использования сторонних сервисов аутентификации
-
-![authentication](../img/authentication.png)
-
 ### Описание сервиса
 
-- В качестве сервиса аутентификации используется [workflow-auth](https://github.com/alexeysp11/workflow-auth).
+- В качестве внешнего **сервиса аутентификации** используется [workflow-auth](https://github.com/alexeysp11/workflow-auth).
 - В целях упрощения модели системы предположим, что все бэкенд сервисы используют одну и ту же БД. Поэтому информацию по наименованию таблиц и их полей можно прочитать в описании соответствующего сервиса (например, в число таких сервисов входят [customer backend](customerbackend.ru.md), [kitchen backend](kitchenbackend.ru.md), [courier backend](courierbackend.ru.md), [manager backend](managerbackend.ru.md)).
 <!--
 - Данный сервис производит запись/чтение сессионных токенов в БД и через брокер сообщений уведомляет сервисы, в которых критично наличие токенов, об изменениях в БД, связанных с токенами.
 -->
 
-## Аутентификация 
+## Интеграция с сервисом аутентификации 
 
-Для аутентификации используется внешний **сервис аутентификации** [workflow-auth](https://github.com/alexeysp11/workflow-auth).
+Пример интеграции **сервиса аутентификации** [workflow-auth](https://github.com/alexeysp11/workflow-auth) с данным приложением представлено на рисунке ниже:
 
 ![authentication](../img/authentication.png)
 
