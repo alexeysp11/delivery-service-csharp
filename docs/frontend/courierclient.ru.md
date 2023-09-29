@@ -18,3 +18,11 @@
     - [Доставка заказа из магазина на склад](processes/courier.store2wh.ru.md).
 
 Описание бэкенд-сервиса приложения для курьера представлено по [данной ссылке](../backend/courierbackend.ru.md).
+
+## Аутентификация 
+
+Для аутентификации используется внешний **сервис аутентификации** [workflow-auth](https://github.com/alexeysp11/workflow-auth).
+
+### Вход в приложение
+
+![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)

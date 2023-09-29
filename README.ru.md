@@ -12,7 +12,7 @@
 - Виды клиентских приложений по типу конечного пользователя: для [потребителей](docs/frontend/customerclient.ru.md), [кухни](docs/frontend/kitchenclient.ru.md), [склада](docs/frontend/warehouseclient.ru.md), [курьеров](docs/frontend/courierclient.ru.md), [менеджеров](docs/frontend/managerclient.ru.md), [админов](docs/frontend/adminclient.ru.md).
 - Виды клиентских приложений по типу развертывания: вэб, десктоп, мобильное (Android), бот в телеграм.
 - Описание бэкенд сервисов: [authentication API](docs/backend/authbackend.ru.md), [customer backend](docs/backend/customerbackend.ru.md), [kitchen backend](docs/backend/kitchenbackend.ru.md), [courier backend](docs/backend/courierbackend.ru.md), [manager backend](docs/backend/managerbackend.ru.md), [file service](docs/backend/fileservice.ru.md), [statistical model](docs/backend/statisticalmodel.ru.md), [predictive model](docs/backend/predictivemodel.ru.md), [email sender](docs/backend/emailsender.ru.md), [push notifications](docs/backend/pushnotifications.ru.md).
-- Внешние сервисы: Firebase, email delivery service, payment gateway.
+- Внешние сервисы: [workflow-auth](https://github.com/alexeysp11/workflow-auth), Firebase, email delivery service, payment gateway.
 - Виды оплаты: наличная при получении, через валидатор при получении, через приложение банка по QR-коду, в приложении с помощью CVC.
 - Загрузка файлов на сервер (изображения, видео, Word, Excel, PDF).
 - Загрузка файлов с сервера (изображения, Word, Excel, PDF).
@@ -48,5 +48,6 @@
 ```
 git clone https://github.com/alexeysp11/Open-Xml-PowerTools.git 
 git clone https://github.com/alexeysp11/workflow-lib.git
+git clone https://github.com/alexeysp11/workflow-auth.git
 git clone https://github.com/alexeysp11/delivery-service-csharp.git
 ```

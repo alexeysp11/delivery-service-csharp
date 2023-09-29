@@ -10,7 +10,7 @@ Read this in other languages: [English](README.md), [Russian/Русский](REA
 - Types of client applications by end user type: for [consumers](docs/frontend/customerclient.md), [kitchen](docs/frontend/kitchenclient.md), [warehouse](docs/frontend/warehouseclient..md), [couriers](docs/frontend/courierclient.md), [managers](docs/frontend/managerclient.md), [admins](docs/frontend/adminclient.md).
 - Types of client applications by deployment type: web, desktop, mobile (Android), telegram bot.
 - Description of backend services: [authentication API](docs/backend/authbackend.md), [customer backend](docs/backend/customerbackend.md), [kitchen backend](docs/backend/kitchenbackend.md), [courier backend](docs/backend/courierbackend.md), [manager backend](docs/backend/managerbackend.md), [file service](docs/backend/fileservice.md), [statistical model](docs/backend/statisticalmodel.md), [predictive model](docs/backend/predictivemodel.md), [email sender](docs/backend/emailsender.md), [ push notifications](docs/backend/pushnotifications.md).
-- External services: Firebase, email delivery service, payment gateway.
+- External services: [workflow-auth](https://github.com/alexeysp11/workflow-auth), Firebase, email delivery service, payment gateway.
 - Types of payment: cash upon receipt, through a validator upon receipt, through the bank's application using a QR code, in the application using CVC.
 - Upload files to the server (images, videos, Word, Excel, PDF).
 - Download files from the server (images, Word, Excel, PDF).
@@ -46,5 +46,6 @@ To download this project and all its dependencies, you must sequentially execute
 ```
 git clone https://github.com/alexeysp11/Open-Xml-PowerTools.git 
 git clone https://github.com/alexeysp11/workflow-lib.git
+git clone https://github.com/alexeysp11/workflow-auth.git
 git clone https://github.com/alexeysp11/delivery-service-csharp.git
 ```

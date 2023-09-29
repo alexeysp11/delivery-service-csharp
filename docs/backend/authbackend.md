@@ -21,3 +21,15 @@ Read this in other languages: [English](authbackend.md), [Russian/Русский
 <!--
 - This service writes / reads session tokens to the database and through the message broker notifies services in which the availability of tokens is critical about changes in the database related to tokens
 -->
+
+## Authentiacation 
+
+[workflow-auth](https://github.com/alexeysp11/workflow-auth) is used as an external **authentication service**.
+
+### Sign up
+
+![flowchart-signup](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signup.png)
+
+### Sign in
+
+![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)

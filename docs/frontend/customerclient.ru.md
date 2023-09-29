@@ -28,3 +28,15 @@
     - в приложении с помощью CVC.
 
 Описание **бэкенд-сервиса** для данного приложения представлено по [данной ссылке](../backend/customerbackend.ru.md).
+
+## Аутентификация 
+
+Для аутентификации используется внешний **сервис аутентификации** [workflow-auth](https://github.com/alexeysp11/workflow-auth).
+
+### Регистрация
+
+![flowchart-signup](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signup.png)
+
+### Вход в приложение 
+
+![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)

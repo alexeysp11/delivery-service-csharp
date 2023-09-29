@@ -28,3 +28,15 @@ Read this in other languages: [English](customerclient.md), [Russian/Русск�
     - in this application using CVC.
 
 A description of the backend service for this application is presented at [this link](../backend/customerbackend.md).
+
+## Authentiacation 
+
+[workflow-auth](https://github.com/alexeysp11/workflow-auth) is used as an external **authentication service**.
+
+### Sign up
+
+![flowchart-signup](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signup.png)
+
+### Sign in
+
+![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)

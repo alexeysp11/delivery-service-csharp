@@ -18,3 +18,11 @@
     - расширения файлов: изображения, Word, Excel, PDF.
 
 Описание **бэкенд-сервиса** для данного приложения представлено по [данной ссылке](../backend/managerbackend.ru.md).
+
+## Аутентификация 
+
+Для аутентификации используется внешний **сервис аутентификации** [workflow-auth](https://github.com/alexeysp11/workflow-auth).
+
+### Вход в приложение
+
+![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)
