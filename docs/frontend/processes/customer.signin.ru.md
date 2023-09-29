@@ -8,4 +8,10 @@
 
 ## Описание процесса
 
+Для аутентификации используется внешний **сервис аутентификации** [workflow-auth](https://github.com/alexeysp11/workflow-auth).
+
+![authentication](../../img/authentication.png)
+
+### Пошаговое описание 
+
 ![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)

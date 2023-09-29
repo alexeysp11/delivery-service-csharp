@@ -33,6 +33,8 @@ A description of the backend service for this application is presented at [this 
 
 [workflow-auth](https://github.com/alexeysp11/workflow-auth) is used as an external **authentication service**.
 
+![authentication](../img/authentication.png)
+
 ### Sign up
 
 ![flowchart-signup](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signup.png)
