@@ -33,7 +33,7 @@ union
 select 'phone_number' as credentials_type, count(c.*) as qty from delivery_customer c where c.phone_number = '{request.PhoneNumber}'
 ;";
             var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
-            foreach(DataRow row in dt.Rows)
+            foreach (DataRow row in dt.Rows)
             {
                 if (row["credentials_type"].ToString() == "login")
                     response.LoginExists = row["qty"].ToString() != "0";
@@ -58,7 +58,9 @@ select 'phone_number' as credentials_type, count(c.*) as qty from delivery_custo
         {
             if (response == null)
                 response = new UserCreationResult();
-            string sql = @$"insert into delivery_customer (login, email, phone_number, password) values ('{request.Login}', '{request.Email}', '{request.PhoneNumber}', '{request.Password}');";
+            string sql = @$"-- 
+insert into delivery_customer (login, email, phone_number, password, customer_uid) 
+values ('{request.Login}', '{request.Email}', '{request.PhoneNumber}', '{request.Password}', '{System.Guid.NewGuid().ToString()}');";
             new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
             response.IsUserAdded = true;
             response.SignUpGuid = "";
@@ -80,7 +82,7 @@ select 'phone_number' as credentials_type, count(c.*) as qty from delivery_custo
                 response = new VUCResponse();
             string sql = @$"select count(*) as qty from delivery_customer c where c.login = '{request.Login}' and c.password = '{request.Password}';";
             var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
-            foreach(DataRow row in dt.Rows)
+            foreach (DataRow row in dt.Rows)
             {
                 if (row["qty"].ToString() != "0" && row["qty"].ToString() != "1")
                     throw new System.Exception("CRITICAL ERROR: more than one customer with the same name");
@@ -90,6 +92,29 @@ select 'phone_number' as credentials_type, count(c.*) as qty from delivery_custo
         catch (System.Exception ex)
         {
             response.ExceptionMessage = ex.ToString();
+        }
+    }
+
+    public int GetUserIdByUid(string uid)
+    {
+        int result = -1;
+        try
+        {
+            if (string.IsNullOrWhiteSpace(uid))
+                throw new System.Exception("User UID could not be null or empty");
+            string sql = @$"select c.delivery_customer_id from delivery_customer c where c.customer_uid = '{uid}';";
+            var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
+            if (dt.Rows.Count > 1)
+                throw new System.Exception("CRITICAL ERROR: more than one customer with the same UID");
+            foreach (DataRow row in dt.Rows)
+            {
+                result = Convert.ToInt32(row["delivery_customer_id"]);
+            }
+            return result;
+        }
+        catch (System.Exception)
+        {
+            throw;
         }
     }
 }

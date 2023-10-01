@@ -50,11 +50,10 @@ public class AuthResolver
             if (CheckUCConfig.IsPasswordRequired && string.IsNullOrWhiteSpace(request.Password))
                 throw new System.Exception("Parameter 'Password' could not be null or empty");
             // 
-            var resolver = new UserResolver();
             response.UserExistanceBefore = CheckUserExistance(request);
             if (response.UserExistanceBefore != null && !response.UserExistanceBefore.LoginExists)
             {
-                resolver.AddUser(request, response);
+                new UserResolver().AddUser(request, response);
                 response.UserExistanceAfter = CheckUserExistance(request);
             }
         }
@@ -110,6 +109,8 @@ public class AuthResolver
                 throw new System.Exception("Parameter 'UserUid' could not be null or empty");
             // Update session token for the specified user 
             // 
+            int userId = new UserResolver().GetUserIdByUid(request.UserUid);
+            new TokenResolver().CreateToken(userId, response);
         }
         catch (System.Exception ex)
         {
