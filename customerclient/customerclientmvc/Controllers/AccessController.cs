@@ -19,7 +19,7 @@ public class AccessController : Controller
     public IActionResult SignIn()
     {
         ClaimsPrincipal claimUser = HttpContext.User;
-        if (claimUser.Identity.IsAuthenticated)
+        if (claimUser != null && claimUser.Identity.IsAuthenticated)
             return RedirectToAction("Index", "Home");
         return View();
     }
@@ -27,8 +27,24 @@ public class AccessController : Controller
     [HttpPost]
     public async Task<IActionResult> SignIn(SignInModel signInModel)
     {
-        if (signInModel.Login == "user" && signInModel.Password == "123")
+        try
         {
+            if (signInModel == null || 
+                (
+                    signInModel != null
+                    && string.IsNullOrWhiteSpace(signInModel.Login)
+                    && string.IsNullOrWhiteSpace(signInModel.Password)
+                ))
+            {
+                throw new System.Exception("Fields are not filled properly");
+            }
+            // Make request to auth service 
+            // 
+            bool exists = true;
+            if (!exists)
+            {
+                throw new System.Exception("Incorrect login or password");
+            }
             var claims = new List<Claim>()
             {
                 new Claim(ClaimTypes.NameIdentifier, signInModel.Login),
@@ -45,12 +61,49 @@ public class AccessController : Controller
                 authProperties);
             return RedirectToAction("Index", "Home");
         }
-        ViewData["ValidationMessage"] = "Incorrect login or password";
+        catch (System.Exception ex)
+        {
+            ViewData["ValidationMessage"] = "Error occured: " + ex.Message;
+        }
         return View();
     }
 
     public IActionResult SignUp()
     {
+        ClaimsPrincipal claimUser = HttpContext.User;
+        if (claimUser != null && claimUser.Identity.IsAuthenticated)
+            return RedirectToAction("Index", "Home");
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult SignUp(SignUpModel signUpModel)
+    {
+        try
+        {
+            if (signUpModel == null || 
+                (
+                    signUpModel != null
+                    && string.IsNullOrWhiteSpace(signUpModel.Login)
+                    && string.IsNullOrWhiteSpace(signUpModel.Email)
+                    && string.IsNullOrWhiteSpace(signUpModel.PhoneNumber)
+                    && string.IsNullOrWhiteSpace(signUpModel.Password)
+                ))
+            {
+                throw new System.Exception("Fields are not filled properly");
+            }
+            // Make request to add user
+            // 
+            bool isOk = true;
+            if (!isOk)
+                ViewData["ValidationMessage"] = "Unable to add user: Some error message";
+            ViewData["ValidationMessage"] = "User has been added successfully";
+            return RedirectToAction("SignIn", "Access");
+        }
+        catch (System.Exception ex)
+        {
+            ViewData["ValidationMessage"] = "Error occured: " + ex.Message;
+        }
         return View();
     }
 }

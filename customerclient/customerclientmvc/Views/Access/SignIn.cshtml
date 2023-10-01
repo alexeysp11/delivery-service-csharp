@@ -1,5 +1,4 @@
 @model CustomerClientMVC.Models.SignInModel;
-
 @{
     ViewData["Title"] = "Sign in Page";
 }
@@ -14,6 +13,7 @@
             Keep me logged in.
         </label>
         <button type="submit">Sign in</button>
+        <a class="navbar-brand" asp-area="" asp-controller="Access" asp-action="SignUp">Sign up</a>
         
         @if (ViewData["ValidationMessage"] != null)
         {

@@ -1,7 +1,23 @@
+@model CustomerClientMVC.Models.SignUpModel;
 @{
     ViewData["Title"] = "Sign up Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Sign up</h1>
+    <form asp-controller="Access" asp-action="SignUp" method="post">
+        <input type="text" placeholder="Login" asp-for="Login" />
+        <input type="email" placeholder="Email" asp-for="Email" />
+        <input type="phone" placeholder="Phone number" asp-for="PhoneNumber" />
+        <input type="password" placeholder="Password" asp-for="Password" />
+        <button type="submit">Sign up</button>
+        <a class="navbar-brand" asp-area="" asp-controller="Access" asp-action="SignIn">Sign in</a>
+        
+        @if (ViewData["ValidationMessage"] != null)
+        {
+            <br />
+            <br />
+            <label>@ViewData["ValidationMessage"]</label>
+        }
+    </form>
 </div>
