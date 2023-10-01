@@ -15,15 +15,27 @@ public class AuthController : ControllerBase
         _logger = logger;
     }
 
-    [HttpPost]
+    [HttpPost("AddUser")]
     public UserCreationResult AddUser(UserCredentials request)
     {
         return new AuthResolver().AddUser(request);
     }
 
-    [HttpPost]
+    [HttpPost("VerifySignUp")]
     public VSUResponse VerifySignUp(VSURequest request)
     {
         return new AuthResolver().VerifySignUp(request);
+    }
+
+    [HttpPost("VerifyUserCredentials")]
+    public VUCResponse VerifyUserCredentials(UserCredentials request)
+    {
+        return new AuthResolver().VerifyUserCredentials(request);
+    }
+
+    [HttpPost("GetTokenByUserUid")]
+    public SessionToken GetTokenByUserUid(TokenRequest request)
+    {
+        return new AuthResolver().GetTokenByUserUid(request);
     }
 }

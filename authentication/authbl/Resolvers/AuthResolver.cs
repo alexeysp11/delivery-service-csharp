@@ -50,7 +50,13 @@ public class AuthResolver
             if (CheckUCConfig.IsPasswordRequired && string.IsNullOrWhiteSpace(request.Password))
                 throw new System.Exception("Parameter 'Password' could not be null or empty");
             // 
-            new UserResolver().AddUser(request, response);
+            var resolver = new UserResolver();
+            response.UserExistanceBefore = CheckUserExistance(request);
+            if (response.UserExistanceBefore != null && !response.UserExistanceBefore.LoginExists)
+            {
+                resolver.AddUser(request, response);
+                response.UserExistanceAfter = CheckUserExistance(request);
+            }
         }
         catch (System.Exception ex)
         {

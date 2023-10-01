@@ -23,19 +23,25 @@ public class UserResolver
     {
         try
         {
-            // Redirect the request 
+            if (response == null)
+                response = new UserExistance();
             string sql = @$"-- 
-select 1 as credentials_type, count(*) as qty from users where login = {request.Login}
+select 'login' as credentials_type, count(c.*) as qty from delivery_customer c where c.login = '{request.Login}'
 union 
-select 2 as credentials_type, count(*) as qty from users where email = {request.Email}
+select 'email' as credentials_type, count(c.*) as qty from delivery_customer c where c.email = '{request.Email}'
 union
-select 2 as credentials_type, count(*) as qty from users where phone_number = {request.PhoneNumber}
+select 'phone_number' as credentials_type, count(c.*) as qty from delivery_customer c where c.phone_number = '{request.PhoneNumber}'
 ;";
-            // Execute SQL statement 
-            // 
-            response.LoginExists = true;
-            response.EmailExists = true;
-            response.PhoneNumberExists = true;
+            var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
+            foreach(DataRow row in dt.Rows)
+            {
+                if (row["credentials_type"].ToString() == "login")
+                    response.LoginExists = row["qty"].ToString() != "0";
+                if (row["credentials_type"].ToString() == "email")
+                    response.EmailExists = row["qty"].ToString() != "0";
+                if (row["credentials_type"].ToString() == "phone_number")
+                    response.PhoneNumberExists = row["qty"].ToString() != "0";
+            }
         }
         catch (System.Exception ex)
         {
@@ -44,16 +50,16 @@ select 2 as credentials_type, count(*) as qty from users where phone_number = {r
     }
 
     /// <summary>
-    /// Execute SQL query to add the user with specified qredentials to the DB 
+    /// Execute SQL query to add the user with specified qredentials to the DB.
     /// </summary>
     public void AddUser(UserCredentials request, UserCreationResult response)
     {
         try
         {
-            // Add new user to the DB
-            string sql = @$"insert into users (login, email, phone_number, password) values ({request.Login}, {request.Email}, {request.PhoneNumber}, {request.Password});";
-            // Execute SQL statement 
-            // 
+            if (response == null)
+                response = new UserCreationResult();
+            string sql = @$"insert into delivery_customer (login, email, phone_number, password) values ('{request.Login}', '{request.Email}', '{request.PhoneNumber}', '{request.Password}');";
+            new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
             response.IsUserAdded = true;
             response.SignUpGuid = "";
         }
@@ -70,12 +76,16 @@ select 2 as credentials_type, count(*) as qty from users where phone_number = {r
     {
         try
         {
-            // Get quantity of the users with specified login and password
-            string sql = @$"select u.uid qty from users u where u.login = {request.Login} and u.password = {request.Password};";
-            // Executes SQL query to get user credentials are correct
-            // 
-            response.IsVerified = true;
-            response.UserUid = "";
+            if (response == null)
+                response = new VUCResponse();
+            string sql = @$"select count(*) as qty from delivery_customer c where c.login = '{request.Login}' and c.password = '{request.Password}';";
+            var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
+            foreach(DataRow row in dt.Rows)
+            {
+                if (row["qty"].ToString() != "0" && row["qty"].ToString() != "1")
+                    throw new System.Exception("CRITICAL ERROR: more than one customer with the same name");
+                response.IsVerified = row["qty"].ToString() == "1";
+            }
         }
         catch (System.Exception ex)
         {
