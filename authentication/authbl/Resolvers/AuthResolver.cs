@@ -1,5 +1,6 @@
 using WokflowLib.Authentication.Models.ConfigParameters;
 using WokflowLib.Authentication.Models.NetworkParameters;
+using Cims.WorkflowLib.Models.ErrorHandling;
 
 namespace DeliveryService.Authentication.AuthWebApi.AuthBL;
 
@@ -31,7 +32,12 @@ public class AuthResolver
         }
         catch (System.Exception ex)
         {
-            response.ExceptionMessage = ex.ToString();
+            response.WorkflowException = new WorkflowException
+            {
+                Message = ex.Message,
+                StackTrace = ex.StackTrace,
+                FullMessage = ex.ToString()
+            };
         }
         return response;
     }
@@ -59,7 +65,12 @@ public class AuthResolver
         }
         catch (System.Exception ex)
         {
-            response.ExceptionMessage = ex.ToString();
+            response.WorkflowException = new WorkflowException
+            {
+                Message = ex.Message,
+                StackTrace = ex.StackTrace,
+                FullMessage = ex.ToString()
+            };
         }
         return response;
     }
@@ -76,7 +87,12 @@ public class AuthResolver
         }
         catch (System.Exception ex)
         {
-            response.ExceptionMessage = ex.ToString();
+            response.WorkflowException = new WorkflowException
+            {
+                Message = ex.Message,
+                StackTrace = ex.StackTrace,
+                FullMessage = ex.ToString()
+            };
         }
         return response;
     }
@@ -95,7 +111,12 @@ public class AuthResolver
         }
         catch (System.Exception ex)
         {
-            response.ExceptionMessage = ex.ToString();
+            response.WorkflowException = new WorkflowException
+            {
+                Message = ex.Message,
+                StackTrace = ex.StackTrace,
+                FullMessage = ex.ToString()
+            };
         }
         return response;
     }
@@ -114,7 +135,12 @@ public class AuthResolver
         }
         catch (System.Exception ex)
         {
-            response.ExceptionMessage = ex.ToString();
+            response.WorkflowException = new WorkflowException
+            {
+                Message = ex.Message,
+                StackTrace = ex.StackTrace,
+                FullMessage = ex.ToString()
+            };
         }
         return response;
     }

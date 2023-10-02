@@ -2,6 +2,7 @@ using System.Data;
 using Cims.WorkflowLib.DbConnections;
 using WokflowLib.Authentication.Models;
 using WokflowLib.Authentication.Models.NetworkParameters;
+using Cims.WorkflowLib.Models.ErrorHandling;
 
 namespace DeliveryService.Authentication.AuthWebApi.AuthBL;
 
@@ -45,7 +46,12 @@ select 'phone_number' as credentials_type, count(c.*) as qty from delivery_custo
         }
         catch (System.Exception ex)
         {
-            response.ExceptionMessage = ex.ToString();
+            response.WorkflowException = new WorkflowException
+            {
+                Message = ex.Message,
+                StackTrace = ex.StackTrace,
+                FullMessage = ex.ToString()
+            };
         }
     }
 
@@ -67,7 +73,12 @@ values ('{request.Login}', '{request.Email}', '{request.PhoneNumber}', '{request
         }
         catch (System.Exception ex)
         {
-            response.ExceptionMessage = ex.ToString();
+            response.WorkflowException = new WorkflowException
+            {
+                Message = ex.Message,
+                StackTrace = ex.StackTrace,
+                FullMessage = ex.ToString()
+            };
         }
     }
 
@@ -91,7 +102,12 @@ values ('{request.Login}', '{request.Email}', '{request.PhoneNumber}', '{request
         }
         catch (System.Exception ex)
         {
-            response.ExceptionMessage = ex.ToString();
+            response.WorkflowException = new WorkflowException
+            {
+                Message = ex.Message,
+                StackTrace = ex.StackTrace,
+                FullMessage = ex.ToString()
+            };
         }
     }
 
