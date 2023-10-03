@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\customerclientbl\CustomerClientBL.csproj" />
+    <ProjectReference Include="..\..\..\workflow-auth\models\WokflowLib.Authentication.Models.csproj" />
   </ItemGroup>
 
 </Project>
