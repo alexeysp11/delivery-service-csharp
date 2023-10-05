@@ -8,88 +8,74 @@ namespace CustomerClientBL;
 
 public class AccessResolver
 {
-    public VUCResponse SignIn(SignInModel signInModel)
+    public VUCResponse SignIn(string serverAddress, SignInModel signInModel)
     {
-        try
+        if (signInModel == null || 
+            (
+                signInModel != null
+                && string.IsNullOrWhiteSpace(signInModel.Login)
+                && string.IsNullOrWhiteSpace(signInModel.Password)
+            ))
         {
-            if (signInModel == null || 
-                (
-                    signInModel != null
-                    && string.IsNullOrWhiteSpace(signInModel.Login)
-                    && string.IsNullOrWhiteSpace(signInModel.Password)
-                ))
-            {
-                throw new System.Exception("Fields are not filled properly");
-            }
-            // Make request to auth service 
-            var request = new UserCredentials
-            {
-                Login = signInModel.Login,
-                Password = signInModel.Password
-            };
-            var responseStr = new HttpSender().Send("https://localhost:7252/AuthWebApi/VerifyUserCredentials", request);
-            System.Console.WriteLine("responseStr: " + responseStr);
-            var response = JsonSerializer.Deserialize<VUCResponse>(responseStr, new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            });
-            // 
-            if (response.WorkflowException != null && !string.IsNullOrWhiteSpace(response.WorkflowException.Message))
-                throw new System.Exception(response.WorkflowException.Message);
-            if (!string.IsNullOrWhiteSpace(response.ExceptionMessage))
-                throw new System.Exception(response.ExceptionMessage);
-            if (!response.IsVerified)
-                throw new System.Exception("Incorrect login or password");
-            return response;
+            throw new System.Exception("Fields are not filled properly");
         }
-        catch (System.Exception)
+        // Make request to auth service 
+        var request = new UserCredentials
         {
-            throw;
-        }
+            Login = signInModel.Login,
+            Password = signInModel.Password
+        };
+        var responseStr = new HttpSender().Send(serverAddress + "VerifyUserCredentials", request);
+        System.Console.WriteLine("responseStr: " + responseStr);
+        var response = JsonSerializer.Deserialize<VUCResponse>(responseStr, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        });
+        // 
+        if (response.WorkflowException != null && !string.IsNullOrWhiteSpace(response.WorkflowException.Message))
+            throw new System.Exception(response.WorkflowException.Message);
+        if (!string.IsNullOrWhiteSpace(response.ExceptionMessage))
+            throw new System.Exception(response.ExceptionMessage);
+        if (!response.IsVerified)
+            throw new System.Exception("Incorrect login or password");
+        return response;
     }
 
-    public UserCreationResult SignUp(SignUpModel signUpModel)
+    public UserCreationResult SignUp(string serverAddress, SignUpModel signUpModel)
     {
-        try
+        if (signUpModel == null || 
+            (
+                signUpModel != null
+                && string.IsNullOrWhiteSpace(signUpModel.Login)
+                && string.IsNullOrWhiteSpace(signUpModel.Email)
+                && string.IsNullOrWhiteSpace(signUpModel.PhoneNumber)
+                && string.IsNullOrWhiteSpace(signUpModel.Password)
+            ))
         {
-            if (signUpModel == null || 
-                (
-                    signUpModel != null
-                    && string.IsNullOrWhiteSpace(signUpModel.Login)
-                    && string.IsNullOrWhiteSpace(signUpModel.Email)
-                    && string.IsNullOrWhiteSpace(signUpModel.PhoneNumber)
-                    && string.IsNullOrWhiteSpace(signUpModel.Password)
-                ))
-            {
-                throw new System.Exception("Fields are not filled properly");
-            }
-            // Make request to add user
-            var request = new UserCredentials
-            {
-                Login = signUpModel.Login,
-                Email = signUpModel.Email,
-                PhoneNumber = signUpModel.PhoneNumber,
-                Password = signUpModel.Password
-            };
-            var responseStr = new HttpSender().Send("https://localhost:7252/AuthWebApi/AddUser", request);
-            var response = JsonSerializer.Deserialize<UserCreationResult>(responseStr, new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            });
-            // 
-            if (response.WorkflowException != null && !string.IsNullOrWhiteSpace(response.WorkflowException.Message))
-                throw new System.Exception(response.WorkflowException.Message);
-            if (!string.IsNullOrWhiteSpace(response.ExceptionMessage))
-                throw new System.Exception(response.ExceptionMessage);
-            if (response.UserExistanceBefore != null && response.UserExistanceBefore.LoginExists)
-                throw new System.Exception("User with the specified login already exists");
-            if (!response.IsUserAdded)
-                throw new System.Exception("Unable to add user");
-            return response;
+            throw new System.Exception("Fields are not filled properly");
         }
-        catch (System.Exception)
+        // Make request to add user
+        var request = new UserCredentials
         {
-            throw;
-        }
+            Login = signUpModel.Login,
+            Email = signUpModel.Email,
+            PhoneNumber = signUpModel.PhoneNumber,
+            Password = signUpModel.Password
+        };
+        var responseStr = new HttpSender().Send(serverAddress + "AddUser", request);
+        var response = JsonSerializer.Deserialize<UserCreationResult>(responseStr, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        });
+        // 
+        if (response.WorkflowException != null && !string.IsNullOrWhiteSpace(response.WorkflowException.Message))
+            throw new System.Exception(response.WorkflowException.Message);
+        if (!string.IsNullOrWhiteSpace(response.ExceptionMessage))
+            throw new System.Exception(response.ExceptionMessage);
+        if (response.UserExistanceBefore != null && response.UserExistanceBefore.LoginExists)
+            throw new System.Exception("User with the specified login already exists");
+        if (!response.IsUserAdded)
+            throw new System.Exception("Unable to add user");
+        return response;
     }
 }

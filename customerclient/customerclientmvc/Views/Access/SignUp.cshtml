@@ -5,19 +5,34 @@
 
 <div class="text-center">
     <h1 class="display-4">Sign up</h1>
-    <form asp-controller="Access" asp-action="SignUp" method="post">
-        <input type="text" placeholder="Login" asp-for="Login" />
-        <input type="email" placeholder="Email" asp-for="Email" />
-        <input type="phone" placeholder="Phone number" asp-for="PhoneNumber" />
-        <input type="password" placeholder="Password" asp-for="Password" />
-        <button type="submit">Sign up</button>
-        <a class="navbar-brand" asp-area="" asp-controller="Access" asp-action="SignIn">Sign in</a>
-        
-        @if (ViewData["ValidationMessage"] != null)
-        {
-            <br />
-            <br />
-            <label>@ViewData["ValidationMessage"]</label>
-        }
-    </form>
+    <div style="display: inline-block; text-align: left;">
+        <form asp-controller="Access" asp-action="SignUp" method="post">
+            <div class="form-group" style="margin-top: 5px; width: 500px;">
+                <input type="text" class="form-control" placeholder="Login" asp-for="Login">
+            </div>
+            <div class="form-group" style="margin-top: 5px; width: 500px;">
+                <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email" asp-for="Email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group" style="margin-top: 5px; width: 500px;">
+                <input type="phone" class="form-control" aria-describedby="phoneNumberHelp" placeholder="Phone number" asp-for="PhoneNumber">
+                <small id="phoneNumberHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
+            </div>
+            <div class="form-group" style="margin-top: 5px; width: 500px;">
+                <input type="password" class="form-control" placeholder="Password" asp-for="Password">
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-top: 5px; width: 200px;">Sign in</button>
+            <div>
+                <a asp-area="" asp-controller="Access" asp-action="SignIn">Already have an account?</a>
+            </div>
+            
+            @if (ViewData["ValidationMessage"] != null)
+            {
+                <br />
+                <br />
+                <label>@ViewData["ValidationMessage"]</label>
+            }
+        </form>
+    </div>
 </div>
+

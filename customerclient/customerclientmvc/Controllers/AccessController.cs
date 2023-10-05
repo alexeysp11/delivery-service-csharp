@@ -33,8 +33,17 @@ public class AccessController : Controller
     {
         try
         {
+            if (signInModel == null || 
+                (
+                    signInModel != null
+                    && string.IsNullOrWhiteSpace(signInModel.Login)
+                    && string.IsNullOrWhiteSpace(signInModel.Password)
+                ))
+            {
+                throw new System.Exception("Fields are not filled properly");
+            }
             if (_settings.Environment != "test")
-                new AccessResolver().SignIn(signInModel);
+                new AccessResolver().SignIn(_settings.ServerAddress, signInModel);
             var claims = new List<Claim>()
             {
                 new Claim(ClaimTypes.NameIdentifier, signInModel.Login),
@@ -53,7 +62,7 @@ public class AccessController : Controller
         }
         catch (System.Exception ex)
         {
-            ViewData["ValidationMessage"] = "Error: " + ex;
+            ViewData["ValidationMessage"] = "Error: " + ex.Message;
         }
         return View();
     }
@@ -71,8 +80,19 @@ public class AccessController : Controller
     {
         try
         {
+            if (signUpModel == null || 
+                (
+                    signUpModel != null
+                    && string.IsNullOrWhiteSpace(signUpModel.Login)
+                    && string.IsNullOrWhiteSpace(signUpModel.Email)
+                    && string.IsNullOrWhiteSpace(signUpModel.PhoneNumber)
+                    && string.IsNullOrWhiteSpace(signUpModel.Password)
+                ))
+            {
+                throw new System.Exception("Fields are not filled properly");
+            }
             if (_settings.Environment != "test")
-                new AccessResolver().SignUp(signUpModel);
+                new AccessResolver().SignUp(_settings.ServerAddress, signUpModel);
             ViewData["ValidationMessage"] = "User has been added successfully";
             return RedirectToAction("SignIn", "Access");
         }
