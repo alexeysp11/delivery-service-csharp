@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Cims.WorkflowLib.Models.AppSettings;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,13 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LoginPath = "/Access/SignIn";
         options.ExpireTimeSpan = System.TimeSpan.FromHours(12);
     });
+builder.Services.AddSingleton<NetworkAppSettings>(settings => 
+        new NetworkAppSettings
+        {
+            ServerAddress = builder.Configuration["NetworkAppSettings:ServerAddress"],
+            Environment = builder.Configuration["NetworkAppSettings:Environment"]
+        }
+    );
 
 var app = builder.Build();
 

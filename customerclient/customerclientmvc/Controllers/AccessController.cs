@@ -5,16 +5,19 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using CustomerClientBL;
 using CustomerClientBL.Models;
+using Cims.WorkflowLib.Models.AppSettings;
 
 namespace CustomerClientMVC.Controllers;
 
 public class AccessController : Controller
 {
     private readonly ILogger<AccessController> _logger;
+    private readonly NetworkAppSettings _settings;
 
-    public AccessController(ILogger<AccessController> logger)
+    public AccessController(ILogger<AccessController> logger, NetworkAppSettings settings)
     {
         _logger = logger;
+        _settings = settings;
     }
 
     public IActionResult SignIn()
@@ -30,7 +33,8 @@ public class AccessController : Controller
     {
         try
         {
-            var response = new AccessResolver().SignIn(signInModel);
+            if (_settings.Environment != "test")
+                new AccessResolver().SignIn(signInModel);
             var claims = new List<Claim>()
             {
                 new Claim(ClaimTypes.NameIdentifier, signInModel.Login),
@@ -67,7 +71,8 @@ public class AccessController : Controller
     {
         try
         {
-            var response = new AccessResolver().SignUp(signUpModel);
+            if (_settings.Environment != "test")
+                new AccessResolver().SignUp(signUpModel);
             ViewData["ValidationMessage"] = "User has been added successfully";
             return RedirectToAction("SignIn", "Access");
         }
