@@ -1,13 +1,10 @@
 using System.Collections.Generic;
 using System.Security.Claims;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using CustomerClientMVC.Models;
-using Cims.WorkflowLib.NetworkApis;
-using WokflowLib.Authentication.Models.NetworkParameters;
+using CustomerClientBL;
+using CustomerClientBL.Models;
 
 namespace CustomerClientMVC.Controllers;
 
@@ -33,35 +30,7 @@ public class AccessController : Controller
     {
         try
         {
-            if (signInModel == null || 
-                (
-                    signInModel != null
-                    && string.IsNullOrWhiteSpace(signInModel.Login)
-                    && string.IsNullOrWhiteSpace(signInModel.Password)
-                ))
-            {
-                throw new System.Exception("Fields are not filled properly");
-            }
-            // Make request to auth service 
-            var request = new UserCredentials
-            {
-                Login = signInModel.Login,
-                Password = signInModel.Password
-            };
-            var responseStr = new HttpSender().Send("https://localhost:7252/AuthWebApi/VerifyUserCredentials", request);
-            System.Console.WriteLine("responseStr: " + responseStr);
-            var response = JsonSerializer.Deserialize<VUCResponse>(responseStr, new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            });
-            // 
-            if (response.WorkflowException != null && !string.IsNullOrWhiteSpace(response.WorkflowException.Message))
-                throw new System.Exception(response.WorkflowException.Message);
-            if (!string.IsNullOrWhiteSpace(response.ExceptionMessage))
-                throw new System.Exception(response.ExceptionMessage);
-            if (!response.IsVerified)
-                throw new System.Exception("Incorrect login or password");
-            // 
+            var response = new AccessResolver().SignIn(signInModel);
             var claims = new List<Claim>()
             {
                 new Claim(ClaimTypes.NameIdentifier, signInModel.Login),
@@ -98,40 +67,7 @@ public class AccessController : Controller
     {
         try
         {
-            if (signUpModel == null || 
-                (
-                    signUpModel != null
-                    && string.IsNullOrWhiteSpace(signUpModel.Login)
-                    && string.IsNullOrWhiteSpace(signUpModel.Email)
-                    && string.IsNullOrWhiteSpace(signUpModel.PhoneNumber)
-                    && string.IsNullOrWhiteSpace(signUpModel.Password)
-                ))
-            {
-                throw new System.Exception("Fields are not filled properly");
-            }
-            // Make request to add user
-            var request = new UserCredentials
-            {
-                Login = signUpModel.Login,
-                Email = signUpModel.Email,
-                PhoneNumber = signUpModel.PhoneNumber,
-                Password = signUpModel.Password
-            };
-            var responseStr = new HttpSender().Send("https://localhost:7252/AuthWebApi/AddUser", request);
-            var response = JsonSerializer.Deserialize<UserCreationResult>(responseStr, new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            });
-            // 
-            if (response.WorkflowException != null && !string.IsNullOrWhiteSpace(response.WorkflowException.Message))
-                throw new System.Exception(response.WorkflowException.Message);
-            if (!string.IsNullOrWhiteSpace(response.ExceptionMessage))
-                throw new System.Exception(response.ExceptionMessage);
-            if (response.UserExistanceBefore != null && response.UserExistanceBefore.LoginExists)
-                throw new System.Exception("User with the specified login already exists");
-            if (!response.IsUserAdded)
-                throw new System.Exception("Unable to add user");
-            // 
+            var response = new AccessResolver().SignUp(signUpModel);
             ViewData["ValidationMessage"] = "User has been added successfully";
             return RedirectToAction("SignIn", "Access");
         }

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\workflow-auth\models\WokflowLib.Authentication.Models.csproj" />
+  </ItemGroup>
+
 </Project>

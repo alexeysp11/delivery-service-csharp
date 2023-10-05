@@ -1,4 +1,4 @@
-namespace CustomerClientMVC.Models;
+namespace CustomerClientBL.Models;
 
 public class SignUpModel
 {
