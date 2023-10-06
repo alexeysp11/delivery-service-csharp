@@ -58,6 +58,7 @@ public class HomeController : Controller
             {
                 ViewData["phone_number"] = claimUser.FindFirst(ClaimTypes.MobilePhone).Value;
                 ViewData["placing_order"] = "The order was successfully placed";
+                return RedirectToAction("PendingOrders", "Home");
             }
         }
         catch (System.Exception ex)
