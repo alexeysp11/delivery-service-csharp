@@ -32,7 +32,9 @@ public class OrderResolver
                     Id = id,
                     Name = row["category_name"].ToString(),
                     Description = row["category_description"].ToString(),
-                    MenuItems = new List<MenuItem>()
+                    MenuItems = new List<MenuItem>(),
+                    PictureUrl = row["picture_url"].ToString(),
+                    PictureDescription = row["picture_description"].ToString()
                 });
             }
         }
@@ -50,7 +52,9 @@ public class OrderResolver
                     Name = row["menu_item_name"].ToString(),
                     Description = row["menu_item_description"].ToString(),
                     Price = row["menu_item_price"].ToString(),
-                    MenuCategory = category
+                    MenuCategory = category,
+                    PictureUrl = row["picture_url"].ToString(),
+                    PictureDescription = row["picture_description"].ToString()
                 };
                 menuItems.Add(mi);
                 category.MenuItems.Add(mi);
@@ -65,7 +69,9 @@ public class OrderResolver
 select 
 	dcc.delivery_category_c_id,
 	dcc.""name"" as category_name,
-	dcc.description as category_description
+	dcc.description as category_description,
+    dcc.picture_url,
+    dcc.picture_description
 from delivery_category_c dcc
 ;";
         return PgDbConnection.ExecuteSqlCommand(sql);
@@ -79,7 +85,9 @@ select
 	dmc.delivery_category_c_id,
 	dmc.""name"" as menu_item_name,
 	dmc.description as menu_item_description,
-	to_char(dmc.price, '999G999G999G990D90') as menu_item_price
+	to_char(dmc.price, '999G999G999G990D90') as menu_item_price,
+    dmc.picture_url,
+    dmc.picture_description
 from delivery_menuitem_c dmc
 order by dmc.delivery_menuitem_c_id, dmc.delivery_category_c_id
 ;";

@@ -91,7 +91,14 @@ values ('{request.Login}', '{request.Email}', '{request.PhoneNumber}', '{request
         {
             if (response == null)
                 response = new VUCResponse();
-            string sql = @$"select c.customer_uid from delivery_customer c where c.login = '{request.Login}' and c.password = '{request.Password}';";
+            string sql = @$"--
+select 
+	c.customer_uid, 
+	c.email, 
+	c.phone_number
+from delivery_customer c
+where c.login = '{request.Login}' and c.password = '{request.Password}'
+;";
             var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
             if (dt.Rows.Count > 1)
                 throw new System.Exception("CRITICAL ERROR: more than one customer with the same name");
@@ -101,6 +108,11 @@ values ('{request.Login}', '{request.Email}', '{request.PhoneNumber}', '{request
                 if (row["customer_uid"] == null || string.IsNullOrWhiteSpace(userUid = row["customer_uid"].ToString()))
                     throw new System.Exception("CRITICAL ERROR: user UID could not be null or empty");
                 response.UserUid = userUid;
+                response.UserCredentials = new UserCredentials 
+                {
+                    Email = row["email"].ToString(),
+                    PhoneNumber = row["phone_number"].ToString()
+                };
                 response.IsVerified = true;
             }
         }

@@ -17,7 +17,7 @@
     @foreach (var category in categories)
     {
         <div class="card mb-3">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <img class="card-img-top" src=@category.PictureUrl alt=@category.PictureDescription height="700px">
             <div class="card-body">
                 <h5 class="card-title">@category.Name</h5>
                 <p class="card-text">@category.Description</p>

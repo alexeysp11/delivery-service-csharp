@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using CustomerClientBL;
 using CustomerClientBL.Models;
 using Cims.WorkflowLib.Models.AppSettings;
+using WokflowLib.Authentication.Models.NetworkParameters;
 
 namespace CustomerClientMVC.Controllers;
 
@@ -42,11 +43,15 @@ public class AccessController : Controller
             {
                 throw new System.Exception("Fields are not filled properly");
             }
-            if (_settings.Environment != "test")
-                new AccessResolver().SignIn(_settings.ServerAddress, signInModel);
+            bool isTest = _settings.Environment == "test";
+            var response = new VUCResponse();
+            if (!isTest)
+                response = new AccessResolver().SignIn(_settings.ServerAddress, signInModel);
             var claims = new List<Claim>()
             {
                 new Claim(ClaimTypes.NameIdentifier, signInModel.Login),
+                new Claim(ClaimTypes.Email, isTest ? "model.login@example.com" : (response.UserCredentials == null ? "" : response.UserCredentials.Email)),
+                new Claim(ClaimTypes.MobilePhone, isTest ? "+136223213242" : (response.UserCredentials == null ? "" : response.UserCredentials.PhoneNumber)),
                 new Claim("OtherProperties", "Example role")
             };
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

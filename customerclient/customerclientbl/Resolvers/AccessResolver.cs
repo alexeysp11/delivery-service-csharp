@@ -26,7 +26,6 @@ public class AccessResolver
             Password = signInModel.Password
         };
         var responseStr = new HttpSender().Send(serverAddress + "VerifyUserCredentials", request);
-        System.Console.WriteLine("responseStr: " + responseStr);
         var response = JsonSerializer.Deserialize<VUCResponse>(responseStr, new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true

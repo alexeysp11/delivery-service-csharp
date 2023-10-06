@@ -11,7 +11,9 @@ create table if not exists delivery_category_c (
     delivery_category_c_id serial primary key,
     name varchar(50), 
     description varchar(255),
-    picture bytea
+    picture bytea,
+    picture_url text,
+    picture_description varchar(50)
 );
 create table if not exists delivery_menuitem_c (
     delivery_menuitem_c_id serial primary key,
@@ -19,17 +21,19 @@ create table if not exists delivery_menuitem_c (
     price double precision,
     description varchar(255),
     delivery_category_c_id integer references delivery_category_c,
-    picture bytea
+    picture bytea,
+    picture_url text,
+    picture_description varchar(50)
 );
 
-insert into delivery_category_c (name, description) values ('Breakfast', '');
-insert into delivery_category_c (name, description) values ('Rice bowl', '');
-insert into delivery_category_c (name, description) values ('Salad', '');
-insert into delivery_category_c (name, description) values ('Chicken', '');
-insert into delivery_category_c (name, description) values ('Crezy beef', '');
-insert into delivery_category_c (name, description) values ('Burger', '');
-insert into delivery_category_c (name, description) values ('Cake', '');
-insert into delivery_category_c (name, description) values ('Juice', '');
+insert into delivery_category_c (name, description, picture_url, picture_description) values ('Breakfast', '', 'https://images.services.kitchenstories.io/PV-rl5pSp1lL_XRe7KDBW1KGan4=/3840x0/filters:quality(80)/images.kitchenstories.io/wagtailOriginalImages/R2798-photo-final-1.jpg', 'Breakfast');
+insert into delivery_category_c (name, description, picture_url, picture_description) values ('Rice bowl', '', 'https://cdn.loveandlemons.com/wp-content/uploads/2020/04/rice-bowl-recipes-500x500.jpg', 'Rice bowl');
+insert into delivery_category_c (name, description, picture_url, picture_description) values ('Salad', '', 'https://www.eatingwell.com/thmb/ZgUTobMJAI_Q-zTpj273piX18h0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EWL-250303-composed-salad-with-pickled-beets-smoked-tofu-Hero-02-9e2a9b7202a34d81908a4db78a927d57.jpg', 'Salad');
+insert into delivery_category_c (name, description, picture_url, picture_description) values ('Chicken', '', 'https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/T2Z7FGHEXYI6XCGFJ7LDQLCHZM.jpg', 'Chicken');
+insert into delivery_category_c (name, description, picture_url, picture_description) values ('Crezy beef', '', 'https://live.staticflickr.com/1359/998064336_9f95c07a4c_b.jpg', 'Crezy beef');
+insert into delivery_category_c (name, description, picture_url, picture_description) values ('Burger', '', 'https://www.allrecipes.com/thmb/5JVfA7MxfTUPfRerQMdF-nGKsLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg', 'Burger');
+insert into delivery_category_c (name, description, picture_url, picture_description) values ('Cake', '', 'https://handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg', 'Cake');
+insert into delivery_category_c (name, description, picture_url, picture_description) values ('Juice', '', 'https://play-lh.googleusercontent.com/9edIQw3IulBae6kreGNlm59hG4kloEGXE5bEfuoxcPGlI47Jz-ZJpl1dwO5Zn5U9UFM', 'Juice');
 
 insert into delivery_menuitem_c (name, price, description, delivery_category_c_id) values ('Berries', 12, '', 1);
 insert into delivery_menuitem_c (name, price, description, delivery_category_c_id) values ('Cold cereal', 13, '', 1);

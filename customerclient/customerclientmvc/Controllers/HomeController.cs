@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
@@ -24,6 +25,13 @@ public class HomeController : Controller
 
     public IActionResult Account()
     {
+        ClaimsPrincipal claimUser = HttpContext.User;
+        if (claimUser != null && claimUser.Identity.IsAuthenticated)
+        {
+            ViewData["login"] = claimUser.FindFirst(ClaimTypes.NameIdentifier).Value;
+            ViewData["email"] = claimUser.FindFirst(ClaimTypes.Email).Value;
+            ViewData["phone_number"] = claimUser.FindFirst(ClaimTypes.MobilePhone).Value;
+        }
         return View();
     }
 

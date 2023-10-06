@@ -8,4 +8,6 @@ public class MenuCategory
     public string Name { get; set; }
     public string Description { get; set; }
     public List<MenuItem> MenuItems { get; set; }
+    public string PictureUrl { get; set; }
+    public string PictureDescription { get; set; }
 }

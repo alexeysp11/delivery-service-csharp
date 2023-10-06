@@ -7,4 +7,6 @@ public class MenuItem
     public string Description { get; set; }
     public string Price { get; set; }
     public MenuCategory MenuCategory { get; set; }
+    public string PictureUrl { get; set; }
+    public string PictureDescription { get; set; }
 }
