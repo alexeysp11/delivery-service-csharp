@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using CustomerClientBL.Models;
+using DeliveryService.Models.Orders;
 
 namespace CustomerClientMVC.Controllers;
 
@@ -37,6 +38,32 @@ public class HomeController : Controller
 
     public IActionResult MakeOrder()
     {
+        ClaimsPrincipal claimUser = HttpContext.User;
+        if (claimUser != null && claimUser.Identity.IsAuthenticated)
+        {
+            ViewData["phone_number"] = claimUser.FindFirst(ClaimTypes.MobilePhone).Value;
+        }
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult MakeOrder(PlaceOrderModel model)
+    {
+        try
+        {
+            if (model == null || string.IsNullOrWhiteSpace(model.City) || string.IsNullOrWhiteSpace(model.Address))
+                throw new System.Exception("Fields are not filled properly");
+            ClaimsPrincipal claimUser = HttpContext.User;
+            if (claimUser != null && claimUser.Identity.IsAuthenticated)
+            {
+                ViewData["phone_number"] = claimUser.FindFirst(ClaimTypes.MobilePhone).Value;
+                ViewData["placing_order"] = "The order was successfully placed";
+            }
+        }
+        catch (System.Exception ex)
+        {
+            ViewData["placing_order"] = "ERROR: " + ex.Message;
+        }
         return View();
     }
 
