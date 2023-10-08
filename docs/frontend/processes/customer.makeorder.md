@@ -31,7 +31,7 @@ The description of the **client application** is presented at [this link](../cus
     - You can specify a warehouse as a delivery address.
 - User clicks "Finish":
     - The information entered by the user is sent to the database and to [customerbackend](../../backend/customerbackend.md), which also notifies [kitchenbackend](../../backend/kitchenbackend.md ).
-    - Add payment geteway after filling out the form if a card is selected.
+    - Add payment geteway after filling out the form if a card is selected as a type of payment.
     - All selected products are stored on the frontend side until the user clicks "Finish checkout".
 - The user is on the "Pending orders" page.
 

@@ -28,15 +28,71 @@
             </div>
         </div>
         <div class="form-group row" style="margin-top: 5px;">
-            <label for="inputCity" class="col-sm-2 col-form-label">City</label>
+            <label for="selectDeliveryMethod" class="col-sm-2 col-form-label">Delivery method</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputCity" placeholder="City" asp-for="City">
+                <select class="form-control" id="selectDeliveryMethod" aria-describedby="selectDeliveryMethodHelp" style="width:200px;">
+                    <option selected>On foot</option>
+                    <option>Electric scooter</option>
+                    <option>Car</option>
+                </select>
+                <small id="selectDeliveryMethodHelp" class="form-text text-muted">Delivery price could depend on the delivery method.</small>
+            </div>
+        </div>
+        <div class="form-group row" style="margin-top: 5px;">
+            <label for="selectCity" class="col-sm-2 col-form-label">City</label>
+            <div class="col-sm-10">
+                <select class="form-control" id="selectCity" style="width:400px;">
+                    <option selected>City 1, Country 1</option>
+                    <option>City 2, Country 1</option>
+                    <option>City 1, Country 2</option>
+                    <option>City 2, Country 2</option>
+                    <option>City 1, Country 3</option>
+                    <option>City 2, Country 3</option>
+                </select>
             </div>
         </div>
         <div class="form-group row" style="margin-top: 5px;">
             <label for="inputAddress" class="col-sm-2 col-form-label">Address</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" id="inputAddress" placeholder="Address" asp-for="Address">
+            </div>
+        </div>
+        <div class="form-group row" style="margin-top: 5px;">
+            <label for="selectTypeOfPayment" class="col-sm-2 col-form-label">Type of payment</label>
+            <div class="col-sm-10">
+                <select class="form-control" id="selectTypeOfPayment" style="width:400px;">
+                    <option selected>Cash upon receipt</option>
+                    <option>Card upon receipt</option>
+                    <option>Bank's app using a QR code</option>
+                    <option>CVC</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row" style="margin-top: 5px;">
+            <label for="inputAdditional" class="col-sm-2 col-form-label">Additional</label>
+            <div class="col-sm-10">
+                <input type="checkbox" class="form-check-input" id="checkGetFromWH">
+                <label class="form-check-label" for="checkGetFromWH">Get from the warehouse</label>
+            </div>
+        </div>
+        <div class="form-group row" style="margin-top: 5px;">
+            <label for="labelPrice" class="col-sm-2 col-form-label">Price</label>
+            <div class="col-sm-10">
+                <div>
+                    <label for="labelPriceDelivery" class="col-sm-2 col-form-label">Delivery:</label>
+                    <label>0</label>
+                    <label>USD</label>
+                </div>
+                <div>
+                    <label for="labelPriceProducts" class="col-sm-2 col-form-label">Products:</label>
+                    <label>0</label>
+                    <label>USD</label>
+                </div>
+                <div>
+                    <label for="labelPriceTotal" class="col-sm-2 col-form-label">Total:</label>
+                    <label>0</label>
+                    <label>USD</label>
+                </div>
             </div>
         </div>
         <button type="submit" class="btn btn-primary" style="margin-top: 5px; width: 200px;">Place order</button>
