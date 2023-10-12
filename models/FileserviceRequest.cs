@@ -1,4 +1,4 @@
-﻿using DeliveryService.Models.Enums; 
+﻿using Cims.WorkflowLib.Models.Documents.Enums;
 
 namespace DeliveryService.Models;
 
@@ -8,7 +8,18 @@ namespace DeliveryService.Models;
 /// </summary>
 public class FileserviceRequest
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public System.Guid SessionTokenGuid { get; set; }
+    
+    /// <summary>
+    /// 
+    /// </summary>
     public AttachmentFileType AttachmentFileType { get; set; }
+    
+    /// <summary>
+    /// 
+    /// </summary>
     public object Values { get; set; }
 }

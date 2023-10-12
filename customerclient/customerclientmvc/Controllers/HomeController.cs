@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using CustomerClientBL.Models;
+using DeliveryService.CustomerClientBL.Models;
 using DeliveryService.Models.Orders;
 
-namespace CustomerClientMVC.Controllers;
+namespace DeliveryService.CustomerClientMVC.Controllers;
 
 [Authorize]
 public class HomeController : Controller

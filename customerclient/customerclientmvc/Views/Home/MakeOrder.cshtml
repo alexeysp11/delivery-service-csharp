@@ -1,11 +1,21 @@
+@using DeliveryService.Models.Menu;
 @model DeliveryService.Models.Orders.PlaceOrderModel;
 @{
     ViewData["Title"] = "Make order";
 }
 
 @{
-    var menuItems = new CustomerClientBL.OrderResolver().GetMenu();
-    var categories = menuItems.Select(x => x.MenuCategory).Distinct();
+    IEnumerable<MenuItem> menuItems = new List<MenuItem>();
+    IEnumerable<MenuCategory> categories = new List<MenuCategory>();
+    try
+    {
+        menuItems = new DeliveryService.CustomerClientBL.OrderResolver().GetMenu();
+        categories = menuItems.Select(x => x.MenuCategory).Distinct();
+    }
+    catch (System.Exception ex)
+    {
+        ViewData["placing_order"] = "ERROR: " + ex.Message;
+    }
 }
 
 <div class="text-center">
@@ -13,11 +23,13 @@
 </div>
 
 @if (ViewData["placing_order"] != null)
-            {
-                <br />
-                <br />
-                <label>@ViewData["placing_order"]</label>
-            }
+{
+    <br />
+    <br />
+    <label>@ViewData["placing_order"]</label>
+    <br />
+    <br />
+}
 
 <div>
     <form asp-controller="Home" asp-action="MakeOrder" method="post">
@@ -101,6 +113,10 @@
 
 <div class="text-center">
     <h4 class="display-4">Menu</h4>
+    @if (!categories.Any())
+    {
+        <label>No products available in the menu.</label>
+    }
     @foreach (var category in categories)
     {
         <div class="card mb-3">

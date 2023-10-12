@@ -3,12 +3,12 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using CustomerClientBL;
-using CustomerClientBL.Models;
+using DeliveryService.CustomerClientBL;
+using DeliveryService.Models.Authentication;
 using Cims.WorkflowLib.Models.AppSettings;
 using WokflowLib.Authentication.Models.NetworkParameters;
 
-namespace CustomerClientMVC.Controllers;
+namespace DeliveryService.CustomerClientMVC.Controllers;
 
 public class AccessController : Controller
 {

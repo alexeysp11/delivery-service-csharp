@@ -1,10 +1,11 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
-using CustomerClientBL.Models;
+using DeliveryService.CustomerClientBL.Models;
+using DeliveryService.Models.Authentication;
 using Cims.WorkflowLib.NetworkApis;
 using WokflowLib.Authentication.Models.NetworkParameters;
 
-namespace CustomerClientBL;
+namespace DeliveryService.CustomerClientBL;
 
 public class AccessResolver
 {

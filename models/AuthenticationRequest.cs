@@ -1,6 +1,4 @@
-using DeliveryService.Models.Enums; 
-
-namespace DeliveryService.Models;
+namespace Cims.WorkflowLib.Models.Documents.Enums;
 
 /// <summary>
 /// 

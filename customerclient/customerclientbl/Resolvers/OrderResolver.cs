@@ -3,7 +3,7 @@ using System.Linq;
 using Cims.WorkflowLib.DbConnections;
 using DeliveryService.Models.Menu;
 
-namespace CustomerClientBL;
+namespace DeliveryService.CustomerClientBL;
 
 public class OrderResolver
 {
