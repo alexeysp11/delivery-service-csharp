@@ -3,20 +3,29 @@ using System.Linq;
 using Cims.WorkflowLib.DbConnections;
 using DeliveryService.Models.Menu;
 
-namespace DeliveryService.Core;
+namespace DeliveryService.Core.Resolvers;
 
+/// <summary>
+/// 
+/// </summary>
 public class MenuResolver
 {
     private PgDbConnection PgDbConnection { get; }
     private string ConnectionString { get; }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public MenuResolver()
     {
         ConnectionString = "Server=127.0.0.1;Port=5432;Userid=postgres;Password=postgres;Database=postgres";
         PgDbConnection = new PgDbConnection(ConnectionString);
     }
 
-    public List<MenuItem> GetMenu()
+    /// <summary>
+    /// 
+    /// </summary>
+    public ICollection<MenuItem> GetMenu()
     {
         // 
         var categories = new List<MenuCategory>();
@@ -43,7 +52,8 @@ public class MenuResolver
         foreach (DataRow row in dtMenuItems.Rows)
         {
             if (int.TryParse(row["delivery_category_c_id"].ToString(), out int categoryId) 
-                && int.TryParse(row["delivery_menuitem_c_id"].ToString(), out int id))
+                && int.TryParse(row["delivery_menuitem_c_id"].ToString(), out int id)
+                && decimal.TryParse(row["menu_item_price"].ToString(), out decimal itemPrice))
             {
                 var category = categories.Where(x => x.Id == categoryId).First();
                 var mi = new MenuItem
@@ -51,7 +61,7 @@ public class MenuResolver
                     Id = id,
                     Name = row["menu_item_name"].ToString(),
                     Description = row["menu_item_description"].ToString(),
-                    Price = row["menu_item_price"].ToString(),
+                    Price = itemPrice,
                     MenuCategory = category,
                     PictureUrl = row["picture_url"].ToString(),
                     PictureDescription = row["picture_description"].ToString()
@@ -63,7 +73,10 @@ public class MenuResolver
         return menuItems;
     }
 
-    public DataTable GetCategories()
+    /// <summary>
+    /// 
+    /// </summary>
+    private DataTable GetCategories()
     {
         string sql = @$"-- 
 select 
@@ -77,7 +90,10 @@ from delivery_category_c dcc
         return PgDbConnection.ExecuteSqlCommand(sql);
     }
 
-    public DataTable GetMenuItems()
+    /// <summary>
+    /// 
+    /// </summary>
+    private DataTable GetMenuItems()
     {
         string sql = @$"-- 
 select 

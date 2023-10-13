@@ -1,13 +1,15 @@
 using System.Collections.Generic;
+using Cims.WorkflowLib.Models.Business.Products;
 
 namespace DeliveryService.Models.Menu;
 
-public class MenuCategory
+/// <summary>
+/// Menu category (product category).
+/// </summary>
+public class MenuCategory : ProductCategory
 {
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string Description { get; set; }
-    public List<MenuItem> MenuItems { get; set; }
-    public string PictureUrl { get; set; }
-    public string PictureDescription { get; set; }
+    /// <summary>
+    /// Collection of menu items (products).
+    /// </summary>
+    public ICollection<MenuItem> MenuItems { get; set; }
 }

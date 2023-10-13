@@ -1,12 +1,14 @@
+using Cims.WorkflowLib.Models.Business.Products;
+
 namespace DeliveryService.Models.Menu;
 
-public class MenuItem
+/// <summary>
+/// Menu item (product).
+/// </summary>
+public class MenuItem : Product 
 {
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string Description { get; set; }
-    public string Price { get; set; }
+    /// <summary>
+    /// Category of a menu item.
+    /// </summary>
     public MenuCategory MenuCategory { get; set; }
-    public string PictureUrl { get; set; }
-    public string PictureDescription { get; set; }
 }

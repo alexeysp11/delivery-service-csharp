@@ -4,10 +4,16 @@ using DeliveryService.Models.Authentication;
 using Cims.WorkflowLib.NetworkApis;
 using WokflowLib.Authentication.Models.NetworkParameters;
 
-namespace DeliveryService.Core;
+namespace DeliveryService.Core.Resolvers;
 
+/// <summary>
+/// Access resolver.
+/// </summary>
 public class AccessResolver
 {
+    /// <summary>
+    /// Method for allowing a user to sign in.
+    /// </summary>
     public VUCResponse SignIn(string serverAddress, SignInModel signInModel)
     {
         if (signInModel == null || 
@@ -40,6 +46,9 @@ public class AccessResolver
         return response;
     }
 
+    /// <summary>
+    /// Method for add a user into the database.
+    /// </summary>
     public UserCreationResult SignUp(string serverAddress, SignUpModel signUpModel)
     {
         if (signUpModel == null || 

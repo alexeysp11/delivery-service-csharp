@@ -3,7 +3,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using DeliveryService.Core;
+using DeliveryService.Core.Resolvers;
 using DeliveryService.CustomerClientBL;
 using DeliveryService.Models.Authentication;
 using Cims.WorkflowLib.Models.AppSettings;
@@ -68,7 +68,7 @@ public class AccessController : Controller
         }
         catch (System.Exception ex)
         {
-            ViewData["ValidationMessage"] = "Error: " + ex.Message;
+            ViewData["ValidationMessage"] = "ERROR: " + ex.Message;
         }
         return View();
     }
@@ -104,7 +104,7 @@ public class AccessController : Controller
         }
         catch (System.Exception ex)
         {
-            ViewData["ValidationMessage"] = "Error: " + ex.Message;
+            ViewData["ValidationMessage"] = "ERROR: " + ex.Message;
         }
         return View();
     }
