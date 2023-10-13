@@ -1,4 +1,6 @@
 @using DeliveryService.Core.Resolvers;
+@using Cims.WorkflowLib.Extensions;
+@using Cims.WorkflowLib.Models.Business;
 @using Cims.WorkflowLib.Models.Business.Products;
 @model DeliveryService.Models.Orders.PlaceOrderModel;
 @{
@@ -44,9 +46,9 @@
             <label for="selectDeliveryMethod" class="col-sm-2 col-form-label">Delivery method</label>
             <div class="col-sm-10">
                 <select class="form-control" id="selectDeliveryMethod" aria-describedby="selectDeliveryMethodHelp" style="width:200px;">
-                    <option selected>On foot</option>
-                    <option>Electric scooter</option>
-                    <option>Car</option>
+                    <option selected>@EnumExtensions.GetDisplayName(DeliveryMethodType.OnFoot)</option>
+                    <option>@EnumExtensions.GetDisplayName(DeliveryMethodType.ElectricScooter)</option>
+                    <option>@EnumExtensions.GetDisplayName(DeliveryMethodType.Car)</option>
                 </select>
                 <small id="selectDeliveryMethodHelp" class="form-text text-muted">Delivery price could depend on the delivery method.</small>
             </div>
@@ -140,9 +142,13 @@
                             <td>@menuItem.Name</td>
                             <td>@menuItem.Price</td>
                             <td>
-                                <button type="button" class="btn btn-primary">-</button>
-                                <button type="button" class="btn btn-primary">+</button>
-                                <label>0</label>
+                                <button type="button" class="btn btn-primary">
+                                    <a href="@Url.Page("/Order/DecreaseProductQuantity", new { productId = menuItem.Id })">-</a>
+                                </button>
+                                <button type="button" class="btn btn-primary">
+                                    <a href="@Url.Page("/Order/IncreaseProductQuantity", new { productId = menuItem.Id })">+</a>
+                                </button>
+                                <label>@menuItem.Quantity</label>
                             </td>
                         </tr>
                     }

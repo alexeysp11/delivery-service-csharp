@@ -35,6 +35,12 @@ The description of the **client application** is presented at [this link](../cus
     - All selected products are stored on the frontend side until the user clicks "Finish checkout".
 - The user is on the "Pending orders" page.
 
+## Objects 
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
+
 ## Examples 
 
 Menu: 
