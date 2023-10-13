@@ -19,13 +19,19 @@ public class OrderController : Controller
         _logger = logger;
     }
 
-    public IActionResult DecreaseProductQuantity(int productId)
+    public IActionResult DecreaseProductQuantity(int productId, int redirect = 0)
     {
+        var cartCount = 0; // await _cartRepo.AddItem(bookId, qty);
+        if (redirect == 0)
+            return Ok(cartCount);
         return RedirectToAction("MakeOrder", "Home");
     }
 
-    public IActionResult IncreaseProductQuantity(int productId)
+    public IActionResult IncreaseProductQuantity(int productId, int redirect = 0)
     {
+        var cartCount = 0; // await _cartRepo.AddItem(bookId, qty);
+        if (redirect == 0)
+            return Ok(cartCount);
         return RedirectToAction("MakeOrder", "Home");
     }
 }

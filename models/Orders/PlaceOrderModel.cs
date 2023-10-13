@@ -36,5 +36,10 @@ public class PlaceOrderModel
     /// <summary>
     /// 
     /// </summary>
+    public List<int> ProductIds { get; set; }
+    
+    /// <summary>
+    /// 
+    /// </summary>
     public List<Product> Products { get; set; }
 }

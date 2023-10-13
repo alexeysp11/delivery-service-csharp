@@ -56,6 +56,9 @@ public class HomeController : Controller
             ClaimsPrincipal claimUser = HttpContext.User;
             if (claimUser != null && claimUser.Identity.IsAuthenticated)
             {
+                // Send request to the backend service to place the order.
+                // Get response and process it.
+                // 
                 ViewData["phone_number"] = claimUser.FindFirst(ClaimTypes.MobilePhone).Value;
                 ViewData["placing_order"] = "The order was successfully placed";
                 return RedirectToAction("PendingOrders", "Home");
