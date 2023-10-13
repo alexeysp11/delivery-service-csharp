@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\workflow-auth\models\WokflowLib.Authentication.Models.csproj" />
     <ProjectReference Include="..\..\models\DeliveryService.Models.csproj" />
   </ItemGroup>
 

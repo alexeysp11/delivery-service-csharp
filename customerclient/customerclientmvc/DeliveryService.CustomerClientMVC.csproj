@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\customerclientbl\DeliveryService.CustomerClientBL.csproj" />
-    <ProjectReference Include="..\..\..\workflow-auth\models\WokflowLib.Authentication.Models.csproj" />
+    <ProjectReference Include="..\..\core\DeliveryService.Core.csproj" />
   </ItemGroup>
 
 </Project>

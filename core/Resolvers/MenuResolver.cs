@@ -3,14 +3,14 @@ using System.Linq;
 using Cims.WorkflowLib.DbConnections;
 using DeliveryService.Models.Menu;
 
-namespace DeliveryService.CustomerClientBL;
+namespace DeliveryService.Core;
 
-public class OrderResolver
+public class MenuResolver
 {
     private PgDbConnection PgDbConnection { get; }
     private string ConnectionString { get; }
 
-    public OrderResolver()
+    public MenuResolver()
     {
         ConnectionString = "Server=127.0.0.1;Port=5432;Userid=postgres;Password=postgres;Database=postgres";
         PgDbConnection = new PgDbConnection(ConnectionString);

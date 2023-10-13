@@ -1,2 +1,0 @@
-# DeliveryService.Models.Enums Namespace
-

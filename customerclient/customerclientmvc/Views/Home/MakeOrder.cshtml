@@ -1,3 +1,4 @@
+@using DeliveryService.Core;
 @using DeliveryService.Models.Menu;
 @model DeliveryService.Models.Orders.PlaceOrderModel;
 @{
@@ -9,7 +10,7 @@
     IEnumerable<MenuCategory> categories = new List<MenuCategory>();
     try
     {
-        menuItems = new DeliveryService.CustomerClientBL.OrderResolver().GetMenu();
+        menuItems = new DeliveryService.Core.MenuResolver().GetMenu();
         categories = menuItems.Select(x => x.MenuCategory).Distinct();
     }
     catch (System.Exception ex)
