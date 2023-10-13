@@ -1,12 +1,12 @@
 using System.Data;
 using System.Linq;
 using Cims.WorkflowLib.DbConnections;
-using DeliveryService.Models.Menu;
+using Cims.WorkflowLib.Models.Business.Products;
 
 namespace DeliveryService.Core.Resolvers;
 
 /// <summary>
-/// 
+/// Menu resolver.
 /// </summary>
 public class MenuResolver
 {
@@ -14,7 +14,7 @@ public class MenuResolver
     private string ConnectionString { get; }
 
     /// <summary>
-    /// 
+    /// Default constructor.
     /// </summary>
     public MenuResolver()
     {
@@ -23,25 +23,25 @@ public class MenuResolver
     }
 
     /// <summary>
-    /// 
+    /// Method for getting menu.
     /// </summary>
-    public ICollection<MenuItem> GetMenu()
+    public ICollection<Product> GetMenu()
     {
         // 
-        var categories = new List<MenuCategory>();
-        var menuItems = new List<MenuItem>();
+        var categories = new List<ProductCategory>();
+        var menuItems = new List<Product>();
         // 
         var dtCategories = GetCategories();
         foreach (DataRow row in dtCategories.Rows)
         {
-            if (int.TryParse(row["delivery_category_c_id"].ToString(), out int id))
+            if (long.TryParse(row["delivery_category_c_id"].ToString(), out long id))
             {
-                categories.Add(new MenuCategory
+                categories.Add(new ProductCategory
                 {
                     Id = id,
                     Name = row["category_name"].ToString(),
                     Description = row["category_description"].ToString(),
-                    MenuItems = new List<MenuItem>(),
+                    Products = new List<Product>(),
                     PictureUrl = row["picture_url"].ToString(),
                     PictureDescription = row["picture_description"].ToString()
                 });
@@ -51,30 +51,30 @@ public class MenuResolver
         var dtMenuItems = GetMenuItems();
         foreach (DataRow row in dtMenuItems.Rows)
         {
-            if (int.TryParse(row["delivery_category_c_id"].ToString(), out int categoryId) 
-                && int.TryParse(row["delivery_menuitem_c_id"].ToString(), out int id)
+            if (long.TryParse(row["delivery_category_c_id"].ToString(), out long categoryId) 
+                && long.TryParse(row["delivery_menuitem_c_id"].ToString(), out long id)
                 && decimal.TryParse(row["menu_item_price"].ToString(), out decimal itemPrice))
             {
                 var category = categories.Where(x => x.Id == categoryId).First();
-                var mi = new MenuItem
+                var mi = new Product
                 {
                     Id = id,
                     Name = row["menu_item_name"].ToString(),
                     Description = row["menu_item_description"].ToString(),
                     Price = itemPrice,
-                    MenuCategory = category,
+                    ProductCategory = category,
                     PictureUrl = row["picture_url"].ToString(),
                     PictureDescription = row["picture_description"].ToString()
                 };
                 menuItems.Add(mi);
-                category.MenuItems.Add(mi);
+                category.Products.Add(mi);
             }
         }
         return menuItems;
     }
 
     /// <summary>
-    /// 
+    /// Method for getting menu categories.
     /// </summary>
     private DataTable GetCategories()
     {
@@ -91,7 +91,7 @@ from delivery_category_c dcc
     }
 
     /// <summary>
-    /// 
+    /// Method for getting menu items.
     /// </summary>
     private DataTable GetMenuItems()
     {

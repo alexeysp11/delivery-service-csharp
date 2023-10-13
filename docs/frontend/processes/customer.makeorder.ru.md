@@ -35,6 +35,12 @@
     - После заполнения адреса для доставки, можно нажать "Рассчитать время доставки": на бэкграунде строится маршрут от склада до указанного адреса и в  отображается приблизительное время доставки.
 - Пользователь оказывается на странице "Текущие заказы".
 
+## Объекты 
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
+
 ## Примеры 
 
 Меню: 

@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using DeliveryService.Models.Menu;
+using Cims.WorkflowLib.Models.Business.Products;
 
 namespace DeliveryService.Models.Orders;
 
@@ -10,5 +10,5 @@ public class PlaceOrderModel
     public string PhoneNumber { get; set; }
     public string City { get; set; }
     public string Address { get; set; }
-    public List<MenuItem> MenuItems { get; set; }
+    public List<Product> Products { get; set; }
 }

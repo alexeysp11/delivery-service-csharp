@@ -1,17 +1,17 @@
 @using DeliveryService.Core.Resolvers;
-@using DeliveryService.Models.Menu;
+@using Cims.WorkflowLib.Models.Business.Products;
 @model DeliveryService.Models.Orders.PlaceOrderModel;
 @{
     ViewData["Title"] = "Make order";
 }
 
 @{
-    IEnumerable<MenuItem> menuItems = new List<MenuItem>();
-    IEnumerable<MenuCategory> categories = new List<MenuCategory>();
+    IEnumerable<Product> menuItems = new List<Product>();
+    IEnumerable<ProductCategory> categories = new List<ProductCategory>();
     try
     {
         menuItems = new MenuResolver().GetMenu();
-        categories = menuItems.Select(x => x.MenuCategory).Distinct();
+        categories = menuItems.Select(x => x.ProductCategory).Distinct();
     }
     catch (System.Exception ex)
     {
@@ -134,7 +134,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                    @foreach (var menuItem in category.MenuItems)
+                    @foreach (var menuItem in category.Products)
                     {
                         <tr>
                             <td>@menuItem.Name</td>
