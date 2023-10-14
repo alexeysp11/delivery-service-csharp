@@ -49,6 +49,7 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult MakeOrder(PlaceOrderModel model)
     {
+        string placingOrderMsg = string.Empty;
         try
         {
             if (model == null || string.IsNullOrWhiteSpace(model.City) || string.IsNullOrWhiteSpace(model.Address))
@@ -59,16 +60,16 @@ public class HomeController : Controller
                 // Send request to the backend service to place the order.
                 // Get response and process it.
                 // 
-                ViewData["phone_number"] = claimUser.FindFirst(ClaimTypes.MobilePhone).Value;
-                ViewData["placing_order"] = "The order was successfully placed";
-                return RedirectToAction("PendingOrders", "Home");
+                placingOrderMsg = "The order was successfully placed";
             }
         }
         catch (System.Exception ex)
         {
-            ViewData["placing_order"] = "ERROR: " + ex.Message;
+            placingOrderMsg = "ERROR: " + ex.Message;
         }
-        return View();
+        return Json(new {
+            Message = placingOrderMsg
+        });
     }
 
     public IActionResult AllOrders()

@@ -26,14 +26,13 @@
     <h1 class="display-4">Make order</h1>
 </div>
 
-@if (ViewData["placing_order"] != null)
-{
-    <br />
-    <br />
-    <label>@ViewData["placing_order"]</label>
-    <br />
-    <br />
-}
+<label id="lblPlacingOrder">
+    @if (ViewData["placing_order"] != null)
+    {
+        @ViewData["placing_order"]
+    }
+</label>
+
 
 <div>
     <div class="form-group row">
@@ -177,18 +176,36 @@
                     Address: String(document.getElementById("inputAddress").innerHTML),
                     ProductIds: productIdList
                 };
-                console.log('object : ' + JSON.stringify(object));
                 $.ajax({
                     type: "POST",
                     url: url,
                     data: object,
 
                     success: function(msg) {
-                        console.log('success : ' + msg);
+                        var parsedMsg = JSON.stringify(msg.message).replace(/\"/g, "");
+                        document.getElementById("lblPlacingOrder").innerHTML = parsedMsg;
+                        alert(parsedMsg);
                     },
-                    error: function(jqXHR, textStatus, errorThrown) { 
-                        /* implementation goes here */ 
-                        console.log(JSON.stringify('error : ' + errorThrown));
+                    error: function(jqXHR, exception) {
+                        var msg = '';
+                        if (jqXHR.status === 0) {
+                            msg = 'Not connect. Verify Network.';
+                        } else if (jqXHR.status == 404) {
+                            msg = 'Requested page not found. [404]';
+                        } else if (jqXHR.status == 500) {
+                            msg = 'Internal Server Error [500].';
+                        } else if (exception === 'parsererror') {
+                            msg = 'Requested JSON parse failed.';
+                        } else if (exception === 'timeout') {
+                            msg = 'Time out error.';
+                        } else if (exception === 'abort') {
+                            msg = 'Ajax request aborted.';
+                        } else {
+                            msg = 'Uncaught Error.' + jqXHR.responseText;
+                        }
+                        var parsedMsg = JSON.stringify(msg.message).replace(/\"/g, "");
+                        document.getElementById("lblPlacingOrder").innerHTML = parsedMsg;
+                        alert(parsedMsg);
                     }
                 });
             });
