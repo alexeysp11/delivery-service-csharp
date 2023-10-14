@@ -40,9 +40,4 @@
 - [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
 - [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
 - [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
-
-## Примеры 
-
-Меню: 
-
-![menu](https://i.pinimg.com/1200x/1c/a7/5e/1ca75e1020ffe2d57ca4f2c674f15151.jpg)
+- [PlaceOrderModel](../../classes/models/Orders/PlaceOrderModel.md)

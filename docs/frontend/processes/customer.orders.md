@@ -51,6 +51,12 @@ The description of the **client application** is presented at [this link](../cus
 - The user can open a specific order, get a preview and upload it as a file.
 - From the list of all orders, you can go to the "Dashboards", set filters for uploading statistics, get a preview and upload it as a file.
 
+## Objects 
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
+
 ## Purchase order template 
 
 ![purchase-order-template](https://templates.invoicehome.com/purchase-order-template-us-mono-black-750px.png)

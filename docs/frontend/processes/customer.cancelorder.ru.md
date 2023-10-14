@@ -29,3 +29,9 @@
     - На бекгранде производится запрос к сервису для проверки того, не изменился ли статус заказа.
     - Если статус заказа изменился, то обновить данные в БД клиентского приложения, выводить сообщение "Заказ не может быть отменен из-за несоответствия статуса: <имя статуса>" и выкидывать пользователя в "Текущие заказы". 
     - Если статус заказа позволяет отменить заказ, то обновить данные в БД клиентского приложения, выводить сообщение "Заказ успешно отменен" и выкидывать пользователя в главное меню.
+
+## Объекты 
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)

@@ -29,3 +29,9 @@ The description of the **client application** is presented at [this link](../cus
     - On the backgrand, a request is made to the service to check whether the status of the order has changed.
     - If the status of the order has changed, then update the data in the database of the client application, display the message "The order cannot be canceled due to a status mismatch: < status name >" and kick the user to "Current orders".
     - If the order status allows you to cancel the order, then update the data in the database of the client application, display the message "Order successfully canceled" and kick the user to the main menu.
+
+## Objects 
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
