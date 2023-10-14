@@ -1,4 +1,4 @@
-@model DeliveryService.Models.Authentication.SignUpModel;
+@model WokflowLib.Authentication.Models.NetworkParameters.SignUpModel;
 @{
     ViewData["Title"] = "Sign up Page";
 }
@@ -21,7 +21,7 @@
             <div class="form-group" style="margin-top: 5px; width: 500px;">
                 <input type="password" class="form-control" placeholder="Password" asp-for="Password">
             </div>
-            <button type="submit" class="btn btn-primary" style="margin-top: 5px; width: 200px;">Sign in</button>
+            <button type="submit" class="btn btn-primary" style="margin-top: 5px; width: 200px;">Sign up</button>
             <div>
                 <a asp-area="" asp-controller="Access" asp-action="SignIn">Already have an account?</a>
             </div>

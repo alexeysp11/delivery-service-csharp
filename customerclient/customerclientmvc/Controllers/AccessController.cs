@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using DeliveryService.Core.Resolvers;
 using DeliveryService.CustomerClientBL;
-using DeliveryService.Models.Authentication;
 using Cims.WorkflowLib.Models.AppSettings;
 using WokflowLib.Authentication.Models.NetworkParameters;
 
