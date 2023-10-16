@@ -19,12 +19,11 @@ public class AuthGrpcApiService : DeliveryService.Models.Protos.AuthGrpcApi.Auth
     /// </summary>
     public override Task<SessionTokenInfo> CreateToken(Empty request, ServerCallContext context)
     {
-        var token = new TokenHelper().CreateToken();
         return Task.FromResult(new SessionTokenInfo
         {
-            SessionTokenGuid = token.SessionTokenGuid.ToString(),
-            TokenActivityBegin = Timestamp.FromDateTimeOffset(token.TokenActivityBegin),
-            TokenActivityEnd = Timestamp.FromDateTimeOffset(token.TokenActivityEnd)
+            SessionTokenGuid = System.Guid.NewGuid().ToString(),
+            TokenActivityBegin = Timestamp.FromDateTimeOffset(System.DateTime.Now),
+            TokenActivityEnd = Timestamp.FromDateTimeOffset(System.DateTime.Now.AddHours(5))
         });
     }
 
@@ -33,12 +32,11 @@ public class AuthGrpcApiService : DeliveryService.Models.Protos.AuthGrpcApi.Auth
     /// </summary>
     public override Task<SessionTokenInfo> GetTokenByGuid(TokenRequest request, ServerCallContext context)
     {
-        var token = new TokenHelper().GetTokenByGuid(new System.Guid(request.SessionTokenGuid));
         return Task.FromResult(new SessionTokenInfo
         {
-            SessionTokenGuid = request.SessionTokenGuid,
-            TokenActivityBegin = Timestamp.FromDateTimeOffset(token.TokenActivityBegin),
-            TokenActivityEnd = Timestamp.FromDateTimeOffset(token.TokenActivityEnd)
+            SessionTokenGuid = System.Guid.NewGuid().ToString(),
+            TokenActivityBegin = Timestamp.FromDateTimeOffset(System.DateTime.Now),
+            TokenActivityEnd = Timestamp.FromDateTimeOffset(System.DateTime.Now.AddHours(5))
         });
     }
 }

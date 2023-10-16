@@ -1,16 +1,26 @@
+using WokflowLib.Authentication.AuthBL;
 using WokflowLib.Authentication.Models.ConfigParameters;
 using WokflowLib.Authentication.Models.NetworkParameters;
 using Cims.WorkflowLib.Models.ErrorHandling;
 
 namespace DeliveryService.Authentication.AuthWebApi.AuthBL;
 
+/// <summary>
+/// 
+/// </summary>
 public class AuthResolver
 {
+    /// <summary>
+    /// 
+    /// </summary>
     private CheckUCConfig CheckUCConfig { get; set; }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public AuthResolver()
     {
-        CheckUCConfig = ConfigHelper.GetUCConfigs();
+        CheckUCConfig = new ConfigHelper().GetUCConfigs();
     }
 
     /// <summary>

@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="../../models/DeliveryService.Models.csproj" />
     <ProjectReference Include="../../../workflow-lib/src/Cims.WorkflowLib.csproj" />
+    <ProjectReference Include="../../../workflow-auth/authbl/WokflowLib.Authentication.AuthBL.csproj" />
     <ProjectReference Include="../../../workflow-auth/models/WokflowLib.Authentication.Models.csproj" />
   </ItemGroup>
 
