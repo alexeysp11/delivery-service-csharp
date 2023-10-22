@@ -15,10 +15,10 @@ Read this in other languages: [English](customerclient.md), [Russian/Русск�
 - Directly communicates with [authentication API](../backend/authbackend.md), [customer backend](../backend/customerbackend.md), [file service](../backend/fileservice.md), [statistical model](../backend/statisticalmodel.md), [predictive model](../backend/predictivemodel.md), [email sender](../backend/emailsender.md), [push notifications](../backend/pushnotifications.md).
 - Processes:
     - User's account.
-    - [Making order](processes/customer.makeorder.md).
-    - [All orders](processes/customer.orders.md): displayig information and statistical data about previous orders (in a form of lists and dashboards).
-    - [Pending orders](processes/customer.pendingorders.md): order status tracking.
-    - [Settings](processes/customer.settings.md).
+    - [Making order](../processes/customer/makeorder.md).
+    - [All orders](../processes/customer/orders.md): displayig information and statistical data about previous orders (in a form of lists and dashboards).
+    - [Pending orders](../processes/customer/pendingorders.md): order status tracking.
+    - [Settings](../processes/customer/settings.md).
     - Notifications.
     - Watching videos.
 - Payment types:

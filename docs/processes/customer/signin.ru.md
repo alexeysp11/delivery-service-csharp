@@ -1,22 +1,22 @@
 # customer.signin
 
-Read this in other languages: [English](customer.signin.md), [Russian/Русский](customer.signin.ru.md). 
+Доступно на других языках: [English/Английский](customer.signin.md), [Russian/Русский](customer.signin.ru.md). 
 
-Customer client application: sign in.
+Клиентское приложение для потребителя: вход в приложение 
 
-The description of the **client application** is presented at [this link](../customerclient.md).
+Описание **клиентского приложения** представлено по [данной ссылке](../../frontend/customerclient.ru.md).
 
-## Process description
+## Описание процесса
 
-[workflow-auth](https://github.com/alexeysp11/workflow-auth) is used as an external **authentication service**.
+Для аутентификации используется внешний **сервис аутентификации** [workflow-auth](https://github.com/alexeysp11/workflow-auth).
 
 ![authentication](../../img/authentication.png)
 
-### Step-by-step execution
+### Пошаговое описание 
 
 ![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)
 
-## Objects 
+## Объекты
 
 - [SignInModel](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/SignInModel.md)
 - [UserCredentials](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/UserCredentials.md)

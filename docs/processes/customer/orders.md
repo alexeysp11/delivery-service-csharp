@@ -4,7 +4,7 @@ Read this in other languages: [English](customer.orders.md), [Russian/Русск
 
 Customer client application: orders
 
-The description of the **client application** is presented at [this link](../customerclient.md).
+The description of the **client application** is presented at [this link](../../frontend/customerclient.md).
 
 ## Process description
 

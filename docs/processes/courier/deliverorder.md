@@ -4,7 +4,7 @@ Read this in other languages: [English](courier.deliverorder.md), [Russian/Ру�
 
 Courier client application: deliver order
 
-The description of the **client application** is presented at [this link](../courierclient.md).
+The description of the **client application** is presented at [this link](../../frontend/courierclient.md).
 
 ## Process description
 

@@ -4,7 +4,7 @@ Read this in other languages: [English](customer.makeorder.md), [Russian/Рус�
 
 Customer client application: make order
 
-The description of the **client application** is presented at [this link](../customerclient.md).
+The description of the **client application** is presented at [this link](../../frontend/customerclient.md).
 
 ## Description of the process
 

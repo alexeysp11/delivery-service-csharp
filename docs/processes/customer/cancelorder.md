@@ -4,7 +4,7 @@ Read this in other languages: [English](customer.cancelorder.md), [Russian/Ру�
 
 Customer client application: cancel order.
 
-The description of the **client application** is presented at [this link](../customerclient.md).
+The description of the **client application** is presented at [this link](../../frontend/customerclient.md).
 
 ## Process description
 

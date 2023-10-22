@@ -10,4 +10,4 @@
 
 ![system_overall](../img/system_overall.png)
 
-Описание **клиентского приложения** представлено по [данной ссылке](../frontend/managerclient.ru.md).
+Описание **клиентского приложения** представлено по [данной ссылке](../../frontend/frontend/managerclient.ru.md).

@@ -1,22 +1,22 @@
 # customer.signup
 
-Read this in other languages: [English](customer.signup.md), [Russian/Русский](customer.signup.ru.md). 
+Доступно на других языках: [English/Английский](customer.signup.md), [Russian/Русский](customer.signup.ru.md). 
 
-Customer client application: sign up.
+Клиентское приложение для потребителя: регистрация в приложении 
 
-The description of the **client application** is presented at [this link](../customerclient.md).
+Описание **клиентского приложения** представлено по [данной ссылке](../../frontend/customerclient.ru.md).
 
-## Process description
+## Описание процесса
 
-[workflow-auth](https://github.com/alexeysp11/workflow-auth) is used as an external **authentication service**.
+Для аутентификации используется внешний **сервис аутентификации** [workflow-auth](https://github.com/alexeysp11/workflow-auth).
 
 ![authentication](../../img/authentication.png)
 
-### Step-by-step execution
+### Пошаговое описание 
 
 ![flowchart-signup](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signup.png)
 
-## Objects 
+## Объекты
 
 - [SignUpModel](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/SignUpModel.md)
 - [UserCreationResult](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/UserCreationResult.md)
