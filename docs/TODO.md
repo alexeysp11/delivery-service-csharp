@@ -6,3 +6,6 @@
 - Add **JWT** + **Microsoft** and **Google** OAuth-based authentication.
 - When communicating through the network, sometimes you can use the idea of **pipelining**:
 ![HTTP_pipelining](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/HTTP_pipelining2.svg/1200px-HTTP_pipelining2.svg.png)
+- Add recepes into DB for customer app.
+- Add overall description of warehouse, kitchen and courier apps/backend services.
+- Add algorithms to handle exceptions to the diagrams.

@@ -8,6 +8,7 @@ The description of the **client application** is presented at [this link](../../
 
 ## Process description
 
+- The notification comes to the backend service of the courier application.
 - Working with a kitchen order: receiving a request with a list of products to buy, the location of the nearest store with the best prices, a receipt photo.
 - Information on orders carried/carried by the courier (order number, place of delivery, actual/estimated time of delivery).
 - Building the most optimal route for delivery.
