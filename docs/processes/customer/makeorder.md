@@ -18,8 +18,6 @@ The description of the **client application** is presented at [this link](../../
 
 ## Sequence of user actions
 
-![customer.makeorder](../../img/customer.makeorder.png)
-
 - The user opens the order form.
 - Select a category.
 - Select a product, specify quantity and size.
@@ -34,6 +32,8 @@ The description of the **client application** is presented at [this link](../../
     - Add payment geteway after filling out the form if a card is selected as a type of payment.
     - All selected products are stored on the frontend side until the user clicks "Finish checkout".
 - The user is on the "Pending orders" page.
+
+![customer.makeorder](../../img/activitydiagrams/customer.makeorder.png)
 
 ## Objects 
 

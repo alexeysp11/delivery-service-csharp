@@ -45,7 +45,7 @@ The description of the **client application** is presented at [this link](../../
 
 ## Sequence of user actions
 
-![customer.allorders](../../img/customer.allorders.png)
+![customer.allorders](../../img/activitydiagrams/customer.allorders.png)
 
 - The user opens the "All Orders" page.
 - The user can open a specific order, get a preview and upload it as a file.

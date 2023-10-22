@@ -28,7 +28,7 @@ The description of the **client application** is presented at [this link](../../
 
 ## Sequence of user actions
 
-![customer.settings](../../img/customer.settings.png)
+![customer.settings](../../img/activitydiagrams/customer.settings.png)
 
 - The user opens "Settings".
 - The user scrolls through the list of settings, selects a category and a specific parameter.

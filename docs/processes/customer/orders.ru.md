@@ -45,7 +45,7 @@
 
 ## Последовательность действий пользователя
 
-![customer.allorders](../../img/customer.allorders.png)
+![customer.allorders](../../img/activitydiagrams/customer.allorders.png)
 
 - Пользователь открывает страницу "Все заказы".
 - Пользователь может открыть конкретный заказ, получить превью и выгрузить его в виде файла.

@@ -21,7 +21,7 @@ The description of the **client application** is presented at [this link](../../
 
 ## Sequence of user actions
 
-![customer.cancelorder](../../img/customer.cancelorder.png)
+![customer.cancelorder](../../img/activitydiagrams/customer.cancelorder.png)
 
 - The user opens the "Pending orders" or "All orders" page.
 - The user opens the order page.

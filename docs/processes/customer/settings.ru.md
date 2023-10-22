@@ -28,7 +28,7 @@
 
 ## Последовательность действий пользователя
 
-![customer.settings](../../img/customer.settings.png)
+![customer.settings](../../img/activitydiagrams/customer.settings.png)
 
 - Пользователь открывает "Настройки".
 - Пользователь листает список настроек, выбирает категорию и конкретный параметр.

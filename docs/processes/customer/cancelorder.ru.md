@@ -21,7 +21,7 @@
 
 ## Последовательность действий пользователя
 
-![customer.cancelorder](../../img/customer.cancelorder.png)
+![customer.cancelorder](../../img/activitydiagrams/customer.cancelorder.png)
 
 - Пользователь открывает страницу "Текущие заказы" или "Все заказы".
 - Пользователь открывает страницу заказа.

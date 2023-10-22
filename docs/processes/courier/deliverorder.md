@@ -15,4 +15,4 @@ The description of the **client application** is presented at [this link](../../
 
 ## Sequence of user actions
 
-![courier.deliverorder](../../img/courier.deliverorder.png)
+![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)
