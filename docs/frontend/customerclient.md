@@ -22,7 +22,7 @@ Read this in other languages: [English](customerclient.md), [Russian/Русск�
     - [Sign in](../processes/customer/signin.md)
     - [Sign up](../processes/customer/signup.md)
     - [User account](../processes/customer/useraccount.md)
-    - [Making order](../processes/customer/makeorder.md)
+    - [Placing order](../processes/customer/makeorder.md)
     - [Make a payment](../processes/customer/makepayment.md)
     - [All orders](../processes/customer/orders.md): displayig information and statistical data about previous orders (in a form of lists and dashboards)
     - [Pending orders](../processes/customer/pendingorders.md): order status tracking

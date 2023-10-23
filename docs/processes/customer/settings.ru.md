@@ -26,7 +26,7 @@
     - Безопасность:
        - пароль.
 
-### Пошаговое описание
+### Пошаговое выполнение
 
 ![customer.settings](../../img/activitydiagrams/customer.settings.png)
 

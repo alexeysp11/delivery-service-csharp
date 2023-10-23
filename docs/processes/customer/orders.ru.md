@@ -43,7 +43,7 @@
     - отправка сообщения на эл.почту/Телеграм.
     - Попробовать сделать превью в виде HTML, а потом конвертировать в PDF с помощью [workflow-lib](https://github.com/alexeysp11/workflow-lib).
 
-### Пошаговое описание
+### Пошаговое выполнение
 
 ![customer.allorders](../../img/activitydiagrams/customer.allorders.png)
 

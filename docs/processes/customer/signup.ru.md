@@ -12,7 +12,7 @@
 
 ![authentication](../../img/authentication.png)
 
-### Пошаговое описание 
+### Пошаговое выполнение 
 
 ![flowchart-signup](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signup.png)
 
