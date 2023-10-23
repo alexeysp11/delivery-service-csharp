@@ -1,8 +1,8 @@
-# courier backend
+# courierbackend
 
 Read this in other languages: [English](courierbackend.md), [Russian/Русский](courierbackend.ru.md). 
 
-Backend of the courier application 
+`courierbackend` is a backend service that is responsible for delivering orders to customers. 
 
 ## Requirements and description of the system
 

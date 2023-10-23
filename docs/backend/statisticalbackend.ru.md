@@ -1,8 +1,8 @@
-# statisticalmodel
+# statisticalbackend
 
-Доступно на других языках: [English/Английский](statisticalmodel.md), [Russian/Русский](statisticalmodel.ru.md). 
+Доступно на других языках: [English/Английский](statisticalbackend.md), [Russian/Русский](statisticalbackend.ru.md). 
 
-`pushnotifications` - это сервис для статистических операций 
+`statisticalbackend` — это бэкенд сервис, обеспечивающий анализ данных.
 
 ## Требования к системе и её описание 
 

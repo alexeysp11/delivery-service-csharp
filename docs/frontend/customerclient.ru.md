@@ -2,7 +2,7 @@
 
 Доступно на других языках: [English/Английский](customerclient.md), [Russian/Русский](customerclient.ru.md). 
 
-`customerclient` - это клиентское приложения для потребителей.
+`customerclient` — это клиентское приложение, которое используется клиентами для просмотра продуктов, размещения заказов и отслеживания поставок.
 
 ## Требования к системе и её описание 
 
@@ -12,7 +12,7 @@
 
 ### Описание приложения
 
-- Интегрируется напрямую с [authentication API](../backend/authbackend.ru.md), [customer backend](../backend/customerbackend.ru.md), [file service](../backend/fileservice.ru.md), [statistical model](../backend/statisticalmodel.ru.md), [predictive model](../backend/predictivemodel.ru.md), [email sender](../backend/emailsender.ru.md), [push notifications](../backend/pushnotifications.ru.md).
+- Интегрируется напрямую с [authentication API](../backend/authbackend.ru.md), [customer backend](../backend/customerbackend.ru.md), [file service](../backend/fileservice.ru.md), [statistical model](../backend/statisticalbackend.ru.md), [predictive model](../backend/predictivebackend.ru.md), [email sender](../backend/emailbackend.ru.md), [push notifications](../backend/pushnotificationsbackend.ru.md).
 - Процессы:
     - Аккаунт пользователя.
     - [Оформление заказа](../processes/customer/makeorder.ru.md).

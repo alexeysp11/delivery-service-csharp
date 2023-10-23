@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](authbackend.md), [Russian/Русский](authbackend.ru.md). 
 
-`authbackend` - backend for authentication service.
+`authbackend` - backend service that is responsible for managing user login and authentication.
 
 ## Service requirements and description
 

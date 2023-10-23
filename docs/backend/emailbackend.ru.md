@@ -1,8 +1,8 @@
-# email sender
+# emailbackend
 
-Доступно на других языках: [English/Английский](emailsender.md), [Russian/Русский](emailsender.ru.md). 
+Доступно на других языках: [English/Английский](emailbackend.md), [Russian/Русский](emailbackend.ru.md). 
 
-Сервис отправки email сообщений 
+`emailbackend` — это бэкенд сервис, который обеспечивает общение с клиентами по поводу их заказов по электронной почте.
 
 ## Требования к системе и её описание 
 

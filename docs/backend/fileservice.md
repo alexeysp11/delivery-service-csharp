@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](fileservice.md), [Russian/Русский](fileservice.ru.md). 
 
-Service for generating files 
+`fileservice` is a backend service that manages file storage and retrieval.
 
 ## Requirements and description of the system
 

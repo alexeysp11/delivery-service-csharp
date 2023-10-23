@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](warehouseclient.md), [Russian/Русский](warehouseclient.ru.md). 
 
-`warehouseclient` is a warehouse client application 
+`warehouseclient` is a client-side application that is used by warehouse staff to manage inventory and order fulfillment.
 
 ## Requirements and description of the system
 

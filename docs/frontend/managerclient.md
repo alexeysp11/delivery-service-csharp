@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](managerclient.md), [Russian/Русский](managerclient.ru.md). 
 
-`managerclient` is a manager client application.
+`managerclient` is a client-side application that is used by business owners to access analytics and reporting tools.
 
 ## Requirements and description of the system
 

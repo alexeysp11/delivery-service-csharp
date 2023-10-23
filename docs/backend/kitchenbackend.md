@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](kitchenbackend.md), [Russian/Русский](kitchenbackend.ru.md). 
 
-Backend of the kitchen application 
+`kitchenbackend` is a backend service that manages the preparation of food orders. 
 
 ## Requirements and description of the system
 

@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](customerclient.md), [Russian/Русский](customerclient.ru.md). 
 
-`customerclient` is a customer client application.
+`customerclient` is a client-side application that is used by customers to browse products, place orders, and track deliveries.
 
 ## Requirements and description of the system
 
@@ -12,7 +12,7 @@ Read this in other languages: [English](customerclient.md), [Russian/Русск�
 
 ### Description of the customer application
 
-- Directly communicates with [authentication API](../backend/authbackend.md), [customer backend](../backend/customerbackend.md), [file service](../backend/fileservice.md), [statistical model](../backend/statisticalmodel.md), [predictive model](../backend/predictivemodel.md), [email sender](../backend/emailsender.md), [push notifications](../backend/pushnotifications.md).
+- Directly communicates with [authentication API](../backend/authbackend.md), [customer backend](../backend/customerbackend.md), [file service](../backend/fileservice.md), [statistical model](../backend/statisticalbackend.md), [predictive model](../backend/predictivebackend.md), [email sender](../backend/emailbackend.md), [push notifications](../backend/pushnotificationsbackend.md).
 - Processes:
     - User's account.
     - [Making order](../processes/customer/makeorder.md).

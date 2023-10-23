@@ -2,6 +2,9 @@
 
 Read this in other languages: [English](README.md), [Russian/Русский](README.ru.md). 
 
+A delivery service app is a platform that enables users to order and receive goods. 
+The app typically includes features such as browsing products, selecting delivery options, tracking orders in real-time, and making payments.
+
 ## System requirements and description
 
 ### System description
@@ -19,13 +22,15 @@ Read this in other languages: [English](README.md), [Russian/Русский](REA
     - [authentication API](docs/backend/authbackend.md), 
     - [customer backend](docs/backend/customerbackend.md), 
     - [kitchen backend](docs/backend/kitchenbackend.md), 
+    - [warehouse backend](docs/backend/warehousebackend.md), 
     - [courier backend](docs/backend/courierbackend.md), 
     - [manager backend](docs/backend/managerbackend.md), 
+    - [admin backend](docs/backend/adminbackend.md), 
     - [file service](docs/backend/fileservice.md), 
-    - [statistical model](docs/backend/statisticalmodel.md), 
-    - [predictive model](docs/backend/predictivemodel.md), 
-    - [email sender](docs/backend/emailsender.md), 
-    - [ push notifications](docs/backend/pushnotifications.md).
+    - [statistical model](docs/backend/statisticalbackend.md), 
+    - [predictive model](docs/backend/predictivebackend.md), 
+    - [email sender](docs/backend/emailbackend.md), 
+    - [push notifications](docs/backend/pushnotificationsbackend.md).
 - External services: 
     - [workflow-auth](https://github.com/alexeysp11/workflow-auth), 
     - [workflow-lib](https://github.com/alexeysp11/workflow-lib)

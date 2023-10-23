@@ -1,8 +1,8 @@
-# courier backend
+# courierbackend
 
 Доступно на других языках: [English/Английский](courierbackend.md), [Russian/Русский](courierbackend.ru.md). 
 
-Бэкенд сервис приложения для курьера 
+`courierbackend` — это бэкенд сервис, который отвечает за доставку заказов клиентам.
 
 ## Требования к системе и её описание 
 

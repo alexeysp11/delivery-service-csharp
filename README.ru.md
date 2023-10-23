@@ -2,7 +2,8 @@
 
 Доступно на других языках: [English/Английский](README.md), [Russian/Русский](README.ru.md). 
 
-Сервис доставки еды
+Приложение сервиса доставки — это платформа, которая позволяет пользователям заказывать и получать продукты.
+Приложение обычно включает в себя такие функции, как просмотр продуктов, выбор вариантов доставки, отслеживание заказов в режиме реального времени и осуществление платежей.
 
 ## Требования к системе и её описание 
 
@@ -21,13 +22,15 @@
     - [authentication API](docs/backend/authbackend.ru.md), 
     - [customer backend](docs/backend/customerbackend.ru.md), 
     - [kitchen backend](docs/backend/kitchenbackend.ru.md), 
+    - [warehouse backend](docs/backend/warehousebackend.ru.md), 
     - [courier backend](docs/backend/courierbackend.ru.md), 
     - [manager backend](docs/backend/managerbackend.ru.md), 
+    - [admin backend](docs/backend/adminbackend.ru.md), 
     - [file service](docs/backend/fileservice.ru.md), 
-    - [statistical model](docs/backend/statisticalmodel.ru.md), 
-    - [predictive model](docs/backend/predictivemodel.ru.md), 
-    - [email sender](docs/backend/emailsender.ru.md), 
-    - [push notifications](docs/backend/pushnotifications.ru.md).
+    - [statistical model](docs/backend/statisticalbackend.ru.md), 
+    - [predictive model](docs/backend/predictivebackend.ru.md), 
+    - [email sender](docs/backend/emailbackend.ru.md), 
+    - [push notifications](docs/backend/pushnotificationsbackend.ru.md).
 - Внешние сервисы: 
     - [workflow-auth](https://github.com/alexeysp11/workflow-auth), 
     - [workflow-lib](https://github.com/alexeysp11/workflow-lib), Firebase, email delivery service, payment gateway.
