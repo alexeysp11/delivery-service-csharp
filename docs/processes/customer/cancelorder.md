@@ -19,7 +19,7 @@ The description of the **client application** is presented at [this link](../../
 - If, when loading the order card, it is already known that the order cannot be canceled, then hide the "Cancel order" button.
 - After canceling an order, the order disappears from the list of current orders.
 
-## Sequence of user actions
+### Step-by-step execution
 
 ![customer.cancelorder](../../img/activitydiagrams/customer.cancelorder.png)
 

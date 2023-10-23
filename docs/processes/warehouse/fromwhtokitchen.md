@@ -6,7 +6,7 @@ Warehouse client application: Deliver from WH to kitchen
 
 The description of the **client application** is presented at [this link](../../frontend/warehouseclient.md).
 
-## Sequence of user actions
+### Step-by-step execution
 
 - The warehouse receives a notification:
     - List of required starting products and their quantity/weight/volume.

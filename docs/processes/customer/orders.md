@@ -43,7 +43,7 @@ The description of the **client application** is presented at [this link](../../
     - sending a message to e-mail/Telegram.
     - Try to make an HTML preview and then convert to PDF using [workflow-lib](https://github.com/alexeysp11/workflow-lib).
 
-## Sequence of user actions
+### Step-by-step execution
 
 ![customer.allorders](../../img/activitydiagrams/customer.allorders.png)
 

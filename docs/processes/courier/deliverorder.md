@@ -13,6 +13,6 @@ The description of the **client application** is presented at [this link](../../
 - Building the most optimal route for delivery.
 - Display the location of the courier on the map.
 
-## Sequence of user actions
+### Step-by-step execution
 
 ![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)

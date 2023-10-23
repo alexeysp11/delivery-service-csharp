@@ -26,7 +26,7 @@ The description of the **client application** is presented at [this link](../../
     - Safety:
         - password.
 
-## Sequence of user actions
+### Step-by-step execution
 
 ![customer.settings](../../img/activitydiagrams/customer.settings.png)
 

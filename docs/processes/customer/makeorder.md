@@ -13,10 +13,9 @@ The description of the **client application** is presented at [this link](../../
 - When placing an order: 
     - User enters: list of selected items from menu, size, quantity, place of delivery.
     - Calculated on the backend: total order amount, estimated cooking and delivery time.
-- Sending a request to [fileservice](../../backend/fileservice.md) to generate a QR code for payment.
 - Use of predictive models: estimated cooking and delivery times.
 
-## Sequence of user actions
+### Step-by-step execution
 
 - The user opens the order form.
 - Select a category.

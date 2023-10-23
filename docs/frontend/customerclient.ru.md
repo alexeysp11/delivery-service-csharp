@@ -21,6 +21,7 @@
 - Процессы:
     - Аккаунт пользователя.
     - [Оформление заказа](../processes/customer/makeorder.ru.md).
+    - [Совершить оплату](../processes/customer/makepayment.ru.md)
     - [Все заказы](../processes/customer/orders.ru.md): отображение информации/статистики по предыдущим заказам в виде списков и дашбордов.
     - [Текущие заказы](../processes/customer/pendingorders.ru.md): отслеживание статуса заказа.
     - [Настройки](../processes/customer/settings.ru.md).

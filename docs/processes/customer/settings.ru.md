@@ -26,7 +26,7 @@
     - Безопасность:
        - пароль.
 
-## Последовательность действий пользователя
+### Пошаговое описание
 
 ![customer.settings](../../img/activitydiagrams/customer.settings.png)
 
