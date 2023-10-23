@@ -4,9 +4,7 @@ Read this in other languages: [English](warehouseclient.md), [Russian/Русск
 
 `warehouseclient` is a client-side application that is used by warehouse staff to manage inventory and order fulfillment.
 
-## Requirements and description of the system
-
-### Overall description of the system 
+## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)
 

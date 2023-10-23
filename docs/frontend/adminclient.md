@@ -4,9 +4,7 @@ Read this in other languages: [English](adminclient.md), [Russian/Русский
 
 `adminclient` is a client-side application that is used by administrators to manage users, products, and orders across the platform.
 
-## Requirements and description of the system
-
-### Overall description of the system 
+## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)
 

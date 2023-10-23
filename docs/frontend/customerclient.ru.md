@@ -4,15 +4,20 @@
 
 `customerclient` — это клиентское приложение, которое используется клиентами для просмотра продуктов, размещения заказов и отслеживания поставок.
 
-## Требования к системе и её описание 
-
-### Общая модель системы
+## Общая модель системы
 
 ![system_overall](../img/system_overall.png)
 
-### Описание приложения
+## Описание приложения
 
-- Интегрируется напрямую с [authentication API](../backend/authbackend.ru.md), [customer backend](../backend/customerbackend.ru.md), [file service](../backend/fileservice.ru.md), [statistical model](../backend/statisticalbackend.ru.md), [predictive model](../backend/predictivebackend.ru.md), [email sender](../backend/emailbackend.ru.md), [push notifications](../backend/pushnotificationsbackend.ru.md).
+- Коммуницирует напрямую со следующими бэкенд сервисами:
+    - [authentication API](../backend/authbackend.ru.md), 
+    - [customer backend](../backend/customerbackend.ru.md), 
+    - [file service](../backend/fileservice.ru.md), 
+    - [statistical backend](../backend/statisticalbackend.ru.md), 
+    - [predictive backend](../backend/predictivebackend.ru.md), 
+    - [email backend](../backend/emailbackend.ru.md), 
+    - [push notifications](../backend/pushnotificationsbackend.ru.md).
 - Процессы:
     - Аккаунт пользователя.
     - [Оформление заказа](../processes/customer/makeorder.ru.md).
@@ -27,7 +32,7 @@
     - через приложение банка по QR-коду,
     - в приложении с помощью CVC.
 
-Описание **бэкенд-сервиса** для данного приложения представлено по [данной ссылке](../backend/customerbackend.ru.md).
+Описание основного **бэкенд-сервиса** для данного приложения представлено по [данной ссылке](../backend/customerbackend.ru.md).
 
 ## Аутентификация 
 

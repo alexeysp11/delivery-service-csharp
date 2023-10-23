@@ -4,8 +4,6 @@ Read this in other languages: [English](predictivebackend.md), [Russian/Русс
 
 `predictivebackend` is a backend service that provides forecasting capabilities to analyze data retrieved from the [statisticalbackend](statisticalbackend.md) service.
 
-## Requirements and description of the system
-
-### Overall description of the system 
+## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)

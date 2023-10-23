@@ -26,9 +26,9 @@
     - [manager backend](docs/backend/managerbackend.ru.md), 
     - [admin backend](docs/backend/adminbackend.ru.md), 
     - [file service](docs/backend/fileservice.ru.md), 
-    - [statistical model](docs/backend/statisticalbackend.ru.md), 
-    - [predictive model](docs/backend/predictivebackend.ru.md), 
-    - [email sender](docs/backend/emailbackend.ru.md), 
+    - [statistical backend](docs/backend/statisticalbackend.ru.md), 
+    - [predictive backend](docs/backend/predictivebackend.ru.md), 
+    - [email backend](docs/backend/emailbackend.ru.md), 
     - [push notifications](docs/backend/pushnotificationsbackend.ru.md).
 - Внешние сервисы: 
     - [workflow-auth](https://github.com/alexeysp11/workflow-auth), 

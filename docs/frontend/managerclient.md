@@ -4,9 +4,7 @@ Read this in other languages: [English](managerclient.md), [Russian/Русски
 
 `managerclient` is a client-side application that is used by business owners to access analytics and reporting tools.
 
-## Requirements and description of the system
-
-### Overall description of the system 
+## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)
 

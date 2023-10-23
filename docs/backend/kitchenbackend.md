@@ -4,8 +4,6 @@ Read this in other languages: [English](kitchenbackend.md), [Russian/Русск�
 
 `kitchenbackend` is a backend service that manages the preparation of food orders. 
 
-## Requirements and description of the system
-
-### Overall description of the system 
+## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)

@@ -4,9 +4,7 @@ Read this in other languages: [English](courierclient.md), [Russian/Русски
 
 `courierclient` is a client-side application that is used by delivery drivers to manage their routs and deliveries.
 
-## Requirements and description of the system
-
-### Overall description of the system 
+## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)
 

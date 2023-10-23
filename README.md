@@ -26,9 +26,9 @@ The app typically includes features such as browsing products, selecting deliver
     - [manager backend](docs/backend/managerbackend.md), 
     - [admin backend](docs/backend/adminbackend.md), 
     - [file service](docs/backend/fileservice.md), 
-    - [statistical model](docs/backend/statisticalbackend.md), 
-    - [predictive model](docs/backend/predictivebackend.md), 
-    - [email sender](docs/backend/emailbackend.md), 
+    - [statistical backend](docs/backend/statisticalbackend.md), 
+    - [predictive backend](docs/backend/predictivebackend.md), 
+    - [email backend](docs/backend/emailbackend.md), 
     - [push notifications](docs/backend/pushnotificationsbackend.md).
 - External services: 
     - [workflow-auth](https://github.com/alexeysp11/workflow-auth), 
