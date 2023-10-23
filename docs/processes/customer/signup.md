@@ -1,6 +1,6 @@
 # customer.signup
 
-Read this in other languages: [English](customer.signup.md), [Russian/Русский](customer.signup.ru.md). 
+Read this in other languages: [English](signup.md), [Russian/Русский](signup.ru.md). 
 
 Customer client application: sign up.
 

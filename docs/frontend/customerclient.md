@@ -19,14 +19,16 @@ Read this in other languages: [English](customerclient.md), [Russian/Русск�
     - [email backend](../backend/emailbackend.md), 
     - [push notifications](../backend/pushnotificationsbackend.md).
 - Processes:
-    - User account.
-    - [Making order](../processes/customer/makeorder.md).
+    - [Sign in](../processes/customer/signin.md)
+    - [Sign up](../processes/customer/signup.md)
+    - [User account](../processes/customer/useraccount.md)
+    - [Making order](../processes/customer/makeorder.md)
     - [Make a payment](../processes/customer/makepayment.md)
-    - [All orders](../processes/customer/orders.md): displayig information and statistical data about previous orders (in a form of lists and dashboards).
-    - [Pending orders](../processes/customer/pendingorders.md): order status tracking.
-    - [Settings](../processes/customer/settings.md).
-    - Notifications.
-    - Watching videos.
+    - [All orders](../processes/customer/orders.md): displayig information and statistical data about previous orders (in a form of lists and dashboards)
+    - [Pending orders](../processes/customer/pendingorders.md): order status tracking
+    - [Settings](../processes/customer/settings.md)
+    - Receiving notifications
+    - Watching videos
 - Payment types:
     - cash on delivery, 
     - using POS when receiving,
@@ -34,17 +36,3 @@ Read this in other languages: [English](customerclient.md), [Russian/Русск�
     - in this application using CVC.
 
 A description of the main backend service for this application is presented at [this link](../backend/customerbackend.md).
-
-## Authentiacation 
-
-[workflow-auth](https://github.com/alexeysp11/workflow-auth) is used as an external **authentication service**.
-
-![authentication](../img/authentication.png)
-
-### Sign up
-
-![flowchart-signup](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signup.png)
-
-### Sign in
-
-![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)

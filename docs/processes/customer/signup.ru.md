@@ -1,6 +1,6 @@
 # customer.signup
 
-Доступно на других языках: [English/Английский](customer.signup.md), [Russian/Русский](customer.signup.ru.md). 
+Доступно на других языках: [English/Английский](signup.md), [Russian/Русский](signup.ru.md). 
 
 Клиентское приложение для потребителя: регистрация в приложении 
 

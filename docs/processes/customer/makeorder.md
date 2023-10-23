@@ -1,8 +1,8 @@
 # customer.makeorder
 
-Read this in other languages: [English](customer.makeorder.md), [Russian/Русский](customer.makeorder.ru.md). 
+Read this in other languages: [English](makeorder.md), [Russian/Русский](makeorder.ru.md). 
 
-Customer client application: make order
+Customer client application: make order.
 
 The description of the **client application** is presented at [this link](../../frontend/customerclient.md).
 

@@ -8,12 +8,8 @@ Read this in other languages: [English](courierclient.md), [Russian/Русски
 
 ![system_overall](../img/system_overall.png)
 
-## Authentiacation 
+## Description of the customer application
 
-[workflow-auth](https://github.com/alexeysp11/workflow-auth) is used as an external **authentication service**.
-
-![authentication](../img/authentication.png)
-
-### Sign in
-
-![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)
+- Processes:
+    - [Sign in](../processes/customer/signin.md)
+    - [Sign up](../processes/customer/signup.md)

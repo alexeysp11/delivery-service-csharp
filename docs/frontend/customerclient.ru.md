@@ -19,14 +19,16 @@
     - [email backend](../backend/emailbackend.ru.md), 
     - [push notifications](../backend/pushnotificationsbackend.ru.md).
 - Процессы:
-    - Аккаунт пользователя.
-    - [Оформление заказа](../processes/customer/makeorder.ru.md).
+    - [Вход](../processes/customer/signin.ru.md)
+    - [Регистрация](../processes/customer/signup.ru.md)
+    - [Аккаунт пользователя](../processes/customer/useraccount.ru.md)
+    - [Оформление заказа](../processes/customer/makeorder.ru.md)
     - [Совершить оплату](../processes/customer/makepayment.ru.md)
-    - [Все заказы](../processes/customer/orders.ru.md): отображение информации/статистики по предыдущим заказам в виде списков и дашбордов.
-    - [Текущие заказы](../processes/customer/pendingorders.ru.md): отслеживание статуса заказа.
-    - [Настройки](../processes/customer/settings.ru.md).
-    - Получение пуш-уведомлений.
-    - Просмотр видео.
+    - [Все заказы](../processes/customer/orders.ru.md): отображение информации/статистики по предыдущим заказам в виде списков и дашбордов
+    - [Текущие заказы](../processes/customer/pendingorders.ru.md): отслеживание статуса заказа
+    - [Настройки](../processes/customer/settings.ru.md)
+    - Получение пуш-уведомлений
+    - Просмотр видео
 - Виды оплаты:
     - наличная при получении, 
     - через валидатор при получении, 
@@ -34,17 +36,3 @@
     - в приложении с помощью CVC.
 
 Описание основного **бэкенд-сервиса** для данного приложения представлено по [данной ссылке](../backend/customerbackend.ru.md).
-
-## Аутентификация 
-
-Для аутентификации используется внешний **сервис аутентификации** [workflow-auth](https://github.com/alexeysp11/workflow-auth).
-
-![authentication](../img/authentication.png)
-
-### Регистрация
-
-![flowchart-signup](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signup.png)
-
-### Вход в приложение 
-
-![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)

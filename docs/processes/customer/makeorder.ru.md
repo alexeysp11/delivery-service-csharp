@@ -1,8 +1,8 @@
 # customer.makeorder
 
-Доступно на других языках: [English/Английский](customer.makeorder.md), [Russian/Русский](customer.makeorder.ru.md). 
+Доступно на других языках: [English/Английский](makeorder.md), [Russian/Русский](makeorder.ru.md). 
 
-Клиентское приложение для потребителя: оформление заказа 
+Клиентское приложение для потребителя: оформление заказа.
 
 Описание **клиентского приложения** представлено по [данной ссылке](../../frontend/customerclient.ru.md).
 

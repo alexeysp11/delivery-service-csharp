@@ -8,21 +8,13 @@
 
 ![system_overall](../img/system_overall.png)
 
-## Описание приложения для курьера
+## Описание приложения
 
 - Процессы:
+    - [Вход](../processes/customer/signin.ru.md)
+    - [Регистрация](../processes/customer/signup.ru.md)
     - [Отсканировать QR-код на рюкзаке](../processes/courier/scanbackpack.ru.md) (для отметки начала/конца работы).
     - [Доставка заказа потребителю](../processes/courier/deliverorder.ru.md).
     - [Доставка заказа из магазина на склад](../processes/courier/store2wh.ru.md).
 
 Описание бэкенд-сервиса приложения для курьера представлено по [данной ссылке](../backend/courierbackend.ru.md).
-
-## Аутентификация 
-
-Для аутентификации используется внешний **сервис аутентификации** [workflow-auth](https://github.com/alexeysp11/workflow-auth).
-
-![authentication](../img/authentication.png)
-
-### Вход в приложение
-
-![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)
