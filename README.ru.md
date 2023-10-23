@@ -9,7 +9,6 @@
 
 ### Описание системы
 
-- Высоконагруженная система: каждый элемент системы должен быть способен выдержать нагрузку до 5 тыс. запросов в секунду на запись и чтение.
 - Виды клиентских приложений по типу конечного пользователя: 
     - [потребителей](docs/frontend/customerclient.ru.md), 
     - [кухни](docs/frontend/kitchenclient.ru.md), 
@@ -33,7 +32,8 @@
     - [push notifications](docs/backend/pushnotificationsbackend.ru.md).
 - Внешние сервисы: 
     - [workflow-auth](https://github.com/alexeysp11/workflow-auth), 
-    - [workflow-lib](https://github.com/alexeysp11/workflow-lib), Firebase, email delivery service, payment gateway.
+    - [workflow-lib](https://github.com/alexeysp11/workflow-lib)
+    <!-- , Firebase, email delivery service, payment gateway. -->
 - Виды оплаты: 
     - наличная при получении, 
     - через валидатор при получении, 

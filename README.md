@@ -9,7 +9,6 @@ The app typically includes features such as browsing products, selecting deliver
 
 ### System description
 
-- Highly loaded system: each element of the system must be able to withstand a load of up to 5 thousand requests per second for writing and reading.
 - Types of client applications by end user type: 
     - [customers](docs/frontend/customerclient.md), 
     - [kitchen](docs/frontend/kitchenclient.md), 
