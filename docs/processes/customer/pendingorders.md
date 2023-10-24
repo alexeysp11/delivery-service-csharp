@@ -1,12 +1,14 @@
 # customer.pendingorders
 
-Read this in other languages: [English](customer.orders.md), [Russian/Русский](customer.orders.ru.md). 
+Read this in other languages: [English](orders.md), [Russian/Русский](orders.ru.md). 
 
 Customer client application: pending orders.
 
 The description of the **client application** is presented at [this link](../../frontend/customerclient.md).
 
-This process almost completely repeats [viewing all orders](customer.orders.md), except that orders are filtered by status to be displayed on this form: it is necessary that it be "Processing", "In the process of cooking", " In delivery."
+## Process description
+
+This process almost completely repeats [viewing all orders](orders.md), except that orders are filtered by status to be displayed on this form: it is necessary that it be "Processing", "In the process of cooking", " In delivery."
 
 ## Objects 
 

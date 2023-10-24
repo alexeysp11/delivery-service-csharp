@@ -1,6 +1,6 @@
 # customer.cancelorder
 
-Доступно на других языках: [English/Английский](customer.cancelorder.md), [Russian/Русский](customer.cancelorder.ru.md). 
+Доступно на других языках: [English/Английский](cancelorder.md), [Russian/Русский](cancelorder.ru.md). 
 
 Клиентское приложение для потребителя: отменить заказ
 

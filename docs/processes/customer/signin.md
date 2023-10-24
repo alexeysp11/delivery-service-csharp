@@ -1,6 +1,6 @@
 # customer.signin
 
-Read this in other languages: [English](customer.signin.md), [Russian/Русский](customer.signin.ru.md). 
+Read this in other languages: [English](signin.md), [Russian/Русский](signin.ru.md). 
 
 Customer client application: sign in.
 

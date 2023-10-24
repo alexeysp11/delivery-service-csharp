@@ -1,6 +1,6 @@
 # customer.signin
 
-Доступно на других языках: [English/Английский](customer.signin.md), [Russian/Русский](customer.signin.ru.md). 
+Доступно на других языках: [English/Английский](signin.md), [Russian/Русский](signin.ru.md). 
 
 Клиентское приложение для потребителя: вход в приложение 
 

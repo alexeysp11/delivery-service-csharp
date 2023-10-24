@@ -1,6 +1,6 @@
 # customer.settings
 
-Доступно на других языках: [English/Английский](customer.settings.md), [Russian/Русский](customer.settings.ru.md). 
+Доступно на других языках: [English/Английский](settings.md), [Russian/Русский](settings.ru.md). 
 
 Клиентское приложение для потребителя: настройки
 

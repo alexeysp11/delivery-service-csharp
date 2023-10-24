@@ -1,6 +1,6 @@
 # customer.cancelorder
 
-Read this in other languages: [English](customer.cancelorder.md), [Russian/Русский](customer.cancelorder.ru.md). 
+Read this in other languages: [English](cancelorder.md), [Russian/Русский](cancelorder.ru.md). 
 
 Customer client application: cancel order.
 
