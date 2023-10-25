@@ -10,7 +10,7 @@
 
 - Основной процесс в приложении [customer app](../../frontend/customerclient.md).
 - Ответсвенен за регистрацию заказа в приложении.
-- Включает в себя логику 
+- Включает в себя логику электронной оплаты.
 
 ![placing_order_overall](../../img/placing_order_overall.png)
 
