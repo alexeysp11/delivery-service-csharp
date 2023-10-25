@@ -28,6 +28,7 @@
 
 ## Objects 
 
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
 - [Ingredient](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Ingredient.md)
 - [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
 - [Recipe](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Recipe.md)

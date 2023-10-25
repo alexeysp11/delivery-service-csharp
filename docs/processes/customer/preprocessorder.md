@@ -22,3 +22,18 @@ Backend of the customer application: preprocess order.
 - If there is **enough quantity** in the warehouse, then the [Deliver from warehouse to kitchen](../warehouse/fromwhtokitchen.md) process is started asynchronously, and a response is sent to the service that called this process.
 
 ![customer.preprocessorder](../../img/activitydiagrams/customer.preprocessorder.png)
+
+## Objects 
+
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- [Ingredient](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Ingredient.md)
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [Recipe](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Recipe.md)
+- [WHProduct](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/WHProduct.md)
+
+## Database tables 
+
+- [delivery_customer_ingredient](../../dbtables/delivery_customer_ingredient.md)
+- [delivery_customer_product](../../dbtables/delivery_customer_product.md)
+- [delivery_customer_recipe](../../dbtables/delivery_customer_recipe.md)
+- [delivery_wh_whproduct](../../dbtables/delivery_wh_whproduct.md)

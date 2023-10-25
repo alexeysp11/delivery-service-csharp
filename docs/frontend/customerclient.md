@@ -27,6 +27,7 @@ Read this in other languages: [English](customerclient.md), [Russian/Русск�
     - [All orders](../processes/customer/orders.md): displayig information and statistical data about previous orders (in a form of lists and dashboards)
     - [Pending orders](../processes/customer/pendingorders.md): order status tracking
     - [Settings](../processes/customer/settings.md)
+    - [Cancel order](../processes/customer/cancelorder.md)
     - Receiving notifications
     - Watching videos
 - Payment types:
