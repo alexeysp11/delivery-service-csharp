@@ -19,7 +19,6 @@
 <!--
 - Слушает очередь сообщений, в которую записываются сообщения об изменениях в пользователях и токенах, хранящихся модулем [authentication API](authbackend.ru.md).
 - Записывает в очередь сообщений информацию об изменениях в пользователях и токенах (очередь слушает модуль [authentication API](authbackend.ru.md)).
--->
 
 ## Методы для обработки сетевых запросов 
 
@@ -30,41 +29,22 @@
 ### JSON объекты для межсетевого взаимодействия 
 
 - **User orders** - информация по заказам пользователя (наименование: `UserOrders`): 
-    - 
+    - temp.
     - `DeliveryOrders: List<DeliveryOrder>` - заказы пользователя,
     - Exception.
+-->
+
+## Объекты 
+
+- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Customer.md)
+- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [SessionToken](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/SessionToken.md)
 
 ## Таблицы в БД
 
-- **Customer** - потребитель (наименование: `delivery_customer`):
-    - `delivery_customer_id: integer` - ИД потребителя,
-    - `customer_uid: varchar` - GUID потребителя,
-    - `login: varchar` - логин,
-    - `email: varchar` - email,
-    - `phone_number: varchar` - телефон,
-    - `password: varchar` - хэшированный пароль.
-- **Temporary customer** - временная таблица потребителя, используется только при регистрации нового пользователя (наименование: `delivery_temp_customer`):
-    - `delivery_temp_customer_id: integer` - ИД потребителя,
-    - `customer_uid: varchar` - GUID потребителя,
-    - `login: varchar` - логин,
-    - `email: varchar` - email,
-    - `phone_number: varchar` - телефон,
-    - `password: varchar` - хэшированный пароль.
-- **Customer token** - сессионный токен потребителя (наименование: `delivery_customer_token`):
-    - `delivery_customer_token_id: integer` - ИД токена потребителя,
-    - `token_guid: varchar` - сгенерированный GUID токена,
-    - `token_begin_dt: timestamp` - начало действия токена,
-    - `token_end_dt: timestamp` - окончание действия токена,
-    - `customer_id: integer` - ИД потребителя.
-- **Category** - категория продукта в меню (наименование: `delivery_category`):
-    - `delivery_category_id: integer` - ИД категории,
-    - `name: varchar` - наименование,
-    - `description: varchar` - описание,
-    - `picture: bytea` - изображение.
-- **Menu item** - элемент меню, продукт (наименование: `delivery_menuitem`)
-    - `delivery_menuitem_id: integer` - ИД продукта,
-    - `name: varchar` - наименование,
-    - `price: double precision` - цена,
-    - `description: varchar` - описание,
-    - `delivery_category_id: integer` - ИД категории,
-    - `picture: bytea` - изображение.
+- [delivery_customer](../dbtables/delivery_customer.md)
+- [delivery_customer_tmp](../dbtables/delivery_customer_tmp.md)
+- [delivery_customer_token](../dbtables/delivery_customer_token.md)
+- [delivery_customer_category](../dbtables/delivery_customer_category.md)
+- [delivery_customer_menuitem](../dbtables/delivery_customer_menuitem.md)
