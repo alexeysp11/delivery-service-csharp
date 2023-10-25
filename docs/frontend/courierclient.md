@@ -8,8 +8,9 @@ Read this in other languages: [English](courierclient.md), [Russian/Русски
 
 ![system_overall](../img/system_overall.png)
 
-## Description of the customer application
+## Description of the application
 
-- Processes:
-    - [Sign in](../processes/customer/signin.md)
-    - [Sign up](../processes/customer/signup.md)
+
+## Processes 
+
+- [Sign in](../processes/customer/signin.md)

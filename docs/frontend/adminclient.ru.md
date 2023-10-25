@@ -10,6 +10,6 @@
 
 ## Описание приложения
 
-- Процессы:
-    - [Вход](../processes/customer/signin.ru.md)
-    - [Регистрация](../processes/customer/signup.ru.md)
+## Процессы 
+
+- [Вход](../processes/customer/signin.ru.md)

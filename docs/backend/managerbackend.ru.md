@@ -9,3 +9,7 @@
 ![system_overall](../img/system_overall.png)
 
 Описание **клиентского приложения** представлено по [данной ссылке](../../frontend/frontend/managerclient.ru.md).
+
+## Процессы 
+
+- [Вход](../processes/customer/signin.ru.md)

@@ -7,3 +7,7 @@
 ## Общая модель системы 
 
 ![system_overall](../img/system_overall.png)
+
+## Процессы 
+
+- [Вход](../processes/customer/signin.ru.md)

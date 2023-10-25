@@ -18,3 +18,7 @@
     - [Доставка заказа из магазина на склад](../processes/courier/store2wh.ru.md).
 
 Описание бэкенд-сервиса приложения для курьера представлено по [данной ссылке](../backend/courierbackend.ru.md).
+
+## Процессы 
+
+- [Вход](../processes/customer/signin.ru.md)
