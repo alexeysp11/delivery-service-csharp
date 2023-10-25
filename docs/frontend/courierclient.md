@@ -14,3 +14,6 @@ Read this in other languages: [English](courierclient.md), [Russian/Русски
 ## Processes 
 
 - [Sign in](../processes/customer/signin.md)
+- [Scan the QR code on the backpack](../processes/courier/scanbackpack.md) (to mark the start/end of work)
+- [Delivery of the order to the customer](../processes/courier/deliverorder.md)
+- [Delivery from store to warehouse](../processes/courier/store2wh.md)

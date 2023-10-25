@@ -8,7 +8,8 @@ Read this in other languages: [English](fileservice.md), [Russian/Русский
 
 ![system_overall](../img/system_overall.png)
 
-Service description:
+## Service description
+
 - Upload files to the server (images, videos, Word, Excel, PDF)
 - Download files from the server (images, Word, Excel, PDF)
 - Generation of a QR code for payment

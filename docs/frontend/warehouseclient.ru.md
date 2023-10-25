@@ -13,3 +13,5 @@
 ## Процессы 
 
 - [Вход](../processes/customer/signin.ru.md)
+- [Рассчитать продукцию](../processes/warehouse/calculateproducts.md)
+- [От WH до кухни](../processes/warehouse/fromwhtokitchen.md)
