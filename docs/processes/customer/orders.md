@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](orders.md), [Russian/Русский](orders.ru.md). 
 
-Customer client application: orders
+Customer client application: orders.
 
 The description of the **client application** is presented at [this link](../../frontend/customerclient.md).
 
@@ -54,6 +54,8 @@ The description of the **client application** is presented at [this link](../../
 - [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
 - [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
 
+<!--
 ## Purchase order template 
 
 ![purchase-order-template](https://templates.invoicehome.com/purchase-order-template-us-mono-black-750px.png)
+-->

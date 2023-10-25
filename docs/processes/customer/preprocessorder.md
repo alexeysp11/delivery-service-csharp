@@ -9,7 +9,7 @@ Backend of the customer application: preprocess order.
 - The [Delivery Service Application](../../../README.ru.md) includes a script that pre-processes the order before sending it to the kitchen for preparation.
 - Executed automatically as part of the [makeorder](makeorder.ru.md) process.
 - Backend services involved: [customerbackend](../../backend/customerbackend.ru.md) and [warehousebackend](../../backend/warehousebackend.ru.md).
-- The database has tables [delivery_customer_recipe](../../dbtables/delivery_customer_recipe.md), [delivery_customer_ingredient](../../dbtables/delivery_customer_ingredient.md) and [delivery_customer_product](../../dbtables /delivery_customer_product.md), which contains recipes for each product indicating the required starting products and their quantity/weight/volume. Recipes are necessary so that on their basis it is possible to obtain the quantity of initial products required to complete the order.
+- The database has tables [delivery_customer_recipe](../../dbtables/delivery_customer_recipe.md), [delivery_customer_ingredient](../../dbtables/delivery_customer_ingredient.md) and [delivery_customer_product](../../dbtables/delivery_customer_product.md), which contains recipes for each product indicating the required starting products and their quantity/weight/volume. Recipes are necessary so that on their basis it is possible to obtain the quantity of initial products required to complete the order.
      - Data from these tables comes from the database related to the [managerbackend](../../backend/managerbackend.ru.md) service using the replication mechanism
 - The database has a table [delivery_wh_whproduct](../../dbtables/delivery_wh_whproduct.md), which stores data on products in the warehouse at the current time.
 

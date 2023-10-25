@@ -54,6 +54,8 @@
 - [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
 - [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
 
+<!--
 ## Примеры заказа
 
 ![purchase-order-template](https://templates.invoicehome.com/purchase-order-template-us-mono-black-750px.png)
+-->

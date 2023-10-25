@@ -14,7 +14,7 @@ The description of the **client application** is presented at [this link](../../
 - They proceed to checkout and select preferred delivery option, enter their delivery address and contact details, select their preferred payment method (cash on delivery, POS when receiving, using QR code, using CVC), then confirm the order.
 - The client-side app validates date and stores some cache.
 - Then the information entered by the user is sent to the database and to [customerbackend](../../backend/customerbackend.md), which also notifies [kitchenbackend](../../backend/kitchenbackend.md) (this is done within the process [preprocessorder](preprocessorder.md)).
-- The user is on the "Pending orders" page where they can track the status of their order in real-time.
+- The user is on the [Pending orders](pendingorders.md) page where they can track the status of their order in real-time.
 
 ![customer.makeorder](../../img/activitydiagrams/customer.makeorder.png)
 
