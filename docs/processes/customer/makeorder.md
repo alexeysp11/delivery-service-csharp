@@ -4,7 +4,9 @@ Read this in other languages: [English](makeorder.md), [Russian/Русский](
 
 Customer client application: make order.
 
-The description of the **client application** is presented at [this link](../../frontend/customerclient.md).
+Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
+
+## Process description
 
 ![placing_order_overall](../../img/placing_order_overall.png)
 

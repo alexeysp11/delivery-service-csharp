@@ -4,8 +4,7 @@ Read this in other languages: [English](customerbackend.md), [Russian/Русск
 
 `customerbackend` is a backend service that handles customer-related functions such as browsing products, placing orders, and managing account information.
 
-The description of the **client application** is presented at [this link](../../frontend/frontend/customerclient.md).
-Understanding how the client application will be used allows you to form requirements for its main backend service.
+The description of the **client application** is presented at [this link](../frontend/customerclient.md).
 
 ## Overall description of the system
 

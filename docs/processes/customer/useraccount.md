@@ -4,7 +4,7 @@ Read this in other languages: [English](useraccount.md), [Russian/Русский
 
 Customer client application: user account.
 
-The description of the **client application** is presented at [this link](../../frontend/customerclient.md).
+Related modules: [client application](../../frontend/customerclient.md).
 
 ## Process description
 

@@ -4,7 +4,9 @@
 
 Клиентское приложение для потребителя: оформление заказа.
 
-Описание **клиентского приложения** представлено по [данной ссылке](../../frontend/customerclient.ru.md).
+Связанные модули: [клиентское приложение](../../frontend/customerclient.md), [бэкенд-сервис](../../backend/customerbackend.md).
+
+## Описание процесса
 
 ![placing_order_overall](../../img/placing_order_overall.png)
 

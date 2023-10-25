@@ -4,7 +4,7 @@ Read this in other languages: [English](signup.md), [Russian/Русский](sig
 
 Customer client application: sign up.
 
-The description of the **client application** is presented at [this link](../../frontend/customerclient.md).
+Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
 
 ## Process description
 
