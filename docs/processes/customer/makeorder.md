@@ -6,6 +6,8 @@ Customer client application: make order.
 
 The description of the **client application** is presented at [this link](../../frontend/customerclient.md).
 
+![placing_order_overall](../../img/placing_order_overall.png)
+
 ### Step-by-step execution
 
 - The user browses through the list of available products and selects the ones they want to order.

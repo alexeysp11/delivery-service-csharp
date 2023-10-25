@@ -8,15 +8,16 @@ The description of the **client application** is presented at [this link](../../
 
 ## Process description
 
-- Displaying information on previous orders in the form of a list of objects [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md).
-- Order status tracking (production, delivery)
-     - can also be seen in the [Current orders](pendingorders.md) section.
+- Displaying information on previous orders in the form of a list of objects [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md). So the customer can view the details of each order, such as the items ordered, the delivery address, and the status of the order (e.g. production, delivery). 
+- The order details can also be seen in the [Current orders](pendingorders.md) section.
 - Downloading files from the server (report for a specific order):
      - file extensions: images, PDF.
      - sending a message by email/Telegram.
+- The user can open a specific order, get a preview and upload it as a file.
      - Try to make a preview in HTML form, and then convert to PDF using [workflow-lib](https://github.com/alexeysp11/workflow-lib).
 <!--
 - Use of predictive models: estimated cooking and delivery times.
+- From the list of all orders, you can go to the "Dashboards", set filters for uploading statistics, get a preview and upload it as a file.
 - Statistics on previous orders in the form of dashboards:
     - by time:
         - day,
@@ -41,8 +42,9 @@ The description of the **client application** is presented at [this link](../../
 ### Step-by-step execution
 
 - The user opens the "All Orders" page.
-- The user can open a specific order, get a preview and upload it as a file.
-- From the list of all orders, you can go to the "Dashboards", set filters for uploading statistics, get a preview and upload it as a file.
+- App checks if the information about the orders is available in the cache database.
+- If the information is present and up-to-date, the app displays the orders to the customer.
+- If the information is absent or obsolete, the app redirects the request to the [customer backend service](../../backend/customerbackend.md) to retrieve the orders.
 
 ![customer.allorders](../../img/activitydiagrams/customer.allorders.png)
 
