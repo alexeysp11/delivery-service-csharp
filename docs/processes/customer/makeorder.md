@@ -8,6 +8,10 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 
 ## Process description
 
+- The main process in the application [customer app](../../frontend/customerclient.md).
+- Responsible for registering the order in the application.
+- Includes electronic payment logic.
+
 ![placing_order_overall](../../img/placing_order_overall.png)
 
 ### Step-by-step execution
@@ -15,6 +19,7 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 - The user browses through the list of available products and selects the ones they want to order.
 - They proceed to checkout and select preferred delivery option, enter their delivery address and contact details, select their preferred payment method (cash on delivery, POS when receiving, using QR code, using CVC), then confirm the order.
 - The client-side app validates date and stores some cache.
+- Start the [makepayment](makepayment.md) process.
 - Then the information entered by the user is sent to the database and to [customerbackend](../../backend/customerbackend.md), which also notifies [kitchenbackend](../../backend/kitchenbackend.md) (this is done within the process [preprocessorder](preprocessorder.md)).
 - The user is on the [Pending orders](pendingorders.md) page where they can track the status of their order in real-time.
 

@@ -8,7 +8,9 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 
 ## Process description
 
-This process almost completely repeats [viewing all orders](orders.md), except that orders are filtered by status to be displayed on this form: it is necessary that it be "Processing", "In the process of cooking", " In delivery."
+This process almost completely repeats [viewing all orders](orders.md), except that orders are filtered by status to be displayed on this form: it is necessary that it be "Processing", "In the process of cooking", "In delivery".
+
+![customer.allorders](../../img/activitydiagrams/customer.allorders.png)
 
 ## Objects 
 

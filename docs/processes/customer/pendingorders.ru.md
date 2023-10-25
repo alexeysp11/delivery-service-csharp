@@ -10,6 +10,8 @@
 
 Данный процесс почти полностью повторяет [просмотр всех заказов](orders.ru.md), за исключением того, что для отображения на данной форме заказы фильтруются по статусу: необходимо, чтобы было "Обрабатывается", "В процессе готовки", "В доставке".
 
+![customer.allorders](../../img/activitydiagrams/customer.allorders.png)
+
 ## Объекты 
 
 - [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)

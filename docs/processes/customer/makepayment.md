@@ -8,7 +8,9 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 
 ## Process description
 
-The [customer app](../../frontend/customerclient.md) allows users to make payments for their orders using different payment methods.
+- The [customer app](../../frontend/customerclient.md) allows users to make payments for their orders using different payment methods.
+- Responsible for payment of the order.
+- Called within the [makeorder](makeorder.ru.md) process.
 
 ### Step-by-step execution
 
@@ -20,3 +22,5 @@ The [customer app](../../frontend/customerclient.md) allows users to make paymen
 - If they choose **using CVC**, they enter their card details and confirm the payment.
     - Add payment geteway after filling out the form if a card is selected as a type of payment.
 - The app confirms the payment and sends to the backend service.
+
+![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
