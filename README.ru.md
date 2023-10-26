@@ -56,7 +56,7 @@
 - Распределенная система храненения записей в БД: сделать анализ по БД, которая оптимальна для записи и для чтения.
 - Несколько типов хранилищ: SQL, сессии, file storage.
 - Балансировка нагрузки - Load balancer.
-- Вэб (ASP.NET Core MVC + React), десктоп (WPF).
+- Вэб (ASP.NET Core MVC + React), десктоп (WPF), [Telegram.Bot](https://github.com/TelegramBots/Telegram.Bot).
 - Использование gRPC, RabbitMQ, ElasticSearch, WebAPI и worker.
 - У RabbitMQ может быть несколько "подписчиков".
 - Асинхронность и параллельность (например, при формировании изображений).

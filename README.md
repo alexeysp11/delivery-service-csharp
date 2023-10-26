@@ -56,7 +56,7 @@ The app typically includes features such as browsing products, selecting deliver
 - Distributed system for storing records in the database: make an analysis of the database, which is optimal for writing and reading.
 - Several storage types: SQL, sessions, file storage.
 - Load balancing - Load balancer.
-- Web (ASP.NET Core MVC + React), desktop (WPF).
+- Web (ASP.NET Core MVC + React), desktop (WPF), [Telegram.Bot](https://github.com/TelegramBots/Telegram.Bot).
 - Using gRPC, RabbitMQ, ElasticSearch, WebAPI and worker.
 - RabbitMQ can have multiple "subscribers".
 - Asynchronous and multithreading programming (for example, when forming images).
