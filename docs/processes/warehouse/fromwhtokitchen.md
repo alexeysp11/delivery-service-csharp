@@ -4,7 +4,7 @@ Read this in other languages: [English](fromwhtokitchen.md), [Russian/Русск
 
 Warehouse client application: Deliver from WH to kitchen
 
-The description of the **client application** is presented at [this link](../../frontend/warehouseclient.md).
+Related modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md).
 
 ## Process description
 

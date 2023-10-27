@@ -4,6 +4,8 @@ Read this in other languages: [English](calculateproducts.md), [Russian/Русс
 
 Warehouse client application: calculate products.
 
+Related modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md).
+
 ## Process description
 
 The overall description of the scenario for calculating product quantities in the warehouse backend service is that it allows warehouse staff to track inventory levels and ensure that there is enough stock on hand to fulfill orders. 

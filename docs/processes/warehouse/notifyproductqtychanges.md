@@ -4,7 +4,7 @@ Read this in other languages: [English](notifyproductqtychanges.md), [Russian/Р
 
 Warehouse client application: Notify about changes in product quantity.
 
-The description of the **client application** is presented at [this link](../../frontend/warehouseclient.md).
+Related modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md).
 
 ## Process description
 
