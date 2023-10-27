@@ -1,4 +1,4 @@
-# delivery_wh_whproduct Table 
+# delivery_whproduct_whb Table 
 
 Objects: 
 - [WHProduct](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/WHProduct.md)

@@ -34,7 +34,7 @@ public class TokenResolver
             response.TokenBeginDt = System.DateTime.Now;
             response.TokenEndDt = response.TokenBeginDt.AddHours(HoursToAdd);
             PgDbConnection.ExecuteSqlCommand(@$"-- 
-insert into public.delivery_customer_token(token_guid, token_begin_dt, token_end_dt, customer_id)
+insert into public.delivery_customer_token_cb(token_guid, token_begin_dt, token_end_dt, customer_id)
 values ('{response.TokenGuid}','{response.TokenBeginDt}','{response.TokenEndDt}', {userId});");
         }
         catch (System.Exception ex)

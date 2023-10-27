@@ -34,7 +34,7 @@ public class MenuResolver
         var dtCategories = GetCategories();
         foreach (DataRow row in dtCategories.Rows)
         {
-            if (long.TryParse(row["delivery_category_c_id"].ToString(), out long id))
+            if (long.TryParse(row["delivery_category_cc_id"].ToString(), out long id))
             {
                 categories.Add(new ProductCategory
                 {
@@ -51,8 +51,8 @@ public class MenuResolver
         var dtMenuItems = GetMenuItems();
         foreach (DataRow row in dtMenuItems.Rows)
         {
-            if (long.TryParse(row["delivery_category_c_id"].ToString(), out long categoryId) 
-                && long.TryParse(row["delivery_menuitem_c_id"].ToString(), out long id)
+            if (long.TryParse(row["delivery_category_cc_id"].ToString(), out long categoryId) 
+                && long.TryParse(row["delivery_menuitem_cc_id"].ToString(), out long id)
                 && decimal.TryParse(row["menu_item_price"].ToString(), out decimal itemPrice))
             {
                 var category = categories.Where(x => x.Id == categoryId).First();
@@ -80,12 +80,12 @@ public class MenuResolver
     {
         string sql = @$"-- 
 select 
-	dcc.delivery_category_c_id,
+	dcc.delivery_category_cc_id,
 	dcc.""name"" as category_name,
 	dcc.description as category_description,
     dcc.picture_url,
     dcc.picture_description
-from delivery_category_c dcc
+from delivery_category_cc dcc
 ;";
         return PgDbConnection.ExecuteSqlCommand(sql);
     }
@@ -97,15 +97,15 @@ from delivery_category_c dcc
     {
         string sql = @$"-- 
 select 
-	dmc.delivery_menuitem_c_id,
-	dmc.delivery_category_c_id,
+	dmc.delivery_menuitem_cc_id,
+	dmc.delivery_category_cc_id,
 	dmc.""name"" as menu_item_name,
 	dmc.description as menu_item_description,
 	to_char(dmc.price, '999G999G999G990D90') as menu_item_price,
     dmc.picture_url,
     dmc.picture_description
-from delivery_menuitem_c dmc
-order by dmc.delivery_menuitem_c_id, dmc.delivery_category_c_id
+from delivery_menuitem_cc dmc
+order by dmc.delivery_menuitem_cc_id, dmc.delivery_category_cc_id
 ;";
         return PgDbConnection.ExecuteSqlCommand(sql);
     }

@@ -11,9 +11,9 @@
 - [Приложение службы доставки](../../../README.ru.md) включает сценарий, который предварительно обрабатывает заказ перед его отправкой на кухню для приготовления.
 - Выполняется автоматически в рамках процесса [makeorder](makeorder.ru.md).
 - Задействованые бэкенд-сервисы: [customerbackend](../../backend/customerbackend.ru.md) и [warehousebackend](../../backend/warehousebackend.ru.md).
-- В БД есть таблицы [delivery_customer_recipe](../../dbtables/delivery_customer_recipe.md), [delivery_customer_ingredient](../../dbtables/delivery_customer_ingredient.md) и [delivery_customer_product](../../dbtables/delivery_customer_product.md), которая содержит рецепты каждого продукта с указанием необходимых исходных продуктов и их количеством/весом/объемом. Рецепты необходимы для того, чтобы на их основе можно было получить количество исходных продуктов, необходимых для выполнения заказа.
+- В БД есть таблицы [delivery_recipe_cb](../../dbtables/delivery_recipe_cb.md), [delivery_ingredient_cb](../../dbtables/delivery_ingredient_cb.md) и [delivery_menuitem_cb](../../dbtables/delivery_menuitem_cb.md), которая содержит рецепты каждого продукта с указанием необходимых исходных продуктов и их количеством/весом/объемом. Рецепты необходимы для того, чтобы на их основе можно было получить количество исходных продуктов, необходимых для выполнения заказа.
     - Данные из этих таблиц попадают из БД, относящейся к сервису [managerbackend](../../backend/managerbackend.ru.md), с помощью механизма репликации
-- В БД есть таблица [delivery_wh_whproduct](../../dbtables/delivery_wh_whproduct.md), в которой хранятся данные по продуктам на складе в текущий момент времени.
+- В БД есть таблица [delivery_whproduct_whb](../../dbtables/delivery_whproduct_whb.md), в которой хранятся данные по продуктам на складе в текущий момент времени.
 
 ![placing_order_overall](../../img/placing_order_overall.png)
 
@@ -36,7 +36,7 @@
 
 ## Database tables 
 
-- [delivery_customer_ingredient](../../dbtables/delivery_customer_ingredient.md)
-- [delivery_customer_product](../../dbtables/delivery_customer_product.md)
-- [delivery_customer_recipe](../../dbtables/delivery_customer_recipe.md)
-- [delivery_wh_whproduct](../../dbtables/delivery_wh_whproduct.md)
+- [delivery_ingredient_cb](../../dbtables/delivery_ingredient_cb.md)
+- [delivery_menuitem_cb](../../dbtables/delivery_menuitem_cb.md)
+- [delivery_recipe_cb](../../dbtables/delivery_recipe_cb.md)
+- [delivery_whproduct_whb](../../dbtables/delivery_whproduct_whb.md)

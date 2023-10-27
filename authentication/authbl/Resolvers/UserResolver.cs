@@ -27,11 +27,11 @@ public class UserResolver
             if (response == null)
                 response = new UserExistance();
             string sql = @$"-- 
-select 'login' as credentials_type, count(c.*) as qty from delivery_customer c where c.login = '{request.Login}'
+select 'login' as credentials_type, count(c.*) as qty from delivery_customer_cb c where c.login = '{request.Login}'
 union 
-select 'email' as credentials_type, count(c.*) as qty from delivery_customer c where c.email = '{request.Email}'
+select 'email' as credentials_type, count(c.*) as qty from delivery_customer_cb c where c.email = '{request.Email}'
 union
-select 'phone_number' as credentials_type, count(c.*) as qty from delivery_customer c where c.phone_number = '{request.PhoneNumber}'
+select 'phone_number' as credentials_type, count(c.*) as qty from delivery_customer_cb c where c.phone_number = '{request.PhoneNumber}'
 ;";
             var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
             foreach (DataRow row in dt.Rows)
@@ -65,7 +65,7 @@ select 'phone_number' as credentials_type, count(c.*) as qty from delivery_custo
             if (response == null)
                 response = new UserCreationResult();
             string sql = @$"-- 
-insert into delivery_customer (login, email, phone_number, password, customer_uid) 
+insert into delivery_customer_cb (login, email, phone_number, password, customer_uid) 
 values ('{request.Login}', '{request.Email}', '{request.PhoneNumber}', '{request.Password}', '{System.Guid.NewGuid().ToString()}');";
             new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
             response.IsUserAdded = true;
@@ -96,7 +96,7 @@ select
 	c.customer_uid, 
 	c.email, 
 	c.phone_number
-from delivery_customer c
+from delivery_customer_cb c
 where c.login = '{request.Login}' and c.password = '{request.Password}'
 ;";
             var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
@@ -134,13 +134,13 @@ where c.login = '{request.Login}' and c.password = '{request.Password}'
         {
             if (string.IsNullOrWhiteSpace(uid))
                 throw new System.Exception("User UID could not be null or empty");
-            string sql = @$"select c.delivery_customer_id from delivery_customer c where c.customer_uid = '{uid}';";
+            string sql = @$"select c.delivery_customer_cb_id from delivery_customer_cb c where c.customer_uid = '{uid}';";
             var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
             if (dt.Rows.Count > 1)
                 throw new System.Exception("CRITICAL ERROR: more than one customer with the same UID");
             foreach (DataRow row in dt.Rows)
             {
-                result = Convert.ToInt32(row["delivery_customer_id"]);
+                result = Convert.ToInt32(row["delivery_customer_cb_id"]);
             }
             return result;
         }

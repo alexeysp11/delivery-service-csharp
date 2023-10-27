@@ -1,6 +1,8 @@
-# delivery_customer_tmp Table 
+# delivery_customer_tmp_cb Table 
 
 Temporary customer.
+
+Defined in the [initcustomer.sql](../../dbinit/initcustomer.sql) file.
 
 ## Objects 
 
@@ -8,11 +10,11 @@ Temporary customer.
 
 ## Tables 
 
-- [delivery_customer](delivery_customer.md)
+- [delivery_customer_cb](delivery_customer_cb.md)
 
 ## Fields 
 
-    - `delivery_customer_tmp_id: integer` - ИД потребителя,
+    - `delivery_customer_tmp_cb_id: integer` - ИД потребителя,
     - `customer_uid: varchar` - GUID потребителя,
     - `login: varchar` - логин,
     - `email: varchar` - email,

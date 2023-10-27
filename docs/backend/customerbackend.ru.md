@@ -26,6 +26,7 @@
 - [Регистрация](../processes/customer/signup.ru.md)
 - [Оформление заказа](../processes/customer/makeorder.ru.md)
 - [Совершить оплату](../processes/customer/makepayment.ru.md)
+- [Предварительная обработка заказа](../processes/customer/preprocessorder.ru.md)
 - [Все заказы](../processes/customer/orders.ru.md): отображение информации/статистики по предыдущим заказам в виде списков и дашбордов
 - [Текущие заказы](../processes/customer/pendingorders.ru.md): отслеживание статуса заказа
 - [Отменить заказ](../processes/customer/cancelorder.md)
@@ -55,8 +56,8 @@
 
 ## Таблицы в БД
 
-- [delivery_customer](../dbtables/delivery_customer.md)
-- [delivery_customer_tmp](../dbtables/delivery_customer_tmp.md)
-- [delivery_customer_token](../dbtables/delivery_customer_token.md)
-- [delivery_customer_category](../dbtables/delivery_customer_category.md)
-- [delivery_customer_menuitem](../dbtables/delivery_customer_menuitem.md)
+- [delivery_customer_cb](../dbtables/delivery_customer_cb.md)
+- [delivery_customer_tmp_cb](../dbtables/delivery_customer_tmp_cb.md)
+- [delivery_customer_token_cb](../dbtables/delivery_customer_token_cb.md)
+- [delivery_category_cb](../dbtables/delivery_category_cb.md)
+- [delivery_menuitem_cb](../dbtables/delivery_menuitem_cb.md)

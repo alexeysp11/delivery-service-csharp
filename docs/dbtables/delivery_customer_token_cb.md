@@ -1,6 +1,8 @@
-# delivery_customer_token Table
+# delivery_customer_token_cb Table
 
 Customer token.
+
+Defined in the [initcustomer.sql](../../dbinit/initcustomer.sql) file.
 
 ## Objects 
 
@@ -8,8 +10,8 @@ Customer token.
 
 ## Fields 
 
-- **Customer token** - consumer session token (name: `delivery_customer_token`):
-     - `delivery_customer_token_id: integer` - consumer token ID,
+- **Customer token** - consumer session token (name: `delivery_customer_token_cb`):
+     - `delivery_customer_token_cb_id: integer` - consumer token ID,
      - `token_guid: varchar` - generated token GUID,
      - `token_begin_dt: timestamp` - the beginning of the token,
      - `token_end_dt: timestamp` - end of token validity,

@@ -1,6 +1,8 @@
-# delivery_customer_category Table 
+# delivery_category_cb Table 
 
 Category.
+
+Defined in the [initcustomer.sql](../../dbinit/initcustomer.sql) file.
 
 ## Objects
 
@@ -8,8 +10,8 @@ Category.
 
 ## Fields 
 
-- **Category** - product category in the menu (name: `delivery_category_c`):
-     - `delivery_category_c_id: integer` - category ID,
+- **Category** - product category in the menu (name: `delivery_category_cc`):
+     - `delivery_category_cc_id: integer` - category ID,
      - `name: varchar` - name,
      - `description: varchar` - description,
      - `picture: bytea` - image.

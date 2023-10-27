@@ -9,3 +9,19 @@
 - Add recepes into DB for customer app.
 - Add overall description of warehouse, kitchen and courier apps/backend services.
 - Add algorithms to handle exceptions to the diagrams.
+
+## Roadmap for the project 
+
+- Scenarios for client-side apps and backend:
+    - warehouse,
+    - courier,
+    - kitchen,
+    - admin,
+    - manager.
+- Classes and DB tables for stroring data on the backend services and client-side apps.
+- DTOs.
+- Cache tables.
+- Code: 
+    - services: gRPC, WebAPI.
+    - clients: ASP.NET MVC, WPF, Telegram.
+    - Some of the payment methods should be implemented later (e.g. QR code, CVC).

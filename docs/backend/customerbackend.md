@@ -26,6 +26,7 @@ The description of the **client application** is presented at [this link](../fro
 - [Sign up](../processes/customer/signup.md)
 - [Placing order](../processes/customer/makeorder.md)
 - [Make a payment](../processes/customer/makepayment.md)
+- [Preprocess order](../processes/customer/preprocessorder.md)
 - [All orders](../processes/customer/orders.md): displayig information and statistical data about previous orders (in a form of lists and dashboards)
 - [Pending orders](../processes/customer/pendingorders.md): order status tracking
 - [Cancel order](../processes/customer/cancelorder.md)
@@ -40,8 +41,8 @@ The description of the **client application** is presented at [this link](../fro
 
 ## Table in the database
 
-- [delivery_customer](../dbtables/delivery_customer.md)
-- [delivery_customer_tmp](../dbtables/delivery_customer_tmp.md)
-- [delivery_customer_token](../dbtables/delivery_customer_token.md)
-- [delivery_customer_category](../dbtables/delivery_customer_category.md)
-- [delivery_customer_menuitem](../dbtables/delivery_customer_menuitem.md)
+- [delivery_customer_cb](../dbtables/delivery_customer_cb.md)
+- [delivery_customer_tmp_cb](../dbtables/delivery_customer_tmp_cb.md)
+- [delivery_customer_token_cb](../dbtables/delivery_customer_token_cb.md)
+- [delivery_category_cb](../dbtables/delivery_category_cb.md)
+- [delivery_menuitem_cb](../dbtables/delivery_menuitem_cb.md)
