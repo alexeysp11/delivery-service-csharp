@@ -6,6 +6,11 @@ Warehouse client application: Deliver from WH to kitchen
 
 The description of the **client application** is presented at [this link](../../frontend/warehouseclient.md).
 
+## Process description
+
+The overall description of the scenario for delivery from the warehouse to the kitchen in the warehouse backend service is that it allows warehouse staff to manage the flow of products from storage to production. 
+The interactive steps within the scenario include receiving delivery requests from the kitchen, selecting products for delivery, preparing products for transport, and updating delivery status.
+
 ### Step-by-step execution
 
 - The warehouse receives a notification:
@@ -14,5 +19,10 @@ The description of the **client application** is presented at [this link](../../
 - If there are not enough real products, then the warehouse employee must fix this in the application (the database is updated) and start the [Deliver from store to warehouse](../courier/store2wh.md) process.
     - Also at this stage, the manager is notified (since this is a planning / accounting collision of products)
 - If there are enough real products, then write off the required amount, take them to the kitchen and close the process.
+
+- Receive delivery requests from the kitchen
+- Select the products needed for the delivery
+- Prepare the products for transport, such as packing them into boxes or crates
+- Update delivery status to indicate that the products have been picked up and are en route to the kitchen
 
 ![warehouse.fromwhtokitchen](../../img/activitydiagrams/warehouse.fromwhtokitchen.png)

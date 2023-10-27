@@ -4,6 +4,9 @@ Read this in other languages: [English](makeorder.md), [Russian/Русский](
 
 Customer client application: make order.
 
+The overall description of the scenario for placing an order in the customer backend service is that it allows customers to select items from a menu, customize their order with special requests or dietary restrictions, choose a delivery time and location, and submit their order for processing. 
+The interactive steps within the scenario include browsing the menu, selecting items and customizations, entering delivery details, and confirming the order.
+
 Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
 
 ## Process description
