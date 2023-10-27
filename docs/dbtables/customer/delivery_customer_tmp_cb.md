@@ -1,8 +1,10 @@
 # delivery_customer_tmp_cb Table 
 
-Temporary customer.
+*Used by*: [customerbackend](../../backend/customerbackend.md) 
 
-Defined in the [initcustomer.sql](../../dbinit/initcustomer.sql) file.
+*Defined in*: [initcustomer.sql](../../dbinit/initcustomer.sql)
+
+Temporary customer.
 
 ## Objects 
 

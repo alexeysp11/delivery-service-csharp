@@ -1,8 +1,10 @@
 # delivery_menuitem_cb Table 
 
-Menu item.
+*Used by*: [customerbackend](../../backend/customerbackend.md) 
 
-Defined in the [initcustomer.sql](../../dbinit/initcustomer.sql) file.
+*Defined in*: [initcustomer.sql](../../dbinit/initcustomer.sql)
+
+Menu item (product).
 
 ## Objects 
 

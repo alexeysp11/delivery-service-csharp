@@ -1,8 +1,10 @@
 # delivery_customer_token_cb Table
 
-Customer token.
+*Used by*: [customerbackend](../../backend/customerbackend.md) 
 
-Defined in the [initcustomer.sql](../../dbinit/initcustomer.sql) file.
+*Defined in*: [initcustomer.sql](../../dbinit/initcustomer.sql)
+
+Customer token.
 
 ## Objects 
 

@@ -1,8 +1,10 @@
 # delivery_customer_cb Table 
 
-Customer.
+*Used by*: [customerbackend](../../backend/customerbackend.md) 
 
-Defined in the [initcustomer.sql](../../dbinit/initcustomer.sql) file.
+*Defined in*: [initcustomer.sql](../../dbinit/initcustomer.sql)
+
+Customer.
 
 ## Objects
 
@@ -11,8 +13,8 @@ Defined in the [initcustomer.sql](../../dbinit/initcustomer.sql) file.
 ## Fields 
 
 - **Customer** - Customer (name: `delivery_customer_cc`):
-     - `delivery_customer_cc_id: integer` - consumer ID,
-     - `customer_uid: varchar` - GUID of the consumer,
+     - `delivery_customer_cc_id: integer` - customer ID,
+     - `customer_uid: varchar` - GUID of the customer,
      - `login: varchar` - login,
      - `email: varchar` - email,
      - `phone_number: varchar` - phone,

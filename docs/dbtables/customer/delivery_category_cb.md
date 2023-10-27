@@ -1,8 +1,10 @@
 # delivery_category_cb Table 
 
-Category.
+*Used by*: [customerbackend](../../backend/customerbackend.md) 
 
-Defined in the [initcustomer.sql](../../dbinit/initcustomer.sql) file.
+*Defined in*: [initcustomer.sql](../../dbinit/initcustomer.sql)
+
+Category.
 
 ## Objects
 

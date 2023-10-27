@@ -54,6 +54,12 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 - [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
 - [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
 
+## Database tables 
+
+- [delivery_menuitem_cb](../../dbtables/customer/delivery_menuitem_cb.md)
+- [delivery_category_cb](../../dbtables/customer/delivery_category_cb.md)
+- [delivery_order_cb](../../dbtables/customer/delivery_order_cb.md)
+
 <!--
 ## Purchase order template 
 

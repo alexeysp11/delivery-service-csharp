@@ -11,9 +11,9 @@
 - [Приложение службы доставки](../../../README.ru.md) включает сценарий, который предварительно обрабатывает заказ перед его отправкой на кухню для приготовления.
 - Выполняется автоматически в рамках процесса [makeorder](makeorder.ru.md).
 - Задействованые бэкенд-сервисы: [customerbackend](../../backend/customerbackend.ru.md) и [warehousebackend](../../backend/warehousebackend.ru.md).
-- В БД есть таблицы [delivery_recipe_cb](../../dbtables/delivery_recipe_cb.md), [delivery_ingredient_cb](../../dbtables/delivery_ingredient_cb.md) и [delivery_menuitem_cb](../../dbtables/delivery_menuitem_cb.md), которая содержит рецепты каждого продукта с указанием необходимых исходных продуктов и их количеством/весом/объемом. Рецепты необходимы для того, чтобы на их основе можно было получить количество исходных продуктов, необходимых для выполнения заказа.
+- В БД есть таблицы [delivery_recipe_cb](../../dbtables/customer/delivery_recipe_cb.md), [delivery_ingredient_cb](../../dbtables/customer/delivery_ingredient_cb.md) и [delivery_menuitem_cb](../../dbtables/customer/delivery_menuitem_cb.md), которая содержит рецепты каждого продукта с указанием необходимых исходных продуктов и их количеством/весом/объемом. Рецепты необходимы для того, чтобы на их основе можно было получить количество исходных продуктов, необходимых для выполнения заказа.
     - Данные из этих таблиц попадают из БД, относящейся к сервису [managerbackend](../../backend/managerbackend.ru.md), с помощью механизма репликации
-- В БД есть таблица [delivery_whproduct_whb](../../dbtables/delivery_whproduct_whb.md), в которой хранятся данные по продуктам на складе в текущий момент времени.
+- В БД есть таблица [delivery_whproduct_whb](../../dbtables/warehouse/customer/delivery_whproduct_whb.md), в которой хранятся данные по продуктам на складе в текущий момент времени.
 
 ![placing_order_overall](../../img/placing_order_overall.png)
 
@@ -26,17 +26,20 @@
 
 ![customer.preprocessorder](../../img/activitydiagrams/customer.preprocessorder.png)
 
-## Objects 
+## Объекты 
 
 - [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- [UserAccount](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/UserAccount.md)
 - [Ingredient](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Ingredient.md)
 - [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
 - [Recipe](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Recipe.md)
 - [WHProduct](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/WHProduct.md)
 
-## Database tables 
+## Таблицы в БД
 
-- [delivery_ingredient_cb](../../dbtables/delivery_ingredient_cb.md)
-- [delivery_menuitem_cb](../../dbtables/delivery_menuitem_cb.md)
-- [delivery_recipe_cb](../../dbtables/delivery_recipe_cb.md)
-- [delivery_whproduct_whb](../../dbtables/delivery_whproduct_whb.md)
+- [delivery_employee_whb](../../dbtables/warehouse/delivery_employee_whb.md)
+- [delivery_useraccount_whb](../../dbtables/warehouse/delivery_useraccount_whb.md)
+- [delivery_ingredient_cb](../../dbtables/customer/delivery_ingredient_cb.md)
+- [delivery_menuitem_cb](../../dbtables/customer/delivery_menuitem_cb.md)
+- [delivery_recipe_cb](../../dbtables/customer/delivery_recipe_cb.md)
+- [delivery_whproduct_whb](../../dbtables/warehouse/customer/delivery_whproduct_whb.md)

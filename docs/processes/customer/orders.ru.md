@@ -54,6 +54,12 @@
 - [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
 - [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
 
+## Таблицы в БД
+
+- [delivery_menuitem_cb](../../dbtables/customer/delivery_menuitem_cb.md)
+- [delivery_category_cb](../../dbtables/customer/delivery_category_cb.md)
+- [delivery_order_cb](../../dbtables/customer/delivery_order_cb.md)
+
 <!--
 ## Примеры заказа
 

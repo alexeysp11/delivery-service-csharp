@@ -30,4 +30,14 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 - [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
 - [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
 - [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
+
+## DTOs
+
 - [PlaceOrderModel](../../classes/models/Orders/PlaceOrderModel.md)
+
+## Database tables 
+
+- [delivery_menuitem_cb](../../dbtables/customer/delivery_menuitem_cb.md)
+- [delivery_category_cb](../../dbtables/customer/delivery_category_cb.md)
+- [delivery_order_cb](../../dbtables/customer/delivery_order_cb.md)
+- [delivery_placeordermodel_cb](../../dbtables/customer/delivery_placeordermodel_cb.md)
