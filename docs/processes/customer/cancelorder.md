@@ -39,14 +39,16 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 
 ![customer.cancelorder](../../img/activitydiagrams/customer.cancelorder.png)
 
-## Objects 
+## Data
+
+### Objects 
 
 - [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
 - [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
 - [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
 - [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
 
-## Database tables 
+### Database tables 
 
 - [delivery_employee_whb](../../dbtables/warehouse/delivery_employee_whb.md)
 - [delivery_menuitem_cb](../../dbtables/customer/delivery_menuitem_cb.md)

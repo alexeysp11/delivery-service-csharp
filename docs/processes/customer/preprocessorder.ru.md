@@ -26,7 +26,9 @@
 
 ![customer.preprocessorder](../../img/activitydiagrams/customer.preprocessorder.png)
 
-## Объекты 
+## Данные
+
+### Объекты 
 
 - [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
 - [UserAccount](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/UserAccount.md)
@@ -35,7 +37,7 @@
 - [Recipe](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Recipe.md)
 - [WHProduct](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/WHProduct.md)
 
-## Таблицы в БД
+### Таблицы в БД
 
 - [delivery_employee_whb](../../dbtables/warehouse/delivery_employee_whb.md)
 - [delivery_useraccount_whb](../../dbtables/warehouse/delivery_useraccount_whb.md)

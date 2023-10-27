@@ -24,3 +24,9 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 - The app confirms the payment and sends to the backend service.
 
 ![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
+
+## Data
+
+### Objects 
+
+- [Payment](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Monetary/Payment.md)

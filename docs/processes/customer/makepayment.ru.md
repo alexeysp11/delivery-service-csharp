@@ -24,3 +24,9 @@
 - Приложение подтверждает платеж и отправляет его на бэкенд сервис.
 
 ![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
+
+## Данные
+
+### Объекты 
+
+- [Payment](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Monetary/Payment.md)
