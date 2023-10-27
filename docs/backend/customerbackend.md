@@ -5,6 +5,7 @@ Read this in other languages: [English](customerbackend.md), [Russian/Русск
 `customerbackend` is a backend service that handles customer-related functions such as browsing products, placing orders, and managing account information.
 
 The customer backend service for delivery service app allows customers to sign up or sign in to their account, place orders, track their orders, rate and review their orders, and view their order history. 
+
 Other possible functionalities of the service include saving favorite orders for quick reordering, customizing orders with special requests or dietary restrictions, and receiving personalized recommendations based on past orders.
 
 The description of the **client application** is presented at [this link](../frontend/customerclient.md).
