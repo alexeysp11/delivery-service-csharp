@@ -30,10 +30,6 @@ The app typically includes features such as browsing products, selecting deliver
     - [predictive backend](docs/backend/predictivebackend.md), 
     - [email backend](docs/backend/emailbackend.md), 
     - [push notifications](docs/backend/pushnotificationsbackend.md).
-- External services: 
-    - [workflow-auth](https://github.com/alexeysp11/workflow-auth), 
-    - [workflow-lib](https://github.com/alexeysp11/workflow-lib)
-    <!--, Firebase, email delivery service, payment gateway.-->
 - Types of payment: 
     - cash upon receipt, 
     - through a validator upon receipt, 
@@ -60,6 +56,10 @@ The app typically includes features such as browsing products, selecting deliver
 - Using gRPC, RabbitMQ, ElasticSearch, WebAPI and worker.
 - RabbitMQ can have multiple "subscribers".
 - Asynchronous and multithreading programming (for example, when forming images).
+- External services: 
+    - [workflow-auth](https://github.com/alexeysp11/workflow-auth), 
+    - [workflow-lib](https://github.com/alexeysp11/workflow-lib)
+    <!--, Firebase, email delivery service, payment gateway.-->
 
 ### General system model
 

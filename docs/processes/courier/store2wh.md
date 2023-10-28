@@ -4,7 +4,7 @@ Read this in other languages: [English](store2wh.md), [Russian/Русский](s
 
 Courier client application: deliver order from store to WH
 
-The description of the **client application** is presented at [this link](../../frontend/courierclient.md).
+Related modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md).
 
 ## Process description
 

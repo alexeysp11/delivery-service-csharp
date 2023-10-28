@@ -15,7 +15,7 @@
 
 ![system_overall](../img/system_overall.png)
 
-Описание **клиентского приложения** представлено по [данной ссылке](../../frontend/frontend/managerclient.ru.md).
+Связанные модули: [клиентское приложение](../../frontend/managerclient.md), [бэкэнд-сервис](../../backend/managerbackend.md).
 
 ## Процессы 
 

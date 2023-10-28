@@ -30,10 +30,6 @@
     - [predictive backend](docs/backend/predictivebackend.ru.md), 
     - [email backend](docs/backend/emailbackend.ru.md), 
     - [push notifications](docs/backend/pushnotificationsbackend.ru.md).
-- Внешние сервисы: 
-    - [workflow-auth](https://github.com/alexeysp11/workflow-auth), 
-    - [workflow-lib](https://github.com/alexeysp11/workflow-lib)
-    <!-- , Firebase, email delivery service, payment gateway. -->
 - Виды оплаты: 
     - наличная при получении, 
     - через валидатор при получении, 
@@ -60,6 +56,10 @@
 - Использование gRPC, RabbitMQ, ElasticSearch, WebAPI и worker.
 - У RabbitMQ может быть несколько "подписчиков".
 - Асинхронность и параллельность (например, при формировании изображений).
+- Внешние сервисы: 
+    - [workflow-auth](https://github.com/alexeysp11/workflow-auth), 
+    - [workflow-lib](https://github.com/alexeysp11/workflow-lib)
+    <!-- , Firebase, email delivery service, payment gateway. -->
 
 ### Общая модель системы 
 
