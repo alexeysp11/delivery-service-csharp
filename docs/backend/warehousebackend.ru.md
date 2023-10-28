@@ -14,6 +14,7 @@
 - [Рассчитать продукцию](../processes/warehouse/calculateproducts.ru.md)
 - [Отслеживание сроков годности продукции](../processes/warehouse/trackexpirationdate.ru.md)
 - [От WH до кухни](../processes/warehouse/fromwhtokitchen.ru.md)
+- [От кухни на склад](../processes/warehouse/fromkitchentowh.ru.md)
 - [Доставить из магазина на склад](../processes/courier/store2wh.ru.md)
 - [Уведомлять об изменении количества товара](../processes/warehouse/notifyproductqtychanges.ru.md)
 - [Уведомить об инциденте](../processes/warehouse/reportincident.ru.md)

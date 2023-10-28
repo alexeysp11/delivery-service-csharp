@@ -20,4 +20,4 @@ Other possible functionalities of the service include tracking courier performan
 - [Delivery of the order to the customer](../processes/courier/deliverorder.md)
 - [Delivery from store to warehouse](../processes/courier/store2wh.md)
 - [Update the delivery status](../processes/courier/updatedeliverystatus.md)
-- Notify about an incident
+- [Notify about an incident](../processes/courier/reportincident.md)

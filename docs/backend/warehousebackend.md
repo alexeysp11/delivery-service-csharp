@@ -14,6 +14,7 @@ Other possible functionalities of the service include generating inventory repor
 - [Calculate products](../processes/warehouse/calculateproducts.md)
 - [Tracking expiration dates of products](../processes/warehouse/trackexpirationdate.ru.md)
 - [From WH to kitchen](../processes/warehouse/fromwhtokitchen.md)
+- [From kitchen to warehouse](../processes/warehouse/fromkitchentowh.md)
 - [Deliver from store to warehouse](../processes/courier/store2wh.md)
 - [Notify about changes in product quantity](../processes/warehouse/notifyproductqtychanges.md)
 - [Notify about an incident](../processes/warehouse/reportincident.md)

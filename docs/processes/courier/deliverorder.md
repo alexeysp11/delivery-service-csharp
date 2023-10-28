@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](courier.deliverorder.md), [Russian/Русский](courier.deliverorder.ru.md). 
 
-Courier client application: deliver order
+Courier client application: deliver order.
 
 The description of the **client application** is presented at [this link](../../frontend/courierclient.md).
 
