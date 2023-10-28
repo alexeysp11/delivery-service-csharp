@@ -1,6 +1,6 @@
 # courierclient
 
-Доступно на других языках: [English/Английский](courier.md), [Russian/Русский](courier.ru.md). 
+Доступно на других языках: [English/Английский](courierclient.md), [Russian/Русский](courierclient.ru.md). 
 
 `courierclient` — это клиентское приложение, которое используется водителями-курьерами для управления маршрутами и доставками.
 

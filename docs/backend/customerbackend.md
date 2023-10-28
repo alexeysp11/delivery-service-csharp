@@ -35,4 +35,4 @@ The description of the **client application** is presented at [this link](../fro
 - [Pending orders](../processes/customer/pendingorders.md): order status tracking
 - [Cancel order](../processes/customer/cancelorder.md)
 - [Rate an order](../processes/customer/rateorder.md)
-- Receiving notifications
+- [Receiving notifications](../processes/customer/pushnotifications.md)

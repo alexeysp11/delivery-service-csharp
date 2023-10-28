@@ -1,6 +1,6 @@
 # courier.deliverorder
 
-Read this in other languages: [English](courier.deliverorder.md), [Russian/Русский](courier.deliverorder.ru.md). 
+Read this in other languages: [English](deliverorder.md), [Russian/Русский](deliverorder.ru.md). 
 
 Courier client application: deliver order.
 

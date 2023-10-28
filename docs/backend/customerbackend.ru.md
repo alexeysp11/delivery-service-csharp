@@ -33,9 +33,9 @@
 - [Предварительная обработка заказа](../processes/customer/preprocessorder.ru.md)
 - [Все заказы](../processes/customer/orders.ru.md): отображение информации/статистики по предыдущим заказам в виде списков и дашбордов
 - [Текущие заказы](../processes/customer/pendingorders.ru.md): отслеживание статуса заказа
-- [Отменить заказ](../processes/customer/cancelorder.md)
-- [Оценить заказ](../processes/customer/rateorder.md)
-- Получение пуш-уведомлений
+- [Отменить заказ](../processes/customer/cancelorder.ru.md)
+- [Оценить заказ](../processes/customer/rateorder.ru.md)
+- [Получение пуш-уведомлений](../processes/customer/pushnotifications.ru.md)
 
 <!--
 ## Методы для обработки сетевых запросов 

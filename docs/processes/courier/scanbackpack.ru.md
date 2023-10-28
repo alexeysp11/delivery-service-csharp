@@ -1,6 +1,6 @@
 # courier.scanbackpack
 
-Доступно на других языках: [English/Английский](courier.scanbackpack.md), [Russian/Русский](courier.scanbackpack.ru.md). 
+Доступно на других языках: [English/Английский](scanbackpack.md), [Russian/Русский](scanbackpack.ru.md). 
 
 Клиенсткое приложение для курьера: отсканировать QR-код на рюкзаке 
 

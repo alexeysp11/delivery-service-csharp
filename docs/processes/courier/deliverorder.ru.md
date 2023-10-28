@@ -1,6 +1,6 @@
 # courier.deliverorder
 
-Доступно на других языках: [English/Английский](courier.deliverorder.md), [Russian/Русский](courier.deliverorder.ru.md). 
+Доступно на других языках: [English/Английский](deliverorder.md), [Russian/Русский](deliverorder.ru.md). 
 
 Клиентское приложение для курьера: доставка заказа потребителю.
 

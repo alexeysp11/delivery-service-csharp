@@ -7,3 +7,4 @@ Read this in other languages: [English](adminbackend.md), [Russian/Русски�
 ## Processes 
 
 - [Sign in](../processes/customer/signin.md)
+- [Ping services](../processes/admin/pingservices.md)

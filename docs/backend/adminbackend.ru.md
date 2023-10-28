@@ -7,3 +7,4 @@
 ## Процессы 
 
 - [Вход](../processes/customer/signin.ru.md)
+- [Пинговать сервисы](../processes/admin/pingservices.ru.md)
