@@ -8,7 +8,7 @@
 
 ## Описание процесса
 
-![placeing_order_overall](../../img/placeing_order_overall.png)
+![placing_order_overall](../../img/placing_order_overall.png)
 
 ### Пошаговое выполнение
 
