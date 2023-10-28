@@ -5,6 +5,7 @@ Read this in other languages: [English](orders.md), [Russian/Русский](ord
 Customer client application: orders.
 
 The overall description of the scenario for viewing order history in the customer backend service is that it allows customers to access a record of their past orders, including details such as order date, items ordered, delivery location, and total cost. 
+
 The interactive steps within the scenario include selecting the order history tab, browsing past orders, and viewing order details.
 
 Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).

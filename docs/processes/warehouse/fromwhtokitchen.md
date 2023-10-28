@@ -9,6 +9,7 @@ Related modules: [client application](../../frontend/warehouseclient.md), [backe
 ## Process description
 
 The overall description of the scenario for delivery from the warehouse to the kitchen in the warehouse backend service is that it allows warehouse staff to manage the flow of products from storage to production. 
+
 The interactive steps within the scenario include receiving delivery requests from the kitchen, selecting products for delivery, preparing products for transport, and updating delivery status.
 
 ### Step-by-step execution

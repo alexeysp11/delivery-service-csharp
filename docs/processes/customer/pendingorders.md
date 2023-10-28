@@ -5,6 +5,7 @@ Read this in other languages: [English](pendingorders.md), [Russian/Русски
 Customer client application: pending orders.
 
 The overall description of the scenario for tracking an order in the customer backend service is that it allows customers to monitor the progress of their order from processing to delivery. 
+
 The interactive steps within the scenario include viewing order status updates in real-time, tracking the courier's location on a map, and receiving notifications when the order is out for delivery or has been delivered.
 
 Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).

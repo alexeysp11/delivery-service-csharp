@@ -9,6 +9,7 @@ Related modules: [client application](../../frontend/warehouseclient.md), [backe
 ## Process description
 
 The overall description of the scenario for notifying about changes in product quantity in the warehouse backend service is that it allows warehouse staff to receive alerts when inventory levels reach a certain threshold or when products are running low. 
+
 The interactive steps within the scenario include setting up notification preferences, receiving alerts, and updating inventory records as needed.
 
 ### Step-by-step execution
