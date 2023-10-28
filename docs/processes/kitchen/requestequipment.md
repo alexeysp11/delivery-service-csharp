@@ -14,5 +14,5 @@ Related modules: [client application](../../frontend/kitchenclient.md), [backend
 - The employee opens the delivery service app and navigates to the backend service for kitchen.
 - The employee selects the option to request new equipment.
 - The employee fills out a form with details about the broken equipment and submits the request.
-- The request is received by the kitchen manager, who reviews it and approves or denies the request.
+- The request is received by the manager, who reviews it and approves or denies the request.
 - If approved, the manager orders the new equipment and updates the employee on when it will arrive.

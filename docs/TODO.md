@@ -18,6 +18,7 @@
 ## Roadmap for the project 
 
 - Scenarios for client-side apps and backend:
+    - customer,
     - warehouse,
     - courier,
     - kitchen,
