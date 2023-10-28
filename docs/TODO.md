@@ -13,6 +13,7 @@
 - Use [UserAccount](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/UserAccount.md) for [customer backend](backend/customerbackend.md) and [client-side customer app](frontend/customerclient.md).
 - Add the [delivery_customer_tmp_cb](dbtables/customer/delivery_customer_tmp_cb.md) table.
 - Edit [delivery_whproduct_whb](dbtables/warehouse/delivery_whproduct_whb.md).
+- Add SKU and ASN classes for the [warehousebackend](backend/warehousebackend.md) service.
 
 ## Roadmap for the project 
 

@@ -6,15 +6,15 @@ Read this in other languages: [English](warehousebackend.md), [Russian/Русс�
 
 The warehouse backend service for delivery service app allows warehouse staff to sign in to their account, calculate product quantities, manage the inventory of products needed for food preparation, manage deliveries from the warehouse to the kitchen, receive notifications about changes in product quantity, and report incidents that occur in the warehouse.
 
-Other possible functionalities of the service include generating inventory reports, tracking product expiration dates, and managing supplier relationships.
+Other possible functionalities of the service include generating inventory reports, and tracking product expiration dates.
 
 ## Processes 
 
 - [Sign in](../processes/customer/signin.md)
 - [Calculate products](../processes/warehouse/calculateproducts.md)
-- Track product expiration dates
+- [Tracking expiration dates of products](../processes/warehouse/trackexpirationdate.ru.md)
 - [From WH to kitchen](../processes/warehouse/fromwhtokitchen.md)
-- Manage supplier relationships
+- [Deliver from store to warehouse](../processes/courier/store2wh.md)
 - [Notify about changes in product quantity](../processes/warehouse/notifyproductqtychanges.md)
 - [Notify about an incident](../processes/warehouse/reportincident.md)
-- Generate invetory report
+- [Generate invetory report](../processes/warehouse/inventoryreport.md)

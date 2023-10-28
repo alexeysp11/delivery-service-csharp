@@ -2,7 +2,7 @@
 
 Read this in other languages: [English](fromwhtokitchen.md), [Russian/Русский](fromwhtokitchen.ru.md). 
 
-Warehouse client application: Deliver from WH to kitchen
+Warehouse client application: Deliver from WH to kitchen.
 
 Related modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md).
 
