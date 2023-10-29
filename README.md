@@ -2,8 +2,27 @@
 
 Read this in other languages: [English](README.md), [Russian/Русский](README.ru.md). 
 
-A delivery service app is a platform that enables users to order and receive goods. 
+A **delivery service app** is a platform that enables users to order and receive goods. 
 The app typically includes features such as browsing products, selecting delivery options, tracking orders in real-time, and making payments.
+
+## Overall description 
+
+### Goal 
+
+The goals of the delivery service app in general are to provide a convenient and efficient way for customers to order and receive deliveries, while also streamlining the process for businesses and couriers involved in the delivery process.
+
+The goals of the project are to develop a comprehensive delivery service app that meets the needs of all stakeholders involved in the delivery process, including customers, businesses, couriers, and managers. 
+This includes developing client side apps for each user type, as well as backend services to support authentication, files, statistics, prediction, email sending, and push notifications.
+
+### Scope 
+
+The scope of the project includes developing a full-stack delivery service app that can handle all aspects of the delivery process, from customer orders to courier deliveries. 
+This includes developing client side apps for six different user types, as well as backend services to support authentication, files, statistics, prediction, email sending, and push notifications.
+
+### Who can use this app 
+
+The application is designed to be used by customers, businesses, couriers, and managers involved in the delivery process. 
+Any company that offers delivery services could potentially use this application, including restaurants, grocery stores, retail stores, and other businesses that offer delivery services.
 
 ## System requirements and description
 

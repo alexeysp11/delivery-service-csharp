@@ -4,6 +4,8 @@ Read this in other languages: [English](signin.md), [Russian/Русский](sig
 
 Customer client application: sign in.
 
+The sign in scenario in the customer client side app involves a user entering their login and password to access their account and place orders for delivery.
+
 Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
 
 ## Process description
@@ -13,6 +15,13 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 ![authentication](../../img/authentication.png)
 
 ### Step-by-step execution
+
+- User opens the customer client side app
+- User clicks on the "Sign In" button
+- User enters their login and password
+- App validates the user's credentials
+- If the credentials are valid, the app grants the user access to their account and displays their order history and other relevant information
+- If the credentials are invalid, the app displays an error message and prompts the user to try again or reset their password
 
 ![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)
 

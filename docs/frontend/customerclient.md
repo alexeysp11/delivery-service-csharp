@@ -37,5 +37,5 @@ A description of the main backend service for this application is presented at [
 - [Pending orders](../processes/customer/pendingorders.md): order status tracking
 - [Settings](../processes/customer/settings.md)
 - [Cancel order](../processes/customer/cancelorder.md)
-- Receiving notifications
-- Watching videos
+- [Receiving notifications](../processes/customer/pushnotifications.md)
+- [Watching videos](../processes/customer/watchingvideos.md)

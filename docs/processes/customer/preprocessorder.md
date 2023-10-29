@@ -4,6 +4,8 @@ Read this in other languages: [English](preprocessorder.md), [Russian/Русск
 
 Backend of the customer application: preprocess order.
 
+Related modules: [backend service](../../backend/customerbackend.md).
+
 ## Process description
 
 - The [Delivery Service Application](../../../README.ru.md) includes a script that pre-processes the order before sending it to the kitchen for preparation.

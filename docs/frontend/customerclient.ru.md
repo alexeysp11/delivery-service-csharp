@@ -37,5 +37,5 @@
 - [Текущие заказы](../processes/customer/pendingorders.ru.md): отслеживание статуса заказа
 - [Отменить заказ](../processes/customer/cancelorder.md)
 - [Настройки](../processes/customer/settings.ru.md)
-- Получение пуш-уведомлений
-- Просмотр видео
+- [Получение пуш-уведомлений](../processes/customer/pushnotifications.ru.md)
+- [Просмотр видео](../processes/customer/watchingvideos.ru.md)
