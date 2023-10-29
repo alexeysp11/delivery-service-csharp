@@ -13,3 +13,5 @@ The description of the **client application** is presented at [this link](../fro
 
 - [Sign in](../processes/auth/signin.md)
 - [Ping services](../processes/admin/pingservices.md)
+- [Manage permissions](../processes/admin/managepermissions.md)
+- [Manage access levels](../processes/admin/manageaccesslevels.md)

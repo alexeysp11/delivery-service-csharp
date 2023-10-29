@@ -2,7 +2,9 @@
 
 Read this in other languages: [English](store2wh.md), [Russian/Русский](store2wh.ru.md). 
 
-Courier client application: deliver order from store to WH
+Courier client application: deliver order from store to WH.
+
+The scenario responsible for delivering products from store to warehouse by couriers involves receiving requests for specific products from warehouse employees, locating those products in the store, packaging them for transport, and delivering them to the warehouse in a timely manner.
 
 Related modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md).
 

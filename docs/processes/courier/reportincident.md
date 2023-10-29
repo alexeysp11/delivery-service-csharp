@@ -2,7 +2,10 @@
 
 Read this in other languages: [English](reportincident.md), [Russian/Русский](reportincident.ru.md). 
 
-Courier client application: deliver order.
+Courier client application: report incident.
+
+The scenario responsible for reporting an incident by couriers involves providing a mechanism for couriers to report safety hazards, accidents, or other incidents that occur while making deliveries. 
+This could be done through a mobile app or web interface that allows couriers to submit incident reports with relevant details.
 
 Related modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md).
 
