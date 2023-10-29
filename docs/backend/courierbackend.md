@@ -8,6 +8,8 @@ The overall description of the [courier backend service](courierbackend.md) is t
 
 Other possible functionalities of the service include tracking courier performance metrics, managing courier schedules, scanning the QR code on the order, navigating to the delivery location, updating the delivery status in the app, and providing training resources for new couriers.
 
+The description of the **client application** is presented at [this link](../frontend/courierclient.md).
+
 ## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)

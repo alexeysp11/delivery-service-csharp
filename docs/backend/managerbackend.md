@@ -11,6 +11,8 @@ The service also provides analytics and reporting capabilities to help managers 
 
 Additionally, it provides analytics and reporting capabilities to help managers optimize inventory management and improve delivery efficiency.
 
+The description of the **client application** is presented at [this link](../frontend/managerclient.md).
+
 ## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)
@@ -26,4 +28,4 @@ Additionally, it provides analytics and reporting capabilities to help managers 
 - [Generate business report](../processes/manager/businessreport.md)
 - [Notify employees](../processes/manager/notifyemployees.md)
 - [Change planned inventories](../processes/manager/inventorylevels.md)
-- [Optimize delivery](../processes/manager/optimizeddelivery.md)
+- [Optimize delivery](../processes/manager/optimizedelivery.md)

@@ -8,11 +8,17 @@ The warehouse backend service for delivery service app allows warehouse staff to
 
 Other possible functionalities of the service include generating inventory reports, and tracking product expiration dates.
 
+The description of the **client application** is presented at [this link](../frontend/warehouseclient.md).
+
+## Overall description of the system 
+
+![system_overall](../img/system_overall.png)
+
 ## Processes 
 
 - [Sign in](../processes/auth/signin.md)
 - [Calculate products](../processes/warehouse/calculateproducts.md)
-- [Tracking expiration dates of products](../processes/warehouse/trackexpirationdate.ru.md)
+- [Tracking expiration dates of products](../processes/warehouse/trackexpirationdate.md)
 - [From WH to kitchen](../processes/warehouse/fromwhtokitchen.md)
 - [From kitchen to warehouse](../processes/warehouse/fromkitchentowh.md)
 - [Deliver from store to warehouse](../processes/courier/store2wh.md)
