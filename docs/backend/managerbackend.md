@@ -17,7 +17,7 @@ Additionally, it provides analytics and reporting capabilities to help managers 
 
 ## Processes 
 
-- [Sign in](../processes/customer/signin.md)
+- [Sign in](../processes/auth/signin.md)
 - [Start employee search](../processes/manager/startemployeesearch.md)
 - [Termination of employment](../processes/manager/terminationofemployment.md)
 - [Manage relationships with suppliers](../processes/manager/supplierrelationships.md)

@@ -4,6 +4,8 @@ Read this in other languages: [English](kitchenclient.md), [Russian/Русски
 
 `kitchenclient` is a client-side application that is used by restaurant staff to manage food preparation and order fulfillment.
 
+A description of the main backend service for this application is presented at [this link](../backend/kitchenbackend.md).
+
 ## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)
@@ -12,4 +14,4 @@ Read this in other languages: [English](kitchenclient.md), [Russian/Русски
 
 ## Processes 
 
-- [Sign in](../processes/customer/signin.md)
+- [Sign in](../processes/auth/signin.md)

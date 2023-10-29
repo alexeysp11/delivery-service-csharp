@@ -1,4 +1,4 @@
-# warehouse.fromwhtokitchen
+# fromwhtokitchen
 
 Read this in other languages: [English](fromwhtokitchen.md), [Russian/Русский](fromwhtokitchen.ru.md). 
 

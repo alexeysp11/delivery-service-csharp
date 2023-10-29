@@ -9,7 +9,7 @@
 - Add recepes into DB for customer app.
 - Add overall description of warehouse, kitchen and courier apps/backend services.
 - Add algorithms to handle exceptions to the diagrams.
-- Probably, it's better to move [signin](processes/customer/signin.md) and [signup](processes/customer/signup.md) into the folder that stores data for authentication service.
+- Probably, it's better to move [signin](processes/auth/signin.md) and [signup](processes/customer/signup.md) into the folder that stores data for authentication service.
 - Use [UserAccount](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/UserAccount.md) for [customer backend](backend/customerbackend.md) and [client-side customer app](frontend/customerclient.md).
 - Add the [delivery_customer_tmp_cb](dbtables/customer/delivery_customer_tmp_cb.md) table.
 - Edit [delivery_whproduct_whb](dbtables/warehouse/delivery_whproduct_whb.md).

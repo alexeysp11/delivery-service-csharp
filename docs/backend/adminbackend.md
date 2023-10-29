@@ -6,5 +6,5 @@ Read this in other languages: [English](adminbackend.md), [Russian/Русски�
 
 ## Processes 
 
-- [Sign in](../processes/customer/signin.md)
+- [Sign in](../processes/auth/signin.md)
 - [Ping services](../processes/admin/pingservices.md)

@@ -10,7 +10,7 @@ Other possible functionalities of the service include generating inventory repor
 
 ## Processes 
 
-- [Sign in](../processes/customer/signin.md)
+- [Sign in](../processes/auth/signin.md)
 - [Calculate products](../processes/warehouse/calculateproducts.md)
 - [Tracking expiration dates of products](../processes/warehouse/trackexpirationdate.ru.md)
 - [From WH to kitchen](../processes/warehouse/fromwhtokitchen.md)

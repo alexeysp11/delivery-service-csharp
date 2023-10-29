@@ -1,4 +1,4 @@
-# warehouse.fromwhtokitchen
+# fromwhtokitchen
 
 Доступно на других языках: [English/Английский](fromwhtokitchen.md), [Russian/Русский](fromwhtokitchen.ru.md). 
 

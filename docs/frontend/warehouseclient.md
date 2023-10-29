@@ -12,6 +12,6 @@ Read this in other languages: [English](warehouseclient.md), [Russian/Русск
 
 ## Processes 
 
-- [Sign in](../processes/customer/signin.md)
+- [Sign in](../processes/auth/signin.md)
 - [Calculate products](../processes/warehouse/calculateproducts.md)
 - [From WH to kitchen](../processes/warehouse/fromwhtokitchen.md)

@@ -1,12 +1,12 @@
-# customer.signin
+# signin
 
 Read this in other languages: [English](signin.md), [Russian/Русский](signin.ru.md). 
 
-Customer client application: sign in.
+Client application: sign in.
 
 The sign in scenario in the customer client side app involves a user entering their login and password to access their account and place orders for delivery.
 
-Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
+Related modules: [backend service](../../backend/authbackend.md).
 
 ## Process description
 

@@ -4,8 +4,6 @@
 
 `authbackend` — бэкенд сервис, отвечающий за управление входом и аутентификацией пользователей.
 
-## Требования к сервису и его описание 
-
 ## Общая модель системы
 
 ![system_overall](../img/system_overall.png)
@@ -31,3 +29,8 @@
 ### Вход в приложение 
 
 ![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)
+
+## Процессы 
+
+- [Вход](../processes/auth/signin.ru.md)
+- [Регистрация](../processes/customer/signup.ru.md)

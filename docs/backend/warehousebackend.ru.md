@@ -10,7 +10,7 @@
 
 ## Процессы 
 
-- [Вход](../processes/customer/signin.ru.md)
+- [Вход](../processes/auth/signin.ru.md)
 - [Рассчитать продукцию](../processes/warehouse/calculateproducts.ru.md)
 - [Отслеживание сроков годности продукции](../processes/warehouse/trackexpirationdate.ru.md)
 - [От WH до кухни](../processes/warehouse/fromwhtokitchen.ru.md)

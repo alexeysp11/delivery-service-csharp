@@ -4,8 +4,6 @@ Read this in other languages: [English](authbackend.md), [Russian/Русский
 
 `authbackend` - backend service that is responsible for managing user login and authentication.
 
-## Service requirements and description
-
 ### Overall description of the system
 
 ![system_overall](../img/system_overall.png)
@@ -31,3 +29,8 @@ An example of integration of the **authentication service** [workflow-auth](http
 ### Sign in
 
 ![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)
+
+## Processes 
+
+- [Sign in](../processes/auth/signin.md)
+- [Sign up](../processes/customer/signup.md)

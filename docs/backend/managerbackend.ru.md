@@ -19,7 +19,7 @@
 
 ## Процессы 
 
-- [Вход](../processes/customer/signin.ru.md)
+- [Вход](../processes/auth/signin.ru.md)
 - [Начать поиск сотрудника](../processes/manager/startemployeesearch.ru.md)
 - [Прекращение трудоустройства](../processes/manager/terminationofemployment.ru.md)
 - [Управлять взаимоотношениями с поставщиками](../processes/manager/supplierrelationships.ru.md)

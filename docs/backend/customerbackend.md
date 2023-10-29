@@ -26,7 +26,7 @@ The description of the **client application** is presented at [this link](../fro
 
 ## Processes
 
-- [Sign in](../processes/customer/signin.md)
+- [Sign in](../processes/auth/signin.md)
 - [Sign up](../processes/customer/signup.md)
 - [Placing order](../processes/customer/makeorder.md)
 - [Make a payment](../processes/customer/makepayment.md)

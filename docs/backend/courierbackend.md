@@ -14,7 +14,7 @@ Other possible functionalities of the service include tracking courier performan
 
 ## Processes 
 
-- [Sign in](../processes/customer/signin.md)
+- [Sign in](../processes/auth/signin.md)
 - [Scan the QR code on the order](../processes/courier/scanqronorder.md)
 - [Scan the QR code on the backpack](../processes/courier/scanbackpack.md) (to mark the start/end of work)
 - [Delivery of the order to the customer](../processes/courier/deliverorder.md)

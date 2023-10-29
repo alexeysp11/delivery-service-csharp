@@ -28,7 +28,7 @@
 
 ## Процессы
 
-- [Вход](../processes/customer/signin.ru.md)
+- [Вход](../processes/auth/signin.ru.md)
 - [Регистрация](../processes/customer/signup.ru.md)
 - [Аккаунт пользователя](../processes/customer/useraccount.ru.md)
 - [Оформление заказа](../processes/customer/makeorder.ru.md)

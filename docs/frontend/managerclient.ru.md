@@ -19,4 +19,4 @@
 
 ## Процессы 
 
-- [Вход](../processes/customer/signin.ru.md)
+- [Вход](../processes/auth/signin.ru.md)

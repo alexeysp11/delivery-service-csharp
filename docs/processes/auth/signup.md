@@ -1,12 +1,12 @@
-# customer.signup
+# signup
 
 Read this in other languages: [English](signup.md), [Russian/Русский](signup.ru.md). 
 
-Customer client application: sign up.
+Client application: sign up.
 
 The sign up scenario in the customer client side app involves a user creating a new account by providing their personal information, such as login, email address, and password.
 
-Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
+Related modules: [backend service](../../backend/authbackend.md).
 
 ## Process description
 

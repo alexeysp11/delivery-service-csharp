@@ -21,7 +21,7 @@
 
 ## Процессы 
 
-- [Вход](../processes/customer/signin.ru.md)
+- [Вход](../processes/auth/signin.ru.md)
 - [Отсканировать QR-код заказа](../processes/courier/scanqronorder.ru.md)
 - [Отсканировать QR-код на рюкзаке](../processes/courier/scanbackpack.ru.md) (для отметки начала/конца работы)
 - [Доставка заказа потребителю](../processes/courier/deliverorder.ru.md)

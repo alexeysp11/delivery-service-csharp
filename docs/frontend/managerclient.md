@@ -12,4 +12,4 @@ Read this in other languages: [English](managerclient.md), [Russian/Русски
 
 ## Processes 
 
-- [Sign in](../processes/customer/signin.md)
+- [Sign in](../processes/auth/signin.md)
