@@ -4,6 +4,8 @@ Read this in other languages: [English](signup.md), [Russian/Русский](sig
 
 Customer client application: sign up.
 
+The sign up scenario in the customer client side app involves a user creating a new account by providing their personal information, such as login, email address, and password.
+
 Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
 
 ## Process description
@@ -13,6 +15,13 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 ![authentication](../../img/authentication.png)
 
 ### Step-by-step execution
+
+- User opens the customer client side app
+- User clicks on the "Sign Up" button
+- User enters their personal information, such as name, email address, and password
+- App validates the user's information and checks if the email address is already registered
+- If the information is valid and the email address is not already registered, the app creates a new account for the user and grants them access to the app's features and functionality
+- If there are any errors or issues with the user's information, the app displays an error message and prompts the user to correct their information before proceeding.
 
 ![flowchart-signup](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signup.png)
 
