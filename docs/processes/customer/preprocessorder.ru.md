@@ -1,8 +1,11 @@
-# customerbackend.preprocessorder
+# preprocessorder
 
 Доступно на других языках: [English/Английский](preprocessorder.md), [Russian/Русский](preprocessorder.ru.md). 
 
 Бэкенд сервис приложения для потребителей: предварительная обработка заказа.
+
+Сценарий предобработки заказа в приложении службы доставки предполагает получение рецептов из базы данных, расчет необходимого и фактического количества ингредиентов, асинхронный вызов процессов доставки ингредиентов на кухню или продукции из магазина на склад.
+На основе этих расчетов приложение определяет примерное время доставки заказа.
 
 Связанные модули: [бэкэнд-сервис](../../backend/customerbackend.md).
 
@@ -12,7 +15,7 @@
 - Выполняется автоматически в рамках процесса [makeorder](makeorder.ru.md).
 - Задействованые бэкенд-сервисы: [customerbackend](../../backend/customerbackend.ru.md) и [warehousebackend](../../backend/warehousebackend.ru.md).
 - В БД есть таблицы [delivery_recipe_cb](../../dbtables/customer/delivery_recipe_cb.md), [delivery_ingredient_cb](../../dbtables/customer/delivery_ingredient_cb.md) и [delivery_menuitem_cb](../../dbtables/customer/delivery_menuitem_cb.md), которая содержит рецепты каждого продукта с указанием необходимых исходных продуктов и их количеством/весом/объемом. Рецепты необходимы для того, чтобы на их основе можно было получить количество исходных продуктов, необходимых для выполнения заказа.
-    - Данные из этих таблиц попадают из БД, относящейся к сервису [managerbackend](../../backend/managerbackend.ru.md), с помощью механизма репликации
+    - Данные из этих таблиц попадают из БД, относящейся к сервису [managerbackend](../../backend/managerbackend.ru.md), с помощью механизма репликации.
 - В БД есть таблица [delivery_whproduct_whb](../../dbtables/warehouse/customer/delivery_whproduct_whb.md), в которой хранятся данные по продуктам на складе в текущий момент времени.
 
 ![placing_order_overall](../../img/placing_order_overall.png)

@@ -1,8 +1,11 @@
-# customerbackend.preprocessorder
+# preprocessorder
 
 Read this in other languages: [English](preprocessorder.md), [Russian/Русский](preprocessorder.ru.md). 
 
 Backend of the customer application: preprocess order.
+
+The preprocessing order scenario in the delivery service app involves retrieving recipes from the database, calculating the required and actual amount of ingredients, and asynchronously invoking processes for delivering ingredients to the kitchen or products from the store into the warehouse. 
+Based on these calculations, the app determines the estimated delivery time for the order.
 
 Related modules: [backend service](../../backend/customerbackend.md).
 
@@ -12,7 +15,7 @@ Related modules: [backend service](../../backend/customerbackend.md).
 - Executed automatically as part of the [makeorder](makeorder.ru.md) process.
 - Backend services involved: [customerbackend](../../backend/customerbackend.ru.md) and [warehousebackend](../../backend/warehousebackend.ru.md).
 - The database has tables [delivery_recipe_cb](../../dbtables/customer/delivery_recipe_cb.md), [delivery_ingredient_cb](../../dbtables/customer/delivery_ingredient_cb.md) and [delivery_menuitem_cb](../../dbtables/customer/delivery_menuitem_cb.md), which contains recipes for each product indicating the required starting products and their quantity/weight/volume. Recipes are necessary so that on their basis it is possible to obtain the quantity of initial products required to complete the order.
-     - Data from these tables comes from the database related to the [managerbackend](../../backend/managerbackend.ru.md) service using the replication mechanism
+     - Data from these tables comes from the database related to the [managerbackend](../../backend/managerbackend.ru.md) service using the replication mechanism.
 - The database has a table [delivery_whproduct_whb](../../dbtables/warehouse/customer/delivery_whproduct_whb.md), which stores data on products in the warehouse at the current time.
 
 ![placing_order_overall](../../img/placing_order_overall.png)

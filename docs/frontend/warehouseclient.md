@@ -4,6 +4,8 @@ Read this in other languages: [English](warehouseclient.md), [Russian/Русск
 
 `warehouseclient` is a client-side application that is used by warehouse staff to manage inventory and order fulfillment.
 
+The client-side app used by warehouse employees in the delivery service company allows them to manage inventory levels, fulfill requests from other departments, and track deliveries to and from the warehouse.
+
 A description of the main backend service for this application is presented at [this link](../backend/warehousebackend.md).
 
 ## Overall description of the system 

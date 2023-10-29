@@ -4,6 +4,9 @@ Read this in other languages: [English](settings.md), [Russian/Русский](s
 
 Customer client application: settings.
 
+The personal settings scenario in the customer client app involves allowing users to view and edit their personal information, such as name, email address, and payment methods. 
+The app securely stores this information and allows users to update it as needed.
+
 Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
 
 ## Process description
@@ -28,10 +31,10 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 
 ### Step-by-step execution
 
-![customer.settings](../../img/activitydiagrams/customer.settings.png)
-
 - The user opens "Settings".
 - The user scrolls through the list of settings, selects a category and a specific parameter.
 - At the bottom of the page there is a button "Save changes".
     - Changes get to the services, after the response from the service - to the database.
     - After that, the user is shown on the interface: "Successful" or "An error occurred".
+
+![customer.settings](../../img/activitydiagrams/customer.settings.png)

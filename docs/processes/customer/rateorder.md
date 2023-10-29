@@ -11,3 +11,5 @@ The interactive steps within the scenario include selecting a star rating, writi
 Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
 
 ## Process description
+
+### Step-by-step execution

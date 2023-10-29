@@ -4,6 +4,9 @@ Read this in other languages: [English](authbackend.md), [Russian/Русский
 
 `authbackend` - backend service that is responsible for managing user login and authentication.
 
+The authentication backend service used by client-side apps in the delivery service company is responsible for verifying user identities and granting access to specific features and functions based on their permissions. 
+It uses industry-standard encryption and security protocols to ensure that user data is protected at all times.
+
 ### Overall description of the system
 
 ![system_overall](../img/system_overall.png)

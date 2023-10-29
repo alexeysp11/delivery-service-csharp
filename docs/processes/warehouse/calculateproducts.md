@@ -4,6 +4,9 @@ Read this in other languages: [English](calculateproducts.md), [Russian/Русс
 
 Warehouse client application: calculate products.
 
+The scenario responsible for calculating products stored in the warehouse by warehouse employees in the delivery service company involves using inventory management software to track incoming shipments, outgoing orders, and current stock levels. 
+This allows warehouse employees to accurately calculate how much of each product is available at any given time and make informed decisions about ordering and restocking.
+
 Related modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md).
 
 ## Process description

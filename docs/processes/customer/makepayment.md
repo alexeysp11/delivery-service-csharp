@@ -4,6 +4,9 @@ Read this in other languages: [English](makepayment.md), [Russian/Русский
 
 Customer client application: make a payment.
 
+The payment scenario in the delivery service app involves a user selecting a payment method and providing their payment information to complete the transaction for their order. 
+The app securely processes the payment and provides confirmation of the successful transaction.
+
 Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
 
 ## Process description
@@ -11,6 +14,8 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 - The [customer app](../../frontend/customerclient.md) allows users to make payments for their orders using different payment methods.
 - Responsible for payment of the order.
 - Called within the [makeorder](makeorder.ru.md) process.
+
+![placing_order_overall](../../img/placing_order_overall.png)
 
 ### Step-by-step execution
 
