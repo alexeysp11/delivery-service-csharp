@@ -1,4 +1,4 @@
-# courier.deliverorder
+# deliverorder
 
 Доступно на других языках: [English/Английский](deliverorder.md), [Russian/Русский](deliverorder.ru.md). 
 

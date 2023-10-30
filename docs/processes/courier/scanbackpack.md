@@ -1,4 +1,4 @@
-# courier.scanbackpack
+# scanbackpack
 
 Read this in other languages: [English](scanbackpack.md), [Russian/Русский](scanbackpack.ru.md). 
 

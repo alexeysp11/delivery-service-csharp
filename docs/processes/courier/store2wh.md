@@ -1,4 +1,4 @@
-# courier.store2wh
+# store2wh
 
 Read this in other languages: [English](store2wh.md), [Russian/Русский](store2wh.ru.md). 
 
