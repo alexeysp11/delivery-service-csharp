@@ -11,3 +11,9 @@ Related modules: [client application](../../frontend/warehouseclient.md), [backe
 ## Process description
 
 ### Step-by-step execution
+
+- Warehouse employee opens the app.
+- The employee selects the inventory they need to restock.
+- The system checks if the inventory is available in the kitchen.
+- If it is available, the system sends a notification to the kitchen employee to prepare it for delivery.
+- When the inventory is ready, the kitchen employee delivers it to the warehouse.

@@ -20,7 +20,7 @@ Related modules: [backend service](../../backend/customerbackend.md).
 
 ![placing_order_overall](../../img/placing_order_overall.png)
 
-## Step-by-step execution
+### Step-by-step execution
 
 - The service receives a request including order parameters that were specified by the client (the order is represented as an object [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)).
 - If the **quantity** in the warehouse is **not enough**, then the process [Deliver from store to warehouse](../courier/store2wh.md) is started asynchronously, and a response is sent to the service that called this process.

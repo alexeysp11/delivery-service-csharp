@@ -13,4 +13,15 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 - From the receiver POV, the app receives and displays the notification on their device, providing relevant information about their order status or other updates.
 - From the sender POV, the app sends notifications to users based on their order status or other relevant updates, using SignalR to ensure that notifications are delivered in real-time.
 
-## Step-by-step execution
+### Step-by-step execution
+
+- Getting push notifications from receiver POV:
+    - Receiver opens the app.
+    - The app establishes a connection with the SignalR server.
+    - The server sends push notifications to the app.
+    - The app displays the notifications to the user.
+- Getting push notifications from sender POV:
+    - Sender opens the app.
+    - The app establishes a connection with the SignalR server.
+    - The sender sends a push notification to the server.
+    - The server sends the notification to the receivers who are subscribed to that event.

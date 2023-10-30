@@ -11,3 +11,9 @@ Related modules: [client application](../../frontend/adminclient.md), [backend s
 ## Process description
 
 ### Step-by-step execution
+
+- Admin opens the app.
+- Admin selects "Access Levels" option.
+- The system displays a list of employees and their current access levels.
+- The manager selects an employee and updates their access level.
+- The system updates the employee's access level in the database.

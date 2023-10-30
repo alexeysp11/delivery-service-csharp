@@ -12,3 +12,9 @@ Related modules: [client application](../../frontend/warehouseclient.md), [backe
 ## Process description
 
 ### Step-by-step execution
+
+- Warehouse employee opens the app.
+- The employee selects the product they want to track.
+- The system checks the inventory database for that product.
+- The system displays the expiration date of the product to the employee.
+- If the product is expired, the system sends a notification to the restaurant manager to dispose of it.

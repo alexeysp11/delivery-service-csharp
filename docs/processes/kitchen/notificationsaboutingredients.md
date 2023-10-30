@@ -12,3 +12,8 @@ Related modules: [client application](../../frontend/kitchenclient.md), [backend
 ## Process description
 
 ### Step-by-step execution
+
+- Kitchen employee opens the app.
+- The system checks the delivery order and identifies the necessary ingredients.
+- If the ingredients are not available in the kitchen, the system sends a notification to the warehouse to deliver them.
+- When the ingredients are delivered, the system sends a notification to the kitchen employee.

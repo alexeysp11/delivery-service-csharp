@@ -18,5 +18,8 @@ The interactive steps within the scenario include setting up notification prefer
 ### Step-by-step execution
 
 - Set up notification preferences, such as choosing which products to receive alerts for and how often to receive them
-- Receive alerts when inventory levels reach a certain threshold or when products are running low
-- Update inventory records as needed, such as ordering more products or adjusting storage locations
+- The system monitors the inventory database for any changes in product quantity.
+- If a change is detected, the system sends a notification to the warehouse employee responsible for that product.
+- The warehouse employee receives the notification and updates the inventory database accordingly.
+    - Receive alerts when inventory levels reach a certain threshold or when products are running low
+    - Update inventory records as needed, such as ordering more products or adjusting storage locations

@@ -12,4 +12,10 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 
 - Interacts with the [file service](../../backend/fileservice.md).
 
-## Step-by-step execution
+### Step-by-step execution
+
+- User selects a video to watch.
+- The system checks if the video is available in the backend service.
+- If the video is available, the system streams it to the user's device.
+- If the video is not available in the backend service, the system retrieves it from YouTube.
+- The system streams the video from YouTube to the user's device.

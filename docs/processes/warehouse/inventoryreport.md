@@ -12,3 +12,8 @@ Related modules: [client application](../../frontend/warehouseclient.md), [backe
 ## Process description
 
 ### Step-by-step execution
+
+- Warehouse employee opens the app.
+- Employee selects "Inventory Report" option.
+- The system retrieves the inventory data from the database.
+- The system displays the inventory report to the employee.

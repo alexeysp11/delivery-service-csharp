@@ -14,3 +14,8 @@ Related modules: [client application](../../frontend/managerclient.md), [backend
 ## Process description
 
 ### Step-by-step execution
+
+- Manager opens the app.
+- Manager selects "Business Report" option.
+- The system retrieves the business data from the database.
+- The system generates a report and displays it to the manager.

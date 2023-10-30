@@ -11,3 +11,9 @@ Related modules: [client application](../../frontend/adminclient.md), [backend s
 ## Process description
 
 ### Step-by-step execution
+
+- Admin opens the app.
+- Admin selects "Manage Permissions" option.
+- The system displays a list of employees and their current permissions.
+- The admin selects an employee and updates their permissions.
+- The system updates the employee's permissions in the database.

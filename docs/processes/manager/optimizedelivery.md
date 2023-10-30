@@ -14,9 +14,13 @@ Methods for optimizing delivery process could include using data analytics to id
 
 ### Step-by-step execution
 
-- The manager opens the delivery service app and navigates to the backend service for managers.
+- Manager opens the app.
+- Manager selects "Optimize Delivery Process" option.
 - The manager selects the option to optimize delivery process.
 - The app displays real-time data on delivery times, driver routes, and order volume.
+- The system analyzes delivery data and identifies areas for improvement.
+- The system provides recommendations for improving delivery process.
+- The manager reviews the recommendations and takes appropriate action.
 - The manager can use this data to identify bottlenecks or inefficiencies in the delivery process.
 - The manager can adjust driver schedules or routes to improve delivery times.
 - The manager can also use data to forecast demand and adjust staffing levels accordingly.

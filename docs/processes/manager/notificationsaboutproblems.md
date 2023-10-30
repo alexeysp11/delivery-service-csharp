@@ -11,3 +11,7 @@ Related modules: [client application](../../frontend/managerclient.md), [backend
 ## Process description
 
 ### Step-by-step execution
+
+- Manager opens the app.
+- Manager receives notifications about incidents reported by employees.
+- Manager reviews the incident report and takes appropriate action.

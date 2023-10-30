@@ -17,6 +17,12 @@ The interactive steps within the scenario include selecting the type of incident
 
 ### Step-by-step execution
 
-- Select the type of incident that occurred (accident, accident, equipment malfunction, product damage, theft, or other).
-- Provide a text description of what happened.
-- Submit the incident report to notify management and other staff of the incident.
+- Warehouse employee opens the app.
+- Employee selects "Report Incident" option.
+- The system prompts the employee to provide details about the incident.
+- The employee provides details about the incident.
+    - Select the type of incident that occurred (accident, accident, equipment malfunction, product damage, theft, or other).
+    - Provide a text description of what happened.
+    - Submit the incident report to notify management and other staff of the incident.
+- The system stores the incident report in the database.
+- The system sends a notification to the manager about the incident.

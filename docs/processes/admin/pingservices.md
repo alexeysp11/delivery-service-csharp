@@ -11,3 +11,8 @@ Related modules: [client application](../../frontend/adminclient.md), [backend s
 ## Process description
 
 ### Step-by-step execution
+
+- Admin opens the app.
+- Admin selects "Ping Services" option.
+- The system pings all services to ensure they are running properly.
+- The system displays the results of the ping to the admin.
