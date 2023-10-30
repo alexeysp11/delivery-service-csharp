@@ -1,4 +1,4 @@
-# customer.makeorder
+# makeorder
 
 Доступно на других языках: [English/Английский](makeorder.md), [Russian/Русский](makeorder.ru.md). 
 

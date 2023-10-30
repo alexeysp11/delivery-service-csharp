@@ -1,4 +1,4 @@
-# customer.orders
+# orders
 
 Доступно на других языках: [English/Английский](orders.md), [Russian/Русский](orders.ru.md). 
 

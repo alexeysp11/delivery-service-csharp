@@ -1,4 +1,4 @@
-# customer.cancelorder
+# cancelorder
 
 Доступно на других языках: [English/Английский](cancelorder.md), [Russian/Русский](cancelorder.ru.md). 
 

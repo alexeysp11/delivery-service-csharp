@@ -1,4 +1,4 @@
-# customer.cancelorder
+# cancelorder
 
 Read this in other languages: [English](cancelorder.md), [Russian/Русский](cancelorder.ru.md). 
 

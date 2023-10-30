@@ -1,4 +1,4 @@
-# customer.pendingorders
+# pendingorders
 
 Read this in other languages: [English](pendingorders.md), [Russian/Русский](pendingorders.ru.md). 
 

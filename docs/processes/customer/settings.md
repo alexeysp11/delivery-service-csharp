@@ -1,4 +1,4 @@
-# customer.settings 
+# settings 
 
 Read this in other languages: [English](settings.md), [Russian/Русский](settings.ru.md). 
 
@@ -11,28 +11,30 @@ Related modules: [client application](../../frontend/customerclient.md), [backen
 
 ## Process description
 
-- Settings and personal data page:
-    - Personal information:
-        - login,
-    - Communication:
-        - email,
-        - telephone,
-        - connected messengers: WhatsApp, Viber, Telegram,
-        - nickname in Telegram,
-        - preferred method of communication: e-mail, phone, one of the messengers,
-    - Payment:
-        - preferred payment method,
-        - linked cards.
-    - Usability:
-        - default delivery location,
-        - file extension for loading by default (*maybe this parameter is not needed*).
-    - Safety:
-        - password.
+Settings and personal data page:
+- Personal information:
+    - login (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](useraccount.md)),
+    - email (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](useraccount.md)),
+    - telephone (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](useraccount.md)),
+    - connected messengers: WhatsApp, Viber, Telegram,
+    - nickname in Telegram,
+    - preferred method of communication: e-mail, phone, one of the messengers,
+- Payment:
+    - preferred payment method,
+    - linked cards.
+- Usability:
+    - default delivery location,
+    - file extension for loading by default.
+- Safety:
+    - password (this parameter is empty by default).
+
+You can also go to [user account](useraccount.md) to see some personal settings.
 
 ### Step-by-step execution
 
 - The user opens "Settings".
-- The user scrolls through the list of settings, selects a category and a specific parameter.
+- Some parameters are loaded from the [user account](useraccount.md) page, and some paraters are loaded from the database or [backend service](../../backend/customerbackend.md).
+- The user changes settings.
 - At the bottom of the page there is a button "Save changes".
     - Changes get to the services, after the response from the service - to the database.
     - After that, the user is shown on the interface: "Successful" or "An error occurred".
