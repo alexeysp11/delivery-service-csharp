@@ -11,6 +11,8 @@ Related modules: [client application](../../frontend/managerclient.md), [backend
 
 ## Process description
 
+- External services that could be used for getting information about potential candidates when searching for a new employee by manager in the delivery service company include job posting websites (e.g. Indeed, Glassdoor), recruiting agencies, and professional networking sites (e.g. LinkedIn).
+
 ### Step-by-step execution
 
 - The manager opens the delivery service app and navigates to the backend service for managers.
@@ -19,3 +21,7 @@ Related modules: [client application](../../frontend/managerclient.md), [backend
 - The app returns a list of employees that match the search criteria.
 - The manager can view employee profiles, including contact information, job history, and performance metrics.
 - The manager can use this information to make informed decisions about scheduling, promotions, or disciplinary actions.
+- If there are multiple candidates for a position, the system notifies HR to schedule interviews with each candidate.
+- After interviews are conducted, the interviewers provide feedback and ratings for each candidate.
+- The manager reviews the feedback and ratings and selects the most suitable candidate for the position.
+- The system notifies the chosen candidate and HR to proceed with the hiring process.

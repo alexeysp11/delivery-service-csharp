@@ -13,6 +13,8 @@ Related modules: [client application](../../frontend/managerclient.md), [backend
 
 ## Process description
 
+- The process can be used in conjunction with the [trackperformance](trackperformance.md) process.
+
 ### Step-by-step execution
 
 - Manager opens the app.

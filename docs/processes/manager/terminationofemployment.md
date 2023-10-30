@@ -11,3 +11,9 @@ Related modules: [client application](../../frontend/managerclient.md), [backend
 ## Process description
 
 ### Step-by-step execution
+
+- The manager opens the app on their device.
+- The manager selects the "Terminate Employment" option.
+- The system displays a list of employees and their current employment status.
+- The manager selects an employee and provides a reason for termination.
+- The system updates the employee's status in the database and notifies HR to proceed with the termination process.

@@ -17,4 +17,10 @@ Related modules: [client application](../../frontend/courierclient.md), [backend
 
 ### Step-by-step execution
 
+- The courier opens the app on their device.
+- The courier selects the delivery order they are working on.
+- The courier navigates to the delivery address using the app's map feature.
+- The courier delivers the order to the customer and obtains a signature or confirmation code.
+- The courier marks the delivery order as complete in the system.
+
 ![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)

@@ -10,6 +10,15 @@ Related modules: [client application](../../frontend/managerclient.md), [backend
 
 ## Process description
 
+Metrics that could be used by managers in the delivery service company to measure performance include:
+- Kitchen: order accuracy rate, order preparation time, customer feedback ratings
+- Warehouse: inventory accuracy rate, order fulfillment time, product return rate
+- Couriers: delivery completion rate, delivery time, customer feedback ratings
+- Managers: employee retention rate, team productivity, customer satisfaction ratings
+- Admins: system uptime, response time to support requests, data accuracy rate
+
+Overall performance of the company could be estimated by tracking metrics such as revenue growth rate, customer retention rate, and market share. Performance metrics could be used for planning strategies to scale up the company by identifying areas for improvement and setting goals for improvement.
+
 ### Step-by-step execution
 
 - A manager opens the delivery service app and navigates to the backend service for managers.

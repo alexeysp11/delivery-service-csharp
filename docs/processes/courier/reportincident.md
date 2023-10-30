@@ -16,3 +16,9 @@ The overall description of the scenario for incident notification in the courier
 The interactive steps within the scenario include selecting the type of incident, providing a description of what happened, and submitting the incident report.
 
 ### Step-by-step execution
+
+- The courier opens the app on their device.
+- The courier selects the "Report Incident" option.
+- The system prompts the courier to provide details about the incident.
+- The courier provides details about the incident.
+- The system stores the incident report in the database and notifies the manager.

@@ -12,3 +12,10 @@ Related modules: [client application](../../frontend/courierclient.md), [backend
 ## Process description
 
 - Registration of a backpack by scanning a QR code (in order to register the beginning / end of work during the day and track the location of the courier in real time).
+
+### Step-by-step execution
+
+- The courier opens the app on their device.
+- The courier selects the delivery order they are working on.
+- The courier scans the QR code on the backpack using their device's camera.
+- The system verifies the QR code and confirms that it matches the delivery order.

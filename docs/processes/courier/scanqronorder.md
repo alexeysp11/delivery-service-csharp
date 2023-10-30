@@ -12,3 +12,8 @@ Related modules: [client application](../../frontend/courierclient.md), [backend
 ## Process description
 
 ### Step-by-step execution
+
+- The courier opens the app on their device.
+- The courier selects the delivery order they are working on.
+- The courier scans the QR code on the delivery order using their device's camera.
+- The system verifies the QR code and displays the details of the delivery order to the courier.
