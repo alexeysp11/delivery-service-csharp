@@ -29,3 +29,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
     - The app establishes a connection with the SignalR server.
     - The sender sends a push notification to the server.
     - The server sends the notification to the receivers who are subscribed to that event.
+
+The step-by-step execution of the process is identical to the [rateorder](rateorder.md) process (except that the consumer does not rate the order, but simply reads the notification):
+
+![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)

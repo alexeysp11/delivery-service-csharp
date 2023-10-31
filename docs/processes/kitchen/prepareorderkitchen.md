@@ -13,6 +13,8 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 
 ## Process description
 
+- This process is called from the [preprocessorder](../customer/preprocessorder.md) process.
+
 ![delivering_overall](../../img/delivering_overall.png)
 
 ### Step-by-step execution
@@ -24,3 +26,5 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 - Once the food is ready, kitchen staff update the order status to "ready for pickup" or "out for delivery".
 - Delivery drivers receive the order details and pickup location through the app.
 - Delivery drivers pick up the food and deliver it to the customer.
+
+![kitchen.prepareorderkitchen](../../img/activitydiagrams/kitchen.prepareorderkitchen.png)
