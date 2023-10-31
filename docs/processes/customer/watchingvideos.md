@@ -6,7 +6,7 @@ Backend of the customer application: watching videos.
 
 The watch videos scenario in the delivery service app involves allowing users to access and watch videos either downloaded from the app's backend service or retrieved from YouTube.
 
-Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
+Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
 
 ## Process description
 

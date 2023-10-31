@@ -8,7 +8,7 @@ The overall description of the scenario for viewing order history in the custome
 
 The interactive steps within the scenario include selecting the order history tab, browsing past orders, and viewing order details.
 
-Related modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
+Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
 
 ## Process description
 

@@ -6,7 +6,7 @@ Client application: sign in.
 
 The sign in scenario in the customer client side app involves a user entering their login and password to access their account and place orders for delivery.
 
-Related modules: [backend service](../../backend/authbackend.md).
+Responsible modules: [backend service](../../backend/authbackend.md).
 
 ## Process description
 

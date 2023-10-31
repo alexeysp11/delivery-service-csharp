@@ -6,7 +6,7 @@ Manager client application: track performance.
 
 The scenario responsible for optimizing delivery process by manager in the delivery service company involves analyzing data on delivery times, routes, and other factors to identify areas for improvement, implementing changes to improve efficiency and reduce costs, and monitoring performance to ensure continuous improvement.
 
-Related modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
+Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
 ## Process description
 

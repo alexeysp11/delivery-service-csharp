@@ -6,7 +6,7 @@ Client application: sign up.
 
 The sign up scenario in the customer client side app involves a user creating a new account by providing their personal information, such as login, email address, and password.
 
-Related modules: [backend service](../../backend/authbackend.md).
+Responsible modules: [backend service](../../backend/authbackend.md).
 
 ## Process description
 

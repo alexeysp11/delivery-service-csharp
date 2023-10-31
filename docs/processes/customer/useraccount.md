@@ -4,7 +4,7 @@ Read this in other languages: [English](useraccount.md), [Russian/Русский
 
 Customer client application: user account.
 
-Related modules: [client application](../../frontend/customerclient.md).
+Responsible modules: [client application](../../frontend/customerclient.md).
 
 ## Process description
 
