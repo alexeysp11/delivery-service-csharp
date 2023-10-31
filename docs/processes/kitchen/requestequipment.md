@@ -7,9 +7,13 @@ Kitchen client application: request equipment.
 The request inventory and equipment scenario in the delivery service app involves allowing kitchen employees to request additional inventory or equipment as needed to fulfill incoming orders. 
 The app sends these requests to the warehouse or other relevant departments for fulfillment.
 
-Responsible modules: [client application](../../frontend/kitchenclient.md), [backend service](../../backend/kitchenbackend.md).
+Macro process: [requesting](../../macroprocesses/requesting.md)
+
+Responsible modules: [client application](../../frontend/kitchenclient.md), [backend service](../../backend/kitchenbackend.md)
 
 ## Process description
+
+![requesting_overall](../../img/requesting_overall.png)
 
 ### Step-by-step execution
 

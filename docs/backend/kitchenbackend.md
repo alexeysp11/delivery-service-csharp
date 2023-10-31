@@ -9,7 +9,7 @@ The backend service for the kitchen in the delivery service app is responsible f
 It allows kitchen staff to receive and manage orders, update order status, receive real-time updates on product availability, and communicate with couriers about delivery details. 
 The service also provides real-time analytics and reporting to help optimize kitchen operations and improve delivery efficiency.
 
-The description of the **client application** is presented at [this link](../frontend/kitchenclient.md).
+[Client app](../frontend/kitchenclient.md)
 
 ## Overall description of the system 
 

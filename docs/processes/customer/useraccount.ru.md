@@ -4,7 +4,9 @@
 
 Клиентское приложение для потребителя: аккаунт пользователя.
 
-Ответственные модули: [клиентское приложение](../../frontend/customerclient.md).
+Макропроцесс: [information](../../macroprocesses/information.md)
+
+Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md)
 
 ## Описание процесса
 
@@ -14,3 +16,5 @@
     - логин,
     - эл. почта,
     - телефон.
+
+![information_overall](../../img/information_overall.png)

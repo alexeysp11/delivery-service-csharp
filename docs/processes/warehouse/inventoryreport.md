@@ -7,9 +7,13 @@ Warehouse client application: inventory report.
 The scenario responsible for getting inventory report by warehouse employees involves generating a report that displays current inventory levels, incoming shipments, outgoing orders, and other relevant information. 
 This report could be generated on demand or scheduled to run at regular intervals.
 
-Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md).
+Macro process: [information](../../macroprocesses/information.md)
+
+Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 
 ## Process description
+
+![information_overall](../../img/information_overall.png)
 
 ### Step-by-step execution
 

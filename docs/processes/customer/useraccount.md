@@ -4,7 +4,9 @@
 
 Customer client application: user account.
 
-Responsible modules: [client application](../../frontend/customerclient.md).
+Macro process: [information](../../macroprocesses/information.md)
+
+Responsible modules: [client application](../../frontend/customerclient.md)
 
 ## Process description
 
@@ -14,3 +16,5 @@ Responsible modules: [client application](../../frontend/customerclient.md).
     - login,
     - email mail,
     - telephone.
+
+![information_overall](../../img/information_overall.png)

@@ -6,7 +6,7 @@
 
 The client-side app used by kitchen employees in the delivery service company allows them to view and manage incoming orders, update the status of orders as they are prepared, and communicate with other members of the kitchen staff.
 
-A description of the main backend service for this application is presented at [this link](../backend/kitchenbackend.md).
+[Backend service](../backend/kitchenbackend.md)
 
 ## Overall description of the system 
 

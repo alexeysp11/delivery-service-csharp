@@ -6,7 +6,7 @@ Backend of the customer application: receiving push notifications.
 
 The push notification scenario in the delivery service app involves sending real-time notifications to users through SignalR. 
 
-Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
+Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
 ## Process description
 

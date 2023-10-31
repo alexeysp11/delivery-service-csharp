@@ -6,7 +6,7 @@
 
 The client-side app used by couriers in the delivery service company allows them to view and manage their assigned deliveries, communicate with customers about delivery details, and update the status of deliveries as they are completed.
 
-A description of the main backend service for this application is presented at [this link](../backend/courierbackend.md).
+[Backend service](../backend/courierbackend.md)
 
 ## Overall description of the system 
 

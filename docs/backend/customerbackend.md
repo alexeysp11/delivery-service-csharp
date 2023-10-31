@@ -8,7 +8,7 @@ The customer backend service for delivery service app allows customers to sign u
 
 Other possible functionalities of the service include saving favorite orders for quick reordering, customizing orders with special requests or dietary restrictions, and receiving personalized recommendations based on past orders.
 
-The description of the **client application** is presented at [this link](../frontend/customerclient.md).
+[Client app](../frontend/customerclient.md)
 
 ## Overall description of the system
 

@@ -8,7 +8,7 @@ The warehouse backend service for delivery service app allows warehouse staff to
 
 Other possible functionalities of the service include generating inventory reports, and tracking product expiration dates.
 
-The description of the **client application** is presented at [this link](../frontend/warehouseclient.md).
+[Client app](../frontend/warehouseclient.md)
 
 ## Overall description of the system 
 

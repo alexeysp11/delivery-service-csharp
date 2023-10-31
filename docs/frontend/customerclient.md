@@ -4,7 +4,7 @@
 
 `customerclient` is a client-side application that is used by customers to browse products, place orders, and track deliveries.
 
-A description of the main backend service for this application is presented at [this link](../backend/customerbackend.md).
+[Backend service](../backend/customerbackend.md)
 
 ## Overall description of the system
 

@@ -8,11 +8,19 @@ The overall description of the scenario for tracking an order in the customer ba
 
 The interactive steps within the scenario include viewing order status updates in real-time, tracking the courier's location on a map, and receiving notifications when the order is out for delivery or has been delivered.
 
-Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
+Macro process: [information](../../macroprocesses/information.md)
+
+Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
 ## Process description
 
 This process almost completely repeats [viewing all orders](orders.md), except that orders are filtered by status to be displayed on this form: it is necessary that it be "Processing", "In the process of cooking", "In delivery".
+
+![information_overall](../../img/information_overall.png)
+
+### Step-by-step execution
+
+See [viewing all orders](orders.md).
 
 ![customer.allorders](../../img/activitydiagrams/customer.allorders.png)
 

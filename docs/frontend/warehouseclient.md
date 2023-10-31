@@ -6,7 +6,7 @@
 
 The client-side app used by warehouse employees in the delivery service company allows them to manage inventory levels, fulfill requests from other departments, and track deliveries to and from the warehouse.
 
-A description of the main backend service for this application is presented at [this link](../backend/warehousebackend.md).
+[Backend service](../backend/warehousebackend.md)
 
 ## Overall description of the system 
 

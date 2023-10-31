@@ -6,11 +6,15 @@
 
 Сценарий просмотра видео в приложении службы доставки предполагает предоставление пользователям доступа и просмотра видео, загруженных из серверной службы приложения или полученных с YouTube.
 
-Ответственные модули: [клиентское приложение](../../frontend/customerclient.md), [бэкенд-сервис](../../backend/customerbackend.md).
+Макропроцесс: [information](../../macroprocesses/information.md)
+
+Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 
 ## Описание процесса
 
-- Взаимодействует с [файловым сервисом](../../backend/fileservice.md).
+- Взаимодействует с [файловым сервисом](../../backend/fileservice.ru.md).
+
+![information_overall](../../img/information_overall.png)
 
 ### Пошаговое выполнение
 

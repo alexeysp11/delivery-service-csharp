@@ -9,7 +9,7 @@ The scenario responsible for getting business report by manager in the delivery 
 A business report in a delivery service company could consist of financial reports, operational reports, customer satisfaction reports, inventory reports, and employee performance reports. 
 Different types of business reports could be used depending on the specific needs of the company.
 
-Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
+Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md)
 
 ## Process description
 

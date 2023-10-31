@@ -7,6 +7,8 @@ Warehouse client application: Report incident.
 The scenario responsible for reporting incidents by warehouse employees involves providing a mechanism for employees to report safety hazards, accidents, or other incidents that occur in the warehouse. 
 This could be done through a mobile app or web interface that allows employees to submit incident reports with relevant details.
 
+Macro process: [requesting](../../macroprocesses/requesting.md)
+
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md).
 
 ## Process description
@@ -14,6 +16,8 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 The overall description of the scenario for incident reporting in the warehouse backend service is that it allows warehouse staff to report any incidents that occur in the warehouse, such as accidents, equipment malfunctions, or theft. 
 
 The interactive steps within the scenario include selecting the type of incident, providing a description of what happened, and submitting the incident report. 
+
+![requesting_overall](../../img/requesting_overall.png)
 
 ### Step-by-step execution
 

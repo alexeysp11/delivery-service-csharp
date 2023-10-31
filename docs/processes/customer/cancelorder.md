@@ -7,7 +7,7 @@ Customer client application: cancel order.
 The cancel order scenario in the delivery service app involves allowing customers to cancel their order before it is prepared and delivered. 
 The app prompts the user to confirm their cancellation and provides options for leaving feedback or comments.
 
-Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md).
+Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
 ## Process description
 

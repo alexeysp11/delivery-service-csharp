@@ -7,7 +7,7 @@ Backend of the customer application: preprocess order.
 The preprocessing order scenario in the delivery service app involves retrieving recipes from the database, calculating the required and actual amount of ingredients, and asynchronously invoking processes for delivering ingredients to the kitchen or products from the store into the warehouse. 
 Based on these calculations, the app determines the estimated delivery time for the order.
 
-Responsible modules: [backend service](../../backend/customerbackend.md).
+Responsible modules: [backend service](../../backend/customerbackend.md)
 
 ## Process description
 
