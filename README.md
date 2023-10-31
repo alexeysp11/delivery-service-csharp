@@ -1,6 +1,6 @@
 # delivery-service-csharp 
 
-Read this in other languages: [English](README.md), [Russian/Русский](README.ru.md). 
+[English](README.md) | [Русский](README.ru.md)
 
 A **delivery service app** is a platform that enables users to order and receive goods. 
 The app typically includes features such as browsing products, selecting delivery options, tracking orders in real-time, and making payments.

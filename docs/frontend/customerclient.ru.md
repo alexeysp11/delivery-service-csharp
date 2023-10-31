@@ -1,6 +1,6 @@
 # customerclient
 
-Доступно на других языках: [English/Английский](customerclient.md), [Russian/Русский](customerclient.ru.md). 
+[English](customerclient.md) | [Русский](customerclient.ru.md)
 
 `customerclient` — это клиентское приложение, которое используется клиентами для просмотра продуктов, размещения заказов и отслеживания поставок.
 

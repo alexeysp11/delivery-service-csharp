@@ -1,6 +1,6 @@
 # fileservice
 
-Доступно на других языках: [English/Английский](fileservice.md), [Russian/Русский](fileservice.ru.md). 
+[English](fileservice.md) | [Русский](fileservice.ru.md). 
 
 `fileservice` — это бэкенд сервис, который управляет хранением и получением файлов.
 

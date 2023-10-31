@@ -1,6 +1,6 @@
 # emailbackend
 
-Доступно на других языках: [English/Английский](emailbackend.md), [Russian/Русский](emailbackend.ru.md). 
+[English](emailbackend.md) | [Русский](emailbackend.ru.md)
 
 `emailbackend` — это бэкенд сервис, который обеспечивает общение с клиентами по поводу их заказов по электронной почте.
 

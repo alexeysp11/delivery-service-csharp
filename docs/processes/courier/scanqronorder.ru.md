@@ -1,6 +1,6 @@
 # scanqronorder
 
-Доступно на других языках: [English/Английский](scanqronorder.md), [Russian/Русский](scanqronorder.ru.md). 
+[English](scanqronorder.md) | [Русский](scanqronorder.ru.md)
 
 Клиентское приложение курьера: сканируйте QR-код на заказе.
 

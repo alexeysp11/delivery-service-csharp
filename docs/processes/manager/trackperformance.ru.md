@@ -1,6 +1,6 @@
 # trackperformance
 
-Доступно на других языках: [English/Английский](trackperformance.md), [Russian/Русский](trackperformance.ru.md). 
+[English](trackperformance.md) | [Русский](trackperformance.ru.md)
 
 Клиентское приложение менеджера: отслеживайте производительность.
 

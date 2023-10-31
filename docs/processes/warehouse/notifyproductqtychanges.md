@@ -1,6 +1,6 @@
 # notifyproductqtychanges 
 
-Read this in other languages: [English](notifyproductqtychanges.md), [Russian/Русский](notifyproductqtychanges.ru.md). 
+[English](notifyproductqtychanges.md) | [Русский](notifyproductqtychanges.ru.md)
 
 Warehouse client application: notify about changes in product quantity.
 

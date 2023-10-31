@@ -1,6 +1,6 @@
 # pushnotificationsbackend
 
-Доступно на других языках: [English/Английский](pushnotificationsbackend.md), [Russian/Русский](pushnotificationsbackend.ru.md). 
+[English](pushnotificationsbackend.md) | [Русский](pushnotificationsbackend.ru.md)
 
 `pushnotificationsbackend` — это бэкенд сервис, который обеспечивает общение с клиентами относительно их заказов посредством push-уведомлений.
 

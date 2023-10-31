@@ -1,6 +1,6 @@
 # prepareorderkitchen
 
-Доступно на других языках: [English/Английский](prepareorderkitchen.md), [Russian/Русский](prepareorderkitchen.ru.md). 
+[English](prepareorderkitchen.md) | [Русский](prepareorderkitchen.ru.md)
 
 Клиентское приложение для кухни: приготовить заказ.
 

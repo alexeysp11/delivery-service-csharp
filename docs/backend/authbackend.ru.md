@@ -1,6 +1,6 @@
 # authbackend
 
-Доступно на других языках: [English/Английский](authbackend.md), [Russian/Русский](authbackend.ru.md). 
+[English](authbackend.md) | [Русский](authbackend.ru.md)
 
 `authbackend` — бэкенд сервис, отвечающий за управление входом и аутентификацией пользователей.
 

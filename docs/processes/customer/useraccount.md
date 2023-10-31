@@ -1,6 +1,6 @@
 # useraccount 
 
-Read this in other languages: [English](useraccount.md), [Russian/Русский](useraccount.ru.md). 
+[English](useraccount.md) | [Русский](useraccount.ru.md)
 
 Customer client application: user account.
 

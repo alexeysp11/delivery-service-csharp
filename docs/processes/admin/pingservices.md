@@ -1,6 +1,6 @@
 # pingservices
 
-Read this in other languages: [English](pingservices.md), [Russian/Русский](pingservices.ru.md). 
+[English](pingservices.md) | [Русский](pingservices.ru.md)
 
 Admin client application: ping services.
 

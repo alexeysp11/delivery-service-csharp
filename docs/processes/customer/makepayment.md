@@ -1,6 +1,6 @@
 # makepayment 
 
-Read this in other languages: [English](makepayment.md), [Russian/Русский](makepayment.ru.md). 
+[English](makepayment.md) | [Русский](makepayment.ru.md)
 
 Customer client application: make a payment.
 

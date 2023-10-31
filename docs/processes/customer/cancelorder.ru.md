@@ -1,6 +1,6 @@
 # cancelorder
 
-Доступно на других языках: [English/Английский](cancelorder.md), [Russian/Русский](cancelorder.ru.md). 
+[English](cancelorder.md) | [Русский](cancelorder.ru.md)
 
 Клиентское приложение для потребителя: отменить заказ.
 

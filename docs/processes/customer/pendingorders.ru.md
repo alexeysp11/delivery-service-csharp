@@ -1,6 +1,6 @@
 # pendingorders
 
-Доступно на других языках: [English/Английский](pendingorders.md), [Russian/Русский](pendingorders.ru.md). 
+[English](pendingorders.md) | [Русский](pendingorders.ru.md)
 
 Клиентское приложение для потребителя: текущие заказы.
 

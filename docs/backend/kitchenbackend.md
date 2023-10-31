@@ -1,6 +1,6 @@
 # kitchenbackend
 
-Read this in other languages: [English](kitchenbackend.md), [Russian/Русский](kitchenbackend.ru.md). 
+[English](kitchenbackend.md) | [Русский](kitchenbackend.ru.md)
 
 `kitchenbackend` is a backend service that manages the preparation of food orders. 
 

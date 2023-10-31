@@ -1,6 +1,6 @@
 # notifyproductqtychanges
 
-Доступно на других языках: [English/Английский](notifyproductqtychanges.md), [Russian/Русский](notifyproductqtychanges.ru.md). 
+[English](notifyproductqtychanges.md) | [Русский](notifyproductqtychanges.ru.md)
 
 Клиентское приложение для склада: уведомить об изменении количества продукции.
 

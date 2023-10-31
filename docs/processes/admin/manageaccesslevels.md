@@ -1,6 +1,6 @@
 # manageaccesslevels
 
-Read this in other languages: [English](manageaccesslevels.md), [Russian/Русский](manageaccesslevels.ru.md). 
+[English](manageaccesslevels.md) | [Русский](manageaccesslevels.ru.md)
 
 Admin client application: manage access levels.
 

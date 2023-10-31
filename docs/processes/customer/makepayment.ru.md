@@ -1,6 +1,6 @@
 # makepayment
 
-Доступно на других языках: [English/Английский](makepayment.md), [Russian/Русский](makepayment.ru.md). 
+[English](makepayment.md) | [Русский](makepayment.ru.md)
 
 Клиентское приложение для потребителя: совершение оплаты.
 

@@ -1,6 +1,6 @@
 # store2wh
 
-Доступно на других языках: [English/Английский](store2wh.md), [Russian/Русский](store2wh.ru.md). 
+[English](store2wh.md) | [Русский](store2wh.ru.md)
 
 Клиентское приложение для курьера: доставка заказа из магазина на склад
 

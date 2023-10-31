@@ -1,6 +1,6 @@
 # adminclient
 
-Read this in other languages: [English](adminclient.md), [Russian/Русский](adminclient.ru.md). 
+[English](adminclient.md) | [Русский](adminclient.ru.md)
 
 `adminclient` is a client-side application that is used by administrators to manage users, products, and orders across the platform.
 

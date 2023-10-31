@@ -1,6 +1,6 @@
 # notifyemployees
 
-Доступно на других языках: [English/Английский](notifyemployees.md), [Russian/Русский](notifyemployees.ru.md). 
+[English](notifyemployees.md) | [Русский](notifyemployees.ru.md)
 
 Клиентское приложение менеджера: уведомление сотрудников.
 

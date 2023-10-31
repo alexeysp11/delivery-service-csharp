@@ -1,6 +1,6 @@
 # signup
 
-Read this in other languages: [English](signup.md), [Russian/Русский](signup.ru.md). 
+[English](signup.md) | [Русский](signup.ru.md)
 
 Client application: sign up.
 

@@ -1,6 +1,6 @@
 # preprocessorder
 
-Доступно на других языках: [English/Английский](preprocessorder.md), [Russian/Русский](preprocessorder.ru.md). 
+[English](preprocessorder.md) | [Русский](preprocessorder.ru.md)
 
 Бэкенд сервис приложения для потребителей: предварительная обработка заказа.
 

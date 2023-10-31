@@ -1,6 +1,6 @@
 # rateorder
 
-Read this in other languages: [English](rateorder.md), [Russian/Русский](rateorder.ru.md). 
+[English](rateorder.md) | [Русский](rateorder.ru.md)
 
 Customer client application: rate order.
 

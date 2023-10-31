@@ -1,6 +1,6 @@
 # rateorder
 
-Доступно на других языках: [English/Английский](rateorder.md), [Russian/Русский](rateorder.ru.md). 
+[English](rateorder.md) | [Русский](rateorder.ru.md)
 
 Клиентское приложение для потребителя: оценить заказ.
 

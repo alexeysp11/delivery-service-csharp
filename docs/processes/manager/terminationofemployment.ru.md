@@ -1,6 +1,6 @@
 # terminationofemployment
 
-Доступно на других языках: [English/Английский](terminationofemployment.md), [Russian/Русский](terminationofemployment.ru.md). 
+[English](terminationofemployment.md) | [Русский](terminationofemployment.ru.md)
 
 Клиентское заявление менеджера: увольнение.
 

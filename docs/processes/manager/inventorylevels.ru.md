@@ -1,6 +1,6 @@
 # inventorylevels
 
-Доступно на других языках: [English/Английский](inventorylevels.md), [Russian/Русский](inventorylevels.ru.md). 
+[English](inventorylevels.md) | [Русский](inventorylevels.ru.md)
 
 Клиентское приложение менеджера: установить уровни запасов.
 

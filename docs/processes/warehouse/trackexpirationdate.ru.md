@@ -1,6 +1,6 @@
 # trackexpirationdate
 
-Доступно на других языках: [English/Английский](trackexpirationdate.md), [Russian/Русский](trackexpirationdate.ru.md). 
+[English](trackexpirationdate.md) | [Русский](trackexpirationdate.ru.md)
 
 Клиентское приложение для склада: отслеживать срок годности.
 

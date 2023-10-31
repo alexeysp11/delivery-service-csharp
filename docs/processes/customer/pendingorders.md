@@ -1,6 +1,6 @@
 # pendingorders
 
-Read this in other languages: [English](pendingorders.md), [Russian/Русский](pendingorders.ru.md). 
+[English](pendingorders.md) | [Русский](pendingorders.ru.md)
 
 Customer client application: pending orders.
 

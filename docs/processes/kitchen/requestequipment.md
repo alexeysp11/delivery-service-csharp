@@ -1,6 +1,6 @@
 # requestequipment
 
-Read this in other languages: [English](requestequipment.md), [Russian/Русский](requestequipment.ru.md). 
+[English](requestequipment.md) | [Русский](requestequipment.ru.md)
 
 Kitchen client application: request equipment.
 

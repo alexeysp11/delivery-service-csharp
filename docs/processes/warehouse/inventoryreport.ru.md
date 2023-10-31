@@ -1,6 +1,6 @@
 # inventoryreport
 
-Доступно на других языках: [English/Английский](inventoryreport.md), [Russian/Русский](inventoryreport.ru.md). 
+[English](inventoryreport.md) | [Русский](inventoryreport.ru.md)
 
 Клиентское приложение для склада: отчет инвентаризации.
 

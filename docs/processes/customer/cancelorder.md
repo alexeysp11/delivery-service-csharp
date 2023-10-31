@@ -1,6 +1,6 @@
 # cancelorder
 
-Read this in other languages: [English](cancelorder.md), [Russian/Русский](cancelorder.ru.md). 
+[English](cancelorder.md) | [Русский](cancelorder.ru.md)
 
 Customer client application: cancel order.
 

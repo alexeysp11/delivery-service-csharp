@@ -1,6 +1,6 @@
 # makeorder
 
-Доступно на других языках: [English/Английский](makeorder.md), [Russian/Русский](makeorder.ru.md). 
+[English](makeorder.md) | [Русский](makeorder.ru.md)
 
 Клиентское приложение для потребителя: оформление заказа.
 

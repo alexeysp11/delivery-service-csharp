@@ -1,6 +1,6 @@
 # customerbackend
 
-Read this in other languages: [English](customerbackend.md), [Russian/Русский](customerbackend.ru.md). 
+[English](customerbackend.md) | [Русский](customerbackend.ru.md)
 
 `customerbackend` is a backend service that handles customer-related functions such as browsing products, placing orders, and managing account information.
 

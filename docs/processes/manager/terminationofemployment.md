@@ -1,6 +1,6 @@
 # terminationofemployment
 
-Read this in other languages: [English](terminationofemployment.md), [Russian/Русский](terminationofemployment.ru.md). 
+[English](terminationofemployment.md) | [Русский](terminationofemployment.ru.md)
 
 Manager client application: termination of employment.
 

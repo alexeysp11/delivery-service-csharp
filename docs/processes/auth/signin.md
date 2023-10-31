@@ -1,6 +1,6 @@
 # signin
 
-Read this in other languages: [English](signin.md), [Russian/Русский](signin.ru.md). 
+[English](signin.md) | [Русский](signin.ru.md)
 
 Client application: sign in.
 

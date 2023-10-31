@@ -1,6 +1,6 @@
 # preprocessorder
 
-Read this in other languages: [English](preprocessorder.md), [Russian/Русский](preprocessorder.ru.md). 
+[English](preprocessorder.md) | [Русский](preprocessorder.ru.md)
 
 Backend of the customer application: preprocess order.
 

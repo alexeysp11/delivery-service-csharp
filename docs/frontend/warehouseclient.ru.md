@@ -1,6 +1,6 @@
 # warehouseclient
 
-Доступно на других языках: [English/Английский](warehouseclient.md), [Russian/Русский](warehouseclient.ru.md). 
+[English](warehouseclient.md) | [Русский](warehouseclient.ru.md)
 
 `warehouseclient` - это клиентское приложение, которое используется сотрудниками склада для управления запасами и выполнения заказов.
 

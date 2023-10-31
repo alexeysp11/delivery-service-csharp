@@ -1,6 +1,6 @@
 # scanqronorder
 
-Read this in other languages: [English](scanqronorder.md), [Russian/Русский](scanqronorder.ru.md). 
+[English](scanqronorder.md) | [Русский](scanqronorder.ru.md)
 
 Courier client application: scan QR code on order.
 

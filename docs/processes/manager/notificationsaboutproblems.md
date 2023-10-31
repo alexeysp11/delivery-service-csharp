@@ -1,6 +1,6 @@
 # notificationsaboutproblems
 
-Read this in other languages: [English](notificationsaboutproblems.md), [Russian/Русский](notificationsaboutproblems.ru.md). 
+[English](notificationsaboutproblems.md) | [Русский](notificationsaboutproblems.ru.md)
 
 Manager client application: get notifications about a problem.
 

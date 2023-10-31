@@ -1,6 +1,6 @@
 # notifyemployees
 
-Read this in other languages: [English](notifyemployees.md), [Russian/Русский](notifyemployees.ru.md). 
+[English](notifyemployees.md) | [Русский](notifyemployees.ru.md)
 
 Manager client application: notify employees.
 

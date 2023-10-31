@@ -1,6 +1,6 @@
 # notificationsaboutingredients
 
-Read this in other languages: [English](notificationsaboutingredients.md), [Russian/Русский](notificationsaboutingredients.ru.md). 
+[English](notificationsaboutingredients.md) | [Русский](notificationsaboutingredients.ru.md)
 
 Kitchen client application: get notifications about ingredients.
 

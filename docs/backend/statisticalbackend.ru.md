@@ -1,6 +1,6 @@
 # statisticalbackend
 
-Доступно на других языках: [English/Английский](statisticalbackend.md), [Russian/Русский](statisticalbackend.ru.md). 
+[English](statisticalbackend.md) | [Русский](statisticalbackend.ru.md)
 
 `statisticalbackend` — это бэкенд сервис, обеспечивающий анализ данных.
 

@@ -1,6 +1,6 @@
 # fromkitchentowh
 
-Read this in other languages: [English](fromkitchentowh.md), [Russian/Русский](fromkitchentowh.ru.md). 
+[English](fromkitchentowh.md) | [Русский](fromkitchentowh.ru.md)
 
 Warehouse client application: deliver from kitchen to WH.
 

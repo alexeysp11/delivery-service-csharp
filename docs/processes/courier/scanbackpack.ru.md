@@ -1,6 +1,6 @@
 # scanbackpack
 
-Доступно на других языках: [English/Английский](scanbackpack.md), [Russian/Русский](scanbackpack.ru.md). 
+[English](scanbackpack.md) | [Русский](scanbackpack.ru.md)
 
 Клиенсткое приложение для курьера: отсканировать QR-код на рюкзаке.
 

@@ -1,6 +1,6 @@
 # customerclient
 
-Read this in other languages: [English](customerclient.md), [Russian/Русский](customerclient.ru.md). 
+[English](customerclient.md) | [Русский](customerclient.ru.md)
 
 `customerclient` is a client-side application that is used by customers to browse products, place orders, and track deliveries.
 

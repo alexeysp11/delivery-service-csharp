@@ -1,6 +1,6 @@
 # reportincident
 
-Read this in other languages: [English](reportincident.md), [Russian/Русский](reportincident.ru.md). 
+[English](reportincident.md) | [Русский](reportincident.ru.md)
 
 Warehouse client application: Report incident.
 

@@ -1,6 +1,6 @@
 # makeorder
 
-Read this in other languages: [English](makeorder.md), [Russian/Русский](makeorder.ru.md). 
+[English](makeorder.md) | [Русский](makeorder.ru.md)
 
 Customer client application: make order.
 

@@ -1,6 +1,6 @@
 # watchingvideos
 
-Доступно на других языках: [English/Английский](watchingvideos.md), [Russian/Русский](watchingvideos.ru.md). 
+[English](watchingvideos.md) | [Русский](watchingvideos.ru.md)
 
 Бэкенд сервис приложения для потребителей: просмотр видео.
 

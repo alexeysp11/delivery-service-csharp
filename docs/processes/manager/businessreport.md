@@ -1,6 +1,6 @@
 # businessreport
 
-Read this in other languages: [English](businessreport.md), [Russian/Русский](businessreport.ru.md). 
+[English](businessreport.md) | [Русский](businessreport.ru.md)
 
 Manager client application: business report.
 

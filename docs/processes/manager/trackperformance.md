@@ -1,6 +1,6 @@
 # trackperformance
 
-Read this in other languages: [English](trackperformance.md), [Russian/Русский](trackperformance.ru.md). 
+[English](trackperformance.md) | [Русский](trackperformance.ru.md)
 
 Manager client application: track performance.
 

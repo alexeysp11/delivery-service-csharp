@@ -1,6 +1,6 @@
 # scanbackpack
 
-Read this in other languages: [English](scanbackpack.md), [Russian/Русский](scanbackpack.ru.md). 
+[English](scanbackpack.md) | [Русский](scanbackpack.ru.md)
 
 Courier client application: scan backpack QR code.
 

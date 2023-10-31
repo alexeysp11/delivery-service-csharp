@@ -1,6 +1,6 @@
 # reportincident
 
-Доступно на других языках: [English/Английский](reportincident.md), [Russian/Русский](reportincident.ru.md). 
+[English](reportincident.md) | [Русский](reportincident.ru.md)
 
 Клиентское приложение для склада: сообщить об инциденте.
 

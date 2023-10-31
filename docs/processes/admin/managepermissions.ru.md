@@ -1,6 +1,6 @@
 # managepermissions
 
-Доступно на других языках: [English/Английский](managepermissions.md), [Russian/Русский](managepermissions.ru.md). 
+[English](managepermissions.md) | [Русский](managepermissions.ru.md)
 
 Клиентское приложение администратора: управлять разрешениями.
 

@@ -1,6 +1,6 @@
 # calculateproducts
 
-Доступно на других языках: [English/Английский](calculateproducts.md), [Russian/Русский](calculateproducts.ru.md). 
+[English](calculateproducts.md) | [Русский](calculateproducts.ru.md)
 
 Клиентское приложение для склада: пересчитать продукты.
 

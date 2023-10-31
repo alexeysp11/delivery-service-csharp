@@ -1,6 +1,6 @@
 # pingservices
 
-Доступно на других языках: [English/Английский](pingservices.md), [Russian/Русский](pingservices.ru.md). 
+[English](pingservices.md) | [Русский](pingservices.ru.md)
 
 Клиентское приложение администратора: пинговать сервисы.
 

@@ -1,6 +1,6 @@
 # authbackend
 
-Read this in other languages: [English](authbackend.md), [Russian/Русский](authbackend.ru.md). 
+[English](authbackend.md) | [Русский](authbackend.ru.md)
 
 `authbackend` - backend service that is responsible for managing user login and authentication.
 

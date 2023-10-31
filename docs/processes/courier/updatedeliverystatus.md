@@ -1,6 +1,6 @@
 # updatedeliverystatus
 
-Read this in other languages: [English](updatedeliverystatus.md), [Russian/Русский](updatedeliverystatus.ru.md). 
+[English](updatedeliverystatus.md) | [Русский](updatedeliverystatus.ru.md)
 
 Courier client application: update delivery status.
 

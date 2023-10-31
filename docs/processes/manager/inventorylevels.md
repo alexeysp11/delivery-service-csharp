@@ -1,6 +1,6 @@
 # inventorylevels
 
-Read this in other languages: [English](inventorylevels.md), [Russian/Русский](inventorylevels.ru.md). 
+[English](inventorylevels.md) | [Русский](inventorylevels.ru.md)
 
 Manager client application: set inventory levels.
 

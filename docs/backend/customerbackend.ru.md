@@ -1,6 +1,6 @@
 # customerbackend
 
-Доступно на других языках: [English/Английский](customerbackend.md), [Russian/Русский](customerbackend.ru.md). 
+[English](customerbackend.md) | [Русский](customerbackend.ru.md)
 
 `customerbackend` — это бэкенд сервис, который выполняет функции, связанные с клиентами, такие как просмотр продуктов, размещение заказов и управление информацией об учетной записи.
 

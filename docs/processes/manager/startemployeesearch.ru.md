@@ -1,6 +1,6 @@
 # startemployeesearch 
 
-Доступно на других языках: [English/Английский](startemployeesearch.md), [Russian/Русский](startemployeesearch.ru.md). 
+[English](startemployeesearch.md) | [Русский](startemployeesearch.ru.md)
 
 Клиентское приложение менеджера: запуск поиска сотрудников.
 

@@ -1,6 +1,6 @@
 # settings
 
-Доступно на других языках: [English/Английский](settings.md), [Russian/Русский](settings.ru.md). 
+[English](settings.md) | [Русский](settings.ru.md)
 
 Клиентское приложение для потребителя: настройки.
 

@@ -1,6 +1,6 @@
 # warehouseclient
 
-Read this in other languages: [English](warehouseclient.md), [Russian/Русский](warehouseclient.ru.md). 
+[English](warehouseclient.md) | [Русский](warehouseclient.ru.md)
 
 `warehouseclient` is a client-side application that is used by warehouse staff to manage inventory and order fulfillment.
 

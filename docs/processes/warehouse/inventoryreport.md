@@ -1,6 +1,6 @@
 # inventoryreport
 
-Read this in other languages: [English](inventoryreport.md), [Russian/Русский](inventoryreport.ru.md). 
+[English](inventoryreport.md) | [Русский](inventoryreport.ru.md)
 
 Warehouse client application: inventory report.
 

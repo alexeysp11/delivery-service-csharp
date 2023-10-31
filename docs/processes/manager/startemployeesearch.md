@@ -1,6 +1,6 @@
 # startemployeesearch
 
-Read this in other languages: [English](startemployeesearch.md), [Russian/Русский](startemployeesearch.ru.md). 
+[English](startemployeesearch.md) | [Русский](startemployeesearch.ru.md)
 
 Manager client application: start employee search.
 

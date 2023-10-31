@@ -1,6 +1,6 @@
 # managerbackend
 
-Доступно на других языках: [English/Английский](managerbackend.md), [Russian/Русский](managerbackend.ru.md). 
+[English](managerbackend.md) | [Русский](managerbackend.ru.md)
 
 `managerbackend` — это бэкенд сервис, предоставляющий инструменты аналитики и отчетности для владельцев бизнеса.
 

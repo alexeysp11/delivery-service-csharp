@@ -1,6 +1,6 @@
 # predictivebackend
 
-Read this in other languages: [English](predictivebackend.md), [Russian/Русский](predictivebackend.ru.md). 
+[English](predictivebackend.md) | [Русский](predictivebackend.ru.md)
 
 `predictivebackend` is a backend service that provides forecasting capabilities to analyze data retrieved from the [statisticalbackend](statisticalbackend.md) service.
 

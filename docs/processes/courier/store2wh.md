@@ -1,6 +1,6 @@
 # store2wh
 
-Read this in other languages: [English](store2wh.md), [Russian/Русский](store2wh.ru.md). 
+[English](store2wh.md) | [Русский](store2wh.ru.md)
 
 Courier client application: deliver order from store to WH.
 

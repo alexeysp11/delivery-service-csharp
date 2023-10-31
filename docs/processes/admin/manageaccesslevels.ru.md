@@ -1,6 +1,6 @@
 # manageaccesslevels
 
-Доступно на других языках: [English/Английский](manageaccesslevels.md), [Russian/Русский](manageaccesslevels.ru.md). 
+[English](manageaccesslevels.md) | [Русский](manageaccesslevels.ru.md)
 
 Клиентское приложение администратора: управлять уровнями доступа.
 

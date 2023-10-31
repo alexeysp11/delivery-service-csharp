@@ -1,6 +1,6 @@
 # courierbackend
 
-Доступно на других языках: [English/Английский](courierbackend.md), [Russian/Русский](courierbackend.ru.md). 
+[English](courierbackend.md) | [Русский](courierbackend.ru.md)
 
 `courierbackend` — это бэкенд сервис, который отвечает за доставку заказов клиентам.
 

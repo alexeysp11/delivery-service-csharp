@@ -1,6 +1,6 @@
 # supplierrelationships
 
-Доступно на других языках: [English/Английский](supplierrelationships.md), [Russian/Русский](supplierrelationships.ru.md). 
+[English](supplierrelationships.md) | [Русский](supplierrelationships.ru.md)
 
 Клиентское приложение менеджера: управление отношениями с поставщиками.
 

@@ -1,6 +1,6 @@
 # fromkitchentowh
 
-Доступно на других языках: [English/Английский](fromkitchentowh.md), [Russian/Русский](fromkitchentowh.ru.md). 
+[English](fromkitchentowh.md) | [Русский](fromkitchentowh.ru.md)
 
 Клиентское приложение для склада: доставить с кухни на WH.
 

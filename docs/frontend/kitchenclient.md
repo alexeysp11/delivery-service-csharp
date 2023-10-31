@@ -1,6 +1,6 @@
 # kitchenclient
 
-Read this in other languages: [English](kitchenclient.md), [Russian/Русский](kitchenclient.ru.md). 
+[English](kitchenclient.md) | [Русский](kitchenclient.ru.md)
 
 `kitchenclient` is a client-side application that is used by restaurant staff to manage food preparation and order fulfillment.
 

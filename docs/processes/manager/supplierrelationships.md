@@ -1,6 +1,6 @@
 # supplierrelationships 
 
-Read this in other languages: [English](supplierrelationships.md), [Russian/Русский](supplierrelationships.ru.md). 
+[English](supplierrelationships.md) | [Русский](supplierrelationships.ru.md)
 
 Manager client application: managing supplier relationships.
 

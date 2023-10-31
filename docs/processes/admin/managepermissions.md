@@ -1,6 +1,6 @@
 # managepermissions
 
-Read this in other languages: [English](managepermissions.md), [Russian/Русский](managepermissions.ru.md). 
+[English](managepermissions.md) | [Русский](managepermissions.ru.md)
 
 Admin client application: manage permissions.
 

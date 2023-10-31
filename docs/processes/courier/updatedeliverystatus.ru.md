@@ -1,6 +1,6 @@
 # updatedeliverystatus
 
-Доступно на других языках: [English/Английский](updatedeliverystatus.md), [Russian/Русский](updatedeliverystatus.ru.md). 
+[English](updatedeliverystatus.md) | [Русский](updatedeliverystatus.ru.md)
 
 Клиентское приложение курьера: обновление статуса доставки.
 

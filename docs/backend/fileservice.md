@@ -1,6 +1,6 @@
 # fileservice
 
-Read this in other languages: [English](fileservice.md), [Russian/Русский](fileservice.ru.md). 
+[English](fileservice.md) | [Русский](fileservice.ru.md). 
 
 `fileservice` is a backend service that manages file storage and retrieval.
 

@@ -1,6 +1,6 @@
 # signin
 
-Доступно на других языках: [English/Английский](signin.md), [Russian/Русский](signin.ru.md). 
+[English](signin.md) | [Русский](signin.ru.md)
 
 Клиентское приложение: вход в приложение.
 

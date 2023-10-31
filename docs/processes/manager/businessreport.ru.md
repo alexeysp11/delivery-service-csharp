@@ -1,6 +1,6 @@
 # businessreport
 
-Доступно на других языках: [English/Английский](businessreport.md), [Russian/Русский](businessreport.ru.md). 
+[English](businessreport.md) | [Русский](businessreport.ru.md)
 
 Клиентское приложение менеджера: бизнес-отчет.
 

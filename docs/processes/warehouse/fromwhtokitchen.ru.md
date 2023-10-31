@@ -1,6 +1,6 @@
 # fromwhtokitchen
 
-Доступно на других языках: [English/Английский](fromwhtokitchen.md), [Russian/Русский](fromwhtokitchen.ru.md). 
+[English](fromwhtokitchen.md) | [Русский](fromwhtokitchen.ru.md)
 
 Клиентское приложение для склада: доставить со склада на кухню.
 

@@ -1,6 +1,6 @@
 # notificationsaboutingredients
 
-Доступно на других языках: [English/Английский](notificationsaboutingredients.md), [Russian/Русский](notificationsaboutingredients.ru.md). 
+[English](notificationsaboutingredients.md) | [Русский](notificationsaboutingredients.ru.md)
 
 Клиентское приложение для кухни: получать уведомления об ингредиентах.
 

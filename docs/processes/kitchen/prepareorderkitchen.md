@@ -1,6 +1,6 @@
 # prepareorderkitchen
 
-Read this in other languages: [English](prepareorderkitchen.md), [Russian/Русский](prepareorderkitchen.ru.md). 
+[English](prepareorderkitchen.md) | [Русский](prepareorderkitchen.ru.md)
 
 Kitchen client application: prepare order.
 

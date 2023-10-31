@@ -1,6 +1,6 @@
 # settings 
 
-Read this in other languages: [English](settings.md), [Russian/Русский](settings.ru.md). 
+[English](settings.md) | [Русский](settings.ru.md)
 
 Customer client application: settings.
 

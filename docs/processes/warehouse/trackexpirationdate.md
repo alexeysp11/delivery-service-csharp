@@ -1,6 +1,6 @@
 # trackexpirationdate
 
-Read this in other languages: [English](trackexpirationdate.md), [Russian/Русский](trackexpirationdate.ru.md). 
+[English](trackexpirationdate.md) | [Русский](trackexpirationdate.ru.md)
 
 Warehouse client application: track expiration date.
 

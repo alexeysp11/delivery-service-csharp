@@ -1,6 +1,6 @@
 # useraccount
 
-Доступно на других языках: [English/Английский](useraccount.md), [Russian/Русский](useraccount.ru.md). 
+[English](useraccount.md) | [Русский](useraccount.ru.md)
 
 Клиентское приложение для потребителя: аккаунт пользователя.
 

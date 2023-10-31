@@ -1,6 +1,6 @@
 # orders
 
-Доступно на других языках: [English/Английский](orders.md), [Russian/Русский](orders.ru.md). 
+[English](orders.md) | [Русский](orders.ru.md)
 
 Клиентское приложение для потребителя: оформление заказа.
 

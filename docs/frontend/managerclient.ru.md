@@ -1,6 +1,6 @@
 # managerclient
 
-Доступно на других языках: [English/Английский](managerclient.md), [Russian/Русский](managerclient.ru.md). 
+[English](managerclient.md) | [Русский](managerclient.ru.md)
 
 `managerclient` - это клиентское приложение, которое используется владельцами бизнеса для доступа к инструментам аналитики и отчетности.
 
