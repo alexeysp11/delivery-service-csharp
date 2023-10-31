@@ -1,6 +1,6 @@
-# prepareorderkitchen
+# preparemeal
 
-[English](prepareorderkitchen.md) | [Русский](prepareorderkitchen.ru.md)
+[English](preparemeal.md) | [Русский](preparemeal.ru.md)
 
 Клиентское приложение для кухни: приготовить заказ.
 
@@ -27,4 +27,4 @@
 - Водители-курьеры получают информацию о заказе и место получения через приложение.
 - Водители-экспедиторы забирают еду и доставляют ее покупателю.
 
-![kitchen.prepareorderkitchen](../../img/activitydiagrams/kitchen.prepareorderkitchen.png)
+![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)

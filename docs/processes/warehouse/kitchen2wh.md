@@ -1,6 +1,6 @@
-# fromkitchentowh
+# kitchen2wh
 
-[English](fromkitchentowh.md) | [Русский](fromkitchentowh.ru.md)
+[English](kitchen2wh.md) | [Русский](kitchen2wh.ru.md)
 
 Warehouse client application: deliver from kitchen to WH.
 

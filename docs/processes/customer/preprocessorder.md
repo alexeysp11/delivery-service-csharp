@@ -26,7 +26,7 @@ Responsible modules: [backend service](../../backend/customerbackend.md)
 
 - The service receives a request including order parameters that were specified by the client (the order is represented as an object [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)).
 - If the **quantity** in the warehouse is **not enough**, then the process [Deliver from store to warehouse](../courier/store2wh.md) is started asynchronously, and a response is sent to the service that called this process.
-- If there is **enough quantity** in the warehouse, then the [Deliver from warehouse to kitchen](../warehouse/fromwhtokitchen.md) process is started asynchronously, and a response is sent to the service that called this process.
+- If there is **enough quantity** in the warehouse, then the [Deliver from warehouse to kitchen](../warehouse/wh2kitchen.md) process is started asynchronously, and a response is sent to the service that called this process.
 
 ![customer.preprocessorder](../../img/activitydiagrams/customer.preprocessorder.png)
 

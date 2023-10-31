@@ -4139,7 +4139,7 @@
 											"top": 223,
 											"width": 166.13720703125,
 											"height": 13,
-											"text": "Start fromwhtokitchen"
+											"text": "Start wh2kitchen"
 										},
 										{
 											"_type": "LabelView",
@@ -6104,7 +6104,7 @@
 											"top": 287,
 											"width": 159.66259765625,
 											"height": 13,
-											"text": "Start prepareorderkitchen"
+											"text": "Start preparemeal"
 										},
 										{
 											"_type": "LabelView",
@@ -6471,7 +6471,7 @@
 											"top": 287,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "Start fromkitchentowh"
+											"text": "Start kitchen2wh"
 										},
 										{
 											"_type": "LabelView",
@@ -6980,7 +6980,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGLWDjygSGla8I="
 							},
-							"name": "Start fromwhtokitchen"
+							"name": "Start wh2kitchen"
 						},
 						{
 							"_type": "UMLAction",
@@ -6996,7 +6996,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGLWDjygSGla8I="
 							},
-							"name": "Start prepareorderkitchen"
+							"name": "Start preparemeal"
 						},
 						{
 							"_type": "UMLActivityFinalNode",
@@ -7012,7 +7012,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGLWDjygSGla8I="
 							},
-							"name": "Start fromkitchentowh"
+							"name": "Start kitchen2wh"
 						}
 					]
 				},
@@ -7100,7 +7100,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGLWFaAKCRSv8w="
 					},
-					"name": "FromWhToKitchenActivityDiagram",
+					"name": "wh2kitchenActivityDiagram",
 					"ownedViews": [
 						{
 							"_type": "RectangleView",
@@ -7133,7 +7133,7 @@
 									"top": 36,
 									"width": 377,
 									"height": 13,
-									"text": "WH backend",
+									"text": "Warehouse backend",
 									"verticalAlignment": 3
 								}
 							],
@@ -7190,7 +7190,7 @@
 									"top": 36,
 									"width": 193,
 									"height": 13,
-									"text": "User WH employee",
+									"text": "Warehouse employee",
 									"verticalAlignment": 3
 								}
 							],
@@ -7235,7 +7235,7 @@
 									"top": 36,
 									"width": 201,
 									"height": 13,
-									"text": "Client-side WH app",
+									"text": "Client-side warehouse app",
 									"verticalAlignment": 3
 								}
 							],
@@ -7267,7 +7267,7 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 488,
+							"left": 504,
 							"top": 72,
 							"width": 20,
 							"height": 20
@@ -7286,7 +7286,7 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 512,
+							"left": 536,
 							"top": 64,
 							"width": 26,
 							"height": 26
@@ -7312,7 +7312,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 510,
+									"left": 526,
 									"top": 98,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7333,7 +7333,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 525,
+									"left": 541,
 									"top": 98,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7354,7 +7354,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 481,
+									"left": 497,
 									"top": 99,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -7372,7 +7372,7 @@
 							"tail": {
 								"$ref": "AAAAAAGLWFsHtyR7JaI="
 							},
-							"points": "496:91;496:120",
+							"points": "512:91;512:120",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGLWF1MyySlCCw="
@@ -7405,7 +7405,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 513,
+									"left": 537,
 									"top": 97,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7426,7 +7426,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 498,
+									"left": 522,
 									"top": 97,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7447,7 +7447,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 542,
+									"left": 566,
 									"top": 98,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -7465,7 +7465,7 @@
 							"tail": {
 								"$ref": "AAAAAAGLWFwJXSSJyZg="
 							},
-							"points": "528:120;528:89",
+							"points": "552:120;552:89",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGLWF1iEyS22rE="
@@ -7532,9 +7532,9 @@
 											"font": "Arial;13;0",
 											"left": 720,
 											"top": 184,
-											"width": 112.68994140625,
+											"width": 157.0283203125,
 											"height": 13,
-											"text": "(from WH backend)"
+											"text": "(from Warehouse backend)"
 										},
 										{
 											"_type": "LabelView",
@@ -7603,7 +7603,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 419,
+									"left": 431,
 									"top": 153,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7624,7 +7624,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 419,
+									"left": 431,
 									"top": 168,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7645,7 +7645,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 420,
+									"left": 432,
 									"top": 123,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -7663,7 +7663,7 @@
 							"tail": {
 								"$ref": "AAAAAAGLWFwJXSSJyZg="
 							},
-							"points": "456:144;384:144",
+							"points": "480:144;384:144",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGLWF55cSTjffE="
@@ -7696,7 +7696,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 420,
+									"left": 432,
 									"top": 123,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7717,7 +7717,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 420,
+									"left": 432,
 									"top": 108,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7738,7 +7738,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 420,
+									"left": 432,
 									"top": 153,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -7756,7 +7756,7 @@
 							"tail": {
 								"$ref": "AAAAAAGLWGGbGCUJo2E="
 							},
-							"points": "384:144;456:144",
+							"points": "384:144;480:144",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGLWF6PoST0N1M="
@@ -7823,9 +7823,9 @@
 											"font": "Arial;13;0",
 											"left": 120,
 											"top": 32,
-											"width": 150.25537109375,
+											"width": 192.1943359375,
 											"height": 13,
-											"text": "(from Client-side WH app)"
+											"text": "(from Client-side warehouse app)"
 										},
 										{
 											"_type": "LabelView",
@@ -7901,7 +7901,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 280,
+											"left": 328,
 											"top": -48,
 											"height": 13
 										},
@@ -7912,7 +7912,7 @@
 												"$ref": "AAAAAAGLWFwJXiSK+KI="
 											},
 											"font": "Arial;13;1",
-											"left": 461,
+											"left": 485,
 											"top": 127,
 											"width": 102.5908203125,
 											"height": 13,
@@ -7926,11 +7926,11 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 280,
+											"left": 328,
 											"top": -48,
-											"width": 112.68994140625,
+											"width": 157.0283203125,
 											"height": 13,
-											"text": "(from WH backend)"
+											"text": "(from Warehouse backend)"
 										},
 										{
 											"_type": "LabelView",
@@ -7940,14 +7940,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 280,
+											"left": 328,
 											"top": -48,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 456,
+									"left": 480,
 									"top": 120,
 									"width": 112.5908203125,
 									"height": 25,
@@ -7970,7 +7970,7 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 456,
+							"left": 480,
 							"top": 120,
 							"width": 112.5908203125,
 							"height": 41,
@@ -8092,7 +8092,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 497,
+									"left": 521,
 									"top": 165,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -8113,7 +8113,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 482,
+									"left": 506,
 									"top": 165,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -8134,7 +8134,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 526,
+									"left": 550,
 									"top": 166,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -8152,7 +8152,7 @@
 							"tail": {
 								"$ref": "AAAAAAGLWF3uGSTH5Os="
 							},
-							"points": "512:184;512:160",
+							"points": "536:184;536:160",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGLWGShLCVqjNY="
@@ -8219,9 +8219,9 @@
 											"font": "Arial;13;0",
 											"left": 48,
 											"top": -120,
-											"width": 150.96630859375,
+											"width": 164.24560546875,
 											"height": 13,
-											"text": "(from User WH employee)"
+											"text": "(from Warehouse employee)"
 										},
 										{
 											"_type": "LabelView",
@@ -8390,7 +8390,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1456,
+											"left": 1392,
 											"top": 24,
 											"height": 13
 										},
@@ -8401,11 +8401,11 @@
 												"$ref": "AAAAAAGLWGeQ/SW09mU="
 											},
 											"font": "Arial;13;1",
-											"left": 613,
+											"left": 643.11181640625,
 											"top": 263,
-											"width": 152.41357421875,
+											"width": 90.3017578125,
 											"height": 13,
-											"text": "Deliver from store to WH"
+											"text": "Start store2wh"
 										},
 										{
 											"_type": "LabelView",
@@ -8415,11 +8415,11 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1456,
+											"left": 1392,
 											"top": 24,
-											"width": 112.68994140625,
+											"width": 157.0283203125,
 											"height": 13,
-											"text": "(from WH backend)"
+											"text": "(from Warehouse backend)"
 										},
 										{
 											"_type": "LabelView",
@@ -8429,16 +8429,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1456,
+											"left": 1392,
 											"top": 24,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 608,
+									"left": 638.11181640625,
 									"top": 256,
-									"width": 162.41357421875,
+									"width": 100.3017578125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGLWGeQ/SW1+Us="
@@ -8459,9 +8459,9 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 608,
+							"left": 638.11181640625,
 							"top": 256,
-							"width": 162.41357421875,
+							"width": 100.3017578125,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAGLWGeQ/SW09mU="
@@ -8548,7 +8548,7 @@
 							"tail": {
 								"$ref": "AAAAAAGLWGVlySV8pNI="
 							},
-							"points": "149:224;149:275;464:275",
+							"points": "149:224;149:275;480:275",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGLWGisvyXUNVs="
@@ -8581,7 +8581,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 588,
+									"left": 611,
 									"top": 255,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -8602,7 +8602,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 588,
+									"left": 611,
 									"top": 240,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -8623,7 +8623,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 588,
+									"left": 611,
 									"top": 285,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -8641,7 +8641,7 @@
 							"tail": {
 								"$ref": "AAAAAAGLWGrGjSX9rwY="
 							},
-							"points": "568:276;608:276",
+							"points": "584:276;638:276",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGLWGsg9iYZ4BU="
@@ -8681,7 +8681,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -8,
+											"left": 24,
 											"top": -176,
 											"height": 13
 										},
@@ -8692,7 +8692,7 @@
 												"$ref": "AAAAAAGLWGrGjSX+lkA="
 											},
 											"font": "Arial;13;1",
-											"left": 469,
+											"left": 485,
 											"top": 263,
 											"width": 94.630859375,
 											"height": 13,
@@ -8706,11 +8706,11 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -8,
+											"left": 24,
 											"top": -176,
-											"width": 112.68994140625,
+											"width": 157.0283203125,
 											"height": 13,
-											"text": "(from WH backend)"
+											"text": "(from Warehouse backend)"
 										},
 										{
 											"_type": "LabelView",
@@ -8720,14 +8720,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -8,
+											"left": 24,
 											"top": -176,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 464,
+									"left": 480,
 									"top": 256,
 									"width": 104.630859375,
 									"height": 25,
@@ -8750,7 +8750,7 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 464,
+							"left": 480,
 							"top": 256,
 							"width": 104.630859375,
 							"height": 41,
@@ -8826,9 +8826,9 @@
 											"font": "Arial;13;0",
 											"left": -64,
 											"top": -248,
-											"width": 150.96630859375,
+											"width": 164.24560546875,
 											"height": 13,
-											"text": "(from User WH employee)"
+											"text": "(from Warehouse employee)"
 										},
 										{
 											"_type": "LabelView",
@@ -8996,7 +8996,7 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 96,
+							"left": 104,
 							"top": 384,
 							"width": 26,
 							"height": 26
@@ -9374,7 +9374,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGLWFaAKCRSv8w="
 					},
-					"name": "WH backend",
+					"name": "Warehouse backend",
 					"nodes": [
 						{
 							"_type": "UMLInitialNode",
@@ -9414,7 +9414,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGLWFga5yRYVTA="
 							},
-							"name": "Deliver from store to WH"
+							"name": "Start store2wh"
 						},
 						{
 							"_type": "UMLAction",
@@ -9440,7 +9440,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGLWFaAKCRSv8w="
 					},
-					"name": "User WH employee",
+					"name": "Warehouse employee",
 					"nodes": [
 						{
 							"_type": "UMLAction",
@@ -9474,7 +9474,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGLWFaAKCRSv8w="
 					},
-					"name": "Client-side WH app",
+					"name": "Client-side warehouse app",
 					"nodes": [
 						{
 							"_type": "UMLAction",
@@ -24508,7 +24508,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGLhu//2NP8IFc="
 					},
-					"name": "PrepareOrderKitchenActivityDiagram",
+					"name": "preparemealActivityDiagram",
 					"ownedViews": [
 						{
 							"_type": "RectangleView",

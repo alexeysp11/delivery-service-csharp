@@ -18,4 +18,4 @@ The client-side app used by warehouse employees in the delivery service company 
 
 - [Sign in](../processes/auth/signin.md)
 - [Calculate products](../processes/warehouse/calculateproducts.md)
-- [From WH to kitchen](../processes/warehouse/fromwhtokitchen.md)
+- [From WH to kitchen](../processes/warehouse/wh2kitchen.md)

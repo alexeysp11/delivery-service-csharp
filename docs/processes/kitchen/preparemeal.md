@@ -1,6 +1,6 @@
-# prepareorderkitchen
+# preparemeal
 
-[English](prepareorderkitchen.md) | [Русский](prepareorderkitchen.ru.md)
+[English](preparemeal.md) | [Русский](preparemeal.ru.md)
 
 Kitchen client application: prepare order.
 
@@ -27,4 +27,4 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 - Delivery drivers receive the order details and pickup location through the app.
 - Delivery drivers pick up the food and deliver it to the customer.
 
-![kitchen.prepareorderkitchen](../../img/activitydiagrams/kitchen.prepareorderkitchen.png)
+![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)

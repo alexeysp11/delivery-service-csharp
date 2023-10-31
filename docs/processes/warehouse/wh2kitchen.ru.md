@@ -1,6 +1,6 @@
-# fromwhtokitchen
+# wh2kitchen
 
-[English](fromwhtokitchen.md) | [Русский](fromwhtokitchen.ru.md)
+[English](wh2kitchen.md) | [Русский](wh2kitchen.ru.md)
 
 Клиентское приложение для склада: доставить со склада на кухню.
 
@@ -27,4 +27,4 @@
     - Также на этом этапе уведомляется менеджер (поскольку это коллизия планирования/учета продуктов)
 - Если реальных продуктов достаточно, то списать необходимое количество, отнести их на кухню и закрыть процесс.
 
-![warehouse.fromwhtokitchen](../../img/activitydiagrams/warehouse.fromwhtokitchen.png)
+![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)

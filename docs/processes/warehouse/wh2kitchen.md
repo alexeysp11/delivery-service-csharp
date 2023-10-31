@@ -1,6 +1,6 @@
-# fromwhtokitchen
+# wh2kitchen
 
-[English](fromwhtokitchen.md) | [Русский](fromwhtokitchen.ru.md)
+[English](wh2kitchen.md) | [Русский](wh2kitchen.ru.md)
 
 Warehouse client application: Deliver from WH to kitchen.
 
@@ -32,4 +32,4 @@ The interactive steps within the scenario include receiving delivery requests fr
 - Prepare the products for transport, such as packing them into boxes or crates
 - Update delivery status to indicate that the products have been picked up and are en route to the kitchen
 
-![warehouse.fromwhtokitchen](../../img/activitydiagrams/warehouse.fromwhtokitchen.png)
+![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)
