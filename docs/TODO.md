@@ -18,6 +18,7 @@
 - Create the common diagram that shows interaction between services in order to retrieve some data for customer client-side app (e.g. orders, pending orders, settings, user account, watching videos).
 - Create a diagram that could be used to explain how services intract with each other, in order to send and/or retrive some push or email notifications.
 - Create a diagram that explains how the products are delivered to the kitchen, how the order is prepared, and how it is delivered to the customer.
+- Implement parsing of QR code.
 
 ## Roadmap for the project 
 
