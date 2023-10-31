@@ -7,9 +7,13 @@ Warehouse client application: track expiration date.
 The scenario responsible for tracking expiration dates of the products stored in the warehouse by warehouse employees in the delivery service company involves using inventory management software to track the date of receipt and expiration for each product. 
 This allows warehouse employees to ensure that products are used or sold before they expire and to remove expired products from inventory in a timely manner.
 
+Macro process: [maintenance](../../macroprocesses/maintenance.md)
+
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 
 ## Process description
+
+![maintenance_overall](../../img/maintenance_overall.png)
 
 ### Step-by-step execution
 
