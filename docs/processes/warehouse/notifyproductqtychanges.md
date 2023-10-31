@@ -27,3 +27,5 @@ The interactive steps within the scenario include setting up notification prefer
 - The warehouse employee receives the notification and updates the inventory database accordingly.
     - Receive alerts when inventory levels reach a certain threshold or when products are running low
     - Update inventory records as needed, such as ordering more products or adjusting storage locations
+
+![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)

@@ -22,3 +22,5 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 - The system checks the inventory database for that product.
 - The system displays the expiration date of the product to the employee.
 - If the product is expired, the system sends a notification to the restaurant manager to dispose of it.
+
+![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)

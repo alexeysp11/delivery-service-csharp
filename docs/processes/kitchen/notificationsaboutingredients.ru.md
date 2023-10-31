@@ -27,3 +27,5 @@ However, the implementation of this service in the context of user notification 
 - Система проверяет заказ на доставку и определяет необходимые ингредиенты.
 - Если ингредиентов нет на кухне, система отправляет уведомление на склад для их доставки.
 - Когда ингредиенты доставлены, система отправляет уведомление работнику кухни.
+
+![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)

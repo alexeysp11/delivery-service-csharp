@@ -28,3 +28,5 @@ The interactive steps within the scenario include scanning product barcodes, ent
 - Scan product barcodes to identify the products in the warehouse
 - Enter the quantity of each product on hand
 - Update inventory records to reflect the new product quantities
+
+![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)

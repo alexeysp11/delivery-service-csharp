@@ -27,3 +27,5 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 - The system checks the delivery order and identifies the necessary ingredients.
 - If the ingredients are not available in the kitchen, the system sends a notification to the warehouse to deliver them.
 - When the ingredients are delivered, the system sends a notification to the kitchen employee.
+
+![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)

@@ -21,3 +21,5 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 - Employee selects "Inventory Report" option.
 - The system retrieves the inventory data from the database.
 - The system displays the inventory report to the employee.
+
+![customer.allorders](../../img/activitydiagrams/customer.allorders.png)
