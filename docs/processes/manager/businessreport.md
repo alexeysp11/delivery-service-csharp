@@ -9,11 +9,15 @@ The scenario responsible for getting business report by manager in the delivery 
 A business report in a delivery service company could consist of financial reports, operational reports, customer satisfaction reports, inventory reports, and employee performance reports. 
 Different types of business reports could be used depending on the specific needs of the company.
 
+Macro process: [organizational](../../macroprocesses/organizational.md)
+
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md)
 
 ## Process description
 
 - The process can be used in conjunction with the [trackperformance](trackperformance.md) process.
+
+![organizational_overall](../../img/organizational_overall.png)
 
 ### Step-by-step execution
 

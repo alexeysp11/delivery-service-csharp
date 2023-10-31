@@ -6,9 +6,13 @@ Manager client application: set inventory levels.
 
 The scenario responsible for setting inventory levels by manager in the delivery service company involves determining optimal inventory levels based on demand forecasts, adjusting inventory levels as needed to avoid stockouts or excess inventory, and monitoring inventory levels to ensure efficient operations.
 
+Macro process: [organizational](../../macroprocesses/organizational.md)
+
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
 ## Process description
+
+![organizational_overall](../../img/organizational_overall.png)
 
 ### Step-by-step execution
 

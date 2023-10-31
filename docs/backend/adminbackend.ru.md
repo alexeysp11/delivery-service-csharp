@@ -9,6 +9,10 @@
 
 [Клиентское приложение](../frontend/adminclient.ru.md)
 
+## Общая модель системы 
+
+![system_overall](../img/system_overall.png)
+
 ## Процессы 
 
 - [Вход](../processes/auth/signin.ru.md)

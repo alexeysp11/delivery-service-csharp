@@ -7,11 +7,15 @@ Manager client application: start employee search.
 The scenario responsible for starting employee search by manager involves using the management app to search for employees based on various criteria, such as name, department, or location. 
 This allows managers to quickly find and communicate with the right employees for specific tasks or projects.
 
+Macro process: [organizational](../../macroprocesses/organizational.md)
+
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
 ## Process description
 
 - External services that could be used for getting information about potential candidates when searching for a new employee by manager in the delivery service company include job posting websites (e.g. Indeed, Glassdoor), recruiting agencies, and professional networking sites (e.g. LinkedIn).
+
+![organizational_overall](../../img/organizational_overall.png)
 
 ### Step-by-step execution
 

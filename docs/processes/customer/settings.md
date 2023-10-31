@@ -17,7 +17,7 @@ Settings and personal data page:
 - Personal information:
     - login (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](useraccount.md)),
     - email (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](useraccount.md)),
-    - telephone (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](useraccount.md)),
+    - phone (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](useraccount.md)),
     - connected messengers: WhatsApp, Viber, Telegram,
     - nickname in Telegram,
     - preferred method of communication: e-mail, phone, one of the messengers,

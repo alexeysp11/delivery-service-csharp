@@ -6,6 +6,8 @@ Manager client application: track performance.
 
 The scenario responsible for tracking performance of employees and delivery strategies by manager in the delivery service company involves collecting data on delivery times, customer satisfaction, employee productivity, and other relevant metrics, analyzing the data to identify trends and areas for improvement, and implementing changes to improve performance.
 
+Macro process: [organizational](../../macroprocesses/organizational.md)
+
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
 ## Process description
@@ -18,6 +20,8 @@ Metrics that could be used by managers in the delivery service company to measur
 - Admins: system uptime, response time to support requests, data accuracy rate
 
 Overall performance of the company could be estimated by tracking metrics such as revenue growth rate, customer retention rate, and market share. Performance metrics could be used for planning strategies to scale up the company by identifying areas for improvement and setting goals for improvement.
+
+![organizational_overall](../../img/organizational_overall.png)
 
 ### Step-by-step execution
 

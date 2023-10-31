@@ -9,6 +9,10 @@ It interfaces with all client-side apps and provides a centralized location for 
 
 [Client app](../frontend/adminclient.md)
 
+## Overall description of the system 
+
+![system_overall](../img/system_overall.png)
+
 ## Processes 
 
 - [Sign in](../processes/auth/signin.md)

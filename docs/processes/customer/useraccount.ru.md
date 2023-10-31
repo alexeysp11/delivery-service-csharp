@@ -16,5 +16,6 @@
     - логин,
     - эл. почта,
     - телефон.
+- Некоторые поля также отображаются на странице [настройки](settings.ru.md).
 
 ![information_overall](../../img/information_overall.png)
