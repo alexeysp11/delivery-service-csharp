@@ -17,7 +17,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 - Responsible for payment of the order.
 - Called within the [makeorder](makeorder.ru.md) process.
 
-![placing_order_overall](../../img/placing_order_overall.png)
+![delivering_overall](../../img/delivering_overall.png)
 
 ### Step-by-step execution
 

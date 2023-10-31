@@ -25,7 +25,11 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 - If, when loading the order card, it is already known that the order cannot be canceled, then hide the "Cancel order" button.
 - After canceling an order, the order disappears from the list of current orders.
 
-![placing_order_overall](../../img/placing_order_overall.png)
+This process cancels the macroprocess [delivering](../../macroprocesses/delivering.md):
+
+![delivering_overall](../../img/delivering_overall.png)
+
+However, this process is implemented as part of the microprocess [requesting](../../macroprocesses/requesting.md):
 
 ![requesting_overall](../../img/requesting_overall.png)
 

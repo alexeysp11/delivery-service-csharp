@@ -20,7 +20,7 @@
     - Данные из этих таблиц попадают из БД, относящейся к сервису [managerbackend](../../backend/managerbackend.ru.md), с помощью механизма репликации.
 - В БД есть таблица [delivery_whproduct_whb](../../dbtables/warehouse/customer/delivery_whproduct_whb.md), в которой хранятся данные по продуктам на складе в текущий момент времени.
 
-![placing_order_overall](../../img/placing_order_overall.png)
+![delivering_overall](../../img/delivering_overall.png)
 
 ### Пошаговое выполнение
 

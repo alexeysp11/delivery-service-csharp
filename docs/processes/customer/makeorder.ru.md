@@ -18,7 +18,7 @@
 - Ответсвенен за регистрацию заказа в приложении.
 - Включает в себя логику электронной оплаты.
 
-![placing_order_overall](../../img/placing_order_overall.png)
+![delivering_overall](../../img/delivering_overall.png)
 
 ### Пошаговое выполнение
 

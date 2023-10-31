@@ -15,7 +15,7 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 
 - Registration of a backpack by scanning a QR code (in order to register the beginning / end of work during the day and track the location of the courier in real time).
 
-![placing_order_overall](../../img/placing_order_overall.png)
+![delivering_overall](../../img/delivering_overall.png)
 
 Despite the fact that this process belongs to the macroprocess [delivering](../../macroprocesses/delivering.ru.md), the implementation of this process is similar to the processes included in the macroprocess [maintenance](../../macroprocesses/maintenance.ru.md), in the context of user notification:
 

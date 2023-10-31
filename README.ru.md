@@ -49,6 +49,12 @@
     - [predictive backend](docs/backend/predictivebackend.ru.md), 
     - [email backend](docs/backend/emailbackend.ru.md), 
     - [push notifications](docs/backend/pushnotificationsbackend.ru.md).
+- Описание макропроцессов:
+    - [доставка](docs/macroprocesses/delivering.md),
+    - [информация](docs/macroprocesses/information.md),
+    - [обслуживание](docs/macroprocesses/maintenance.md),
+    - [организационный](docs/macroprocesses/organizational.md),
+    - [запрос](docs/macroprocesses/requesting.md).
 - Виды оплаты: 
     - наличная при получении, 
     - через валидатор при получении, 

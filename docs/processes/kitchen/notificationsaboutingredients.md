@@ -13,7 +13,11 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 
 ## Process description
 
-![placing_order_overall](../../img/placing_order_overall.png)
+Данный процесс связан с макропроцессом [delivering](../../macroprocesses/delivering.ru.md):
+
+![delivering_overall](../../img/delivering_overall.png)
+
+Однако реализация данного сервиса в контексте уведомления пользователя выполнена как часть макропроцесса [maintenance](../../macroprocesses/maintenance.md):
 
 ![maintenance_overall](../../img/maintenance_overall.png)
 

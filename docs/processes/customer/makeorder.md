@@ -18,7 +18,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 - Responsible for registering the order in the application.
 - Includes electronic payment logic.
 
-![placing_order_overall](../../img/placing_order_overall.png)
+![delivering_overall](../../img/delivering_overall.png)
 
 ### Step-by-step execution
 

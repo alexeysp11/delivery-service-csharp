@@ -12,7 +12,7 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 
 ## Process description
 
-![placing_order_overall](../../img/placing_order_overall.png)
+![delivering_overall](../../img/delivering_overall.png)
 
 ### Step-by-step execution
 

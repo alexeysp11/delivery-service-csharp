@@ -17,7 +17,7 @@
 - Построение наиболее оптимального маршрута для доставки.
 - Отображение местоположения курьера на карте.
 
-![placing_order_overall](../../img/placing_order_overall.png)
+![delivering_overall](../../img/delivering_overall.png)
 
 ### Пошаговое выполнение
 

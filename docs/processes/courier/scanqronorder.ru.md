@@ -13,7 +13,7 @@
 
 ## Описание процесса
 
-![placing_order_overall](../../img/placing_order_overall.png)
+![delivering_overall](../../img/delivering_overall.png)
 
 Несмотря на то, что данный процесс относится к макропроцессу [delivering](../../macroprocesses/delivering.ru.md), реализация данного процесса схожа с процессами, входящими в макропроцесс [maintenance](../../macroprocesses/maintenance.ru.md), в контексте уведомления пользователя:
 

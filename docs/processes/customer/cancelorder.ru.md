@@ -7,7 +7,7 @@
 Сценарий отмены заказа в приложении службы доставки позволяет клиентам отменить свой заказ до его подготовки и доставки.
 Приложение предлагает пользователю подтвердить отмену и предоставляет возможность оставить отзыв или комментарий.
 
-Macro process: [requesting](../../macroprocesses/requesting.md)
+Макропроцесс: [requesting](../../macroprocesses/requesting.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 
@@ -25,7 +25,13 @@ Macro process: [requesting](../../macroprocesses/requesting.md)
 - Если при загрузке карточки заказа уже известно, что заказ не может быть отменен, то скрывать кнопку "Отменить заказ".
 - После отмены заказа, заказ пропадает из списка текущих заказов.
 
-![placing_order_overall](../../img/placing_order_overall.png)
+Данный процесс отменяет макропроцесс [delivering](../../macroprocesses/delivering.ru.md):
+
+![delivering_overall](../../img/delivering_overall.png)
+
+Однако реализуется данный процесс как часть мкропроцесса [requesting](../../macroprocesses/requesting.ru.md):
+
+![requesting_overall](../../img/requesting_overall.png)
 
 ### Пошаговое выполнение
 

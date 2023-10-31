@@ -49,6 +49,12 @@ Any company that offers delivery services could potentially use this application
     - [predictive backend](docs/backend/predictivebackend.md), 
     - [email backend](docs/backend/emailbackend.md), 
     - [push notifications](docs/backend/pushnotificationsbackend.md).
+- Description of macro processes: 
+    - [delivering](docs/macroprocesses/delivering.md),
+    - [information](docs/macroprocesses/information.md),
+    - [maintenance](docs/macroprocesses/maintenance.md),
+    - [organizational](docs/macroprocesses/organizational.md),
+    - [requesting](docs/macroprocesses/requesting.md).
 - Types of payment: 
     - cash upon receipt, 
     - through a validator upon receipt, 

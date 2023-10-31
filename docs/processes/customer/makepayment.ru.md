@@ -17,7 +17,7 @@
 - Ответственен за осуществление оплаты за заказ.
 - Вызывается в рамках процесса [makeorder](makeorder.ru.md).
 
-![placing_order_overall](../../img/placing_order_overall.png)
+![delivering_overall](../../img/delivering_overall.png)
 
 ### Пошаговое выполнение
 

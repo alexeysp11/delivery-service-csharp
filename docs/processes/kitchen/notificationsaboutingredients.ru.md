@@ -13,7 +13,11 @@
 
 ## Описание процесса
 
-![placing_order_overall](../../img/placing_order_overall.png)
+This process is associated with the macroprocess [delivering](../../macroprocesses/delivering.ru.md):
+
+![delivering_overall](../../img/delivering_overall.png)
+
+However, the implementation of this service in the context of user notification is performed as part of the macro process [maintenance](../../macroprocesses/maintenance.md):
 
 ![maintenance_overall](../../img/maintenance_overall.png)
 

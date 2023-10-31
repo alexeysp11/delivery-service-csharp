@@ -16,7 +16,7 @@ The overall description of the scenario for delivery from the warehouse to the k
 
 The interactive steps within the scenario include receiving delivery requests from the kitchen, selecting products for delivery, preparing products for transport, and updating delivery status.
 
-![placing_order_overall](../../img/placing_order_overall.png)
+![delivering_overall](../../img/delivering_overall.png)
 
 ### Step-by-step execution
 
