@@ -13,6 +13,8 @@ Related modules: [client application](../../frontend/courierclient.md), [backend
 
 - Registration of a backpack by scanning a QR code (in order to register the beginning / end of work during the day and track the location of the courier in real time).
 
+![placing_order_overall](../../img/placing_order_overall.png)
+
 ### Step-by-step execution
 
 - The courier opens the app on their device.

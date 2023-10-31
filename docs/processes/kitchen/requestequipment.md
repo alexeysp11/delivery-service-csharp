@@ -19,6 +19,6 @@ Related modules: [client application](../../frontend/kitchenclient.md), [backend
 - The employee fills out a form with details about the broken equipment and submits the request.
 - The system checks if the inventory or equipment is available in the warehouse.
 - If it is available, the system sends a notification to the warehouse employee to prepare it for delivery.
-- If it is not available, the system sends a notification to the restaurant manager to order it.
+- If it is not available, the system sends a notification to the manager to order it.
 - The request is received by the manager, who reviews it and approves or denies the request.
 - If approved, the manager orders the new equipment and updates the employee on when it will arrive.

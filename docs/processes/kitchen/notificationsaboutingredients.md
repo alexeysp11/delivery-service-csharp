@@ -11,6 +11,8 @@ Related modules: [client application](../../frontend/kitchenclient.md), [backend
 
 ## Process description
 
+![placing_order_overall](../../img/placing_order_overall.png)
+
 ### Step-by-step execution
 
 - Kitchen employee opens the app.

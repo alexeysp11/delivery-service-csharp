@@ -10,6 +10,8 @@ Related modules: [client application](../../frontend/warehouseclient.md), [backe
 
 ## Process description
 
+![placing_order_overall](../../img/placing_order_overall.png)
+
 ### Step-by-step execution
 
 - Warehouse employee opens the app.

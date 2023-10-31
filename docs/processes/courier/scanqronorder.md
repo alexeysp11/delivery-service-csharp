@@ -11,6 +11,8 @@ Related modules: [client application](../../frontend/courierclient.md), [backend
 
 ## Process description
 
+![placing_order_overall](../../img/placing_order_overall.png)
+
 ### Step-by-step execution
 
 - The courier opens the app on their device.

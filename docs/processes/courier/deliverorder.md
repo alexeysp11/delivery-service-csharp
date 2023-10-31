@@ -15,6 +15,8 @@ Related modules: [client application](../../frontend/courierclient.md), [backend
 - Building the most optimal route for delivery.
 - Display the location of the courier on the map.
 
+![placing_order_overall](../../img/placing_order_overall.png)
+
 ### Step-by-step execution
 
 - The courier opens the app on their device.
