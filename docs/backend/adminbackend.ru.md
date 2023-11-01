@@ -17,5 +17,6 @@
 
 - [Вход](../processes/auth/signin.ru.md)
 - [Пинговать сервисы](../processes/admin/pingservices.ru.md)
-- [Управление разрешениями](../processes/admin/managepermissions.md)
-- [Управление уровнями доступа](../processes/admin/manageaccesslevels.md)
+- [Управление разрешениями](../processes/admin/managepermissions.ru.md)
+- [Управление уровнями доступа](../processes/admin/manageaccesslevels.ru.md)
+- [Развернуть сервис из GitHub](../processes/admin/deployservice.ru.md)

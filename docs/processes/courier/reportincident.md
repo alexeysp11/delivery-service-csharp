@@ -26,3 +26,5 @@ The interactive steps within the scenario include selecting the type of incident
 - The system prompts the courier to provide details about the incident.
 - The courier provides details about the incident.
 - The system stores the incident report in the database and notifies the manager.
+
+![warehouse.reportincident](../../img/activitydiagrams/warehouse.reportincident.png)

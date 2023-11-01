@@ -30,3 +30,5 @@ The interactive steps within the scenario include selecting the type of incident
     - Submit the incident report to notify management and other staff of the incident.
 - The system stores the incident report in the database.
 - The system sends a notification to the manager about the incident.
+
+![warehouse.reportincident](../../img/activitydiagrams/warehouse.reportincident.png)

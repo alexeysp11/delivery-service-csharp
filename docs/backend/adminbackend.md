@@ -19,3 +19,4 @@ It interfaces with all client-side apps and provides a centralized location for 
 - [Ping services](../processes/admin/pingservices.md)
 - [Manage permissions](../processes/admin/managepermissions.md)
 - [Manage access levels](../processes/admin/manageaccesslevels.md)
+- [Deploy service from GitHub](../processes/admin/deployservice.md)

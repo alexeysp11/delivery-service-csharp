@@ -21,3 +21,5 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - The system prompts the manager to provide details about the notification.
 - The manager provides details about the notification.
 - The system sends the notification to all employees.
+
+![warehouse.reportincident](../../img/activitydiagrams/warehouse.reportincident.png)
