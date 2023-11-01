@@ -19,3 +19,9 @@ Responsible modules: [client application](../../frontend/customerclient.md)
 - Some fields are also displayed on the [settings](settings.md) page.
 
 ![information_overall](../../img/information_overall.png)
+
+## Data 
+
+### Objects 
+
+- [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal)

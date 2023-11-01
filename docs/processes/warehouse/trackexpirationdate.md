@@ -24,3 +24,15 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 - If the product is expired, the system sends a notification to the restaurant manager to dispose of it.
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
+
+## Data
+
+### Objects
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- Warehouse 
+
+### DTOs
+
+- ProductDTO
+- WarehouseDTO

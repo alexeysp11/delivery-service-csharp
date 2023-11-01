@@ -33,3 +33,21 @@ The interactive steps within the scenario include receiving delivery requests fr
 - Update delivery status to indicate that the products have been picked up and are en route to the kitchen
 
 ![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)
+
+## Data 
+
+### Objects
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [Ingredient](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Ingredient.md)
+- Warehouse
+- Kitchen
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+
+### DTOs
+
+- ProductDTO
+- IngredientDTO
+- WarehouseDTO
+- KitchenDTO
+- EmployeeDTO

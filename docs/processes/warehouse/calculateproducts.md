@@ -30,3 +30,15 @@ The interactive steps within the scenario include scanning product barcodes, ent
 - Update inventory records to reflect the new product quantities
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
+
+## Data
+
+### Objects
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- Warehouse 
+
+### DTOs
+
+- ProductDTO
+- WarehouseDTO

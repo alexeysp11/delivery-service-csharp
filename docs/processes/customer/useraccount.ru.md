@@ -19,3 +19,9 @@
 - Некоторые поля также отображаются на странице [настройки](settings.ru.md).
 
 ![information_overall](../../img/information_overall.png)
+
+## Данные 
+
+### Объекты 
+
+- [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal)

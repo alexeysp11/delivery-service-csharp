@@ -33,3 +33,15 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 The step-by-step execution of the process is identical to the [rateorder](rateorder.md) process (except that the consumer does not rate the order, but simply reads the notification):
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
+
+## Data
+
+### Objects 
+
+- Notification
+- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Customer.md)
+
+### DTOs
+
+- NotificationDTO
+- CustomerDTO

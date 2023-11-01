@@ -37,3 +37,15 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 ### Objects 
 
 - [Payment](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Monetary/Payment.md)
+- Order
+- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Customer.md)
+- Delivery
+- Transaction
+
+### DTOs 
+
+- PaymentDTO
+- OrderDTO
+- CustomerDTO
+- DeliveryDTO
+- TransactionDTO

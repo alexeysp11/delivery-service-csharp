@@ -19,3 +19,5 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - Manager opens the app.
 - Manager receives notifications about incidents reported by employees.
 - Manager reviews the incident report and takes appropriate action.
+
+![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)

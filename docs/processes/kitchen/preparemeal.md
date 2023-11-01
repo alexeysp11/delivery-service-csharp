@@ -28,3 +28,15 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 - Delivery drivers pick up the food and deliver it to the customer.
 
 ![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)
+
+## Data
+
+### Objects
+
+- Meal
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+
+### DTOs
+
+- MealDTO
+- EmployeeDTO

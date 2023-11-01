@@ -21,3 +21,21 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 - The system checks if the inventory is available in the kitchen.
 - If it is available, the system sends a notification to the kitchen employee to prepare it for delivery.
 - When the inventory is ready, the kitchen employee delivers it to the warehouse.
+
+## Data 
+
+### Objects
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [Ingredient](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Ingredient.md)
+- Warehouse
+- Kitchen
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+
+### DTOs
+
+- ProductDTO
+- IngredientDTO
+- WarehouseDTO
+- KitchenDTO
+- EmployeeDTO

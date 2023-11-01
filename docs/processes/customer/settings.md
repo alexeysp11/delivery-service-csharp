@@ -25,8 +25,7 @@ Settings and personal data page:
     - preferred payment method,
     - linked cards.
 - Usability:
-    - default delivery location,
-    - file extension for loading by default.
+    - default delivery location.
 - Safety:
     - password (this parameter is empty by default).
 
@@ -44,3 +43,19 @@ You can also go to [user account](useraccount.md) to see some personal settings.
     - After that, the user is shown on the interface: "Successful" or "An error occurred".
 
 ![customer.settings](../../img/activitydiagrams/customer.settings.png)
+
+## Data 
+
+### Objects 
+
+- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Customer.md)
+- [Contact](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Contact.md)
+- [Address](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Address.md)
+- PaymentMethod
+- Card
+
+### DTOs 
+
+- UserDTO, 
+- PaymentMethodDTO, 
+- CardDTO

@@ -26,3 +26,15 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 - If it is not available, the system sends a notification to the manager to order it.
 - The request is received by the manager, who reviews it and approves or denies the request.
 - If approved, the manager orders the new equipment and updates the employee on when it will arrive.
+
+## Data
+
+### Objects
+
+- EquipmentRequest
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md) 
+
+### DTOs 
+
+- EquipmentRequestDTO
+- EmployeeDTO

@@ -26,3 +26,17 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 - If the rating is below a certain threshold, the system sends a notification to the restaurant manager.
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
+
+## Data
+
+### Objects 
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
+- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Customer.md)
+
+### DTOs 
+
+- OrderDTO 
+- UserDTO
