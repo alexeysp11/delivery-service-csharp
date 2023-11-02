@@ -12,6 +12,11 @@ Macro process: [delivering](../../macroprocesses/delivering.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
+Infuences on: 
+- [customerbackend](../../backend/customerbackend.md)
+    - [makepayment](makepayment.md)
+    - [preprocessorder](preprocessorder.md)
+
 ## Process description
 
 - The main process in the application [customer app](../../frontend/customerclient.md).
@@ -26,7 +31,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 - They proceed to checkout and select preferred delivery option, enter their delivery address and contact details, select their preferred payment method (cash on delivery, POS when receiving, using QR code, using CVC), then confirm the order.
 - The client-side app validates date and stores some cache.
 - Start the [makepayment](makepayment.md) process.
-- Then the information entered by the user is sent to the database and to [customerbackend](../../backend/customerbackend.md), which also notifies [kitchenbackend](../../backend/kitchenbackend.md) (this is done within the process [preprocessorder](preprocessorder.md)).
+- Then within the process [preprocessorder](preprocessorder.md) the information entered by the user is sent to the database and to [customerbackend](../../backend/customerbackend.md), which also notifies [kitchenbackend](../../backend/kitchenbackend.md).
 - The user is on the [Pending orders](pendingorders.md) page where they can track the status of their order in real-time.
 
 ![customer.makeorder](../../img/activitydiagrams/customer.makeorder.png)

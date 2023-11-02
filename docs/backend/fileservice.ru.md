@@ -39,6 +39,12 @@
 - Разрешение изображения
 - Файлы могут передаваться во время потоковой передачи
 
+<!--
 Разрешение видео:
 
 ![video-resolution](https://zidivo.com/wp-content/uploads/2020/09/video-resolution.png)
+-->
+
+## Процессы 
+
+- [Сгенерировать QR код](../processes/fileservice/generateqr.md)

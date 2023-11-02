@@ -10,6 +10,16 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/warehouseclient.md), [бэкенд-сервис](../../backend/warehousebackend.md)
 
+Depends on: 
+- [customerbackend](../../backend/customerbackend.md)
+    - [preprocessorder](../../processes/customer/preprocessorder.md)
+
+Влияет на:
+- [systembackend](../../backend/systembackend.ru.md)
+    - [sendnotifications](../../processes/systembackend/sendnotifications.ru.md)
+- [courierbackend](../../backend/courierbackend.ru.md)
+    - [store2wh](../courier/store2wh.ru.md)
+
 ## Описание процесса
 
 Общее описание сценария доставки со склада на склад в бэкэнд-сервисе склада заключается в том, что он позволяет сотрудникам склада управлять потоком продукции от хранилищ до производства.

@@ -11,11 +11,25 @@
 
 Ответственные модули: [бэкэнд-сервис](../../backend/customerbackend.md)
 
+Зависит от: 
+- [customerbackend](../../backend/customerbackend.ru.md)
+    - [makeorder](makeorder.md)
+
+Влияет на:
+- [warehousebackend](../../backend/warehousebackend.ru.md)
+    - [wh2kitchen](../warehouse/wh2kitchen.ru.md)
+    - [kitchen2wh](../warehouse/kitchen2wh.ru.md)
+- [kitchenbackend](../../backend/kitchenbackend.ru.md)
+    - [preparemeal](../kitchen/preparemeal.ru.md)
+- [courierbackend](../../backend/courierbackend.ru.md)
+    - [store2wh](../courier/store2wh.ru.md)
+    - [deliverorder](../courier/deliverorder.ru.md)
+
 ## Описание процесса
 
 - [Приложение службы доставки](../../../README.ru.md) включает сценарий, который предварительно обрабатывает заказ перед его отправкой на кухню для приготовления.
 - Выполняется автоматически в рамках процесса [makeorder](makeorder.ru.md).
-- Задействованые бэкенд-сервисы: [customerbackend](../../backend/customerbackend.ru.md), [warehousebackend](../../backend/warehousebackend.ru.md), [kitchenbackend](../../backend/kitchenbackend.ru.md).
+- Задействованые бэкенд-сервисы: [customerbackend](../../backend/customerbackend.ru.md), [warehousebackend](../../backend/warehousebackend.ru.md), [kitchenbackend](../../backend/kitchenbackend.ru.md), [courierbackend](../../backend/courierbackend.ru.md).
 - В БД есть таблицы [delivery_recipe_cb](../../dbtables/customer/delivery_recipe_cb.md), [delivery_ingredient_cb](../../dbtables/customer/delivery_ingredient_cb.md) и [delivery_menuitem_cb](../../dbtables/customer/delivery_menuitem_cb.md), которая содержит рецепты каждого продукта с указанием необходимых исходных продуктов и их количеством/весом/объемом. Рецепты необходимы для того, чтобы на их основе можно было получить количество исходных продуктов, необходимых для выполнения заказа.
     - Данные из этих таблиц попадают из БД, относящейся к сервису [managerbackend](../../backend/managerbackend.ru.md), с помощью механизма репликации.
 - В БД есть таблица [delivery_whproduct_whb](../../dbtables/warehouse/customer/delivery_whproduct_whb.md), в которой хранятся данные по продуктам на складе в текущий момент времени.

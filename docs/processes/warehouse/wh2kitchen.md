@@ -10,6 +10,16 @@ Macro process: [delivering](../../macroprocesses/delivering.md)
 
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 
+Depends on: 
+- [customerbackend](../../backend/customerbackend.md)
+    - [preprocessorder](../../processes/customer/preprocessorder.md)
+
+Influences on:
+- [systembackend](../../backend/systembackend.md)
+    - [sendnotifications](../../processes/systembackend/sendnotifications.md)
+- [courierbackend](../../backend/courierbackend.md)
+    - [store2wh](../courier/store2wh.md)
+
 ## Process description
 
 The overall description of the scenario for delivery from the warehouse to the kitchen in the warehouse backend service is that it allows warehouse staff to manage the flow of products from storage to production. 

@@ -11,6 +11,14 @@ Macro process: [delivering](../../macroprocesses/delivering.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
+Depends on: 
+- [customerbackend](../../backend/customerbackend.ru.md)
+    - [makeorder](makeorder.md)
+
+Influences on:
+- [fileservice](../../backend/fileservice.ru.md)
+    - [generateqr](../../processes/fileservice/generateqr.ru.md)
+
 ## Process description
 
 - The [customer app](../../frontend/customerclient.md) allows users to make payments for their orders using different payment methods.

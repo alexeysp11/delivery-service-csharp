@@ -12,6 +12,11 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 
+Влияет на: 
+- [customerbackend](../../backend/customerbackend.ru.md)
+    - [makepayment](makepayment.ru.md)
+    - [preprocessorder](preprocessorder.ru.md)
+
 ## Описание процесса
 
 - Основной процесс в приложении [customer app](../../frontend/customerclient.md).
@@ -26,7 +31,7 @@
 - Пользователь переходит к оформлению заказа и выбирает предпочтительный вариант доставки, вводит адрес доставки и контактные данные? выбирает предпочтительный способ оплаты (наличными, POS при получении, с помощью QR-кода, с помощью CVC), а затем подтверждает заказ.
 - Клиентское приложение проверяет дату и сохраняет данные в кэш.
 - Начать процесс [makepayment](makepayment.md).
-- Затем введенная пользователем информация отправляется в базу данных и в [customerbackend](../../backend/customerbackend.md), который также уведомляет [kitchenbackend](../../backend/kitchenbackend.md) (это происходит в рамках процесса [preprocessorder](preprocessorder.ru.md)).
+- Затем в рамках процесса [preprocessorder](preprocessorder.ru.md) введенная пользователем информация отправляется в базу данных и в [customerbackend](../../backend/customerbackend.md), который также уведомляет [kitchenbackend](../../backend/kitchenbackend.md).
 - Пользователь находится на странице [Текущие заказы](pendingorders.ru.md), где он может отслеживать статус своего заказа в режиме реального времени.
 
 ![customer.makeorder](../../img/activitydiagrams/customer.makeorder.png)

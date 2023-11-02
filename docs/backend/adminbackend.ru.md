@@ -20,3 +20,4 @@
 - [Управление разрешениями](../processes/admin/managepermissions.ru.md)
 - [Управление уровнями доступа](../processes/admin/manageaccesslevels.ru.md)
 - [Развернуть сервис из GitHub](../processes/admin/deployservice.ru.md)
+- [Репликация БД](../processes/admin/dbreplication.ru.md)

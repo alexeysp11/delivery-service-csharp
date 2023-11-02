@@ -39,6 +39,12 @@
 - Image resolution
 - Files could be transmitted during streaming
 
+<!--
 Video resolution: 
 
 ![video-resolution](https://zidivo.com/wp-content/uploads/2020/09/video-resolution.png)
+-->
+
+## Processes 
+
+- [Generate QR code](../processes/fileservice/generateqr.md)

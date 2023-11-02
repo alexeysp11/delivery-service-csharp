@@ -20,3 +20,4 @@ It interfaces with all client-side apps and provides a centralized location for 
 - [Manage permissions](../processes/admin/managepermissions.md)
 - [Manage access levels](../processes/admin/manageaccesslevels.md)
 - [Deploy service from GitHub](../processes/admin/deployservice.md)
+- [Database replication](../processes/admin/dbreplication.md)
