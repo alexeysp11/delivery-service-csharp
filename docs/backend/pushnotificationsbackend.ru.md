@@ -7,3 +7,7 @@
 ## Общая модель системы 
 
 ![system_overall](../img/system_overall.png)
+
+## Процессы 
+
+- [Уведомить](../processes/pushnotificationsbackend/notify.md)

@@ -27,3 +27,20 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 - The courier selects the delivery order they are working on.
 - The courier scans the QR code on the backpack using their device's camera.
 - The system verifies the QR code and confirms that it matches the delivery order.
+
+## Data 
+
+### Objects
+
+- QRCode
+    - QRCode object could have properties like codeValue, expirationDate, etc. 
+- Backpack
+    - Backpack object could have properties like size, weight capacity, QR code, etc. 
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- DeliveryOperation
+    - References to product, employee (courier), backpack, starting point, destination.
+
+### DTOs
+
+- BackpackScanDTO
+    - BackpackScanDTO could have properties like courierName, qrCodeValue, backpackSize, backpackWeightCapacity, etc.

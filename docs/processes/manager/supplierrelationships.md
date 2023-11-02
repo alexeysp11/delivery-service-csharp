@@ -22,3 +22,18 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - The manager can view supplier performance metrics, such as on-time delivery rates and product quality ratings.
 - The manager can add new suppliers or remove existing ones as needed.
 - The manager can negotiate prices and terms with suppliers through the app.
+
+## Data 
+
+### Objects
+
+- Supplier
+    - Supplier object could have properties like name, contact information, product offerings, etc. 
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- DeliveryService
+    - DeliveryService object could have properties like name, contact information, delivery area, etc. 
+
+### DTOs
+
+- SupplierRelationshipDTO
+    - SupplierRelationshipDTO could have properties like supplierName, deliveryServiceName, relationshipType, managerName, managerID, etc.

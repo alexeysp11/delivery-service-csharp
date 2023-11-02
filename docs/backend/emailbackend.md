@@ -7,3 +7,7 @@
 ## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)
+
+## Processes 
+
+- [Sending email](../processes/emailbackend/sendemail.md)

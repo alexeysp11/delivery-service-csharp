@@ -32,3 +32,15 @@ The interactive steps within the scenario include selecting the type of incident
 - The system sends a notification to the manager about the incident.
 
 ![warehouse.reportincident](../../img/activitydiagrams/warehouse.reportincident.png)
+
+## Data
+
+### Objects
+
+- Incident
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- DeliveryService
+
+### DTOs
+
+- IncidentDTO

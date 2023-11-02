@@ -26,3 +26,21 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 - The courier delivers the products to the warehouse.
 - Display the location of the courier on the map.
 - The courier marks the delivery order as complete in the system.
+
+## Data 
+
+### Objects
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- Store
+    - Store object could have properties like name, location, inventory levels, etc. 
+- Warehouse
+    - Warehouse object could have properties like location, inventory levels, etc. 
+- DeliveryOperation
+    - References to product, employee (courier), starting point, destination.
+
+### DTOs
+
+- DeliveryDTO.
+    - DeliveryDTO could have properties like storeName, warehouseLocation, courierName, deliveryDate, vehicle type, etc.

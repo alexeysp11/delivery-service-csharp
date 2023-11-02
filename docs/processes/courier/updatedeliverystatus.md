@@ -22,3 +22,16 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 - The system updates the status of the delivery order and notifies the customer of any changes.
 
 ![courier.updatedeliverystatus](../../img/activitydiagrams/courier.updatedeliverystatus.png)
+
+## Data 
+
+### Objects
+
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- DeliveryStatus
+
+### DTOs
+
+- DeliveryStatusUpdateDTO
+    - DeliveryStatusUpdateDTO could have properties like deliveryId, status, statusDate, etc.

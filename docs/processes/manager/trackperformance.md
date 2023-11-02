@@ -31,3 +31,18 @@ Overall performance of the company could be estimated by tracking metrics such a
 - The manager can filter the data by location, time period, or other relevant factors.
 - The app also provides recommendations for improving performance based on the data analysis.
 - The manager can use this information to make data-driven decisions and optimize business operations.
+
+## Data 
+
+### Objects
+
+- EmployeePerformance
+    - EmployeePerformance object could have properties like employeeName, employeeID, performanceRating, performanceDate, etc. 
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+    - Manager object could have properties like name, ID, department, etc. 
+    - Additionally, the Employee object could have a skills property that lists the skills of the employee.
+
+### DTOs
+
+- PerformanceTrackingDTO
+    PerformanceTrackingDTO could have properties like employeeName, employeeID, performanceRating, performanceDate, managerName, managerID, etc. 

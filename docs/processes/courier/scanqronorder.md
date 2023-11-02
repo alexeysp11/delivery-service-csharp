@@ -25,3 +25,19 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 - The courier selects the delivery order they are working on.
 - The courier scans the QR code on the delivery order using their device's camera.
 - The system verifies the QR code and displays the details of the delivery order to the courier.
+
+## Data 
+
+### Objects
+
+- QRCode
+    - QRCode object could have properties like codeValue, expirationDate, etc. 
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
+    - Order object could have properties like orderNumber, customer details, product details, QR code, etc. 
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+    - Courier object could have properties like name, ID, vehicle type, etc. 
+
+### DTOs
+
+- DeliveryStartDTO
+    - DeliveryStartDTO could have properties like orderNumber, courierName, qrCodeValue, deliveryDate, etc.

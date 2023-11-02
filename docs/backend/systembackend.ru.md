@@ -4,4 +4,5 @@
 
 ## Процессы 
 
-- [Отправка уведомлений](../processes/systembackend/sendnotifications.md)
+- [Отправка уведомлений](../processes/systembackend/sendnotifications.ru.md)
+- [Сообщить об инциденте](../processes/systembackend/reportincident.ru.md)

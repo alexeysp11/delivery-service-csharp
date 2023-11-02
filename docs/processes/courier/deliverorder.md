@@ -31,3 +31,15 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 - When the courier marks the order as completed, the [updatedeliverystatus](updatedeliverystatus.md) process is launched to complete delivery.
 
 ![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)
+
+## Data
+
+### Objects
+
+- Order
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- DeliveryStatus
+
+### DTOs
+
+- DeliveryDTO

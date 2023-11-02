@@ -21,3 +21,16 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - The system displays a list of employees and their current employment status.
 - The manager selects an employee and provides a reason for termination.
 - The system updates the employee's status in the database and notifies HR to proceed with the termination process.
+
+## Data 
+
+### Objects
+
+- TerminationRequest
+    - TerminationRequest object could have properties like employeeName, employeeID, terminationReason, terminationDate, etc. 
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+
+### DTOs
+
+- TerminationRequestDTO
+    - TerminationRequestDTO could have properties like employeeName, employeeID, terminationReason, terminationDate, managerName, managerID, etc.

@@ -5,3 +5,4 @@
 ## Processes 
 
 - [Sending notifications](../processes/systembackend/sendnotifications.md)
+- [Report incident](../processes/systembackend/reportincident.md)

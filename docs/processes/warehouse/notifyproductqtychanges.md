@@ -29,3 +29,19 @@ The interactive steps within the scenario include setting up notification prefer
     - Update inventory records as needed, such as ordering more products or adjusting storage locations
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
+
+## Data 
+
+### Objects
+
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [Ingredient](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Ingredient.md)
+- Warehouse
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+
+### DTOs
+
+- ProductDTO
+- IngredientDTO
+- WarehouseDTO
+- EmployeeDTO

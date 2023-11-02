@@ -28,3 +28,15 @@ The interactive steps within the scenario include selecting the type of incident
 - The system stores the incident report in the database and notifies the manager.
 
 ![warehouse.reportincident](../../img/activitydiagrams/warehouse.reportincident.png)
+
+## Data
+
+### Objects
+
+- Incident
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- DeliveryService
+
+### DTOs
+
+- IncidentDTO

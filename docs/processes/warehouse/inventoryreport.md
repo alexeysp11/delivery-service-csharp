@@ -23,3 +23,17 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 - The system displays the inventory report to the employee.
 
 ![customer.allorders](../../img/activitydiagrams/customer.allorders.png)
+
+## Data 
+
+### Objects
+
+- InventoryReport
+    - InventoryReport object could have properties like reportDate, inventoryLevel, product details, etc. 
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+
+### DTOs
+
+- InventoryReportDTO
+    - InventoryReportDTO could have properties like reportDate, inventoryLevel, productName, productDescription, productPrice, etc.

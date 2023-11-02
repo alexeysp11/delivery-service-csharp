@@ -29,3 +29,18 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - After interviews are conducted, the interviewers provide feedback and ratings for each candidate.
 - The manager reviews the feedback and ratings and selects the most suitable candidate for the position.
 - The system notifies the chosen candidate and HR to proceed with the hiring process.
+
+## Data
+
+### Objects
+
+- EmployeeSearch
+    - EmployeeSearch object could have properties like searchCriteria, searchResults, etc. 
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- Candidate
+    - Employee object could have properties like name, ID, role, skills, etc. 
+
+### DTOs
+
+- EmployeeSearchDTO
+    - EmployeeSearchDTO could have properties like searchCriteria, employeeName, employeeID, employeeRole, employeeSkills, etc.

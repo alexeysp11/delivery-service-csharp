@@ -23,3 +23,18 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 - If the video is available, the system streams it to the user's device.
 - If the video is not available in the backend service, the system retrieves it from YouTube.
 - The system streams the video from YouTube to the user's device.
+
+## Data
+
+### Objects
+
+- Video
+    - Video object could have properties like title, description, length, genre, etc. 
+- Customer
+- WatchedVideo
+    - WatchedVideo object could have a reference to the Video object and properties like date watched, watch duration, etc. 
+
+### DTOs
+
+- WatchedVideoDTO
+    - WatchedVideoDTO could have properties like videoId, dateWatched, watchDuration, etc.
