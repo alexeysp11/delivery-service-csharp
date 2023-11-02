@@ -12,5 +12,4 @@ The backend service responsible for system operations related to the business in
 
 ## Processes 
 
-- [Sending notifications](../processes/systembackend/sendnotifications.md)
 - [Report incident](../processes/systembackend/reportincident.md)

@@ -7664,7 +7664,7 @@
 									"top": 36,
 									"width": 169,
 									"height": 13,
-									"text": "System backend",
+									"text": "Notifications backend",
 									"verticalAlignment": 3
 								}
 							],
@@ -9845,9 +9845,9 @@
 											"font": "Arial;13;0",
 											"left": -24,
 											"top": -104,
-											"width": 134.37353515625,
+											"width": 161.83984375,
 											"height": 13,
-											"text": "(from System backend)"
+											"text": "(from Notifications backend)"
 										},
 										{
 											"_type": "LabelView",
@@ -10607,7 +10607,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGLWFaAKCRSv8w="
 					},
-					"name": "System backend",
+					"name": "Notifications backend",
 					"nodes": [
 						{
 							"_type": "UMLAction",

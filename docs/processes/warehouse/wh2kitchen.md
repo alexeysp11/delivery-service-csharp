@@ -15,8 +15,8 @@ Depends on:
     - [preprocessorder](../../processes/customer/preprocessorder.md)
 
 Influences on:
-- [systembackend](../../backend/systembackend.md)
-    - [sendnotifications](../../processes/systembackend/sendnotifications.md)
+- [notificationsbackend](../../backend/notificationsbackend.md)
+    - [sendnotifications](../../processes/notificationsbackend/sendnotifications.md)
 - [courierbackend](../../backend/courierbackend.md)
     - [store2wh](../courier/store2wh.md)
 

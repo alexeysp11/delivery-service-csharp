@@ -18,8 +18,7 @@
     - [file service](../backend/fileservice.ru.md), 
     - [statistical backend](../backend/statisticalbackend.ru.md), 
     - [predictive backend](../backend/predictivebackend.ru.md), 
-    - [email backend](../backend/emailbackend.ru.md), 
-    - [push notifications](../backend/pushnotificationsbackend.ru.md).
+    - [notifications](../backend/notificationsbackend.ru.md).
 - Виды оплаты:
     - наличная при получении, 
     - через валидатор при получении, 

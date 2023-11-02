@@ -1,10 +1,10 @@
-# sendemail
+# notify
 
-[English](sendemail.md) | [Русский](sendemail.ru.md)
+[English](notify.md) | [Русский](notify.ru.md)
 
 Макропроцесс: [maintenance](../../macroprocesses/maintenance.ru.md)
 
-Ответственные модули: [бэкенд-сервис](../../backend/emailbackend.ru.md)
+Ответственные модули: [бэкенд-сервис](../../backend/notificationsbackend.ru.md)
 
 ## Описание процесса
 

@@ -15,8 +15,8 @@ Depends on:
     - [preprocessorder](../../processes/customer/preprocessorder.md)
 
 Влияет на:
-- [systembackend](../../backend/systembackend.ru.md)
-    - [sendnotifications](../../processes/systembackend/sendnotifications.ru.md)
+- [notificationsbackend](../../backend/notificationsbackend.ru.md)
+    - [sendnotifications](../../processes/notificationsbackend/sendnotifications.ru.md)
 - [courierbackend](../../backend/courierbackend.ru.md)
     - [store2wh](../courier/store2wh.ru.md)
 

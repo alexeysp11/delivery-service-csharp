@@ -48,14 +48,13 @@
     - [file service](docs/backend/fileservice.ru.md), 
     - [statistical backend](docs/backend/statisticalbackend.ru.md), 
     - [predictive backend](docs/backend/predictivebackend.ru.md), 
-    - [email backend](docs/backend/emailbackend.ru.md), 
-    - [push notifications](docs/backend/pushnotificationsbackend.ru.md).
+    - [notifications](docs/backend/notificationsbackend.ru.md).
 - Описание макропроцессов:
-    - [доставка](docs/macroprocesses/delivering.md),
-    - [информация](docs/macroprocesses/information.md),
-    - [обслуживание](docs/macroprocesses/maintenance.md),
-    - [организационный](docs/macroprocesses/organizational.md),
-    - [запрос](docs/macroprocesses/requesting.md).
+    - [доставка](docs/macroprocesses/delivering.ru.md),
+    - [информация](docs/macroprocesses/information.ru.md),
+    - [обслуживание](docs/macroprocesses/maintenance.ru.md),
+    - [организационный](docs/macroprocesses/organizational.ru.md),
+    - [запрос](docs/macroprocesses/requesting.ru.md).
 - Виды оплаты: 
     - наличная при получении, 
     - через валидатор при получении, 

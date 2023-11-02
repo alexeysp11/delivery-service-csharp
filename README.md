@@ -48,8 +48,7 @@ Any company that offers delivery services could potentially use this application
     - [file service](docs/backend/fileservice.md), 
     - [statistical backend](docs/backend/statisticalbackend.md), 
     - [predictive backend](docs/backend/predictivebackend.md), 
-    - [email backend](docs/backend/emailbackend.md), 
-    - [push notifications](docs/backend/pushnotificationsbackend.md).
+    - [notifications](docs/backend/notificationsbackend.md).
 - Description of macro processes: 
     - [delivering](docs/macroprocesses/delivering.md),
     - [information](docs/macroprocesses/information.md),

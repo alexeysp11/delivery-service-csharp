@@ -4,7 +4,7 @@
 
 Macro process: [maintenance](../../macroprocesses/maintenance.md)
 
-Responsible modules: [backend service](../../backend/pushnotificationsbackend.md)
+Responsible modules: [backend service](../../backend/notificationsbackend.md)
 
 ## Process description
 

@@ -18,8 +18,7 @@
     - [file service](../backend/fileservice.md), 
     - [statistical backend](../backend/statisticalbackend.md), 
     - [predictive backend](../backend/predictivebackend.md), 
-    - [email backend](../backend/emailbackend.md), 
-    - [push notifications](../backend/pushnotificationsbackend.md).
+    - [notifications](../backend/notificationsbackend.md).
 - Payment types:
     - cash on delivery, 
     - using POS when receiving,

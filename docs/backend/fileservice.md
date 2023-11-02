@@ -2,15 +2,7 @@
 
 [English](fileservice.md) | [Русский](fileservice.ru.md). 
 
-`fileservice` is a backend service that manages file storage and retrieval.
-
-The backend service responsible for getting and receiving files in the delivery service app is a file transfer service. Its possible functionalities include:
-- Uploading files to the server
-- Downloading files from the server
-- Storing files on the server
-- Retrieving files from the server
-- Checking file integrity
-- Handling file permissions and access control
+`fileservice` is a backend service that manages file storage and retrieval in the [delivery service app](../../README.md).
 
 ## Overall description of the system 
 
@@ -18,9 +10,14 @@ The backend service responsible for getting and receiving files in the delivery 
 
 ## Service description
 
-- Upload files to the server (images, videos, Word, Excel, PDF)
-- Download files from the server (images, Word, Excel, PDF)
-- Generation of a QR code for payment
+The possible functionalities of this service include:
+- Uploading files to the server (images, videos, Word, Excel, PDF)
+- Downloading files from the server (images, Word, Excel, PDF)
+- Storing files on the server
+- Retrieving files from the server
+- Checking file integrity
+- Generation of a QR code
+- Handling file permissions and access control
 
 ### Technical description of the service
 
