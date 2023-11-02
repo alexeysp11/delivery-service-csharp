@@ -37,7 +37,7 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
     - Store object could have properties like name, location, inventory levels, etc. 
 - Warehouse
     - Warehouse object could have properties like location, inventory levels, etc. 
-- DeliveryOperation
+- Delivery
     - References to product, employee (courier), starting point, destination.
 
 ### DTOs

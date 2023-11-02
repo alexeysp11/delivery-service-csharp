@@ -44,16 +44,23 @@ Influences on:
 
 ### Objects 
 
-- [Payment](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Monetary/Payment.md)
-- Order
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
 - [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Customer.md)
 - Delivery
+- [Payment](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Monetary/Payment.md)
 - Transaction
+    - Transaction contains information about the payment transaction, such as transaction ID and status
 
 ### DTOs 
 
-- PaymentDTO
 - OrderDTO
 - CustomerDTO
 - DeliveryDTO
-- TransactionDTO
+- PaymentDTO: contains information about the payment, such as payment method and total amount
+- TransactionDTO: contains information about the payment transaction, such as transaction ID and status
+
+### DB tables 
+
+- deliveries: contains columns for delivery ID, delivery address, expected delivery time, and status
+- payments: contains columns for payment ID, payment method, total amount, and status
+- transactions: contains columns for transaction ID, payment ID, status, and timestamp

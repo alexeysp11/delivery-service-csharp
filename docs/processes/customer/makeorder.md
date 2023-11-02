@@ -47,6 +47,7 @@ Infuences on:
 ### DTOs
 
 - [PlaceOrderModel](../../classes/models/Orders/PlaceOrderModel.md)
+- DeliveryOrderDTO: contains information about the order, such as customer name and delivery address
 
 ### Database tables 
 

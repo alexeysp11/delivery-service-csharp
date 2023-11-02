@@ -8,7 +8,7 @@ The scenario responsible for pinging services by admin in the delivery service c
 
 Macro process: [maintenance](../../macroprocesses/maintenance.md)
 
-Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md).
+Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
 ## Process description
 

@@ -8,7 +8,7 @@
 
 Макропроцесс: [maintenance](../../macroprocesses/maintenance.ru.md)
 
-Ответственные модули: [клиентское приложение](../../frontend/adminclient.md), [бэкенд-сервис](../../backend/adminbackend.md).
+Ответственные модули: [клиентское приложение](../../frontend/adminclient.ru.md), [бэкенд-сервис](../../backend/adminbackend.ru.md)
 
 ## Описание процесса
 

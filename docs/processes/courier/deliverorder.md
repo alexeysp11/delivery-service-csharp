@@ -36,7 +36,7 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 
 ### Objects
 
-- Order
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
 - [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
 - DeliveryStatus
 

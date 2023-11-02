@@ -4,6 +4,14 @@
 
 `fileservice` is a backend service that manages file storage and retrieval.
 
+The backend service responsible for getting and receiving files in the delivery service app is a file transfer service. Its possible functionalities include:
+- Uploading files to the server
+- Downloading files from the server
+- Storing files on the server
+- Retrieving files from the server
+- Checking file integrity
+- Handling file permissions and access control
+
 ## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)

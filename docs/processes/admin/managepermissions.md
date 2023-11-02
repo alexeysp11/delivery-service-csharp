@@ -8,7 +8,7 @@ The scenario responsible for managing permissions by admin in the delivery servi
 
 Macro process: [organizational](../../macroprocesses/organizational.md)
 
-Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md).
+Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
 ## Process description
 

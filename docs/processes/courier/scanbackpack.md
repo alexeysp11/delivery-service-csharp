@@ -37,10 +37,11 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 - Backpack
     - Backpack object could have properties like size, weight capacity, QR code, etc. 
 - [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
-- DeliveryOperation
+- Delivery
     - References to product, employee (courier), backpack, starting point, destination.
 
 ### DTOs
 
 - BackpackScanDTO
     - BackpackScanDTO could have properties like courierName, qrCodeValue, backpackSize, backpackWeightCapacity, etc.
+- DeliveryDTO: contains information about the delivery, such as delivery address and expected delivery time

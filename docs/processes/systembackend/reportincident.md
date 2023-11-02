@@ -2,6 +2,10 @@
 
 [English](reportincident.md) | [Русский](reportincident.ru.md)
 
+Macro process: [requesting](../../macroprocesses/requesting.md)
+
+Responsible modules: [backend service](../../backend/systembackend.md)
+
 ## Process description
 
 ![requesting_overall](../../img/requesting_overall.png)
