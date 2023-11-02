@@ -23,5 +23,5 @@
 - [От кухни на склад](../processes/warehouse/kitchen2wh.ru.md)
 - [Доставить из магазина на склад](../processes/courier/store2wh.ru.md)
 - [Уведомлять об изменении количества товара](../processes/warehouse/notifyproductqtychanges.ru.md)
-- [Уведомить об инциденте](../processes/warehouse/reportincident.ru.md)
+- [Уведомить об инциденте](../processes/systembackend/reportincident.ru.md)
 - [Создать отчет об инвентаризации](../processes/warehouse/inventoryreport.ru.md)

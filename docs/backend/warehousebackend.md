@@ -23,5 +23,5 @@ Other possible functionalities of the service include generating inventory repor
 - [From kitchen to warehouse](../processes/warehouse/kitchen2wh.md)
 - [Deliver from store to warehouse](../processes/courier/store2wh.md)
 - [Notify about changes in product quantity](../processes/warehouse/notifyproductqtychanges.md)
-- [Notify about an incident](../processes/warehouse/reportincident.md)
+- [Notify about an incident](../processes/systembackend/reportincident.md)
 - [Generate invetory report](../processes/warehouse/inventoryreport.md)
