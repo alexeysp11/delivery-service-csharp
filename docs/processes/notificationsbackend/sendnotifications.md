@@ -20,3 +20,5 @@ Responsible modules: [backend service](../../backend/systembackend.md)
 - System composes the notification message and formats it according to the user's preferences and device capabilities
 - System sends the notification message to the user's preferred channel (e.g., email, push notification, SMS)
 - System tracks the notification delivery status and reports any errors or issues
+
+![notificationsbackend.sendnotifications](../../img/activitydiagrams/notificationsbackend.sendnotifications.png)

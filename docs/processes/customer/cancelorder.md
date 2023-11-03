@@ -11,6 +11,10 @@ Macro process: [requesting](../../macroprocesses/requesting.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
+Infuences on: 
+- [notificationsbackend](../../backend/notificationsbackend.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+
 ## Process description
 
 - Some orders cannot be cancelled:
@@ -45,7 +49,7 @@ However, this process is implemented as part of the microprocess [requesting](..
 - If the status of the order has changed or doesn't allow to cancel the order, then update the data in the DB, display the message "The order cannot be canceled due to a status mismatch" and update the order status.
 - If the order status allows you to cancel the order, then perform the following steps:
     - update the data in the DB, 
-    - notify the [warehousebackend](../../backend/warehousebackend.md) service,
+    - notify the [warehousebackend](../../backend/warehousebackend.md) service, so that the employee cannot take the order for execution,
     - notify the WH employee that is responsible for checking quantity of the ingredients, as well as their supervisor, 
     - display the message "Order successfully canceled",
     - update the page.

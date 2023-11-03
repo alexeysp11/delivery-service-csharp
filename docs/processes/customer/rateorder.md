@@ -12,6 +12,10 @@ Macro process: [maintenance](../../macroprocesses/maintenance.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
+Infuences on: 
+- [notificationsbackend](../../backend/notificationsbackend.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+
 ## Process description
 
 ![maintenance_overall](../../img/maintenance_overall.png)
