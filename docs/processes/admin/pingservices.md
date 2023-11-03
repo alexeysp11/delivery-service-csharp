@@ -20,3 +20,11 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - Admin selects "Ping Services" option.
 - The system pings all services to ensure they are running properly.
 - The system displays the results of the ping to the admin.
+
+## Data 
+
+### Objects 
+
+- Service information model: This model could include properties such as service name, status, and uptime. It could also have methods for managing service data.
+- Server status model: This model could include properties such as CPU usage, memory usage, and network traffic. It could also have methods for monitoring server status.
+- Error messages model: This model could include properties such as error code, error message, and timestamp. It could also have methods for logging errors.

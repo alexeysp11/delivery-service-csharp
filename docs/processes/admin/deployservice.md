@@ -21,3 +21,11 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - System verifies the deployment status and reports any errors or issues
 - Monitor the deployment status and troubleshoot any errors or issues
 - Admin confirms the successful deployment and activates the microservices
+
+## Data 
+
+### Objects 
+
+- Service information model: This model could include properties such as service name, version, and dependencies. It could also have methods for managing service data.
+- GitHub repository model: This model could include properties such as repository name, URL, and branch. It could also have methods for managing repository data.
+- Deployment configuration model: This model could include properties such as environment variables, server settings, and deployment scripts. It could also have methods for managing deployment configurations.

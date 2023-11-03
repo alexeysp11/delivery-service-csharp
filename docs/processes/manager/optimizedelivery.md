@@ -28,3 +28,11 @@ Methods for optimizing delivery process could include using data analytics to id
 - The manager can use this data to identify bottlenecks or inefficiencies in the delivery process.
 - The manager can adjust driver schedules or routes to improve delivery times.
 - The manager can also use data to forecast demand and adjust staffing levels accordingly.
+
+## Data 
+
+### Objects 
+
+- Delivery routes model: This model could include properties such as starting point, ending point, and distance. It could also have methods for optimizing delivery routes.
+- Customer locations model: This model could include properties such as customer address and location data. It could also have methods for analyzing customer location data.
+- Delivery times model: This model could include properties such as estimated delivery time and delivery window. It could also have methods for optimizing delivery times.

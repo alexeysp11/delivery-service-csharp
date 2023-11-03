@@ -21,3 +21,11 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - The system displays a list of employees and their current access levels.
 - The manager selects an employee and updates their access level.
 - The system updates the employee's access level in the database.
+
+## Data 
+
+### Objects 
+
+- User roles model: This model could include properties such as role name, description, and permissions. It could also have methods for managing user roles.
+- Access control lists model: This model could include properties such as resource name, resource type, and user or group permissions. It could also have methods for managing access control lists.
+- Resource permissions model: This model could include properties such as resource name, resource type, and permission level. It could also have methods for managing resource permissions.

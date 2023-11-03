@@ -4,6 +4,8 @@
 
 The scenario for sending notifications in the delivery service company.
 
+The scenario responsible for sending notifications in the delivery service company involves sending notifications to customers based on factors such as their delivery status, order history, and preferences. 
+
 Macro process: [maintenance](../../macroprocesses/maintenance.md)
 
 Responsible modules: [backend service](../../backend/systembackend.md)
@@ -22,3 +24,12 @@ Responsible modules: [backend service](../../backend/systembackend.md)
 - System tracks the notification delivery status and reports any errors or issues
 
 ![notificationsbackend.sendnotifications](../../img/activitydiagrams/notificationsbackend.sendnotifications.png)
+
+## Data 
+
+### Objects 
+
+- The notification template could include properties such as message content and formatting. 
+- The customer information model could include properties such as customer name, address, and order history. 
+- The messaging service could include methods for sending messages through various channels such as email, SMS, or push notifications.
+

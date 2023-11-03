@@ -21,3 +21,10 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - System initiates the data transfer process and monitors its progress
 - System verifies the data integrity and consistency between the source and target databases
 - Admin confirms the successful replication and activates the target database
+
+## Data 
+
+### Objects 
+
+- Database information model: This model could include properties such as database name, server location, and replication status. It could also have methods for managing database data.
+- Replication configuration model: This model could include properties such as replication method, replication frequency, and replication targets. It could also have methods for managing replication configurations.

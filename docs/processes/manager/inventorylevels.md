@@ -24,3 +24,13 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - The system updates the inventory level in the database.
 - The app automatically generates purchase orders for items that fall below the reorder point.
 - The manager can review and approve purchase orders before they are sent to suppliers.
+
+## Data 
+
+### Objects 
+
+- Product information model: This model could include properties such as product name, description, and price. It could also have methods for managing product data.
+- Stock levels model: This model could include properties such as current stock levels and reorder points. It could also have methods for managing stock levels.
+- Supplier information model: This model could include properties such as supplier name, contact information, and pricing. It could also have methods for managing supplier data.
+
+### DTOs

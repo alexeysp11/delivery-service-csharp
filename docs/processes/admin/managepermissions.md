@@ -21,3 +21,11 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - The system displays a list of employees and their current permissions.
 - The admin selects an employee and updates their permissions.
 - The system updates the employee's permissions in the database.
+
+## Data 
+
+### Objects 
+
+- User roles model: This model could include properties such as role name, description, and permissions. It could also have methods for managing user roles.
+- Permission levels model: This model could include properties such as permission name, description, and access control lists. It could also have methods for managing permission levels.
+- Access control lists model: This model could include properties such as resource name, resource type, and user or group permissions. It could also have methods for managing access control lists.
