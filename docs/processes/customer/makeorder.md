@@ -14,8 +14,8 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 
 Infuences on: 
 - [customerbackend](../../backend/customerbackend.md)
-    - [makepayment](makepayment.md)
-    - [preprocessorder](preprocessorder.md)
+    - [makepayment](../customer/makepayment.md)
+    - [preprocessorder](../customer/preprocessorder.md)
 
 ## Process description
 

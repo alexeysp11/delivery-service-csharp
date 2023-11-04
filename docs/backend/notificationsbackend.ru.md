@@ -30,3 +30,4 @@
 - [Планирование уведомлений](../processes/notificationsbackend/notificationscheduling.ru.md)
 - [Таргетинг уведомлений](../processes/notificationsbackend/notificationtargeting.ru.md)
 - [Отправка электронной почты](../processes/notificationsbackend/sendemail.ru.md)
+- [Получение пуш-уведомлений](../processes/notificationsbackend/getnotified.ru.md)

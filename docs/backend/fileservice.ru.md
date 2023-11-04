@@ -53,3 +53,4 @@
 ## Процессы 
 
 - [Сгенерировать QR код](../processes/fileservice/generateqr.md)
+- [Просмотр видео](../processes/fileservice/watchingvideos.ru.md)

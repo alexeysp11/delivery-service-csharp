@@ -54,6 +54,7 @@ Any company that offers delivery services could potentially use this application
     - [information](docs/macroprocesses/information.md),
     - [maintenance](docs/macroprocesses/maintenance.md),
     - [organizational](docs/macroprocesses/organizational.md),
+    - [transmitting file](docs/macroprocesses/transmittingfile.md),
     - [requesting](docs/macroprocesses/requesting.md).
 - Types of payment: 
     - cash upon receipt, 

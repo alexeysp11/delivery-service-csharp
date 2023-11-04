@@ -24,11 +24,11 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 - The courier opens the app on their device.
 - The courier selects the delivery order they are working on.
 - The courier registers the backpack and the order, launching the [scanbackpack](scanbackpack.md) and [scanqronorder](scanqronorder.md) processes.
-- The [updatedeliverystatus](updatedeliverystatus.ru.md) process is launched in order to start delivery.
+- The [updatedeliverystatus](../courier/updatedeliverystatus.md) process is launched in order to start delivery.
 - The courier navigates to the delivery address using the app's map feature.
 - The courier delivers the order to the customer and obtains a signature or confirmation code.
 - The courier marks the delivery order as complete in the system.
-- When the courier marks the order as completed, the [updatedeliverystatus](updatedeliverystatus.md) process is launched to complete delivery.
+- When the courier marks the order as completed, the [updatedeliverystatus](../courier/updatedeliverystatus.md) process is launched to complete delivery.
 
 ![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)
 

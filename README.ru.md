@@ -54,6 +54,7 @@
     - [информация](docs/macroprocesses/information.ru.md),
     - [обслуживание](docs/macroprocesses/maintenance.ru.md),
     - [организационный](docs/macroprocesses/organizational.ru.md),
+    - [передача файла](docs/macroprocesses/transmittingfile.ru.md),
     - [запрос](docs/macroprocesses/requesting.ru.md).
 - Виды оплаты: 
     - наличная при получении, 

@@ -10,6 +10,10 @@ The backend service responsible for system operations related to the business in
 - Access control and security management
 - System monitoring and logging
 
+## Overall description of the system 
+
+![system_overall](../img/system_overall.png)
+
 ## Processes 
 
 - [Report incident](../processes/systembackend/reportincident.md)

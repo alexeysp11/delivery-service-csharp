@@ -4,13 +4,13 @@
 
 The scenario responsible for generating QR codes in the delivery service company involves creating unique codes for each order or package to enable tracking and verification. 
 
-Macro process: [maintenance](../../macroprocesses/maintenance.md)
+Macro process: [transmittingfile](../../macroprocesses/transmittingfile.md)
 
 Responsible modules: [backend service](../../backend/fileservice.md)
 
 ## Process description
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![transmittingfile_overall](../../img/transmittingfile_overall.png)
 
 ### Step-by-step execution
 

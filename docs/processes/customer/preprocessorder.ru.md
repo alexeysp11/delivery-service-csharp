@@ -13,7 +13,7 @@
 
 Зависит от: 
 - [customerbackend](../../backend/customerbackend.ru.md)
-    - [makeorder](makeorder.md)
+    - [makeorder](../customer/makeorder.ru.md)
 
 Влияет на:
 - [warehousebackend](../../backend/warehousebackend.ru.md)
@@ -28,7 +28,7 @@
 ## Описание процесса
 
 - [Приложение службы доставки](../../../README.ru.md) включает сценарий, который предварительно обрабатывает заказ перед его отправкой на кухню для приготовления.
-- Выполняется автоматически в рамках процесса [makeorder](makeorder.ru.md).
+- Выполняется автоматически в рамках процесса [makeorder](../customer/makeorder.ru.md).
 - Задействованые бэкенд-сервисы: [customerbackend](../../backend/customerbackend.ru.md), [warehousebackend](../../backend/warehousebackend.ru.md), [kitchenbackend](../../backend/kitchenbackend.ru.md), [courierbackend](../../backend/courierbackend.ru.md).
 - В БД есть таблицы [delivery_recipe_cb](../../dbtables/customer/delivery_recipe_cb.md), [delivery_ingredient_cb](../../dbtables/customer/delivery_ingredient_cb.md) и [delivery_menuitem_cb](../../dbtables/customer/delivery_menuitem_cb.md), которая содержит рецепты каждого продукта с указанием необходимых исходных продуктов и их количеством/весом/объемом. Рецепты необходимы для того, чтобы на их основе можно было получить количество исходных продуктов, необходимых для выполнения заказа.
     - Данные из этих таблиц попадают из БД, относящейся к сервису [managerbackend](../../backend/managerbackend.ru.md), с помощью механизма репликации.

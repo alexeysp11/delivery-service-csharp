@@ -12,24 +12,24 @@ Macro process: [delivering](../../macroprocesses/delivering.md)
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
 Depends on: 
-- [customerbackend](../../backend/customerbackend.ru.md)
-    - [makeorder](makeorder.md)
+- [customerbackend](../../backend/customerbackend.md)
+    - [makeorder](../customer/makeorder.md)
 
 Influences on:
-- [fileservice](../../backend/fileservice.ru.md)
-    - [generateqr](../../processes/fileservice/generateqr.ru.md)
+- [fileservice](../../backend/fileservice.md)
+    - [generateqr](../../processes/fileservice/generateqr.md)
 
 ## Process description
 
 - The [customer app](../../frontend/customerclient.md) allows users to make payments for their orders using different payment methods.
 - Responsible for payment of the order.
-- Called within the [makeorder](makeorder.ru.md) process.
+- Called within the [makeorder](../customer/makeorder.md) process.
 
 ![delivering_overall](../../img/delivering_overall.png)
 
 ### Step-by-step execution
 
-- When the customer places their order, they need to select their preferred payment method (see [makeorder](makeorder.md)).
+- When the customer places their order, they need to select their preferred payment method (see [makeorder](../customer/makeorder.md)).
 - If they choose **cash on delivery**, they confirm the order and pay the courier when they receive their order.
 - If they choose **POS when receiving**, they confirm the order and pay using their credit or debit card when they receive the order.
 - If they choose **using QR code**, they scan the QR code provided by the app and confirm the payment.

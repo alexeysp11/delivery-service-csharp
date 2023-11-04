@@ -35,7 +35,7 @@
 - [Текущие заказы](../processes/customer/pendingorders.ru.md): отслеживание статуса заказа
 - [Отменить заказ](../processes/customer/cancelorder.ru.md)
 - [Оценить заказ](../processes/customer/rateorder.ru.md)
-- [Получение пуш-уведомлений](../processes/customer/pushnotifications.ru.md)
+- [Получение пуш-уведомлений](../processes/notificationsbackend/getnotified.ru.md)
 
 <!--
 ## Методы для обработки сетевых запросов 

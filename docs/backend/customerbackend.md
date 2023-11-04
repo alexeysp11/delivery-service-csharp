@@ -35,4 +35,4 @@ Other possible functionalities of the service include saving favorite orders for
 - [Pending orders](../processes/customer/pendingorders.md): order status tracking
 - [Cancel order](../processes/customer/cancelorder.md)
 - [Rate an order](../processes/customer/rateorder.md)
-- [Receiving notifications](../processes/customer/pushnotifications.md)
+- [Receiving notifications](../processes/notificationsbackend/getnotified.md)

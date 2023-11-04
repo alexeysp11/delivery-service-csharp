@@ -14,8 +14,8 @@
 
 Влияет на: 
 - [customerbackend](../../backend/customerbackend.ru.md)
-    - [makepayment](makepayment.ru.md)
-    - [preprocessorder](preprocessorder.ru.md)
+    - [makepayment](../customer/makepayment.ru.md)
+    - [preprocessorder](../customer/preprocessorder.ru.md)
 
 ## Описание процесса
 

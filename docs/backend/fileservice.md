@@ -53,3 +53,4 @@ Video resolution:
 ## Processes 
 
 - [Generate QR code](../processes/fileservice/generateqr.md)
+- [Watching videos](../processes/fileservice/watchingvideos.md)

@@ -1,6 +1,6 @@
-# generateqr
+# getpdf
 
-[English](generateqr.md) | [Русский](generateqr.ru.md)
+[English](getpdf.md) | [Русский](getpdf.ru.md)
 
 Макропроцесс: [transmittingfile](../../macroprocesses/transmittingfile.ru.md)
 

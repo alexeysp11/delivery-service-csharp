@@ -13,7 +13,7 @@ Responsible modules: [backend service](../../backend/customerbackend.md)
 
 Depends on: 
 - [customerbackend](../../backend/customerbackend.md)
-    - [makeorder](makeorder.md)
+    - [makeorder](../customer/makeorder.md)
 
 Influences on:
 - [warehousebackend](../../backend/warehousebackend.md)
@@ -28,7 +28,7 @@ Influences on:
 ## Process description
 
 - The [Delivery Service Application](../../../README.ru.md) includes a script that pre-processes the order before sending it to the kitchen for preparation.
-- Executed automatically as part of the [makeorder](makeorder.ru.md) process.
+- Executed automatically as part of the [makeorder](../customer/makeorder.ru.md) process.
 - Backend services involved: [customerbackend](../../backend/customerbackend.md), [warehousebackend](../../backend/warehousebackend.md), [kitchenbackend](../../backend/kitchenbackend.md), [courierbackend](../../backend/courierbackend.ru.md).
 - The database has tables [delivery_recipe_cb](../../dbtables/customer/delivery_recipe_cb.md), [delivery_ingredient_cb](../../dbtables/customer/delivery_ingredient_cb.md) and [delivery_menuitem_cb](../../dbtables/customer/delivery_menuitem_cb.md), which contains recipes for each product indicating the required starting products and their quantity/weight/volume. Recipes are necessary so that on their basis it is possible to obtain the quantity of initial products required to complete the order.
      - Data from these tables comes from the database related to the [managerbackend](../../backend/managerbackend.ru.md) service using the replication mechanism.

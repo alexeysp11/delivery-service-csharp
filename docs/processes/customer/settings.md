@@ -15,9 +15,9 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 
 Settings and personal data page:
 - Personal information:
-    - login (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](useraccount.md)),
-    - email (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](useraccount.md)),
-    - phone (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](useraccount.md)),
+    - login (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](../systembackend/useraccount.md)),
+    - email (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](../systembackend/useraccount.md)),
+    - phone (saved in [ClaimsPrincipal](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal), see [useraccount](../systembackend/useraccount.md)),
     - connected messengers: WhatsApp, Viber, Telegram,
     - nickname in Telegram,
     - preferred method of communication: e-mail, phone, one of the messengers,
@@ -29,14 +29,14 @@ Settings and personal data page:
 - Safety:
     - password (this parameter is empty by default).
 
-You can also go to [user account](useraccount.md) to see some personal settings.
+You can also go to [user account](../systembackend/useraccount.md) to see some personal settings.
 
 ![information_overall](../../img/information_overall.png)
 
 ### Step-by-step execution
 
 - The user opens "Settings".
-- Some parameters are loaded from the [user account](useraccount.md) page, and some paraters are loaded from the database or [backend service](../../backend/customerbackend.md).
+- Some parameters are loaded from the [user account](../systembackend/useraccount.md) page, and some paraters are loaded from the database or [backend service](../../backend/customerbackend.md).
 - The user changes settings.
 - At the bottom of the page there is a button "Save changes".
     - Changes get to the services, after the response from the service - to the database.
