@@ -19,5 +19,4 @@ Responsible modules: [backend service](../../backend/fileservice.md)
 ### Objects 
 
 - The QR code model could include properties such as code content and formatting. 
-- The order information model could include properties such as order number, customer name, and delivery address. 
 - The verification service could include methods for scanning and verifying QR codes.

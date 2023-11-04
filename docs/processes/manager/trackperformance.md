@@ -36,11 +36,8 @@ Overall performance of the company could be estimated by tracking metrics such a
 
 ### Objects
 
-- EmployeePerformance
-    - EmployeePerformance object could have properties like employeeName, employeeID, performanceRating, performanceDate, etc. 
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
-    - Manager object could have properties like name, ID, department, etc. 
-    - Additionally, the Employee object could have a skills property that lists the skills of the employee.
+- [EmployeePerformance](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/EmployeePerformance.md)
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md): this object could represent both manager and employee
 
 ### DTOs
 

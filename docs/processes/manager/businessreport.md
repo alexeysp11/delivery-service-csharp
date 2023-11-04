@@ -38,7 +38,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - Operational data model: This model could include properties such as delivery times, order accuracy, and customer satisfaction levels. It could also have methods for analyzing operational performance.
 - Customer feedback model: This model could include properties such as customer ratings and comments. It could also have methods for sentiment analysis and clustering.
 - Inventory levels model: This model could include properties such as product information and stock levels. It could also have methods for optimizing inventory management.
-- Employee performance model: This model could include properties such as productivity and efficiency metrics. It could also have methods for analyzing employee performance.
+- [EmployeePerformance](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/EmployeePerformance.md)
 
 ### DTOs
 

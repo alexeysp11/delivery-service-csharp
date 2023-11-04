@@ -27,9 +27,11 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ### Objects
 
-- Supplier
+- [Company](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Company.md): Supplier
     - Supplier object could have properties like name, contact information, product offerings, etc. 
 - [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [ProductOffering](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductOffering.md)
 - DeliveryService
     - DeliveryService object could have properties like name, contact information, delivery area, etc. 
 

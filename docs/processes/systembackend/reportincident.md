@@ -39,8 +39,7 @@ The interactive steps within the scenario include selecting the type of incident
 
 ### Objects
 
-- Incident
-    - Incident object could have properties like incidentType, location, date, severity, etc. 
+- [Incident](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Incident.md)
 - [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
 - DeliveryService
     - DeliveryService object could have properties like name, contact information, delivery area, etc. 

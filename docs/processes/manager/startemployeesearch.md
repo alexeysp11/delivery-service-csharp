@@ -39,6 +39,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
 - Candidate
     - Employee object could have properties like name, ID, role, skills, etc. 
+- [EmploymentContract](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business.BusinessDocuments/EmploymentContract.md)
 
 ### DTOs
 
