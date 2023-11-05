@@ -2,7 +2,7 @@
 
 [English](inventorylevels.md) | [Русский](inventorylevels.ru.md)
 
-Name: **set inventory levels**.
+Name: **Set inventory levels**.
 
 The scenario responsible for setting inventory levels by manager in the delivery service company involves determining optimal inventory levels based on demand forecasts, adjusting inventory levels as needed to avoid stockouts or excess inventory, and monitoring inventory levels to ensure efficient operations.
 

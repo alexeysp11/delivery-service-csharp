@@ -2,7 +2,7 @@
 
 [English](makepayment.md) | [Русский](makepayment.ru.md)
 
-Name: **make a payment**.
+Name: **Make a payment**.
 
 The payment scenario in the delivery service app involves a user selecting a payment method and providing their payment information to complete the transaction for their order. 
 The app securely processes the payment and provides confirmation of the successful transaction.

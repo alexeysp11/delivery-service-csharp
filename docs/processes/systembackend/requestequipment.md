@@ -2,7 +2,7 @@
 
 [English](requestequipment.md) | [Русский](requestequipment.ru.md)
 
-Name: **request equipment**.
+Name: **Request equipment**.
 
 The request inventory and equipment scenario in the delivery service app involves allowing kitchen employees to request additional inventory or equipment as needed to fulfill incoming orders. 
 The app sends these requests to the warehouse or other relevant departments for fulfillment.

@@ -2,6 +2,8 @@
 
 [English](changeproductprice.md) | [Русский](changeproductprice.ru.md)
 
+Name: **Change product prices**.
+
 The scenario that is responsible for setting prices for products.
 This scenario is used mostly by company managers.
 

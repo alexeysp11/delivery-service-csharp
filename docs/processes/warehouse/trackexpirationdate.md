@@ -2,7 +2,7 @@
 
 [English](trackexpirationdate.md) | [Русский](trackexpirationdate.ru.md)
 
-Name: **track expiration date**.
+Name: **Track expiration date**.
 
 The scenario responsible for tracking expiration dates of the products stored in the warehouse by warehouse employees in the delivery service company involves using inventory management software to track the date of receipt and expiration for each product. 
 This allows warehouse employees to ensure that products are used or sold before they expire and to remove expired products from inventory in a timely manner.

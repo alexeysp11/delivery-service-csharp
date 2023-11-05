@@ -2,7 +2,7 @@
 
 [English](businessreport.md) | [Русский](businessreport.ru.md)
 
-Name: **business report**.
+Name: **Business report**.
 
 The scenario responsible for getting business report by manager in the delivery service company involves generating reports that provide an overview of key business metrics, such as revenue, expenses, profitability, and customer satisfaction.
 

@@ -2,7 +2,7 @@
 
 [English](getentities.md) | [Русский](getentities.ru.md)
 
-Наименование: **получение сущностей**.
+Наименование: **Получение сущностей**.
 
 Макропроцесс: [information](../../macroprocesses/information.md)
 

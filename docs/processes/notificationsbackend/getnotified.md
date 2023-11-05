@@ -2,7 +2,7 @@
 
 [English](getnotified.md) | [Русский](getnotified.ru.md)
 
-Name: **receiving push notifications**.
+Name: **Receiving push notifications**.
 
 The push notification scenario in the delivery service app involves sending real-time notifications to users through SignalR. 
 

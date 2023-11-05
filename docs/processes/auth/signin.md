@@ -2,7 +2,7 @@
 
 [English](signin.md) | [Русский](signin.ru.md)
 
-Name: **sign in**.
+Name: **Sign in**.
 
 The sign in scenario in the customer client side app involves a user entering their login and password to access their account and place orders for delivery.
 

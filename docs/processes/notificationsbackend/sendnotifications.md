@@ -2,7 +2,7 @@
 
 [English](sendnotifications.md) | [Русский](sendnotifications.ru.md)
 
-Name: **sending notifications**.
+Name: **Sending notifications**.
 
 The scenario for sending notifications in the delivery service company.
 

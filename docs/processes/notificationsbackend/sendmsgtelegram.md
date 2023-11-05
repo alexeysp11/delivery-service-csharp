@@ -2,7 +2,7 @@
 
 [English](sendmsgtelegram.md) | [Русский](sendmsgtelegram.ru.md)
 
-Name: **send telegram messages**.
+Name: **Send telegram messages**.
 
 Scenario for sending telegram messages to a delivery service company.
 

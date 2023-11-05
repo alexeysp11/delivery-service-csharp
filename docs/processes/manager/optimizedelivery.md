@@ -2,7 +2,7 @@
 
 [English](trackperformance.md) | [Русский](trackperformance.ru.md)
 
-Name: **track performance**.
+Name: **Optimize delivery**.
 
 The scenario responsible for optimizing delivery process by manager in the delivery service company involves analyzing data on delivery times, routes, and other factors to identify areas for improvement, implementing changes to improve efficiency and reduce costs, and monitoring performance to ensure continuous improvement.
 

@@ -2,7 +2,7 @@
 
 [English](sendpush.md) | [Русский](sendpush.ru.md)
 
-Name: **notifying users**.
+Name: **Sending push notifications to users**.
 
 A script responsible for notifying users using push notifications.
 

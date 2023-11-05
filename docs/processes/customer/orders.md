@@ -2,7 +2,7 @@
 
 [English](orders.md) | [Русский](orders.ru.md)
 
-Name: **orders**.
+Name: **Getting the list of orders**.
 
 The overall description of the scenario for viewing order history in the customer backend service is that it allows customers to access a record of their past orders, including details such as order date, items ordered, delivery location, and total cost. 
 

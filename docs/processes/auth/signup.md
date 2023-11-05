@@ -2,7 +2,7 @@
 
 [English](signup.md) | [Русский](signup.ru.md)
 
-Name: **sign up**.
+Name: **Sign up**.
 
 The sign up scenario in the customer client side app involves a user creating a new account by providing their personal information, such as login, email address, and password.
 

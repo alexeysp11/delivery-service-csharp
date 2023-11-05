@@ -2,7 +2,7 @@
 
 [English](trackperformance.md) | [Русский](trackperformance.ru.md)
 
-Name: **track performance**.
+Name: **Track performance**.
 
 The scenario responsible for tracking performance of employees and delivery strategies by manager in the delivery service company involves collecting data on delivery times, customer satisfaction, employee productivity, and other relevant metrics, analyzing the data to identify trends and areas for improvement, and implementing changes to improve performance.
 

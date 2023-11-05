@@ -2,7 +2,7 @@
 
 [English](useraccount.md) | [Русский](useraccount.ru.md)
 
-Наименование: **аккаунт пользователя**.
+Наименование: **Аккаунт пользователя**.
 
 Макропроцесс: [information](../../macroprocesses/information.md)
 

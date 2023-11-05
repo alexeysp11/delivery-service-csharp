@@ -2,7 +2,7 @@
 
 [English](startemployeesearch.md) | [Русский](startemployeesearch.ru.md)
 
-Name: **start employee search**.
+Name: **Start employee search**.
 
 The scenario responsible for starting employee search by manager involves using the management app to search for employees based on various criteria, such as name, department, or location. 
 This allows managers to quickly find and communicate with the right employees for specific tasks or projects.
