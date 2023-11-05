@@ -14,7 +14,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 
 ## Process description
 
-- Displaying information on previous orders in the form of a list of objects [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md). So the customer can view the details of each order, such as the items ordered, the delivery address, and the status of the order (e.g. production, delivery). 
+- Displaying information on previous orders in the form of a list of objects [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs). So the customer can view the details of each order, such as the items ordered, the delivery address, and the status of the order (e.g. production, delivery). 
 - The order details can also be seen in the [Pending orders](../customer/pendingorders.md) section.
 - Downloading files from the server (report for a specific order):
      - file extensions: images, PDF.
@@ -60,9 +60,9 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 
 ### Objects 
 
-- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
-- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
-- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)
+- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/ProductCategory.cs)
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs)
 
 ### Database tables 
 

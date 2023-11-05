@@ -32,7 +32,7 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 ### Objects
 
 - EquipmentRequest
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md) 
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) 
 
 ### DTOs 
 

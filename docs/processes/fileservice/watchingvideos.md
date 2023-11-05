@@ -45,7 +45,7 @@ Preloading and caching static videos on the client side may be a more efficient 
 
 - Video
     - Video object could have properties like title, description, length, genre, etc. 
-- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Customer.md)
+- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs)
 - WatchedVideo
     - WatchedVideo object could have a reference to the Video object and properties like date watched, watch duration, etc. 
 

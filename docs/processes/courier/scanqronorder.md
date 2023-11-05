@@ -32,9 +32,9 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 
 - QRCode
     - QRCode object could have properties like codeValue, expirationDate, etc. 
-- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs)
     - Order object could have properties like orderNumber, customer details, product details, QR code, etc. 
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs)
     - Courier object could have properties like name, ID, vehicle type, etc. 
 
 ### DTOs

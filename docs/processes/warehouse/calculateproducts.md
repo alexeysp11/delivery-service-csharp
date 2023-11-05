@@ -35,8 +35,8 @@ The interactive steps within the scenario include scanning product barcodes, ent
 
 ### Objects
 
-- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
-- [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Warehouse.md) 
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)
+- [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) 
 
 ### DTOs
 

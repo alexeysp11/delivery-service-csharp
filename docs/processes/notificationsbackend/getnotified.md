@@ -38,8 +38,8 @@ The step-by-step execution of the process is identical to the [rateorder](../cus
 
 ### Objects 
 
-- [Notification](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Notification.md)
-- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Customer.md)
+- [Notification](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Notification.cs)
+- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs)
 
 ### DTOs
 

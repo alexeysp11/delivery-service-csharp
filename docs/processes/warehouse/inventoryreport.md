@@ -30,8 +30,8 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 
 - InventoryReport
     - InventoryReport object could have properties like reportDate, inventoryLevel, product details, etc. 
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
-- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs)
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)
 
 ### DTOs
 

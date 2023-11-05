@@ -110,6 +110,6 @@ public List<Product> Products { get; set; }
 
 #### Property Value
 
-[List](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<[Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)>
+[List](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<[Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)>
 
 List of the products, that user has placed into the order.

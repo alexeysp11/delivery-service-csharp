@@ -36,10 +36,10 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 - EmployeeSearch
     - EmployeeSearch object could have properties like searchCriteria, searchResults, etc. 
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs)
 - Candidate
     - Employee object could have properties like name, ID, role, skills, etc. 
-- [EmploymentContract](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business.BusinessDocuments/EmploymentContract.md)
+- [EmploymentContract](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/EmploymentContract.cs)
 
 ### DTOs
 

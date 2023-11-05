@@ -28,8 +28,8 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 - TerminationRequest
     - TerminationRequest object could have properties like employeeName, employeeID, terminationReason, terminationDate, etc. 
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
-- [EmploymentContract](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business.BusinessDocuments/EmploymentContract.md)
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs)
+- [EmploymentContract](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/EmploymentContract.cs)
 
 ### DTOs
 

@@ -8,7 +8,7 @@ Customer.
 
 ## Objects
 
-- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Customer.md)
+- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs)
 
 ## Fields 
 

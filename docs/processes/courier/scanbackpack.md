@@ -36,7 +36,7 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
     - QRCode object could have properties like codeValue, expirationDate, etc. 
 - Backpack
     - Backpack object could have properties like size, weight capacity, QR code, etc. 
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs)
 - Delivery
     - References to product, employee (courier), backpack, starting point, destination.
 

@@ -48,9 +48,9 @@ You can also go to [user account](../systembackend/useraccount.md) to see some p
 
 ### Objects 
 
-- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Customer.md)
-- [Contact](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Contact.md)
-- [Address](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Address.md)
+- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs)
+- [Contact](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Contact.cs)
+- [Address](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Address.cs)
 - PaymentMethod
 - Card
 

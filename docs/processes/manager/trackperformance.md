@@ -36,8 +36,8 @@ Overall performance of the company could be estimated by tracking metrics such a
 
 ### Objects
 
-- [EmployeePerformance](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/EmployeePerformance.md)
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md): this object could represent both manager and employee
+- [EmployeePerformance](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/EmployeePerformance.cs)
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs): this object could represent both manager and employee
 
 ### DTOs
 

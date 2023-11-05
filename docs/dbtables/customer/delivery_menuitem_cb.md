@@ -8,7 +8,7 @@ Menu item (product).
 
 ## Objects 
 
-- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)
 
 ## Fields 
 

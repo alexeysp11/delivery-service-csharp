@@ -14,7 +14,7 @@
 
 ## Описание процесса
 
-- Отображение информации по предыдущим заказам в виде списка объектов [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md). Таким образом, клиент может просмотреть подробную информацию о каждом заказе, например, заказанные товары, адрес доставки и статус заказа (например, изготовление, доставка).
+- Отображение информации по предыдущим заказам в виде списка объектов [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs). Таким образом, клиент может просмотреть подробную информацию о каждом заказе, например, заказанные товары, адрес доставки и статус заказа (например, изготовление, доставка).
 - Детали заказы также можно наблюдать в разделе [Текущие заказы](../customer/pendingorders.ru.md).
 - Загрузка файлов с сервера (отчета по конкретному заказу): 
     - расширения файлов: изображения, PDF.
@@ -60,9 +60,9 @@
 
 ### Объекты 
 
-- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
-- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
-- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)
+- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/ProductCategory.cs)
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs)
 
 ### Таблицы в БД
 

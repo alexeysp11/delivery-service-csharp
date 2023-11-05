@@ -35,10 +35,10 @@ Infuences on:
 
 ### Objects 
 
-- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
-- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductCategory.md)
-- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/BusinessDocuments/DeliveryOrder.md)
-- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Customer.md)
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)
+- [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/ProductCategory.cs)
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs)
+- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs)
 - The delivery order rate model
     - The delivery order rate model could have properties such as order ID, rating, comments, and timestamp. It could also have methods for submitting ratings, retrieving ratings for a specific order, and calculating average ratings. 
     - The difference between delivery order rate model and customer feedback model is that delivery order rate model specifically focuses on the delivery aspect of the service, while customer feedback model covers a broader range of aspects. These two models are related in that they both provide feedback on the service provided by the delivery service app.

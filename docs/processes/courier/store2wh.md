@@ -31,11 +31,11 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 
 ### Objects
 
-- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)
+- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs)
 - Store
     - The store object could have properties such as name, location, inventory, and staff. It could also have methods for managing inventory levels, scheduling staff, and processing orders.
-- [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Warehouse.md) 
+- [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) 
     - Warehouse object could have properties like location, inventory levels, etc. 
 - Delivery
     - References to product, employee (courier), starting point, destination.

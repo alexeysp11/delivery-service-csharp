@@ -29,9 +29,9 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ### Objects 
 
-- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
+- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)
 - Stock levels model: This model could include properties such as current stock levels and reorder points. It could also have methods for managing stock levels.
-- [Company](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Customers/Company.md): Supplier
-- [ProductOffering](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/ProductOffering.md)
+- [Company](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Company.cs): Supplier
+- [ProductOffering](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/ProductOffering.cs)
 
 ### DTOs

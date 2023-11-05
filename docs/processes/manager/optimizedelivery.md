@@ -34,5 +34,5 @@ Methods for optimizing delivery process could include using data analytics to id
 ### Objects 
 
 - Delivery routes model: This model could include properties such as starting point, ending point, and distance. It could also have methods for optimizing delivery routes.
-- [Address](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Address.md): could be considered as a customer locations model.
+- [Address](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Address.cs): could be considered as a customer locations model.
 - Delivery times model: This model could include properties such as estimated delivery time and delivery window. It could also have methods for optimizing delivery times.
