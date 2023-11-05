@@ -2,6 +2,8 @@
 
 [English](sendmsgtelegram.md) | [Русский](sendmsgtelegram.ru.md)
 
+Наименование: **Отправка сообщения в телеграм**.
+
 Сценарий отправки сообщений в телеграм в компании службы доставки.
 
 Макропроцесс: [maintenance](../../macroprocesses/maintenance.ru.md)

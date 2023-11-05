@@ -2,6 +2,8 @@
 
 [English](dbreplication.md) | [Русский](dbreplication.ru.md)
 
+Наименование: **Репликация базы данных**.
+
 Сценарий репликации базы данных администратором в компании службы доставки.
 
 Макропроцесс: [maintenance](../../macroprocesses/maintenance.ru.md)

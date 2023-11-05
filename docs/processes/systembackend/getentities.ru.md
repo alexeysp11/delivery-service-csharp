@@ -2,6 +2,8 @@
 
 [English](getentities.md) | [Русский](getentities.ru.md)
 
+Наименование: **получение сущностей**.
+
 Макропроцесс: [information](../../macroprocesses/information.md)
 
 ## Описание процесса

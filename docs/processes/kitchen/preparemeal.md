@@ -2,7 +2,7 @@
 
 [English](preparemeal.md) | [Русский](preparemeal.ru.md)
 
-Kitchen client application: prepare order.
+Name: **prepare order**.
 
 The prepare food scenario in the delivery service app involves retrieving the order details from the database, calculating the required ingredients and cooking instructions, and preparing the food according to those instructions. 
 The app updates the status of the order as it is prepared and notifies the kitchen staff when it is ready for delivery.

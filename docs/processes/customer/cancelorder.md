@@ -2,7 +2,7 @@
 
 [English](cancelorder.md) | [Русский](cancelorder.ru.md)
 
-Customer client application: cancel order.
+Name: **cancel order**.
 
 The cancel order scenario in the delivery service app involves allowing customers to cancel their order before it is prepared and delivered. 
 The app prompts the user to confirm their cancellation and provides options for leaving feedback or comments.

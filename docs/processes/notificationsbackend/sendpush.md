@@ -2,7 +2,7 @@
 
 [English](sendpush.md) | [Русский](sendpush.ru.md)
 
-Client application: notifying users.
+Name: **notifying users**.
 
 A script responsible for notifying users using push notifications.
 

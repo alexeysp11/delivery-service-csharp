@@ -2,6 +2,8 @@
 
 [English](deployservice.md) | [Русский](deployservice.ru.md)
 
+Name: **Deploying services**.
+
 The scenario for deployment of microservices from GitHub by admin in the delivery service company.
 
 Macro process: [maintenance](../../macroprocesses/maintenance.md)

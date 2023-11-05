@@ -2,7 +2,7 @@
 
 [English](getnotified.md) | [Русский](getnotified.ru.md)
 
-Backend of the customer application: receiving push notifications.
+Name: **receiving push notifications**.
 
 The push notification scenario in the delivery service app involves sending real-time notifications to users through SignalR. 
 

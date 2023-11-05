@@ -2,6 +2,8 @@
 
 [English](changemenu.md) | [Русский](changemenu.ru.md)
 
+Name: **Change menu**.
+
 A scenario for changing a menu in a delivery service application involves getting information about the current menu status from the database, including and excluding products from the menu, and a chain of approval for changes (for example, *kitchen manager*, *marketing*, *financial analyst*, * CEO*).
 A necessary condition when changing the menu is to set the date and time when the changes will become relevant.
 

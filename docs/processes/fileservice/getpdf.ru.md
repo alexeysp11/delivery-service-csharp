@@ -2,6 +2,8 @@
 
 [English](getpdf.md) | [Русский](getpdf.ru.md)
 
+Наименование: **получить ПДФ документ**.
+
 Сценарий, отвечающий за создание и/или получение PDF-файлов в компании службы доставки.
 
 Макропроцесс: [transmittingfile](../../macroprocesses/transmittingfile.ru.md)

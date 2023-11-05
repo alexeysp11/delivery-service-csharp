@@ -2,6 +2,8 @@
 
 [English](clearcache.md) | [Русский](clearcache.ru.md)
 
+Name: **Clear cache**.
+
 Scenario for clearing cached data stored in databases associated with the corresponding microservices in a delivery service company.
 This service can be performed either automatically or manually by the administrator.
 

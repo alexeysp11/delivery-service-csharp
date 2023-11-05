@@ -2,6 +2,8 @@
 
 [English](notificationscheduling.md) | [Русский](notificationscheduling.ru.md)
 
+Name: **Notifications scheduling**.
+
 The scenario responsible for notification scheduling in the delivery service company involves determining when to send notifications to customers based on factors such as delivery times, order status, and customer preferences. 
 
 Macro process: [organizational](../../macroprocesses/organizational.md)

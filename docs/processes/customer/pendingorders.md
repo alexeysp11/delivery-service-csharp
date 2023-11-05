@@ -2,7 +2,7 @@
 
 [English](pendingorders.md) | [Русский](pendingorders.ru.md)
 
-Customer client application: pending orders.
+Name: **pending orders**.
 
 The overall description of the scenario for tracking an order in the customer backend service is that it allows customers to monitor the progress of their order from processing to delivery. 
 

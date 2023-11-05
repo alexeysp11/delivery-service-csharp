@@ -2,6 +2,8 @@
 
 [English](dbreplication.md) | [Русский](dbreplication.ru.md)
 
+Name: **Database replication**.
+
 The scenario for database replication by admin in the delivery service company.
 
 Macro process: [maintenance](../../macroprocesses/maintenance.md)

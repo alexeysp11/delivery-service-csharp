@@ -2,7 +2,7 @@
 
 [English](settings.md) | [Русский](settings.ru.md)
 
-Customer client application: settings.
+Name: **settings**.
 
 The personal settings scenario in the customer client app involves allowing users to view and edit their personal information, such as name, email address, and payment methods. 
 The app securely stores this information and allows users to update it as needed.

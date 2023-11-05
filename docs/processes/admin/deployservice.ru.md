@@ -2,6 +2,8 @@
 
 [English](deployservice.md) | [Русский](deployservice.ru.md)
 
+Наименование: **Развернуть сервисы**.
+
 Сценарий развертывания микросервисов с GitHub администратором в компании службы доставки.
 
 Макропроцесс: [maintenance](../../macroprocesses/maintenance.ru.md)

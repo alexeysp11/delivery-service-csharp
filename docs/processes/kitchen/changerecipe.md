@@ -2,6 +2,8 @@
 
 [English](changerecipe.md) | [Русский](changerecipe.ru.md)
 
+Name: **Change recipe**.
+
 The scenario for changing the composition and ingredients of dishes in the delivery service application, includes obtaining information about the current composition of dishes from the database, calculating and changing the necessary ingredients required for preparing dishes, and cooking instructions.
 A necessary condition when changing the composition of dishes is to set the date and time when the changes will become relevant.
 

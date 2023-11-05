@@ -2,7 +2,7 @@
 
 [English](useraccount.md) | [Русский](useraccount.ru.md)
 
-Customer client application: user account.
+Name: **user account**.
 
 Macro process: [information](../../macroprocesses/information.md)
 

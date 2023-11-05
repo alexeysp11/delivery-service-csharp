@@ -2,7 +2,7 @@
 
 [English](inventoryreport.md) | [Русский](inventoryreport.ru.md)
 
-Warehouse client application: inventory report.
+Name: **inventory report**.
 
 The scenario responsible for getting inventory report by warehouse employees involves generating a report that displays current inventory levels, incoming shipments, outgoing orders, and other relevant information. 
 This report could be generated on demand or scheduled to run at regular intervals.

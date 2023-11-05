@@ -2,7 +2,7 @@
 
 [English](rateorder.md) | [Русский](rateorder.ru.md)
 
-Customer client application: rate order.
+Name: **rate order**.
 
 The overall description of the scenario for rating and reviewing an order in the customer backend service is that it allows customers to provide feedback on the quality of their order, the delivery experience, and the overall service. 
 

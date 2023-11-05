@@ -2,6 +2,8 @@
 
 [English](survey.md) | [Русский](survey.ru.md)
 
+Наименование: **опрос**.
+
 Макропроцесс: [maintenance](../../macroprocesses/maintenance.md)
 
 ## Описание процесса

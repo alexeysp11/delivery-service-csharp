@@ -2,6 +2,8 @@
 
 [English](sendmsgtelegram.md) | [Русский](sendmsgtelegram.ru.md)
 
+Name: **send telegram messages**.
+
 Scenario for sending telegram messages to a delivery service company.
 
 Macro process: [maintenance](../../macroprocesses/maintenance.md)

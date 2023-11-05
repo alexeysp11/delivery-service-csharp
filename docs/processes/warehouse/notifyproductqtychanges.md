@@ -2,7 +2,7 @@
 
 [English](notifyproductqtychanges.md) | [Русский](notifyproductqtychanges.ru.md)
 
-Warehouse client application: notify about changes in product quantity.
+Name: **notify about changes in product quantity**.
 
 The scenario responsible for notifying about changes in product quantity involves monitoring inventory levels and sending notifications to relevant parties when certain thresholds are reached. 
 This could be executed automatically through the inventory management software or started manually by warehouse employees.

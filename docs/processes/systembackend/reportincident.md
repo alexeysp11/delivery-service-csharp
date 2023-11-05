@@ -2,7 +2,7 @@
 
 [English](reportincident.md) | [Русский](reportincident.ru.md)
 
-Name: Report incident
+Name: **Report incident**.
 
 The scenario responsible for reporting an incident by couriers involves providing a mechanism for users to report safety hazards, accidents, or other incidents. 
 This could be done through a mobile app or web interface that allows couriers to submit incident reports with relevant details.

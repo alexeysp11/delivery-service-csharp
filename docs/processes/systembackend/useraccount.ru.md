@@ -2,7 +2,7 @@
 
 [English](useraccount.md) | [Русский](useraccount.ru.md)
 
-Клиентское приложение для потребителя: аккаунт пользователя.
+Наименование: **аккаунт пользователя**.
 
 Макропроцесс: [information](../../macroprocesses/information.md)
 

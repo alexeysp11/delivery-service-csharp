@@ -2,7 +2,7 @@
 
 [English](watchingvideos.md) | [Русский](watchingvideos.ru.md)
 
-Backend of the customer application: watching videos.
+Name: **watching videos**.
 
 The watch videos scenario in the delivery service app involves allowing users to access and watch videos either downloaded from the app's backend service or retrieved from YouTube.
 

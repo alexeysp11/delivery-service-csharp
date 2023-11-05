@@ -2,6 +2,8 @@
 
 [English](sendemail.md) | [Русский](sendemail.ru.md)
 
+Name: **Send email**.
+
 Scenario for sending emails to a delivery service company.
 
 Scenario responsible for notifying users using email messages.
