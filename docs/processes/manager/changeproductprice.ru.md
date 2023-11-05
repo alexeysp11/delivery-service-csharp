@@ -2,6 +2,9 @@
 
 [English](changeproductprice.md) | [Русский](changeproductprice.ru.md)
 
+Сценарий, который ответственен за выставление цены на продукцию. 
+Данный сценарий используется, по большей части, менеджерами компании.
+
 Макропроцесс: [organizational](../../macroprocesses/organizational.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/managerclient.md), [бэкэнд-сервис](../../backend/managerbackend.md).

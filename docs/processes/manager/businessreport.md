@@ -36,8 +36,9 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 - Financial data model: This model could include properties such as revenue, expenses, profitability, and cash flow. It could also have methods for calculating financial ratios and trends.
 - Operational data model: This model could include properties such as delivery times, order accuracy, and customer satisfaction levels. It could also have methods for analyzing operational performance.
-- Customer feedback model: This model could include properties such as customer ratings and comments. It could also have methods for sentiment analysis and clustering.
-- Inventory levels model: This model could include properties such as product information and stock levels. It could also have methods for optimizing inventory management.
+- Customer feedback model: This model could include properties such as customer ratings, comments, order ID, and timestamp. It could also have methods for sentiment analysis and clustering, retrieving feedback for a specific order, and aggregating feedback across multiple orders.
+- Inventory levels model: This model could include properties such as product information, SKU, quantity, location, timestamp, and stock levels. It could also have methods for optimizing inventory management, updating inventory levels, checking availability, and generating reports.
+    - The stock levels model could have properties such as SKU, quantity, location, and supplier. It could also have methods for managing stock levels, ordering new stock, and tracking deliveries. The difference between inventory levels and stock levels is that inventory levels refer to the amount of products currently available for sale, while stock levels refer to the amount of products in storage or in transit.
 - [EmployeePerformance](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/EmployeePerformance.md)
 
 ### DTOs

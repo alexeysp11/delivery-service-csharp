@@ -1,6 +1,6 @@
-# notifyemployees
+# notifymanual
 
-[English](notifyemployees.md) | [Русский](notifyemployees.ru.md)
+[English](notifymanual.md) | [Русский](notifymanual.ru.md)
 
 Manager client application: notify employees.
 

@@ -26,6 +26,6 @@
 - [Отслеживать производительность](../processes/manager/trackperformance.ru.md)
 - [Получать уведмления о проблемах](../processes/notificationsbackend/getnotified.ru.md)
 - [Сформировать бизнес-отчет](../processes/manager/businessreport.ru.md)
-- [Уведомить сотрудников](../processes/notificationsbackend/notifyemployees.ru.md)
+- [Уведомить сотрудников](../processes/notificationsbackend/notifymanual.ru.md)
 - [Изменить плановые запасы](../processes/manager/inventorylevels.ru.md)
 - [Оптимизировать доставку](../processes/manager/optimizedelivery.ru.md)

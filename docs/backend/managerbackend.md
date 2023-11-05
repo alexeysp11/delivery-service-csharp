@@ -26,6 +26,6 @@ Additionally, it provides analytics and reporting capabilities to help managers 
 - [Track performance](../processes/manager/trackperformance.md)
 - [Receive notifications about problems](../processes/notificationsbackend/getnotified.md)
 - [Generate business report](../processes/manager/businessreport.md)
-- [Notify employees](../processes/notificationsbackend/notifyemployees.md)
+- [Notify employees](../processes/notificationsbackend/notifymanual.md)
 - [Change planned inventories](../processes/manager/inventorylevels.md)
 - [Optimize delivery](../processes/manager/optimizedelivery.md)

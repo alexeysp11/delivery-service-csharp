@@ -34,7 +34,7 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 - [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md)
 - [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
 - Store
-    - Store object could have properties like name, location, inventory levels, etc. 
+    - The store object could have properties such as name, location, inventory, and staff. It could also have methods for managing inventory levels, scheduling staff, and processing orders.
 - [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Warehouse.md) 
     - Warehouse object could have properties like location, inventory levels, etc. 
 - Delivery

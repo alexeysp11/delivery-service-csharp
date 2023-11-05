@@ -34,6 +34,8 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 ### Objects
 
 - Meal
+    - The object that represents a meal in the delivery service app could have properties such as name, description, ingredients, price, and availability. It could also have methods for adding or removing ingredients, updating the price, and checking availability.
+    - Probably, it could be represented as the [Product](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/Products/Product.md) object.
 - [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/docs/Models/Business/InformationSystem/Employee.md)
 
 ### DTOs

@@ -32617,7 +32617,7 @@
 											"top": 319,
 											"width": 50,
 											"height": 13,
-											"text": "notify"
+											"text": "sendpush"
 										},
 										{
 											"_type": "LabelView",
@@ -33423,7 +33423,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGLlDZbwT9t1TU="
 							},
-							"name": "notify"
+							"name": "sendpush"
 						},
 						{
 							"_type": "UMLAction",
