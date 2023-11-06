@@ -2,4 +2,7 @@
 
 [English](transmittingfile.md) | [Русский](transmittingfile.ru.md)
 
+`transmittingfile` - это паттерн реализации бизнес-процессов, которые связаны с передачей файлов, в том числе довольно большого объема, а также в формате стриминга.
+Такие процессы также могут включать в себя интеграцию с внешними сервисами (например, YouTube). 
+
 ![transmittingfile_overall](../img/transmittingfile_overall.png)

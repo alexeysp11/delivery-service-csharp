@@ -14,6 +14,8 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 Depends on: 
 - [customerbackend](../../backend/customerbackend.md)
     - [makeorder](../customer/makeorder.md)
+[courierbackend](../../backend/courierbackend.md)
+    - [deliverorder](../courier/deliverorder.md)
 
 Influences on:
 - [fileservice](../../backend/fileservice.md)
@@ -23,7 +25,7 @@ Influences on:
 
 - The [customer app](../../frontend/customerclient.md) allows users to make payments for their orders using different payment methods.
 - Responsible for payment of the order.
-- Called within the [makeorder](../customer/makeorder.md) process.
+- Called within the [makeorder](../customer/makeorder.md) or after the [deliverorder](../courier/deliverorder.md) process.
 
 ![delivering_overall](../../img/delivering_overall.png)
 

@@ -14,6 +14,8 @@
 Зависит от: 
 - [customerbackend](../../backend/customerbackend.ru.md)
     - [makeorder](../customer/makeorder.ru.md)
+[courierbackend](../../backend/courierbackend.ru.md)
+    - [deliverorder](../courier/deliverorder.ru.md)
 
 Влияет на:
 - [fileservice](../../backend/fileservice.ru.md)
@@ -23,7 +25,7 @@
 
 - [Приложение для клиентов](../../frontend/customerclient.md) позволяет пользователям осуществлять оплату своих заказов, используя различные способы оплаты.
 - Ответственен за осуществление оплаты за заказ.
-- Вызывается в рамках процесса [makeorder](../customer/makeorder.ru.md).
+- Вызывается в рамках процесса [makeorder](../customer/makeorder.ru.md) либо после [deliverorder](../courier/deliverorder.ru.md).
 
 ![delivering_overall](../../img/delivering_overall.png)
 
