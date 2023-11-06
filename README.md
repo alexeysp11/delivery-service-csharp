@@ -108,3 +108,5 @@ git clone https://github.com/alexeysp11/delivery-service-csharp.git
 ## Docs
 
 - [TODO](docs/TODO.md)
+- [Contributing to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
+- [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
