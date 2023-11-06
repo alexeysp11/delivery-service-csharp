@@ -7,7 +7,7 @@ Name: **Notify about changes in product quantity**.
 The scenario responsible for notifying about changes in product quantity involves monitoring inventory levels and sending notifications to relevant parties when certain thresholds are reached. 
 This could be executed automatically through the inventory management software or started manually by warehouse employees.
 
-Macro process: [maintenance](../../macroprocesses/maintenance.md)
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 

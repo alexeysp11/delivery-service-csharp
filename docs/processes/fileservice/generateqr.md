@@ -6,7 +6,7 @@ Name: **Generate QR code**.
 
 The scenario responsible for generating QR codes in the delivery service company involves creating unique codes for each order or package to enable tracking and verification. 
 
-Macro process: [transmittingfile](../../macroprocesses/transmittingfile.md)
+Process pattern: [transmittingfile](../../processpatterns/transmittingfile.md)
 
 Responsible modules: [backend service](../../backend/fileservice.md)
 

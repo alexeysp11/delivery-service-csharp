@@ -6,7 +6,7 @@
 
 Сценарий отправки сообщений в телеграм в компании службы доставки.
 
-Макропроцесс: [maintenance](../../macroprocesses/maintenance.ru.md)
+Паттерн процесса: [maintenance](../../processpatterns/maintenance.ru.md)
 
 Ответственные модули: [бэкенд-сервис](../../backend/notificationsbackend.ru.md)
 

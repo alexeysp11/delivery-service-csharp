@@ -4,7 +4,7 @@
 
 Наименование: **Получение сущностей**.
 
-Макропроцесс: [information](../../macroprocesses/information.md)
+Паттерн процесса: [information](../../processpatterns/information.md)
 
 ## Описание процесса
 

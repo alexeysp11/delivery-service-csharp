@@ -4,7 +4,7 @@
 
 Name: **Get entities**.
 
-Macro process: [information](../../macroprocesses/information.md)
+Process pattern: [information](../../processpatterns/information.md)
 
 ## Process description
 

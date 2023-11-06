@@ -9,7 +9,7 @@ A necessary condition when changing the menu is to set the date and time when th
 
 If the negotiation is successful, the application updates the menu and notifies the other microservices of the platform about the changes that have occurred.
 
-Macro process: [requesting](../../macroprocesses/requesting.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/kitchenclient.md), [backend service](../../backend/kitchenbackend.md)
 

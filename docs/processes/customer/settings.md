@@ -7,7 +7,7 @@ Name: **Settings**.
 The personal settings scenario in the customer client app involves allowing users to view and edit their personal information, such as name, email address, and payment methods. 
 The app securely stores this information and allows users to update it as needed.
 
-Macro process: [information](../../macroprocesses/information.md)
+Process pattern: [information](../../processpatterns/information.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 

@@ -6,7 +6,7 @@
 
 Сценарий, отвечающий за создание и/или получение PDF-файлов в компании службы доставки.
 
-Макропроцесс: [transmittingfile](../../macroprocesses/transmittingfile.ru.md)
+Паттерн процесса: [transmittingfile](../../processpatterns/transmittingfile.ru.md)
 
 Ответственные модули: [бэкенд-сервис](../../backend/fileservice.ru.md)
 

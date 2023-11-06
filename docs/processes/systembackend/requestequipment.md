@@ -7,7 +7,7 @@ Name: **Request equipment**.
 The request inventory and equipment scenario in the delivery service app involves allowing kitchen employees to request additional inventory or equipment as needed to fulfill incoming orders. 
 The app sends these requests to the warehouse or other relevant departments for fulfillment.
 
-Macro process: [requesting](../../macroprocesses/requesting.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/kitchenclient.md), [backend service](../../backend/kitchenbackend.md)
 

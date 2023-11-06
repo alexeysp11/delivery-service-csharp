@@ -8,7 +8,7 @@ The overall description of the scenario for placing an order in the customer bac
 
 The interactive steps within the scenario include browsing the menu, selecting items and customizations, entering delivery details, and confirming the order.
 
-Macro process: [delivering](../../macroprocesses/delivering.md)
+Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 

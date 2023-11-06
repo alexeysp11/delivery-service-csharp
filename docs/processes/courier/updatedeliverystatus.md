@@ -6,7 +6,7 @@ Name: **Update delivery status**.
 
 The scenario responsible for updating order status after delivering by couriers involves using the mobile app or web interface to update the status of the order from "out for delivery" to "delivered" and providing any relevant details about the delivery.
 
-Macro process: [delivering](../../macroprocesses/delivering.md)
+Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 

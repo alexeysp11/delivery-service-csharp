@@ -4,7 +4,7 @@
 
 Наименование: **Опрос**.
 
-Макропроцесс: [maintenance](../../macroprocesses/maintenance.md)
+Паттерн процесса: [maintenance](../../processpatterns/maintenance.md)
 
 ## Описание процесса
 

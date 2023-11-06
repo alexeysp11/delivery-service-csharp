@@ -6,7 +6,7 @@
 
 Сценарий просмотра видео в приложении службы доставки предполагает предоставление пользователям доступа и просмотра видео, загруженных из серверной службы приложения или полученных с YouTube.
 
-Макропроцесс: [transmittingfile](../../macroprocesses/transmittingfile.md)
+Паттерн процесса: [transmittingfile](../../processpatterns/transmittingfile.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 

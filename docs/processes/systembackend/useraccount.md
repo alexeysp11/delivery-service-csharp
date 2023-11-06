@@ -4,7 +4,7 @@
 
 Name: **User account**.
 
-Macro process: [information](../../macroprocesses/information.md)
+Process pattern: [information](../../processpatterns/information.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md)
 

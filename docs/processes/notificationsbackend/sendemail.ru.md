@@ -8,7 +8,7 @@
 
 Сценарий, отвечающий за уведомление пользователей с использованием сообщений по электронной почте. 
 
-Макропроцесс: [maintenance](../../macroprocesses/maintenance.ru.md)
+Паттерн процесса: [maintenance](../../processpatterns/maintenance.ru.md)
 
 Ответственные модули: [бэкенд-сервис](../../backend/notificationsbackend.ru.md)
 

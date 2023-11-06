@@ -8,7 +8,7 @@ The scenario for sending notifications in the delivery service company.
 
 The scenario responsible for sending notifications in the delivery service company involves sending notifications to customers based on factors such as their delivery status, order history, and preferences. 
 
-Macro process: [maintenance](../../macroprocesses/maintenance.md)
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [backend service](../../backend/systembackend.md)
 

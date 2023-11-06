@@ -8,7 +8,7 @@ The overall description of the scenario for rating and reviewing an order in the
 
 The interactive steps within the scenario include selecting a star rating, writing a review, and submitting the feedback.
 
-Macro process: [maintenance](../../macroprocesses/maintenance.md)
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 

@@ -4,7 +4,7 @@
 
 Name: **Survey**.
 
-Macro process: [maintenance](../../macroprocesses/maintenance.md)
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 ## Process description
 

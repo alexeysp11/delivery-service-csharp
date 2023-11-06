@@ -50,12 +50,12 @@ Any company that offers delivery services could potentially use this application
     - [predictive backend](docs/backend/predictivebackend.md), 
     - [notifications](docs/backend/notificationsbackend.md).
 - Description of macro processes: 
-    - [delivering](docs/macroprocesses/delivering.md),
-    - [information](docs/macroprocesses/information.md),
-    - [maintenance](docs/macroprocesses/maintenance.md),
-    - [organizational](docs/macroprocesses/organizational.md),
-    - [transmitting file](docs/macroprocesses/transmittingfile.md),
-    - [requesting](docs/macroprocesses/requesting.md).
+    - [delivering](docs/processpatterns/delivering.md),
+    - [information](docs/processpatterns/information.md),
+    - [maintenance](docs/processpatterns/maintenance.md),
+    - [organizational](docs/processpatterns/organizational.md),
+    - [transmitting file](docs/processpatterns/transmittingfile.md),
+    - [requesting](docs/processpatterns/requesting.md).
 - Types of payment: 
     - cash upon receipt, 
     - through a validator upon receipt, 

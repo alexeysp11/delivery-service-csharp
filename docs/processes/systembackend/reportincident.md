@@ -7,7 +7,7 @@ Name: **Report incident**.
 The scenario responsible for reporting an incident by couriers involves providing a mechanism for users to report safety hazards, accidents, or other incidents. 
 This could be done through a mobile app or web interface that allows couriers to submit incident reports with relevant details.
 
-Macro process: [requesting](../../macroprocesses/requesting.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [backend service](../../backend/systembackend.md)
 

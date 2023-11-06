@@ -8,7 +8,7 @@
 
 Интерактивные шаги в сценарии включают выбор вкладки истории заказов, просмотр прошлых заказов и просмотр сведений о заказе.
 
-Макропроцесс: [information](../../macroprocesses/information.md)
+Паттерн процесса: [information](../../processpatterns/information.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 

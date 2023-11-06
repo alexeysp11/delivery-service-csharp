@@ -6,7 +6,7 @@ Name: **Send telegram messages**.
 
 Scenario for sending telegram messages to a delivery service company.
 
-Macro process: [maintenance](../../macroprocesses/maintenance.md)
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [backend service](../../backend/notificationsbackend.md)
 

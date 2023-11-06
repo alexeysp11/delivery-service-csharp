@@ -6,7 +6,7 @@ Name: **Notifications targeting**.
 
 The scenario responsible for notification targeting in the delivery service company involves identifying which customers should receive a particular notification based on factors such as their location, order history, and preferences. 
 
-Macro process: [organizational](../../macroprocesses/organizational.md)
+Process pattern: [organizational](../../processpatterns/organizational.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 

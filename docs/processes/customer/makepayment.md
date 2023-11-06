@@ -7,7 +7,7 @@ Name: **Make a payment**.
 The payment scenario in the delivery service app involves a user selecting a payment method and providing their payment information to complete the transaction for their order. 
 The app securely processes the payment and provides confirmation of the successful transaction.
 
-Macro process: [delivering](../../macroprocesses/delivering.md)
+Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 

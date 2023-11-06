@@ -8,7 +8,7 @@
 
 Интерактивные шаги в рамках сценария включают просмотр меню, выбор позиций и настроек, ввод сведений о доставке и подтверждение заказа.
 
-Макропроцесс: [delivering](../../macroprocesses/delivering.ru.md)
+Паттерн процесса: [delivering](../../processpatterns/delivering.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 

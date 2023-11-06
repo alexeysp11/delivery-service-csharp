@@ -6,7 +6,7 @@ Name: **Watching videos**.
 
 The watch videos scenario in the delivery service app involves allowing users to access and watch videos either downloaded from the app's backend service or retrieved from YouTube.
 
-Macro process: [transmittingfile](../../macroprocesses/transmittingfile.md)
+Process pattern: [transmittingfile](../../processpatterns/transmittingfile.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 

@@ -8,7 +8,7 @@ Scenario for sending emails to a delivery service company.
 
 Scenario responsible for notifying users using email messages.
 
-Macro process: [maintenance](../../macroprocesses/maintenance.md)
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [backend service](../../backend/notificationsbackend.md)
 

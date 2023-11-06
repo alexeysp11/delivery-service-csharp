@@ -6,7 +6,7 @@
 
 Сценарий развертывания микросервисов с GitHub администратором в компании службы доставки.
 
-Макропроцесс: [maintenance](../../macroprocesses/maintenance.ru.md)
+Паттерн процесса: [maintenance](../../processpatterns/maintenance.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/adminclient.ru.md), [бэкенд-сервис](../../backend/adminbackend.ru.md)
 

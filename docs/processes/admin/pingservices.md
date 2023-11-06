@@ -6,7 +6,7 @@ Name: **Ping services**.
 
 The scenario responsible for pinging services by admin in the delivery service company involves using a monitoring tool to check the availability and performance of various services, such as delivery tracking or inventory management, and receiving alerts if any issues are detected.
 
-Macro process: [maintenance](../../macroprocesses/maintenance.md)
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 

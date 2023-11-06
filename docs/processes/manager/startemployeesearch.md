@@ -7,7 +7,7 @@ Name: **Start employee search**.
 The scenario responsible for starting employee search by manager involves using the management app to search for employees based on various criteria, such as name, department, or location. 
 This allows managers to quickly find and communicate with the right employees for specific tasks or projects.
 
-Macro process: [organizational](../../macroprocesses/organizational.md)
+Process pattern: [organizational](../../processpatterns/organizational.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 

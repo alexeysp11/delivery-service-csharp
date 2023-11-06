@@ -6,7 +6,7 @@ Name: **Receiving push notifications**.
 
 The push notification scenario in the delivery service app involves sending real-time notifications to users through SignalR. 
 
-Macro process: [maintenance](../../macroprocesses/maintenance.md)
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 

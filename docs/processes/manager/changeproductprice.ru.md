@@ -7,7 +7,7 @@
 Сценарий, который ответственен за выставление цены на продукцию. 
 Данный сценарий используется, по большей части, менеджерами компании.
 
-Макропроцесс: [organizational](../../macroprocesses/organizational.ru.md)
+Паттерн процесса: [organizational](../../processpatterns/organizational.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/managerclient.md), [бэкэнд-сервис](../../backend/managerbackend.md).
 

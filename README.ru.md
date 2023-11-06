@@ -50,12 +50,12 @@
     - [predictive backend](docs/backend/predictivebackend.ru.md), 
     - [notifications](docs/backend/notificationsbackend.ru.md).
 - Описание макропроцессов:
-    - [доставка](docs/macroprocesses/delivering.ru.md),
-    - [информация](docs/macroprocesses/information.ru.md),
-    - [обслуживание](docs/macroprocesses/maintenance.ru.md),
-    - [организационный](docs/macroprocesses/organizational.ru.md),
-    - [передача файла](docs/macroprocesses/transmittingfile.ru.md),
-    - [запрос](docs/macroprocesses/requesting.ru.md).
+    - [доставка](docs/processpatterns/delivering.ru.md),
+    - [информация](docs/processpatterns/information.ru.md),
+    - [обслуживание](docs/processpatterns/maintenance.ru.md),
+    - [организационный](docs/processpatterns/organizational.ru.md),
+    - [передача файла](docs/processpatterns/transmittingfile.ru.md),
+    - [запрос](docs/processpatterns/requesting.ru.md).
 - Виды оплаты: 
     - наличная при получении, 
     - через валидатор при получении, 

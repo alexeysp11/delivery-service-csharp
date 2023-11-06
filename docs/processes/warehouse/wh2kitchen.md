@@ -6,7 +6,7 @@ Name: **Deliver from WH to kitchen**.
 
 The scenario responsible for delivering ingredients from the warehouse to the kitchen by warehouse employees in the delivery service company involves receiving requests from the kitchen staff for specific ingredients, locating those ingredients in the warehouse, packaging them for transport, and delivering them to the kitchen in a timely manner.
 
-Macro process: [delivering](../../macroprocesses/delivering.md)
+Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 

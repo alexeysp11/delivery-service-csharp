@@ -8,7 +8,7 @@
 
 Интерактивные шаги в рамках сценария включают выбор звездного рейтинга, написание обзора и отправку отзыва.
 
-Макропроцесс: [maintenance](../../macroprocesses/maintenance.ru.md)
+Паттерн процесса: [maintenance](../../processpatterns/maintenance.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 

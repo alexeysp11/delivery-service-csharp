@@ -4,7 +4,7 @@
 
 Наименование: **Аккаунт пользователя**.
 
-Макропроцесс: [information](../../macroprocesses/information.md)
+Паттерн процесса: [information](../../processpatterns/information.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md)
 

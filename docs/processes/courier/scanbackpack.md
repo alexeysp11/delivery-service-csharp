@@ -7,7 +7,7 @@ Name: **Scan backpack QR code**.
 The scenario responsible for scanning QR code on backpack before delivering by couriers involves using a mobile app or handheld scanner to scan a unique QR code associated with each courier's backpack. 
 This verifies that the correct courier is making the delivery and provides real-time tracking information to the delivery service company and the customer.
 
-Macro process: [delivering](../../macroprocesses/delivering.md)
+Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 
@@ -17,7 +17,7 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 
 ![delivering_overall](../../img/delivering_overall.png)
 
-Despite the fact that this process belongs to the macroprocess [delivering](../../macroprocesses/delivering.ru.md), the implementation of this process is similar to the processes included in the macroprocess [maintenance](../../macroprocesses/maintenance.ru.md), in the context of user notification:
+Despite the fact that this process belongs to the macroprocess [delivering](../../processpatterns/delivering.ru.md), the implementation of this process is similar to the processes included in the macroprocess [maintenance](../../processpatterns/maintenance.ru.md), in the context of user notification:
 
 ![maintenance_overall](../../img/maintenance_overall.png)
 

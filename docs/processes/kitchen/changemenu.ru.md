@@ -9,7 +9,7 @@
 
 В случае успешного согласования приложение обновляет меню и уведомляет остальные микросервисы платформы о произошедших изменениях.
 
-Макропроцесс: [requesting](../../macroprocesses/requesting.md)
+Паттерн процесса: [requesting](../../processpatterns/requesting.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/kitchenclient.md), [бэкэнд-сервис](../../backend/kitchenbackend.md)
 

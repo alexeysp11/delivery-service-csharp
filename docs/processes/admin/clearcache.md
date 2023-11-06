@@ -7,7 +7,7 @@ Name: **Clear cache**.
 Scenario for clearing cached data stored in databases associated with the corresponding microservices in a delivery service company.
 This service can be performed either automatically or manually by the administrator.
 
-Macro process: [maintenance](../../macroprocesses/maintenance.md)
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 

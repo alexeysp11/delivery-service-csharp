@@ -7,7 +7,7 @@ Name: **Cancel order**.
 The cancel order scenario in the delivery service app involves allowing customers to cancel their order before it is prepared and delivered. 
 The app prompts the user to confirm their cancellation and provides options for leaving feedback or comments.
 
-Macro process: [requesting](../../macroprocesses/requesting.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
@@ -29,11 +29,11 @@ Infuences on:
 - If, when loading the order card, it is already known that the order cannot be canceled, then hide the "Cancel order" button.
 - After canceling an order, the order disappears from the list of current orders.
 
-This process cancels the macroprocess [delivering](../../macroprocesses/delivering.md):
+This process cancels the macroprocess [delivering](../../processpatterns/delivering.md):
 
 ![delivering_overall](../../img/delivering_overall.png)
 
-However, this process is implemented as part of the microprocess [requesting](../../macroprocesses/requesting.md):
+However, this process is implemented as part of the microprocess [requesting](../../processpatterns/requesting.md):
 
 ![requesting_overall](../../img/requesting_overall.png)
 

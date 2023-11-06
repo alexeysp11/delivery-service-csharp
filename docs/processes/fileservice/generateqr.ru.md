@@ -6,7 +6,7 @@
 
 Сценарий, отвечающий за генерацию QR-кодов в компании службы доставки, предполагает создание уникальных кодов для каждого заказа или посылки для обеспечения отслеживания и проверки.
 
-Макропроцесс: [transmittingfile](../../macroprocesses/transmittingfile.ru.md)
+Паттерн процесса: [transmittingfile](../../processpatterns/transmittingfile.ru.md)
 
 Ответственные модули: [бэкенд-сервис](../../backend/fileservice.ru.md)
 
