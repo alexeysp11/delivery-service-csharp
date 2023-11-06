@@ -49,7 +49,7 @@ Any company that offers delivery services could potentially use this application
     - [statistical backend](docs/backend/statisticalbackend.md), 
     - [predictive backend](docs/backend/predictivebackend.md), 
     - [notifications](docs/backend/notificationsbackend.md).
-- Description of macro processes: 
+- Description of process patterns: 
     - [delivering](docs/processpatterns/delivering.md),
     - [information](docs/processpatterns/information.md),
     - [maintenance](docs/processpatterns/maintenance.md),

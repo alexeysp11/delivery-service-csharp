@@ -49,7 +49,7 @@
     - [statistical backend](docs/backend/statisticalbackend.ru.md), 
     - [predictive backend](docs/backend/predictivebackend.ru.md), 
     - [notifications](docs/backend/notificationsbackend.ru.md).
-- Описание макропроцессов:
+- Описание паттернов процессов:
     - [доставка](docs/processpatterns/delivering.ru.md),
     - [информация](docs/processpatterns/information.ru.md),
     - [обслуживание](docs/processpatterns/maintenance.ru.md),
