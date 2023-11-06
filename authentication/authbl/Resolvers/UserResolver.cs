@@ -33,7 +33,7 @@ select 'email' as credentials_type, count(c.*) as qty from delivery_customer_cb 
 union
 select 'phone_number' as credentials_type, count(c.*) as qty from delivery_customer_cb c where c.phone_number = '{request.PhoneNumber}'
 ;";
-            var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
+            var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql).DataTableResult;
             foreach (DataRow row in dt.Rows)
             {
                 if (row["credentials_type"].ToString() == "login")
@@ -99,7 +99,7 @@ select
 from delivery_customer_cb c
 where c.login = '{request.Login}' and c.password = '{request.Password}'
 ;";
-            var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
+            var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql).DataTableResult;
             if (dt.Rows.Count > 1)
                 throw new System.Exception("CRITICAL ERROR: more than one customer with the same name");
             foreach (DataRow row in dt.Rows)
@@ -135,7 +135,7 @@ where c.login = '{request.Login}' and c.password = '{request.Password}'
             if (string.IsNullOrWhiteSpace(uid))
                 throw new System.Exception("User UID could not be null or empty");
             string sql = @$"select c.delivery_customer_cb_id from delivery_customer_cb c where c.customer_uid = '{uid}';";
-            var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql);
+            var dt = new PgDbConnection(ConnectionString).ExecuteSqlCommand(sql).DataTableResult;
             if (dt.Rows.Count > 1)
                 throw new System.Exception("CRITICAL ERROR: more than one customer with the same UID");
             foreach (DataRow row in dt.Rows)

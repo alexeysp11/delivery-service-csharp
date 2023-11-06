@@ -87,7 +87,7 @@ select
     dcc.picture_description
 from delivery_category_cc dcc
 ;";
-        return PgDbConnection.ExecuteSqlCommand(sql);
+        return PgDbConnection.ExecuteSqlCommand(sql).DataTableResult;
     }
 
     /// <summary>
@@ -107,6 +107,6 @@ select
 from delivery_menuitem_cc dmc
 order by dmc.delivery_menuitem_cc_id, dmc.delivery_category_cc_id
 ;";
-        return PgDbConnection.ExecuteSqlCommand(sql);
+        return PgDbConnection.ExecuteSqlCommand(sql).DataTableResult;
     }
 }
