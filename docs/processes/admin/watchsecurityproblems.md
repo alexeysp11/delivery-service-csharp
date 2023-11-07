@@ -4,6 +4,17 @@
 
 Name: **Watch for security problems**.
 
-Admin backend service is responsible for watching for security problems on the computer and on the network. Please, tell me if these two functionalities need to be implemented as two separate business processes. Please, provide the overall description of the business process (or business processes) responsible for wathcing for security problems and notifying about them. 
+Scenarion that is responsible for watching for security problems on the computers and on the corporate network.
 
-While watching for security problems on the computer and on the network can be considered as separate functionalities, they can be part of a single overarching business process for security management. This process would involve continuous monitoring of computer and network security, identifying vulnerabilities and threats, implementing security measures such as firewalls and antivirus software, and responding to security incidents.
+While watching for security problems on the computer and on the network can be considered as separate functionalities, they can be part of a single overarching business process for security management. 
+This process would involve continuous monitoring of computer and network security, identifying vulnerabilities and threats, implementing security measures such as firewalls and antivirus software, and responding to security incidents.
+
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
+
+Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
+
+## Process description
+
+![maintenance_overall](../../img/maintenance_overall.png)
+
+### Step-by-step execution

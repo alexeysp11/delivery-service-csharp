@@ -55,6 +55,7 @@
     - [обслуживание](docs/processpatterns/maintenance.ru.md),
     - [организационный](docs/processpatterns/organizational.ru.md),
     - [передача файла](docs/processpatterns/transmittingfile.ru.md),
+    - [выполнение/реализация задачи](docs/processpatterns/executing.ru.md),
     - [запрос](docs/processpatterns/requesting.ru.md).
 - Виды оплаты: 
     - наличная при получении, 
