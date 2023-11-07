@@ -2,4 +2,4 @@
 
 [English](corporatewifi.md) | [Русский](corporatewifi.ru.md)
 
-Наименование: **Корпоративный WiFi**.
+Наименование: **Корпоративный WIFI**.
