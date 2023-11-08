@@ -8,7 +8,7 @@ Customer token.
 
 ## Objects 
 
-- [SessionToken](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/SessionToken.md)
+- [SessionToken](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/SessionToken.cs)
 
 ## Fields 
 

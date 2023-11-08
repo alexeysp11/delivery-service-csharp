@@ -34,11 +34,11 @@
 
 ### DTOs
 
-- [SignInModel](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/SignInModel.md)
-- [UserCredentials](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/UserCredentials.md)
-- [VUCResponse](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/VUCResponse.md)
-- [SessionToken](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/SessionToken.md)
-- [TokenRequest](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/TokenRequest.md)
+- [SignInModel](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/SignInModel.cs)
+- [UserCredentials](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/UserCredentials.cs)
+- [VUCResponse](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/VUCResponse.cs)
+- [SessionToken](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/SessionToken.cs)
+- [TokenRequest](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/TokenRequest.cs)
 
 ### Таблицы в БД
 

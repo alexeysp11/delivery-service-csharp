@@ -34,7 +34,7 @@ Sign in model.
 
 #### Returns
 
-[VUCResponse](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/VUCResponse.md)
+[VUCResponse](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/VUCResponse.cs)
 
 The result of verification of user credintials.
 
@@ -92,7 +92,7 @@ Sign up model.
 
 #### Returns
 
-[UserCreationResult](https://github.com/alexeysp11/workflow-auth/blob/main/docs/models/NetworkParameters/UserCreationResult.md)
+[UserCreationResult](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/UserCreationResult.cs)
 
 The result of adding a user to the database.
 
