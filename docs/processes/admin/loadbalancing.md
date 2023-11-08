@@ -2,7 +2,11 @@
 
 [English](loadbalancing.md) | [Русский](loadbalancing.ru.md)
 
+Name: **Load balancing**.
+
 The process responsible for deploying load balancing in the delivery service app involves setting up load balancer devices or software to distribute incoming network traffic across multiple backend servers or resources. This ensures that no single server becomes overwhelmed with requests and helps optimize resource utilization and response times.
+
+Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
 ## Process description
 

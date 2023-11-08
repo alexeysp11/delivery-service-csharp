@@ -43,8 +43,10 @@ async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, Cancel
     Console.WriteLine($"Received a '{messageText}' message in chat {chatId}.");
 
     // Echo received message text
+    // string messageChatGptTelegram = @"";
     Message sentMessage = await botClient.SendTextMessageAsync(
         chatId: chatId,
+        // text: messageChatGptTelegram,
         text: "Okay, I got it.",
         cancellationToken: cancellationToken);
 }
