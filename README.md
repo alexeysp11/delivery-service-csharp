@@ -34,7 +34,10 @@ Any company that offers delivery services could potentially use this application
     - [warehouse](docs/frontend/warehouseclient..md), 
     - [couriers](docs/frontend/courierclient.md), 
     - [managers](docs/frontend/managerclient.md), 
-    - [admins](docs/frontend/adminclient.md).
+    - [admins](docs/frontend/adminclient.md), 
+    - [developer](docs/frontend/developerclient.md), 
+    - [QA engineer](docs/frontend/qaengineerclient.md), 
+    - [tech support](docs/frontend/techsupportclient.md).
 - Types of client applications by deployment type: web, desktop, mobile (Android), telegram bot.
 - Description of backend services: 
     - [authentication API](docs/backend/authbackend.md), 
@@ -44,6 +47,9 @@ Any company that offers delivery services could potentially use this application
     - [courier backend](docs/backend/courierbackend.md), 
     - [manager backend](docs/backend/managerbackend.md), 
     - [admin backend](docs/backend/adminbackend.md), 
+    - [developer backend](docs/backend/developerbackend.md), 
+    - [QA engineer backend](docs/backend/qaengineerbackend.md), 
+    - [tech support backend](docs/backend/techsupportbackend.md), 
     - [system backend](docs/backend/systembackend.md), 
     - [file service](docs/backend/fileservice.md), 
     - [statistical backend](docs/backend/statisticalbackend.md), 

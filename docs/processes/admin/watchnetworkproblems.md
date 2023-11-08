@@ -4,7 +4,7 @@
 
 Name: **Watch for security problems**.
 
-Scenarion that is responsible for watching for security problems on the computers and on the corporate network.
+Scenario that is responsible for watching for security problems on the computers and on the corporate network.
 
 While watching for security problems on the computer and on the network can be considered as separate functionalities, they can be part of a single overarching business process for security management. 
 This process would involve continuous monitoring of computer and network security, identifying vulnerabilities and threats, implementing security measures such as firewalls and antivirus software, and responding to security incidents.
@@ -32,6 +32,12 @@ Understanding how firewalls work can start with learning about the different typ
 Actively monitoring the network for problems in the network of clients involves using network monitoring tools to continuously track network performance, traffic patterns, security events, and device statuses. This may also involve setting up alerts and notifications to quickly respond to any detected issues.
 
 To understand the implementation of proxies in a corporate network, you can start by learning about different types of proxies (e.g., forward proxy, reverse proxy), their use cases, configuration options, and potential security considerations. You can also explore how proxies can be used for content filtering, caching, load balancing, and enhancing network security. There are many online resources, tutorials, and courses available that can help you gain a deeper understanding of proxy implementation in corporate networks.
+
+The process for implementing security measures in the delivery service app involves configuring encryption protocols, setting up authentication methods for WIFI access, and ensuring that data transmitted over the network is protected. If you already have an external service handling authentication and data caching, you may not need to implement additional authentication measures in this process, but you should still ensure that the WIFI network itself is secure.
+
+The process for monitoring WIFI performance and usage in the delivery service app involves collecting and analyzing data from access points and controllers to assess network performance, identify potential issues, and track usage patterns. This helps to ensure that the WIFI network is operating efficiently and effectively.
+
+Measures for monitoring WIFI performance and usage may include tracking signal strength, throughput, and latency, identifying areas of congestion or interference, and monitoring user activity and bandwidth consumption.
 
 ![maintenance_overall](../../img/maintenance_overall.png)
 

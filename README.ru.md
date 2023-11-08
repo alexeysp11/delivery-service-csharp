@@ -34,7 +34,10 @@
     - [склада](docs/frontend/warehouseclient.ru.md), 
     - [курьеров](docs/frontend/courierclient.ru.md), 
     - [менеджеров](docs/frontend/managerclient.ru.md), 
-    - [админов](docs/frontend/adminclient.ru.md).
+    - [админов](docs/frontend/adminclient.ru.md), 
+    - [разработчик](docs/frontend/developerclient.ru.md),
+    - [QA-инженер](docs/frontend/qaengineerclient.ru.md),
+    - [техническая поддержка](docs/frontend/techsupportclient.ru.md).
 - Виды клиентских приложений по типу развертывания: вэб, десктоп, мобильное (Android), бот в телеграм.
 - Описание бэкенд сервисов: 
     - [authentication API](docs/backend/authbackend.ru.md), 
@@ -44,6 +47,9 @@
     - [courier backend](docs/backend/courierbackend.ru.md), 
     - [manager backend](docs/backend/managerbackend.ru.md), 
     - [admin backend](docs/backend/adminbackend.ru.md), 
+    - [developer backend](docs/backend/developerbackend.ru.md),
+    - [QA engineer backend](docs/backend/qaengineerbackend.ru.md),
+    - [tech support backend](docs/backend/techsupportbackend.ru.md),
     - [system backend](docs/backend/systembackend.ru.md), 
     - [file service](docs/backend/fileservice.ru.md), 
     - [statistical backend](docs/backend/statisticalbackend.ru.md), 

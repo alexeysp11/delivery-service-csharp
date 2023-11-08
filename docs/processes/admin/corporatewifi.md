@@ -9,4 +9,4 @@ The overall process responsible for dealing with corporate WIFI includes the fol
 - deploying access points and wireless controllers
 - implementing security measures such as encryption and authentication
 - monitoring WIFI performance and usage
-- and providing support for WIFI users.
+- providing support for WIFI users.
