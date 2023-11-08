@@ -29,6 +29,6 @@
 - [Наблюдение за телефонными сеансами](../processes/admin/watchtelephonesessions.ru.md)
 - [Корпоративная сеть](../processes/admin/corporatenetwork.ru.md)
 - [Корпоративный WIFI](../processes/admin/corporatewifi.ru.md)
-- [Наблюдение за проблемами с безопасностью](../processes/admin/watchsecurityproblems.ru.md)
+- [Наблюдение за проблемами с безопасностью](../processes/admin/watchnetworkproblems.ru.md)
 - [Запрос на серьезные изменения](../processes/admin/majorchangerequest.ru.md)
 - [Запрос на незначительные изменения](../processes/admin/minorchangerequest.ru.md)

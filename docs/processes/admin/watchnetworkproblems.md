@@ -1,6 +1,6 @@
-# watchsecurityproblems
+# watchnetworkproblems
 
-[English](watchsecurityproblems.md) | [Русский](watchsecurityproblems.ru.md)
+[English](watchnetworkproblems.md) | [Русский](watchnetworkproblems.ru.md)
 
 Name: **Watch for security problems**.
 
@@ -16,6 +16,8 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
 ## Process description
+
+The process responsible for network performance monitoring and optimization in the delivery service app involves continuously monitoring network traffic, bandwidth usage, latency, and other performance metrics to identify bottlenecks or issues that could impact user experience. This process also involves optimizing network configurations and resources to improve overall performance.
 
 Integrating with antivirus software from Microsoft on the client side can be achieved by using the Windows Security Center API, which allows third-party software to integrate with the built-in Windows Defender Antivirus. This integration would allow your delivery service app to communicate with the antivirus software and receive information about security threats and status.
 

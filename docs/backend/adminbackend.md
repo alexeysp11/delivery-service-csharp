@@ -29,6 +29,6 @@ It interfaces with all client-side apps and provides a centralized location for 
 - [Watch telephone sessions](../processes/admin/watchtelephonesessions.md)
 - [Corporate network](../processes/admin/corporatenetwork.md)
 - [Corporate WIFI](../processes/admin/corporatewifi.md)
-- [Watch for security problems](../processes/admin/watchsecurityproblems.md)
+- [Watch for security problems](../processes/admin/watchnetworkproblems.md)
 - [Major change request](../processes/admin/majorchangerequest.md)
 - [Minor change request](../processes/admin/minorchangerequest.md)
