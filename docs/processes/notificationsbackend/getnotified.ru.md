@@ -10,6 +10,13 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 
+Зависит от: 
+- [adminbackend](../../backend/adminbackend.ru.md): данный процесс вызывается автоматически или по триггеру из этого бэкенд-сервиса
+
+Влияет на:
+- [notificationsbackend](../../backend/notificationsbackend.ru.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
+
 ## Описание процесса
 
 - От точки зрения получателя приложение получает и отображает уведомление на его устройстве, предоставляя соответствующую информацию о статусе заказа или других обновлениях.

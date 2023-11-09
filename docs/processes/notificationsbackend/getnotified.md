@@ -10,6 +10,13 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
+Depends on: 
+- [adminbackend](../../backend/adminbackend.md): this process is called automatically or by trigger from this backend service
+
+Infuences on: 
+- [notificationsbackend](../../backend/notificationsbackend.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+
 ## Process description
 
 - From the receiver POV, the app receives and displays the notification on their device, providing relevant information about their order status or other updates.

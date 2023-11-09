@@ -10,7 +10,7 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/warehouseclient.md), [бэкенд-сервис](../../backend/warehousebackend.md)
 
-Depends on: 
+Зависит от: 
 - [customerbackend](../../backend/customerbackend.md)
     - [preprocessorder](../../processes/customer/preprocessorder.md)
 

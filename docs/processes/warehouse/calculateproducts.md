@@ -11,6 +11,13 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 
+Depends on: 
+- [adminbackend](../../backend/adminbackend.md): this process is called automatically or by trigger from this backend service
+
+Infuences on: 
+- [notificationsbackend](../../backend/notificationsbackend.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+
 ## Process description
 
 The overall description of the scenario for calculating product quantities in the warehouse backend service is that it allows warehouse staff to track inventory levels and ensure that there is enough stock on hand to fulfill orders. 

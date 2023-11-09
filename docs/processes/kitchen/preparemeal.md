@@ -11,6 +11,10 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/kitchenclient.md), [backend service](../../backend/kitchenbackend.md)
 
+Depends on: 
+- [customerbackend](../../backend/customerbackend.md)
+    - [preprocessorder](../customer/preprocessorder.md)
+
 ## Process description
 
 - This process is called from the [preprocessorder](../customer/preprocessorder.md) process.

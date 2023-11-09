@@ -11,6 +11,10 @@
 
 Ответственные модули: [бэкенд-сервис](../../backend/systembackend.ru.md)
 
+Влияет на:
+- [notificationsbackend](../../backend/notificationsbackend.ru.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
+
 ## Описание процесса
 
 Общее описание сценария уведомления об инцидентах в курьерской службе заключается в том, что он позволяет пользователям сообщать о любых инцидентах:

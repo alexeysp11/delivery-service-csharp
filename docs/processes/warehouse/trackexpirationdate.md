@@ -11,6 +11,13 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 
+Depends on: 
+- [adminbackend](../../backend/adminbackend.md): this process is called automatically or by trigger from this backend service
+
+Infuences on: 
+- [notificationsbackend](../../backend/notificationsbackend.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+
 ## Process description
 
 ![maintenance_overall](../../img/maintenance_overall.png)

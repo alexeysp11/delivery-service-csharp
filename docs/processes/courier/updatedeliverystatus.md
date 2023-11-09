@@ -10,6 +10,10 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 
+Infuences on: 
+- [notificationsbackend](../../backend/notificationsbackend.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+
 ## Process description
 
 ![delivering_overall](../../img/delivering_overall.png)

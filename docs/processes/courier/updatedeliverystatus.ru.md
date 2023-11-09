@@ -10,6 +10,10 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/courierclient.md), [бэкэнд-сервис](../../backend/courierbackend.md)
 
+Влияет на:
+- [notificationsbackend](../../backend/notificationsbackend.ru.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
+
 ## Описание процесса
 
 ![delivering_overall](../../img/delivering_overall.png)

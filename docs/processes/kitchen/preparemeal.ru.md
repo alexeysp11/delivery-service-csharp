@@ -11,6 +11,10 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/kitchenclient.ru.md), [бэкэнд-сервис](../../backend/kitchenbackend.ru.md)
 
+Зависит от: 
+- [customerbackend](../../backend/customerbackend.ru.md)
+    - [preprocessorder](../customer/preprocessorder.ru.md)
+
 ## Описание процесса
 
 - Данный процесс вызывается из процесса [preprocessorder](../customer/preprocessorder.ru.md).

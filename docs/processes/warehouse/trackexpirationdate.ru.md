@@ -11,6 +11,13 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/warehouseclient.md), [бэкенд-сервис](../../backend/warehousebackend.md)
 
+Зависит от: 
+- [adminbackend](../../backend/adminbackend.ru.md): данный процесс вызывается автоматически или по триггеру из этого бэкенд-сервиса
+
+Влияет на:
+- [notificationsbackend](../../backend/notificationsbackend.ru.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
+
 ## Описание процесса
 
 ![maintenance_overall](../../img/maintenance_overall.png)

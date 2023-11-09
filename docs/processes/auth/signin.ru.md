@@ -8,6 +8,9 @@
 
 Ответственные модули: [бэкенд-сервис](../../backend/authbackend.md).
 
+Влияет на: 
+- [workflow-auth](https://github.com/alexeysp11/workflow-auth)
+
 ## Описание процесса
 
 Для аутентификации используется внешний **сервис аутентификации** [workflow-auth](https://github.com/alexeysp11/workflow-auth).

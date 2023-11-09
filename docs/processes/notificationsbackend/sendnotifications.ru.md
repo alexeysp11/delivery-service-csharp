@@ -12,6 +12,12 @@
 
 Ответственные модули: [бэкенд-сервис](../../backend/systembackend.ru.md)
 
+Влияет на:
+- [notificationsbackend](../../backend/notificationsbackend.ru.md)
+    - [sendemail](../notificationsbackend/sendemail.ru.md)
+    - [sendpush](../notificationsbackend/sendpush.ru.md)
+    - [sendmsgtelegram](../notificationsbackend/sendmsgtelegram.ru.md)
+
 ## Описание процесса
 
 ![maintenance_overall](../../img/maintenance_overall.png)

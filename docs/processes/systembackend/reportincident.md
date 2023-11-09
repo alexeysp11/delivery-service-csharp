@@ -11,6 +11,10 @@ Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [backend service](../../backend/systembackend.md)
 
+Infuences on: 
+- [notificationsbackend](../../backend/notificationsbackend.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+
 ## Process description
 
 The overall description of the scenario for incident notification in the courier backend service is that it allows users to report any incidents: 
