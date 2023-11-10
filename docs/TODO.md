@@ -19,6 +19,7 @@
 - Create a diagram that could be used to explain how services intract with each other, in order to send and/or retrive some push or email notifications.
 - Create a diagram that explains how the products are delivered to the kitchen, how the order is prepared, and how it is delivered to the customer.
 - Implement parsing of QR code.
+- Building the most optimal delivery route and displaying the courier's location on the map could be implemented in this application.
 
 ## Roadmap for the project 
 

@@ -10,22 +10,43 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 
+Depends on: 
+- [customerbackend](../../backend/customerbackend.md)
+    - [preprocessorder](../customer/preprocessorder.md)
+- [warehousebackend](../../backend/warehousebackend.md)
+    - [wh2kitchen](../warehouse/wh2kitchen.md)
+- [kitchenbackend](../../backend/kitchenbackend.md)
+    - [requestingedients](../kitchen/requestingedients.md)
+
 ## Process description
+
+Nuances associated with the implementation of this backend service:
+- When starting this process, the following must be passed as parameters, among others:
+    - **backend service from which the process was launched**;
+    - **backend service that will be launched from this process** (usually when designing external processes, it is recommended to return a response to the same backend service from which the dependent process was launched, but this parameter is a way to specify dependencies between microservices in a more explicit form);
+    - **type of the corresponding client application** (by default, the one that corresponds to the backend service from which this process was launched is used);
+    - **name and quantity of products that need to be purchased** (if the process is launched from [preprocessorder](../customer/preprocessorder.ru.md), then this parameter is required).
+- The area of responsibility in which this process starts remains the same as that of the external backend service that called it.
+- To simplify the design and development process at the initial stages, we proceed from the idea that the store with the optimal price-quality ratio has already been selected (for example, due to contracts concluded as part of the management of relations with contractors, or a predetermined address of the nearest store). This means that the backend service does not need to calculate which store is more profitable to buy products from; accordingly, information about the store will be obtained from the database.
+- Building the most optimal delivery route and displaying the courier's location on a map is an important component of a real delivery service application, but in this prototype application these functions are not currently implemented in order to reduce the complexity of design and implementation.
+
+This process provides the implementation of the [delivering](../../processpatterns/delivering.ru.md) process pattern:
 
 ![delivering_overall](../../img/delivering_overall.png)
 
 ### Step-by-step execution
 
-- The store manager creates a delivery order in the system.
-- The system assigns a courier to the delivery order.
+- The backend service, in whose area of responsibility this process is running, notifies the employee who launched the process (this action is performed only if the list of products for purchase is not filled in among the parameters).
+- The store manager creates a delivery order in the system: list of products, store (loaded automatically from the database).
+- Information about orders transported by courier (order number, delivery location, actual/estimated delivery time).
 - The notification comes to the backend service of the courier application.
-- The courier picks up the products from the store and loads them into their vehicle.
-- Working with a kitchen order: receiving a request with a list of products to buy, the location of the nearest store with the best prices, a receipt photo.
-- Information on orders carried/carried by the courier (order number, place of delivery, actual/estimated time of delivery).
-- Building the most optimal route for delivery.
+- The system assigns a courier to the delivery order.
+- The courier accepts the order for work.
+- Building the most optimal delivery route.
+- Displaying the courier's location on the map.
+- The courier picks up the goods from the store and loads them into his car.
 - The courier delivers the products to the warehouse.
-- Display the location of the courier on the map.
-- The courier marks the delivery order as complete in the system.
+- The courier marks the delivery order in the system as completed, and attaches a photo of the receipt as confirmation.
 
 ## Data 
 
@@ -39,6 +60,7 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
     - Warehouse object could have properties like location, inventory levels, etc. 
 - Delivery
     - References to product, employee (courier), starting point, destination.
+- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs)
 
 ### DTOs
 
