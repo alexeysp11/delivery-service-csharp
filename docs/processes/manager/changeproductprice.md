@@ -16,3 +16,10 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 ![organizational_overall](../../img/organizational_overall.png)
 
 ### Step-by-step execution
+
+- Manager logs into the app and navigates to the "Product Pricing" section
+- Manager selects the product whose price needs to be changed
+- App provides options to enter a new price and reason for the change
+- Manager submits the price change request
+- App updates the product pricing database with the new price
+- App notifies relevant staff members about the price change

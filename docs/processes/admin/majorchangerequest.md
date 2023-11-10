@@ -20,4 +20,8 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 
 ### Step-by-step execution
 
+- Establish a system for logging and tracking requests that involve significant changes to the system, such as software updates or configuration changes.
+- Require detailed documentation and approval for significant changes before they are implemented.
+- Regularly review logs and reports of significant changes to ensure compliance with company policies and standards.
+
 ![Change-Request-Management-Workflow](https://www.researchgate.net/profile/Zafar-Nasir/publication/224191064/figure/fig1/AS:302594669989893@1449155599842/Change-Request-Management-Workflow.png)

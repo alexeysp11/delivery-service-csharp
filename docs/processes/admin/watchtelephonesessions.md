@@ -9,3 +9,12 @@ The process of registering and processing calls involves capturing and storing d
 The process responsible for managing voicemail systems involves setting up and maintaining voicemail services for clients who are unavailable to answer incoming calls. This includes recording and storing voicemail messages, providing notifications to clients about new voicemails, and allowing clients to retrieve and manage their voicemail messages.
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
+
+## Process description
+
+### Step-by-step execution
+
+- Admin configures monitoring parameters for IP telephones, such as call volume, connection status, and call quality metrics
+- Monitoring system consistently collects and analyzes data from IP telephones
+- System stores monitored data in a database for future reference and analysis
+- System triggers notifications to admins if abnormal patterns or problems are detected

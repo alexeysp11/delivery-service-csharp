@@ -13,3 +13,9 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 ### Step-by-step execution
 
 The step-by-step execution plan for configuring proxy in the admin backend service involves defining proxy settings, setting up proxy servers or services, configuring access control rules, testing proxy functionality, and ensuring secure communication between backend services and external resources.
+
+- Determine the need for proxies based on security and performance requirements.
+- Research and select a suitable proxy solution.
+- Configure the proxy solution to route traffic through the designated proxy servers.
+- Test the proxy configuration to ensure it is working as expected.
+- Monitor the performance and security of the proxy solution and make adjustments as needed.

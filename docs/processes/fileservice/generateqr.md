@@ -16,6 +16,11 @@ Responsible modules: [backend service](../../backend/fileservice.md)
 
 ### Step-by-step execution
 
+- Determine the specific use case for generating QR codes, such as package tracking or user authentication.
+- Select a QR code generation tool or service that meets the requirements of the use case.
+- Integrate the QR code generation functionality into the delivery service app.
+- Test the QR code generation functionality to ensure it is working as expected.
+
 ## Data 
 
 ### Objects 

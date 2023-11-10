@@ -21,3 +21,12 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 ## Process description
 
 ![requesting_overall](../../img/requesting_overall.png)
+
+### Step-by-step execution
+
+- Kitchen employee logs into the app and navigates to the "Recipe Management" section
+- Employee selects the recipe to be modified
+- App provides options to edit ingredients, quantities, cooking instructions, etc.
+- Employee submits the changes
+- App updates the recipe database with the modifications
+- App notifies relevant staff members about the changes

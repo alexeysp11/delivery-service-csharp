@@ -22,6 +22,16 @@ This can be triggered by events or messages sent from the external services or d
 
 ### Step-by-step execution
 
+- Manual Execution:
+    - Admin logs into the backend system
+    - Admin navigates to the cache management section
+    - Admin selects the cache to be cleared or triggers a full cache clearance
+    - Admin confirms the cache clearance action
+
+- Automatic Execution:
+    - Scheduled trigger or timer initiates cache clearance process
+    - System automatically identifies and clears outdated or unnecessary cache data
+
 ## Data 
 
 The objects and DTOs used in this scenario would depend on the specific microservices and databases involved. 

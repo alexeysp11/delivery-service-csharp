@@ -14,3 +14,7 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 ### Step-by-step execution
 
 The step-by-step execution plan for call routing and forwarding in the admin backend service related to IP telephony involves defining call routing rules, configuring call forwarding options, setting up telephony gateways or PBX systems, testing call routing functionality, and ensuring reliable communication for voice calls within the delivery service app.
+
+- Admin defines call routing rules based on predefined criteria such as caller ID, time of day, or user preferences
+- Admin configures call forwarding, call queuing, or interactive voice response (IVR) systems to manage incoming calls
+- Admin monitors and adjusts call routing settings as needed based on call traffic and user feedback

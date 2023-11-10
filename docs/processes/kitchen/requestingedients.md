@@ -16,3 +16,11 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 ![requesting_overall](../../img/requesting_overall.png)
 
 ### Step-by-step execution
+
+- Kitchen employee logs into the app and navigates to the "Ingredient Request" section
+- Employee selects the required ingredients from a pre-defined list or enters custom requests
+- App generates a request form with the selected ingredients and quantities
+- Employee submits the request form
+- App sends the request to the designated manager or inventory controller for approval
+- Manager reviews and approves the request
+- Approved request triggers an automatic update of inventory levels and notifies the employee

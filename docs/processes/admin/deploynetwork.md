@@ -13,3 +13,11 @@ The process for deploying access points and wireless controllers in the delivery
 To find more information about deploying access points and wireless controllers, you can start by researching best practices for WIFI deployment in similar delivery service apps. Wireless controllers can be implemented as dedicated hardware appliances or as software-based solutions that run on servers or virtual machines.
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
+
+## Process description
+
+### Step-by-step execution
+
+- Admin procures necessary networking hardware and software components based on the design proposal
+- Admin installs and configures network devices such as routers, switches, firewalls, and access points
+- Admin tests network connectivity, security measures, and performance parameters before full deployment
