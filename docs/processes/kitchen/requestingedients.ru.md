@@ -11,6 +11,12 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/kitchenclient.md), [бэкэнд-сервис](../../backend/kitchenbackend.md)
 
+Влияет на: 
+- [notificationsbackend](../../backend/notificationsbackend.ru.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
+- [courierbackend](../../backend/courierbackend.ru.md)
+    - [store2wh](../courier/store2wh.ru.md)
+
 ## Описание процесса
 
 ![requesting_overall](../../img/requesting_overall.png)
@@ -21,6 +27,8 @@
 - Сотрудник выбирает необходимые ингредиенты из заранее заданного списка или направляет запрос.
 - Применение общей формы запроса с выбранными ингредиентами и количествами.
 - Сотрудник отправляет форму запроса.
-- Отправляется запрос по назначенному маршруту или контролеру запасов на утверждение.
+- Отправляется запрос контролеру запасов на утверждение списания.
 - Менеджер рассматривает и подает заявку
 - Утвержденный запрос запускает базовое обновление уровней запасов и уведомляет сотрудника.
+
+![kitchen.requestingredients](../../img/activitydiagrams/kitchen.requestingredients.png)

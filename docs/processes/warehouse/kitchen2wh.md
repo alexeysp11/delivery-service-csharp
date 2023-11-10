@@ -4,11 +4,15 @@
 
 Name: **Deliver from kitchen to WH**.
 
-The scenario responsible for delivering products and ingredients from the kitchen to the warehouse by warehouse employees in the delivery service company involves receiving excess or unused ingredients from the kitchen staff, verifying their quality and quantity, storing them in the appropriate location in the warehouse, and updating inventory levels accordingly.
+The scenario for the delivery of products and ingredients from the kitchen to the warehouse by warehouse employees in a delivery service company involves filling out an application for the transportation of finished products, as well as excess or unused ingredients, from the kitchen to the warehouse as part of the process of preparing an order from the client.
 
 Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
+
+Infuences on: 
+- [notificationsbackend](../../backend/notificationsbackend.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.md)
 
 ## Process description
 
@@ -16,11 +20,17 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 
 ### Step-by-step execution
 
-- Warehouse employee opens the app.
-- The employee selects the inventory they need to restock.
-- The system checks if the inventory is available in the kitchen.
-- If it is available, the system sends a notification to the kitchen employee to prepare it for delivery.
-- When the inventory is ready, the kitchen employee delivers it to the warehouse.
+- The kitchen staff prepared the order.
+- The kitchen employee opens the application.
+- The kitchen employee selects the order within which the cooking took place.
+- The kitchen employee indicates that the order is ready to be transported to the warehouse.
+- Additionally, the kitchen employee can indicate the quantity and weight of excess or unused ingredients.
+- The request is sent to the warehouse backend service.
+- The system notifies the warehouse employee that the order can be picked up. A notification can also be sent to the client that the order is ready and will soon be sent for delivery.
+- A warehouse employee goes to the kitchen, picks up food and takes it to the warehouse.
+- The warehouse employee notes that the process is completed.
+
+![warehouse.kitchen2wh](../../img/activitydiagrams/warehouse.kitchen2wh.png)
 
 ## Data 
 

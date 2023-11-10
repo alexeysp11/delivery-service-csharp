@@ -4,7 +4,7 @@
 
 Name: **Deliver order from store to WH**.
 
-The scenario responsible for delivering products from store to warehouse by couriers involves receiving requests for specific products from warehouse employees, locating those products in the store, packaging them for transport, and delivering them to the warehouse in a timely manner.
+The scenario responsible for delivering products from store to warehouse by couriers involves receiving requests for specific products from warehouse employees, buying those products in the store, packaging them for transport, and delivering them to the warehouse in a timely manner.
 
 Process pattern: [delivering](../../processpatterns/delivering.md)
 
