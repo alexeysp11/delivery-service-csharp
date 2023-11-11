@@ -10,6 +10,16 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/courierclient.md), [бэкэнд-сервис](../../backend/courierbackend.md)
 
+Влияет на: 
+- [notificationsbackend](../../backend/notificationsbackend.ru.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
+- [courierbackend](../../backend/courierbackend.ru.md)
+    - [updatedeliverystatus](../courier/updatedeliverystatus.ru.md)
+    - [scanbackpack](../courier/scanbackpack.ru.md)
+    - [scanqronorder](../courier/scanqronorder.ru.md)
+- [customerbackend](../../backend/customerbackend.ru.md)
+    - [makepayment](../customer/makepayment.ru.md)
+
 ## Описание процесса
 
 - Регистрация заказа потребителя с использованием QR-кода: начало/конец работы с заказом.

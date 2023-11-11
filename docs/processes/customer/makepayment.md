@@ -14,7 +14,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 Depends on: 
 - [customerbackend](../../backend/customerbackend.md)
     - [makeorder](../customer/makeorder.md)
-[courierbackend](../../backend/courierbackend.md)
+- [courierbackend](../../backend/courierbackend.md)
     - [deliverorder](../courier/deliverorder.md)
 
 Influences on:

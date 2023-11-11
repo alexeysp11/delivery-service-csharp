@@ -10,6 +10,16 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 
+Infuences on: 
+- [notificationsbackend](../../backend/notificationsbackend.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+- [courierbackend](../../backend/courierbackend.md)
+    - [updatedeliverystatus](../courier/updatedeliverystatus.md)
+    - [scanbackpack](../courier/scanbackpack.md)
+    - [scanqronorder](../courier/scanqronorder.md)
+- [customerbackend](../../backend/customerbackend.md)
+    - [makepayment](../customer/makepayment.md)
+
 ## Process description
 
 - Registration of the delivery order using a QR code: start/end of work with the order.
