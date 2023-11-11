@@ -18,6 +18,10 @@ Depends on:
 - [kitchenbackend](../../backend/kitchenbackend.md)
     - [requestingedients](../kitchen/requestingedients.md)
 
+Infuences on: 
+- [notificationsbackend](../../backend/notificationsbackend.md)
+    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+
 ## Process description
 
 Nuances associated with the implementation of this backend service:
@@ -27,8 +31,8 @@ Nuances associated with the implementation of this backend service:
     - **type of the corresponding client application** (by default, the one that corresponds to the backend service from which this process was launched is used);
     - **name and quantity of products that need to be purchased** (if the process is launched from [preprocessorder](../customer/preprocessorder.ru.md), then this parameter is required).
 - The area of responsibility in which this process starts remains the same as that of the external backend service that called it.
-- To simplify the design and development process at the initial stages, we proceed from the idea that the store with the optimal price-quality ratio has already been selected (for example, due to contracts concluded as part of the management of relations with contractors, or a predetermined address of the nearest store). This means that the backend service does not need to calculate which store is more profitable to buy products from; accordingly, information about the store will be obtained from the database.
-- Building the most optimal delivery route and displaying the courier's location on a map is an important component of a real delivery service application, but in this prototype application these functions are not currently implemented in order to reduce the complexity of design and implementation.
+- To simplify the design and development process at the initial stages, we proceed from the idea that the store with the optimal price-quality ratio has already been selected (for example, due to contracts concluded as part of the management of relations with contractors, or a predetermined address of the nearest store). This means that **the backend service does not need to calculate which store is more profitable to buy products from**; accordingly, **information about the store will be obtained from the database**.
+- Building the most optimal delivery route and displaying the courier's location on a map is an important component of a real delivery service application, but **in this prototype application these functions are not currently implemented** in order to reduce the complexity of design and implementation.
 
 This process provides the implementation of the [delivering](../../processpatterns/delivering.ru.md) process pattern:
 
@@ -36,8 +40,8 @@ This process provides the implementation of the [delivering](../../processpatter
 
 ### Step-by-step execution
 
-- The backend service, in whose area of responsibility this process is running, notifies the employee who launched the process (this action is performed only if the list of products for purchase is not filled in among the parameters).
-- The store manager creates a delivery order in the system: list of products, store (loaded automatically from the database).
+- The backend service, in whose area of responsibility this process is launched, notifies the employee who launched the process about the need to clarify which products need to be delivered from the store (this action is performed only if the list of products for purchase is not filled in among the parameters).
+- The employee creates a delivery order in the system: list of products, store (loaded automatically from the database).
 - Information about orders transported by courier (order number, delivery location, actual/estimated delivery time).
 - The notification comes to the backend service of the courier application.
 - The system assigns a courier to the delivery order.
@@ -47,6 +51,8 @@ This process provides the implementation of the [delivering](../../processpatter
 - The courier picks up the goods from the store and loads them into his car.
 - The courier delivers the products to the warehouse.
 - The courier marks the delivery order in the system as completed, and attaches a photo of the receipt as confirmation.
+
+![courier.store2wh](../../img/activitydiagrams/courier.store2wh.png)
 
 ## Data 
 

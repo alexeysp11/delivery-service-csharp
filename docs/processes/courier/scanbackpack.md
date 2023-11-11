@@ -28,6 +28,8 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 - The courier scans the QR code on the backpack using their device's camera.
 - The system verifies the QR code and confirms that it matches the delivery order.
 
+![courier.scanqronorder](../../img/activitydiagrams/courier.scanqronorder.png)
+
 ## Data 
 
 ### Objects
