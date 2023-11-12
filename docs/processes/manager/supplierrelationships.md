@@ -14,6 +14,10 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ![organizational_overall](../../img/organizational_overall.png)
 
+Supplier management framework:
+
+![supplier_management_framework](https://www.continentalsolution.com/images/supplier_management_framework.png)
+
 ### Step-by-step execution
 
 - The manager opens the delivery service app and navigates to the backend service for managers.

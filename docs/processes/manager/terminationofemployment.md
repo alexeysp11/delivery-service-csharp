@@ -22,6 +22,8 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - The manager selects an employee and provides a reason for termination.
 - The system updates the employee's status in the database and notifies HR to proceed with the termination process.
 
+![termination-process](https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/1/a/1ade96ffd162d989b65708046ce43729092b440309072269a435c8a09396a32b/termination-process-mc-slide3.png)
+
 ## Data 
 
 ### Objects

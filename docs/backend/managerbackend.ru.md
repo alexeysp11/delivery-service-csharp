@@ -29,3 +29,4 @@
 - [Уведомить сотрудников](../processes/notificationsbackend/notifymanual.ru.md)
 - [Изменить плановые запасы](../processes/manager/inventorylevels.ru.md)
 - [Оптимизировать доставку](../processes/manager/optimizedelivery.ru.md)
+- [Согласование](../processes/manager/approval.ru.md)

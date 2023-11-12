@@ -25,6 +25,8 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - The app automatically generates purchase orders for items that fall below the reorder point.
 - The manager can review and approve purchase orders before they are sent to suppliers.
 
+![inventory-managment-procress](https://planergy.com/wp-content/uploads/2020/02/inventory-managment-procress-diagram-2.jpg)
+
 ## Data 
 
 ### Objects 

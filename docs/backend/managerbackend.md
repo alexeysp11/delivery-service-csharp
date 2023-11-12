@@ -29,3 +29,4 @@ Additionally, it provides analytics and reporting capabilities to help managers 
 - [Notify employees](../processes/notificationsbackend/notifymanual.md)
 - [Change planned inventories](../processes/manager/inventorylevels.md)
 - [Optimize delivery](../processes/manager/optimizedelivery.md)
+- [Approval](../processes/manager/approval.md)
