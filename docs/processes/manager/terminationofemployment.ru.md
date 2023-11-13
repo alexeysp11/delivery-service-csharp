@@ -22,4 +22,4 @@
 - Руководитель выбирает сотрудника и указывает причину увольнения.
 - Система обновляет статус сотрудника в базе данных и уведомляет HR о необходимости продолжить процесс увольнения.
 
-![termination-process](https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/1/a/1ade96ffd162d989b65708046ce43729092b440309072269a435c8a09396a32b/termination-process-mc-slide3.png)
+![manager.terminationofemployment](../../img/activitydiagrams/manager.terminationofemployment.png)

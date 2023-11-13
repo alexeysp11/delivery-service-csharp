@@ -11,15 +11,20 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
-Depends on: 
-- [customerbackend](../../backend/customerbackend.md)
-    - [makeorder](../customer/makeorder.md)
-- [courierbackend](../../backend/courierbackend.md)
-    - [deliverorder](../courier/deliverorder.md)
+## Dependencies
 
-Influences on:
-- [fileservice](../../backend/fileservice.md)
-    - [generateqr](../../processes/fileservice/generateqr.md)
+### Depends on
+
+| Backend service | Process |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.md) | [makeorder](../customer/makeorder.md) |
+| [courierbackend](../../backend/courierbackend.md) | [deliverorder](../customer/deliverorder.md) |
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [fileservice](../../backend/fileservice.md) | [generateqr](../customer/generateqr.md) |
 
 ## Process description
 

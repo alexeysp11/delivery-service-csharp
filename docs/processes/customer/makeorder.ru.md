@@ -12,10 +12,14 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 
-Влияет на: 
-- [customerbackend](../../backend/customerbackend.ru.md)
-    - [makepayment](../customer/makepayment.ru.md)
-    - [preprocessorder](../customer/preprocessorder.ru.md)
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.ru.md) | [makepayment](../customer/makepayment.ru.md) |
+| [customerbackend](../../backend/customerbackend.ru.md) | [preprocessorder](../customer/preprocessorder.ru.md) |
 
 ## Описание процесса
 

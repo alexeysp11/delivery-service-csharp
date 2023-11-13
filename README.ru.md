@@ -35,6 +35,8 @@
     - [курьеров](docs/frontend/courierclient.ru.md), 
     - [менеджеров](docs/frontend/managerclient.ru.md), 
     - [админов](docs/frontend/adminclient.ru.md), 
+    - [HR](docs/frontend/hrclient.ru.md), 
+    - [финансовых менеджеров](docs/frontend/financialclient.ru.md), 
     - [разработчик](docs/frontend/developerclient.ru.md),
     - [QA-инженер](docs/frontend/qaengineerclient.ru.md),
     - [техническая поддержка](docs/frontend/techsupportclient.ru.md).
@@ -46,6 +48,8 @@
     - [warehouse backend](docs/backend/warehousebackend.ru.md), 
     - [courier backend](docs/backend/courierbackend.ru.md), 
     - [manager backend](docs/backend/managerbackend.ru.md), 
+    - [financial backend](docs/backend/financialbackend.ru.md), 
+    - [HR backend](docs/backend/hrbackend.ru.md), 
     - [admin backend](docs/backend/adminbackend.ru.md), 
     - [developer backend](docs/backend/developerbackend.ru.md),
     - [QA engineer backend](docs/backend/qaengineerbackend.ru.md),

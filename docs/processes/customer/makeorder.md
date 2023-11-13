@@ -12,10 +12,14 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
-Infuences on: 
-- [customerbackend](../../backend/customerbackend.md)
-    - [makepayment](../customer/makepayment.md)
-    - [preprocessorder](../customer/preprocessorder.md)
+## Dependencies
+
+### Infuences on
+
+| Backend service | Process |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.md) | [makepayment](../customer/makepayment.md) |
+| [customerbackend](../../backend/customerbackend.md) | [preprocessorder](../customer/preprocessorder.md) |
 
 ## Process description
 

@@ -11,15 +11,20 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 
-Зависит от: 
-- [customerbackend](../../backend/customerbackend.ru.md)
-    - [makeorder](../customer/makeorder.ru.md)
-- [courierbackend](../../backend/courierbackend.ru.md)
-    - [deliverorder](../courier/deliverorder.ru.md)
+## Зависимости
 
-Влияет на:
-- [fileservice](../../backend/fileservice.ru.md)
-    - [generateqr](../../processes/fileservice/generateqr.ru.md)
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.ru.md) | [makeorder](../customer/makeorder.ru.md) |
+| [courierbackend](../../backend/courierbackend.ru.md) | [deliverorder](../customer/deliverorder.ru.md) |
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [fileservice](../../backend/fileservice.ru.md) | [generateqr](../customer/generateqr.ru.md) |
 
 ## Описание процесса
 
