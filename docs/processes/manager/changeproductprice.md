@@ -7,6 +7,8 @@ Name: **Change product prices**.
 The scenario that is responsible for setting prices for products.
 This scenario is used mostly by company managers.
 
+For this scenario, it is necessary to complete the approval chain (for example, *marketer*, *financial analyst*, *CEO*).
+
 Process pattern: [organizational](../../processpatterns/organizational.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
