@@ -14,7 +14,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ![organizational_overall](../../img/organizational_overall.png)
 
-## Data 
+## Data structures
 
 ### Objects 
 

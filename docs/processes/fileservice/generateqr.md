@@ -21,7 +21,7 @@ Responsible modules: [backend service](../../backend/fileservice.md)
 - Integrate the QR code generation functionality into the delivery service app.
 - Test the QR code generation functionality to ensure it is working as expected.
 
-## Data 
+## Data structures
 
 ### Objects 
 

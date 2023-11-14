@@ -28,7 +28,7 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 
 ![courier.scanqronorder](../../img/activitydiagrams/courier.scanqronorder.png)
 
-## Data 
+## Data structures
 
 ### Objects
 

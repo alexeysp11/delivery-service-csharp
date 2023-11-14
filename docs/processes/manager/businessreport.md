@@ -30,7 +30,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - The system retrieves the business data from the database.
 - The system generates a report and displays it to the manager.
 
-## Data 
+## Data structures
 
 ### Objects 
 

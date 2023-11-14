@@ -24,7 +24,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ![manager.terminationofemployment](../../img/activitydiagrams/manager.terminationofemployment.png)
 
-## Data 
+## Data structures
 
 ### Objects
 

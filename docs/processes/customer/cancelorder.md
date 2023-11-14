@@ -60,7 +60,7 @@ However, this process is implemented as part of the microprocess [requesting](..
 
 ![customer.cancelorder](../../img/activitydiagrams/customer.cancelorder.png)
 
-## Data
+## Data structures
 
 ### Objects 
 

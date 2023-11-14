@@ -48,7 +48,7 @@ Measures for monitoring WIFI performance and usage may include tracking signal s
 - Investigate and respond to any security incidents or breaches that are detected.
 - Continuously update and improve security measures to protect against evolving threats.
 
-## Data 
+## Data structures
 
 ### Objects 
 

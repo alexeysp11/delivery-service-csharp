@@ -43,7 +43,7 @@ The interactive steps within the scenario include selecting the type of incident
 
 ![warehouse.reportincident](../../img/activitydiagrams/warehouse.reportincident.png)
 
-## Data
+## Data structures
 
 ### Objects
 

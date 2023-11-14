@@ -27,7 +27,7 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 - The request is received by the manager, who reviews it and approves or denies the request.
 - If approved, the manager orders the new equipment and updates the employee on when it will arrive.
 
-## Data
+## Data structures
 
 ### Objects
 

@@ -22,7 +22,7 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - The admin selects an employee and updates their permissions.
 - The system updates the employee's permissions in the database.
 
-## Data 
+## Data structures
 
 ### Objects 
 

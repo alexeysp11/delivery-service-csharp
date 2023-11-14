@@ -20,7 +20,7 @@
 
 ![information_overall](../../img/information_overall.png)
 
-## Данные 
+## Структуры данных 
 
 ### Объекты 
 

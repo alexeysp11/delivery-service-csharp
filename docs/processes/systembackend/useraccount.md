@@ -20,7 +20,7 @@ Responsible modules: [client application](../../frontend/customerclient.md)
 
 ![information_overall](../../img/information_overall.png)
 
-## Data 
+## Data structures
 
 ### Objects 
 

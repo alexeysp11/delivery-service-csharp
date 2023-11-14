@@ -58,7 +58,7 @@ This process provides the implementation of the [delivering](../../processpatter
 
 ![courier.store2wh](../../img/activitydiagrams/courier.store2wh.png)
 
-## Data 
+## Data structures
 
 ### Objects
 

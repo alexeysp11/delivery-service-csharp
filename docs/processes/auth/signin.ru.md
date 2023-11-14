@@ -33,7 +33,7 @@
 
 ![flowchart-signin](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signin.png)
 
-## Данные
+## Структуры данных
 
 ### Объекты 
 

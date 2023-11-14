@@ -47,7 +47,7 @@
 
 ![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
 
-## Данные
+## Структуры данных
 
 ### Объекты 
 

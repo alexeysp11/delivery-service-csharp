@@ -39,7 +39,7 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
 
-## Data
+## Data structures
 
 ### Objects
 

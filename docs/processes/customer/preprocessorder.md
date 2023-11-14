@@ -48,7 +48,7 @@ Responsible modules: [backend service](../../backend/customerbackend.md)
 
 ![customer.preprocessorder](../../img/activitydiagrams/customer.preprocessorder.png)
 
-## Data
+## Data structures
 
 ### Objects 
 

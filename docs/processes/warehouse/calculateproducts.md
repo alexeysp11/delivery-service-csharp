@@ -45,7 +45,7 @@ The interactive steps within the scenario include scanning product barcodes, ent
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
 
-## Data
+## Data structures
 
 ### Objects
 

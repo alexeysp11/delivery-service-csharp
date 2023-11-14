@@ -25,7 +25,7 @@
 
 ![flowchart-signup](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signup.png)
 
-## Данные
+## Структуры данных
 
 ### Объекты 
 

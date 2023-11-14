@@ -49,7 +49,7 @@ The interactive steps within the scenario include receiving delivery requests fr
 
 ![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)
 
-## Data 
+## Data structures
 
 ### Objects
 

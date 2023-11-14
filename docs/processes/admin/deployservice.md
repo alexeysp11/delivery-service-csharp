@@ -24,7 +24,7 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - Monitor the deployment status and troubleshoot any errors or issues
 - Admin confirms the successful deployment and activates the microservices
 
-## Data 
+## Data structures
 
 ### Objects 
 

@@ -27,7 +27,7 @@ Supplier management framework:
 - The manager can add new suppliers or remove existing ones as needed.
 - The manager can negotiate prices and terms with suppliers through the app.
 
-## Data 
+## Data structures
 
 ### Objects
 

@@ -22,7 +22,7 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - The manager selects an employee and updates their access level.
 - The system updates the employee's access level in the database.
 
-## Data 
+## Data structures
 
 ### Objects 
 

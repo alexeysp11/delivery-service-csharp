@@ -47,7 +47,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 
 ![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
 
-## Data
+## Data structures
 
 ### Objects 
 

@@ -25,7 +25,7 @@ Responsible modules: [backend service](../../backend/authbackend.md).
 
 ![flowchart-signup](https://github.com/alexeysp11/workflow-auth/raw/main/docs/img/flowchart-signup.png)
 
-## Data
+## Data structures
 
 ### Objects 
 

@@ -60,7 +60,7 @@
 
 ![customer.cancelorder](../../img/activitydiagrams/customer.cancelorder.png)
 
-## Данные
+## Структуры данных
 
 ### Объекты 
 

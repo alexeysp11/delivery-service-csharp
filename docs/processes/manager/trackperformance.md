@@ -32,7 +32,7 @@ Overall performance of the company could be estimated by tracking metrics such a
 - The app also provides recommendations for improving performance based on the data analysis.
 - The manager can use this information to make data-driven decisions and optimize business operations.
 
-## Data 
+## Data structures
 
 ### Objects
 

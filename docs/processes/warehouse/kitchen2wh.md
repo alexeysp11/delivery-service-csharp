@@ -36,7 +36,7 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 
 ![warehouse.kitchen2wh](../../img/activitydiagrams/warehouse.kitchen2wh.png)
 
-## Data 
+## Data structures
 
 ### Objects
 

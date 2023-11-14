@@ -32,7 +32,7 @@ This can be triggered by events or messages sent from the external services or d
     - Scheduled trigger or timer initiates cache clearance process
     - System automatically identifies and clears outdated or unnecessary cache data
 
-## Data 
+## Data structures
 
 The objects and DTOs used in this scenario would depend on the specific microservices and databases involved. 
 Generally, there would be objects representing the cached data, as well as DTOs for communicating with external services or databases to retrieve updated data.

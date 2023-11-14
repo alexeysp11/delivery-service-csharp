@@ -44,7 +44,7 @@ You can also go to [user account](../systembackend/useraccount.md) to see some p
 
 ![customer.settings](../../img/activitydiagrams/customer.settings.png)
 
-## Data 
+## Data structures
 
 ### Objects 
 

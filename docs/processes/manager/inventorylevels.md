@@ -27,7 +27,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ![inventory-managment-procress](https://planergy.com/wp-content/uploads/2020/02/inventory-managment-procress-diagram-2.jpg)
 
-## Data 
+## Data structures
 
 ### Objects 
 

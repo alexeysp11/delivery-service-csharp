@@ -24,7 +24,7 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - System verifies the data integrity and consistency between the source and target databases
 - Admin confirms the successful replication and activates the target database
 
-## Data 
+## Data structures
 
 ### Objects 
 

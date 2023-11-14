@@ -29,7 +29,7 @@ Methods for optimizing delivery process could include using data analytics to id
 - The manager can adjust driver schedules or routes to improve delivery times.
 - The manager can also use data to forecast demand and adjust staffing levels accordingly.
 
-## Data 
+## Data structures
 
 ### Objects 
 

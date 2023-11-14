@@ -48,7 +48,7 @@ The step-by-step execution of the process is identical to the [rateorder](../cus
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
 
-## Data
+## Data structures
 
 ### Objects 
 

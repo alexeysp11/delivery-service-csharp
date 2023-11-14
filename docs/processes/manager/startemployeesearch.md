@@ -65,7 +65,7 @@ The stages of the selection process:
 - The manager reviews the feedback and ratings and selects the most suitable candidate for the position.
 - The system notifies the chosen candidate and HR to proceed with the hiring process.
 
-## Data
+## Data structures
 
 ### Objects
 

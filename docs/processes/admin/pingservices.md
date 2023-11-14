@@ -21,7 +21,7 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - The system pings all services to ensure they are running properly.
 - The system displays the results of the ping to the admin.
 
-## Data 
+## Data structures
 
 ### Objects 
 

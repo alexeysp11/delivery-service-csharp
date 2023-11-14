@@ -44,7 +44,7 @@ The interactive steps within the scenario include setting up notification prefer
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
 
-## Data 
+## Data structures
 
 ### Objects
 

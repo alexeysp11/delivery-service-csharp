@@ -24,7 +24,7 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 
 ![customer.allorders](../../img/activitydiagrams/customer.allorders.png)
 
-## Data 
+## Data structures
 
 ### Objects
 

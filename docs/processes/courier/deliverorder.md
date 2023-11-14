@@ -44,7 +44,7 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 
 ![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)
 
-## Data
+## Data structures
 
 ### Objects
 

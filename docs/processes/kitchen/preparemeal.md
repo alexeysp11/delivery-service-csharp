@@ -37,7 +37,7 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 
 ![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)
 
-## Data
+## Data structures
 
 ### Objects
 

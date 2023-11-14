@@ -39,7 +39,7 @@ Preloading and caching static videos on the client side may be a more efficient 
 - If the video is not available in the backend service, the system retrieves it from YouTube.
 - The system streams the video from YouTube to the user's device.
 
-## Data
+## Data structures
 
 ### Objects
 

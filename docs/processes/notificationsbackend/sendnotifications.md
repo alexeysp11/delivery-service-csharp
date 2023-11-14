@@ -37,7 +37,7 @@ Responsible modules: [backend service](../../backend/systembackend.md)
 
 ![notificationsbackend.sendnotifications](../../img/activitydiagrams/notificationsbackend.sendnotifications.png)
 
-## Data 
+## Data structures
 
 ### Objects 
 

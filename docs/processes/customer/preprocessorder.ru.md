@@ -49,7 +49,7 @@
 
 ![customer.preprocessorder](../../img/activitydiagrams/customer.preprocessorder.png)
 
-## Данные
+## Структуры данных
 
 ### Объекты 
 
