@@ -60,19 +60,16 @@ This process provides the implementation of the [delivering](../../processpatter
 
 ## Data structures
 
-### Objects
+| Object | DTO | Database table |
+| --- | ---- | --- |
+| [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs) | - | - |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
+| Store | - | - |
+| [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) | - | - |
+| Delivery | DeliveryDTO | - |
+| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | - | - |
 
-- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs)
-- Store
-    - The store object could have properties such as name, location, inventory, and staff. It could also have methods for managing inventory levels, scheduling staff, and processing orders.
-- [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) 
-    - Warehouse object could have properties like location, inventory levels, etc. 
-- Delivery
-    - References to product, employee (courier), starting point, destination.
-- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs)
-
-### DTOs
-
-- DeliveryDTO.
-    - DeliveryDTO could have properties like storeName, warehouseLocation, courierName, deliveryDate, vehicle type, etc.
+- The store object could have properties such as name, location, inventory, and staff. It could also have methods for managing inventory levels, scheduling staff, and processing orders.
+- Warehouse object could have properties like location, inventory levels, etc. 
+- Delivery: references to product, employee (courier), starting point, destination.
+- DeliveryDTO could have properties like storeName, warehouseLocation, courierName, deliveryDate, vehicle type, etc.

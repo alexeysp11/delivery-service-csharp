@@ -46,12 +46,9 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 
 ## Data structures
 
-### Objects
-
-- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs)
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs)
-- DeliveryStatus
-
-### DTOs
-
-- DeliveryDTO
+| Object | DTO | Database table |
+| --- | ---- | --- |
+| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | - | - |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
+| DeliveryStatus | - | - |
+| - | DeliveryDTO | - |

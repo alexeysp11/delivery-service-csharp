@@ -32,18 +32,20 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 
 ## Data structures
 
-### Objects
+| Object | DTO | Database table |
+| --- | ---- | --- |
+| QRCode | - | - |
+| Backpack | - | - |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
+| Delivery | DeliveryDTO | - |
+| - | BackpackScanDTO | - |
 
 - QRCode
     - QRCode object could have properties like codeValue, expirationDate, etc. 
 - Backpack
     - Backpack object could have properties like size, weight capacity, QR code, etc. 
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs)
 - Delivery
     - References to product, employee (courier), backpack, starting point, destination.
-
-### DTOs
-
 - BackpackScanDTO
     - BackpackScanDTO could have properties like courierName, qrCodeValue, backpackSize, backpackWeightCapacity, etc.
 - DeliveryDTO: contains information about the delivery, such as delivery address and expected delivery time

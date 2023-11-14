@@ -29,12 +29,7 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 
 ## Data structures
 
-### Objects
-
-- EquipmentRequest
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) 
-
-### DTOs 
-
-- EquipmentRequestDTO
-- EmployeeDTO
+| Object | DTO | Database table |
+| --- | ---- | --- |
+| EquipmentRequest | EquipmentRequestDTO | - |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | EmployeeDTO | - |

@@ -44,4 +44,3 @@ Responsible modules: [backend service](../../backend/systembackend.md)
 - The notification template could include properties such as message content and formatting. 
 - The customer information model could include properties such as customer name, address, and order history. 
 - The messaging service could include methods for sending messages through various channels such as email, SMS, or push notifications.
-

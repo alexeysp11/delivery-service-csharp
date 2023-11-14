@@ -26,14 +26,11 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 
 ## Data structures
 
-### Objects
+| Object | DTO | Database table |
+| --- | ---- | --- |
+| InventoryReport | InventoryReportDTO | - |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
+| [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs) | - | - |
 
-- InventoryReport
-    - InventoryReport object could have properties like reportDate, inventoryLevel, product details, etc. 
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs)
-- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)
-
-### DTOs
-
-- InventoryReportDTO
-    - InventoryReportDTO could have properties like reportDate, inventoryLevel, productName, productDescription, productPrice, etc.
+- InventoryReport object could have properties like reportDate, inventoryLevel, product details, etc. 
+- InventoryReportDTO could have properties like reportDate, inventoryLevel, productName, productDescription, productPrice, etc.

@@ -33,13 +33,11 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 
 ## Data structures
 
-### Objects
+| Object | DTO | Database table |
+| --- | ---- | --- |
+| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | - | - |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
+| DeliveryStatus | - | - |
+| - | DeliveryStatusUpdateDTO | - |
 
-- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs)
-- [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs)
-- DeliveryStatus
-
-### DTOs
-
-- DeliveryStatusUpdateDTO
-    - DeliveryStatusUpdateDTO could have properties like deliveryId, status, statusDate, etc.
+- DeliveryStatusUpdateDTO could have properties like deliveryId, status, statusDate, etc.

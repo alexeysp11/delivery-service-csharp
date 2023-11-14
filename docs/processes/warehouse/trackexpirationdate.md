@@ -41,12 +41,7 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 
 ## Data structures
 
-### Objects
-
-- [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs)
-- [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) 
-
-### DTOs
-
-- ProductDTO
-- WarehouseDTO
+| Object | DTO | Database table |
+| --- | ---- | --- |
+| [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs) | ProductDTO | - |
+| [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) | WarehouseDTO | - |
