@@ -11,19 +11,23 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [backend service](../../backend/customerbackend.md)
 
-Depends on: 
-- [customerbackend](../../backend/customerbackend.md)
-    - [makeorder](../customer/makeorder.md)
+## Dependencies
 
-Influences on:
-- [warehousebackend](../../backend/warehousebackend.md)
-    - [wh2kitchen](../warehouse/wh2kitchen.md)
-    - [kitchen2wh](../warehouse/kitchen2wh.md)
-- [kitchenbackend](../../backend/kitchenbackend.md)
-    - [preparemeal](../kitchen/preparemeal.md)
-- [courierbackend](../../backend/courierbackend.md)
-    - [store2wh](../courier/store2wh.md)
-    - [deliverorder](../courier/deliverorder.md)
+### Depends on
+
+| Backend service | Process |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.md) | [makeorder](../customer/makeorder.md) |
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [warehousebackend](../../backend/warehousebackend.md) | [wh2kitchen](../warehouse/wh2kitchen.md) |
+| [warehousebackend](../../backend/warehousebackend.md) | [kitchen2wh](../warehouse/kitchen2wh.md) |
+| [kitchenbackend](../../backend/kitchenbackend.md) | [preparemeal](../kitchen/preparemeal.md) |
+| [courierbackend](../../backend/courierbackend.md) | [store2wh](../courier/store2wh.md) |
+| [courierbackend](../../backend/courierbackend.md) | [deliverorder](../courier/deliverorder.md) |
 
 ## Process description
 

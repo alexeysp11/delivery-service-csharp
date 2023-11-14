@@ -25,7 +25,7 @@
 
 ## Процессы 
 
-- [Отправка уведомлений](../processes/systembackend/sendnotifications.ru.md)
+- [Отправка уведомлений](../processes/notificationsbackend/sendnotifications.ru.md)
 - [Уведомить](../processes/notificationsbackend/sendpush.ru.md)
 - [Планирование уведомлений](../processes/notificationsbackend/notificationscheduling.ru.md)
 - [Таргетинг уведомлений](../processes/notificationsbackend/notificationtargeting.ru.md)

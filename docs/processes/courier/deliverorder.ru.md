@@ -10,15 +10,17 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/courierclient.md), [бэкэнд-сервис](../../backend/courierbackend.md)
 
-Влияет на: 
-- [notificationsbackend](../../backend/notificationsbackend.ru.md)
-    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
-- [courierbackend](../../backend/courierbackend.ru.md)
-    - [updatedeliverystatus](../courier/updatedeliverystatus.ru.md)
-    - [scanbackpack](../courier/scanbackpack.ru.md)
-    - [scanqronorder](../courier/scanqronorder.ru.md)
-- [customerbackend](../../backend/customerbackend.ru.md)
-    - [makepayment](../customer/makepayment.ru.md)
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../notificationsbackend/sendnotifications.ru.md) |
+| [courierbackend](../../backend/courierbackend.ru.md) | [updatedeliverystatus](../courier/updatedeliverystatus.ru.md) |
+| [courierbackend](../../backend/courierbackend.ru.md) | [scanbackpack](../courier/scanbackpack.ru.md) |
+| [courierbackend](../../backend/courierbackend.ru.md) | [scanqronorder](../courier/scanqronorder.ru.md) |
+| [customerbackend](../../backend/customerbackend.ru.md) | [makepayment](../customer/makepayment.ru.md) |
 
 ## Описание процесса
 

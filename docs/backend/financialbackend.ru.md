@@ -1,6 +1,6 @@
 # financialbackend
 
-[English](financialbackend.md) | [Русский](financialbackend.ru.md). 
+[English](financialbackend.md) | [Русский](financialbackend.ru.md)
 
 Функции финансового менеджера:
 - Управление наличностью

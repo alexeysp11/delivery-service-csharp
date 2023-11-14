@@ -11,19 +11,23 @@
 
 Ответственные модули: [бэкэнд-сервис](../../backend/customerbackend.md)
 
-Зависит от: 
-- [customerbackend](../../backend/customerbackend.ru.md)
-    - [makeorder](../customer/makeorder.ru.md)
+## Зависимости
 
-Влияет на:
-- [warehousebackend](../../backend/warehousebackend.ru.md)
-    - [wh2kitchen](../warehouse/wh2kitchen.ru.md)
-    - [kitchen2wh](../warehouse/kitchen2wh.ru.md)
-- [kitchenbackend](../../backend/kitchenbackend.ru.md)
-    - [preparemeal](../kitchen/preparemeal.ru.md)
-- [courierbackend](../../backend/courierbackend.ru.md)
-    - [store2wh](../courier/store2wh.ru.md)
-    - [deliverorder](../courier/deliverorder.ru.md)
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.ru.md) | [makeorder](../customer/makeorder.ru.md) |
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [warehousebackend](../../backend/warehousebackend.ru.md) | [wh2kitchen](../warehouse/wh2kitchen.ru.md) |
+| [warehousebackend](../../backend/warehousebackend.ru.md) | [kitchen2wh](../warehouse/kitchen2wh.ru.md) |
+| [kitchenbackend](../../backend/kitchenbackend.ru.md) | [preparemeal](../kitchen/preparemeal.ru.md) |
+| [courierbackend](../../backend/courierbackend.ru.md) | [store2wh](../courier/store2wh.ru.md) |
+| [courierbackend](../../backend/courierbackend.ru.md) | [deliverorder](../courier/deliverorder.ru.md) |
 
 ## Описание процесса
 

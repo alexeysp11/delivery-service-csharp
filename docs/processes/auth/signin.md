@@ -8,8 +8,13 @@ The sign in scenario in the customer client side app involves a user entering th
 
 Responsible modules: [backend service](../../backend/authbackend.md).
 
-Infuences on: 
-- [workflow-auth](https://github.com/alexeysp11/workflow-auth)
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [workflow-auth](https://github.com/alexeysp11/workflow-auth) | |
 
 ## Process description
 

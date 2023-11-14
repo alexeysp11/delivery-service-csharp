@@ -12,9 +12,13 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 
-Влияет на: 
-- [notificationsbackend](../../backend/notificationsbackend.ru.md)
-    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../notificationsbackend/sendnotifications.ru.md) |
 
 ## Описание процесса
 

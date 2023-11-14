@@ -11,11 +11,14 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/kitchenclient.md), [бэкэнд-сервис](../../backend/kitchenbackend.md)
 
-Влияет на: 
-- [notificationsbackend](../../backend/notificationsbackend.ru.md)
-    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
-- [courierbackend](../../backend/courierbackend.ru.md)
-    - [store2wh](../courier/store2wh.ru.md)
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../notificationsbackend/sendnotifications.ru.md) |
+| [courierbackend](../../backend/courierbackend.ru.md) | [store2wh](../courier/store2wh.ru.md) |
 
 ## Описание процесса
 

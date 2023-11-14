@@ -10,12 +10,19 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 
-Зависит от: 
-- [adminbackend](../../backend/adminbackend.ru.md): данный процесс вызывается автоматически или по триггеру из этого бэкенд-сервиса
+## Зависимости
 
-Влияет на:
-- [notificationsbackend](../../backend/notificationsbackend.ru.md)
-    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [adminbackend](../../backend/adminbackend.ru.md) | |
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../notificationsbackend/sendnotifications.ru.md) |
 
 ## Описание процесса
 

@@ -10,15 +10,20 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/warehouseclient.md), [бэкенд-сервис](../../backend/warehousebackend.md)
 
-Зависит от: 
-- [customerbackend](../../backend/customerbackend.md)
-    - [preprocessorder](../../processes/customer/preprocessorder.md)
+## Зависимости
 
-Влияет на:
-- [notificationsbackend](../../backend/notificationsbackend.ru.md)
-    - [sendnotifications](../../processes/notificationsbackend/sendnotifications.ru.md)
-- [courierbackend](../../backend/courierbackend.ru.md)
-    - [store2wh](../courier/store2wh.ru.md)
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.md) | [preprocessorder](../../processes/customer/preprocessorder.md) |
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../../processes/notificationsbackend/sendnotifications.ru.md) |
+| [courierbackend](../../backend/courierbackend.ru.md) | [store2wh](../courier/store2wh.ru.md) |
 
 ## Описание процесса
 

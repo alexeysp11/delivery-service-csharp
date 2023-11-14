@@ -14,7 +14,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 
 ## Dependencies
 
-### Infuences on
+### Influences on
 
 | Backend service | Process |
 | --- | ---- |

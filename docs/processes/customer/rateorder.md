@@ -12,9 +12,13 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
-Infuences on: 
-- [notificationsbackend](../../backend/notificationsbackend.md)
-    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendnotifications](../notificationsbackend/sendnotifications.md) |
 
 ## Process description
 

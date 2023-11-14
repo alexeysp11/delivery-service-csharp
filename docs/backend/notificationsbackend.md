@@ -25,7 +25,7 @@ The backend service responsible for sending push notifications and email message
 
 ## Processes 
 
-- [Sending notifications](../processes/systembackend/sendnotifications.md)
+- [Sending notifications](../processes/notificationsbackend/sendnotifications.md)
 - [Notify](../processes/notificationsbackend/sendpush.md)
 - [Notification scheduling](../processes/notificationsbackend/notificationscheduling.md)
 - [Notification targeting](../processes/notificationsbackend/notificationtargeting.md)

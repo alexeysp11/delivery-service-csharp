@@ -10,9 +10,13 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 
-Infuences on: 
-- [notificationsbackend](../../backend/notificationsbackend.md)
-    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendnotifications](../notificationsbackend/sendnotifications.md) |
 
 ## Process description
 

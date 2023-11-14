@@ -8,8 +8,13 @@
 
 Ответственные модули: [бэкенд-сервис](../../backend/authbackend.md).
 
-Влияет на: 
-- [workflow-auth](https://github.com/alexeysp11/workflow-auth)
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [workflow-auth](https://github.com/alexeysp11/workflow-auth) | |
 
 ## Описание процесса
 

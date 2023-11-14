@@ -10,9 +10,13 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/warehouseclient.md), [бэкенд-сервис](../../backend/warehousebackend.md)
 
-Влияет на: 
-- [notificationsbackend](../../backend/notificationsbackend.ru.md)
-    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../notificationsbackend/sendnotifications.ru.md) |
 
 ## Описание процесса
 

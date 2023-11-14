@@ -12,11 +12,15 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [backend service](../../backend/systembackend.md)
 
-Infuences on: 
-- [notificationsbackend](../../backend/notificationsbackend.md)
-    - [sendemail](../notificationsbackend/sendemail.md)
-    - [sendpush](../notificationsbackend/sendpush.md)
-    - [sendmsgtelegram](../notificationsbackend/sendmsgtelegram.md)
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendemail](../notificationsbackend/sendemail.md) |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendpush](../notificationsbackend/sendpush.md) |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendmsgtelegram](../notificationsbackend/sendmsgtelegram.md) |
 
 ## Process description
 

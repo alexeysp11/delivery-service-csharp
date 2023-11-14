@@ -1,6 +1,6 @@
 # financialbackend
 
-[English](financialbackend.md) | [Русский](financialbackend.ru.md). 
+[English](financialbackend.md) | [Русский](financialbackend.ru.md)
 
 Functions of financial manager:
 - Cash management

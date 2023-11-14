@@ -1,6 +1,6 @@
 # hrbackend
 
-[English](hrbackend.md) | [Русский](hrbackend.ru.md). 
+[English](hrbackend.md) | [Русский](hrbackend.ru.md)
 
 Функционал отдела кадров:
 - Тренировка и развитие

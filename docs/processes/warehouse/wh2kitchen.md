@@ -10,15 +10,20 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 
-Depends on: 
-- [customerbackend](../../backend/customerbackend.md)
-    - [preprocessorder](../../processes/customer/preprocessorder.md)
+## Dependencies
 
-Influences on:
-- [notificationsbackend](../../backend/notificationsbackend.md)
-    - [sendnotifications](../../processes/notificationsbackend/sendnotifications.md)
-- [courierbackend](../../backend/courierbackend.md)
-    - [store2wh](../courier/store2wh.md)
+### Depends on
+
+| Backend service | Process |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.md) | [preprocessorder](../../processes/customer/preprocessorder.md) |
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendnotifications](../../processes/notificationsbackend/sendnotifications.md) | 
+| [courierbackend](../../backend/courierbackend.md) | [store2wh](../courier/store2wh.md) |
 
 ## Process description
 

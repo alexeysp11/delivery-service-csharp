@@ -10,17 +10,21 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 
-Depends on: 
-- [customerbackend](../../backend/customerbackend.md)
-    - [preprocessorder](../customer/preprocessorder.md)
-- [warehousebackend](../../backend/warehousebackend.md)
-    - [wh2kitchen](../warehouse/wh2kitchen.md)
-- [kitchenbackend](../../backend/kitchenbackend.md)
-    - [requestingedients](../kitchen/requestingedients.md)
+## Dependencies
 
-Infuences on: 
-- [notificationsbackend](../../backend/notificationsbackend.md)
-    - [sendnotifications](../notificationsbackend/sendnotifications.md)
+### Depends on
+
+| Backend service | Process |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.md) | [preprocessorder](../customer/preprocessorder.md) |
+| [warehousebackend](../../backend/warehousebackend.md) | [wh2kitchen](../warehouse/wh2kitchen.md) |
+| [kitchenbackend](../../backend/kitchenbackend.md) | [requestingedients](../kitchen/requestingedients.md) |
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendnotifications](../notificationsbackend/sendnotifications.md) |
 
 ## Process description
 

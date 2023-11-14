@@ -11,11 +11,14 @@ Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/kitchenclient.md), [backend service](../../backend/kitchenbackend.md)
 
-Infuences on: 
-- [notificationsbackend](../../backend/notificationsbackend.md)
-    - [sendnotifications](../notificationsbackend/sendnotifications.md)
-- [courierbackend](../../backend/courierbackend.md)
-    - [store2wh](../courier/store2wh.md)
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendnotifications](../notificationsbackend/sendnotifications.md) |
+| [courierbackend](../../backend/courierbackend.md) | [store2wh](../courier/store2wh.md) |
 
 ## Process description
 

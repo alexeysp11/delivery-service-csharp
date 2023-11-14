@@ -1,3 +1,3 @@
 # financialclient
 
-[English](financialclient.md) | [Русский](financialclient.ru.md). 
+[English](financialclient.md) | [Русский](financialclient.ru.md)

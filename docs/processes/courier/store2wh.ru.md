@@ -10,17 +10,21 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/courierclient.md), [бэкэнд-сервис](../../backend/courierbackend.md)
 
-Зависит от: 
-- [customerbackend](../../backend/customerbackend.ru.md)
-    - [preprocessorder](../customer/preprocessorder.ru.md)
-- [warehousebackend](../../backend/warehousebackend.ru.md)
-    - [wh2kitchen](../warehouse/wh2kitchen.ru.md)
-- [kitchenbackend](../../backend/kitchenbackend.ru.md)
-    - [requestingedients](../kitchen/requestingedients.ru.md)
+## Зависимости
 
-Влияет на: 
-- [notificationsbackend](../../backend/notificationsbackend.ru.md)
-    - [sendnotifications](../notificationsbackend/sendnotifications.ru.md)
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.ru.md) | [preprocessorder](../customer/preprocessorder.ru.md) |
+| [warehousebackend](../../backend/warehousebackend.ru.md) | [wh2kitchen](../warehouse/wh2kitchen.ru.md) |
+| [kitchenbackend](../../backend/kitchenbackend.ru.md) | [requestingedients](../kitchen/requestingedients.ru.md) |
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../notificationsbackend/sendnotifications.ru.md) |
 
 ## Описание процесса
 
