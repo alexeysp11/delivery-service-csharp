@@ -10,6 +10,14 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendnotifications](../notificationsbackend/sendnotifications.md) |
+
 ## Process description
 
 ![maintenance_overall](../../img/maintenance_overall.png)
@@ -20,6 +28,8 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - Admin selects "Ping Services" option.
 - The system pings all services to ensure they are running properly.
 - The system displays the results of the ping to the admin.
+
+![admin.pingservices](../../img/activitydiagrams/admin.pingservices.png)
 
 ## Data structures
 

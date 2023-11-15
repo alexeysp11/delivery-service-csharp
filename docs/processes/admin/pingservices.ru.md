@@ -10,6 +10,14 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/adminclient.ru.md), [бэкенд-сервис](../../backend/adminbackend.ru.md)
 
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../notificationsbackend/sendnotifications.ru.md) |
+
 ## Описание процесса
 
 ![maintenance_overall](../../img/maintenance_overall.png)
@@ -20,3 +28,5 @@
 - Администратор выбирает опцию "Пинговать сервисы".
 - Система проверяет все службы, чтобы убедиться, что они работают правильно.
 - Система отображает результаты пинга администратору.
+
+![admin.pingservices](../../img/activitydiagrams/admin.pingservices.png)

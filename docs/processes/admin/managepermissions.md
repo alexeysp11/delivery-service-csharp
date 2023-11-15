@@ -10,6 +10,14 @@ Process pattern: [organizational](../../processpatterns/organizational.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [adminbackend](../../backend/adminbackend.md) | [dbreplication](../admin/dbreplication.md) |
+
 ## Process description
 
 ![organizational_overall](../../img/organizational_overall.png)
@@ -21,6 +29,8 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - The system displays a list of employees and their current permissions.
 - The admin selects an employee and updates their permissions.
 - The system updates the employee's permissions in the database.
+
+![admin.managepermissions](../../img/activitydiagrams/admin.managepermissions.png)
 
 ## Data structures
 

@@ -10,6 +10,14 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/adminclient.ru.md), [бэкенд-сервис](../../backend/adminbackend.ru.md)
 
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [adminbackend](../../backend/adminbackend.ru.md) | [dbreplication](../admin/dbreplication.ru.md) |
+
 ## Описание процесса
 
 ![organizational_overall](../../img/organizational_overall.png)
@@ -21,3 +29,5 @@
 - Система отображает список сотрудников и их текущие права.
 - Администратор выбирает сотрудника и обновляет его разрешения.
 - Система обновляет права сотрудников в базе данных.
+
+![admin.managepermissions](../../img/activitydiagrams/admin.managepermissions.png)
