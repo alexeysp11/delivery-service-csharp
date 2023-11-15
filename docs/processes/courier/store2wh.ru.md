@@ -19,6 +19,7 @@
 | [customerbackend](../../backend/customerbackend.ru.md) | [preprocessorder](../customer/preprocessorder.ru.md) |
 | [warehousebackend](../../backend/warehousebackend.ru.md) | [wh2kitchen](../warehouse/wh2kitchen.ru.md) |
 | [kitchenbackend](../../backend/kitchenbackend.ru.md) | [requestingedients](../kitchen/requestingedients.ru.md) |
+| [managerbackend](../../backend/managerbackend.ru.md) | [inventorylevels](../manager/inventorylevels.ru.md) |
 
 ### Влияет на
 

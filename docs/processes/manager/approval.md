@@ -12,6 +12,12 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ## Dependencies
 
+### Depends on
+
+| Backend service | Process |
+| --- | ---- |
+| [managerbackend](../../backend/managerbackend.md) | [changeproductprice](../manager/changeproductprice.md) |
+
 ### Influences on
 
 | Backend service | Process |

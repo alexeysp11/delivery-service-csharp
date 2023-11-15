@@ -19,6 +19,7 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 | [customerbackend](../../backend/customerbackend.md) | [preprocessorder](../customer/preprocessorder.md) |
 | [warehousebackend](../../backend/warehousebackend.md) | [wh2kitchen](../warehouse/wh2kitchen.md) |
 | [kitchenbackend](../../backend/kitchenbackend.md) | [requestingedients](../kitchen/requestingedients.md) |
+| [managerbackend](../../backend/managerbackend.md) | [inventorylevels](../manager/inventorylevels.md) |
 
 ### Influences on
 

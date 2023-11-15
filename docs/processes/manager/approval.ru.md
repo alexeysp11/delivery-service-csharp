@@ -12,6 +12,12 @@
 
 ## Зависимости
 
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [managerbackend](../../backend/managerbackend.ru.md) | [changeproductprice](../manager/changeproductprice.ru.md) |
+
 ### Влияет на
 
 | Бэкэнд-сервис | Процесс |

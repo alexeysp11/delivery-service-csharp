@@ -13,6 +13,15 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/managerclient.md), [бэкэнд-сервис](../../backend/managerbackend.md).
 
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [managerbackend](../../backend/managerbackend.ru.md) | [approval](../manager/approval.ru.md) |
+| [adminbackend](../../backend/adminbackend.ru.md) | [dbreplication](../admin/dbreplication.ru.md) |
+
 ## Описание процесса
 
 ![organizational_overall](../../img/organizational_overall.png)
@@ -25,3 +34,5 @@
 - Менеджер отправляет заявку на изменение цены
 - Приложение обновляет базу данных цен на продукты, добавляя новую цену.
 - Приложение уведомляет соответствующих сотрудников об изменении цен.
+
+![manager.changeproductprice](../../img/activitydiagrams/manager.changeproductprice.png)

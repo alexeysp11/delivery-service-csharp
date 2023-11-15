@@ -13,6 +13,15 @@ Process pattern: [organizational](../../processpatterns/organizational.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [managerbackend](../../backend/managerbackend.md) | [approval](../manager/approval.md) |
+| [adminbackend](../../backend/adminbackend.md) | [dbreplication](../admin/dbreplication.md) |
+
 ## Process description
 
 ![organizational_overall](../../img/organizational_overall.png)
@@ -25,3 +34,5 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - Manager submits the price change request
 - App updates the product pricing database with the new price
 - App notifies relevant staff members about the price change
+
+![manager.changeproductprice](../../img/activitydiagrams/manager.changeproductprice.png)

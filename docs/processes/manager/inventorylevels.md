@@ -6,9 +6,21 @@ Name: **Set inventory levels**.
 
 The scenario responsible for setting inventory levels by manager in the delivery service company involves determining optimal inventory levels based on demand forecasts, adjusting inventory levels as needed to avoid stockouts or excess inventory, and monitoring inventory levels to ensure efficient operations.
 
+For this scenario, it is necessary to complete the approval chain (for example, *warehouse manager*, *financial analyst*, *CEO*).
+
 Process pattern: [organizational](../../processpatterns/organizational.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
+
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [adminbackend](../../backend/adminbackend.md) | [dbreplication](../admin/dbreplication.md) |
+| [warehousebackend](../../backend/warehousebackend.md) | [calculateproducts](../warehouse/calculateproducts.md) |
+| [courierbackend](../../backend/courierbackend.md) | [store2wh](../courier/store2wh.md) |
 
 ## Process description
 
@@ -25,7 +37,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - The app automatically generates purchase orders for items that fall below the reorder point.
 - The manager can review and approve purchase orders before they are sent to suppliers.
 
-![inventory-managment-procress](https://planergy.com/wp-content/uploads/2020/02/inventory-managment-procress-diagram-2.jpg)
+![manager.inventorylevels](../../img/activitydiagrams/manager.inventorylevels.png)
 
 ## Data structures
 

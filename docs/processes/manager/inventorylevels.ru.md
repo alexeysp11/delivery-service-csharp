@@ -6,9 +6,21 @@
 
 Сценарий, отвечающий за установку уровней запасов менеджером в компании, занимающейся доставкой, включает в себя определение оптимальных уровней запасов на основе прогнозов спроса, корректировку уровней запасов по мере необходимости, чтобы избежать дефицита или избытка запасов, а также мониторинг уровней запасов для обеспечения эффективности операций.
 
+Для данного сценария необходимо выполнения цепочки согласования (например, *руководитель склада*, *финансовый аналитик*, *генеральный директор*).
+
 Паттерн процесса: [organizational](../../processpatterns/organizational.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/managerclient.md), [бэкэнд-сервис](../../backend/managerbackend.md).
+
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [adminbackend](../../backend/adminbackend.ru.md) | [dbreplication](../admin/dbreplication.ru.md) |
+| [warehousebackend](../../backend/warehousebackend.ru.md) | [calculateproducts](../warehouse/calculateproducts.ru.md) |
+| [courierbackend](../../backend/courierbackend.ru.md) | [store2wh](../courier/store2wh.ru.md) |
 
 ## Описание процесса
 
@@ -25,4 +37,4 @@
 - Приложение автоматически генерирует заказы на покупку товаров, стоимость которых ниже точки повторного заказа.
 - Менеджер может просматривать и утверждать заказы на закупку перед их отправкой поставщикам.
 
-![inventory-managment-procress](https://planergy.com/wp-content/uploads/2020/02/inventory-managment-procress-diagram-2.jpg)
+![manager.inventorylevels](../../img/activitydiagrams/manager.inventorylevels.png)
