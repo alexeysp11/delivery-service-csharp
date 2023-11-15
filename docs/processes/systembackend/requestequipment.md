@@ -11,6 +11,16 @@ Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/kitchenclient.md), [backend service](../../backend/kitchenbackend.md)
 
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendnotifications](../notificationsbackend/sendnotifications.md) |
+| [warehousebackend](../../backend/warehousebackend.md) | [calculateproducts](../warehouse/calculateproducts.md) |
+| [warehousebackend](../../backend/warehousebackend.md) | [wh2kitchen](../warehouse/wh2kitchen.md) |
+
 ## Process description
 
 ![requesting_overall](../../img/requesting_overall.png)
@@ -26,6 +36,8 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 - If it is not available, the system sends a notification to the manager to order it.
 - The request is received by the manager, who reviews it and approves or denies the request.
 - If approved, the manager orders the new equipment and updates the employee on when it will arrive.
+
+![systembackend.requestequipment](../../img/activitydiagrams/systembackend.requestequipment.png)
 
 ## Data structures
 

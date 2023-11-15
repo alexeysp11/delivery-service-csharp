@@ -39,9 +39,9 @@ The interactive steps within the scenario include scanning product barcodes, ent
 - The employee selects the product they want to calculate.
 - The system checks the inventory database for that product.
 - The system displays the current stock of that product to the employee.
-- Scan product barcodes to identify the products in the warehouse
-- Enter the quantity of each product on hand
-- Update inventory records to reflect the new product quantities
+- Scan product barcodes to identify the products in the warehouse.
+- Enter the quantity of each product on hand.
+- Update inventory records to reflect the new product quantities.
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
 

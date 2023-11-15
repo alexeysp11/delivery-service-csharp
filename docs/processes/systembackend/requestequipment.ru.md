@@ -11,6 +11,16 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/kitchenclient.ru.md), [бэкэнд-сервис](../../backend/kitchenbackend.ru.md)
 
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../notificationsbackend/sendnotifications.ru.md) |
+| [warehousebackend](../../backend/warehousebackend.ru.md) | [calculateproducts](../warehouse/calculateproducts.ru.md) |
+| [warehousebackend](../../backend/warehousebackend.ru.md) | [wh2kitchen](../warehouse/wh2kitchen.ru.md) |
+
 ## Описание процесса
 
 ![requesting_overall](../../img/requesting_overall.png)
@@ -26,3 +36,5 @@
 - Если его нет в наличии, система отправляет уведомление менеджеру для его заказа.
 - Запрос получает менеджер, который рассматривает его и одобряет или отклоняет запрос.
 - В случае одобрения менеджер заказывает новое оборудование и сообщает сотруднику, когда оно прибудет.
+
+![systembackend.requestequipment](../../img/activitydiagrams/systembackend.requestequipment.png)

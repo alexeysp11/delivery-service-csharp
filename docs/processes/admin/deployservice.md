@@ -10,6 +10,14 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [adminbackend](../../backend/adminbackend.md) | [pingservices](../admin/pingservices.md) |
+
 ## Process description
 
 ![maintenance_overall](../../img/maintenance_overall.png)
@@ -23,6 +31,8 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - System verifies the deployment status and reports any errors or issues
 - Monitor the deployment status and troubleshoot any errors or issues
 - Admin confirms the successful deployment and activates the microservices
+
+![admin.deployservice](../../img/activitydiagrams/admin.deployservice.png)
 
 ## Data structures
 

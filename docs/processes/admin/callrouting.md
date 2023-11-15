@@ -7,9 +7,13 @@ Name: **Сall routing**.
 The call routing and forwarding process is responsible for managing incoming calls and directing them to the appropriate recipients based on predefined rules or user preferences. 
 This may involve features such as call forwarding, call queuing, interactive voice response (IVR) systems, and integration with other communication channels.
 
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
+
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
 ## Process description
+
+![maintenance_overall](../../img/maintenance_overall.png)
 
 ### Step-by-step execution
 

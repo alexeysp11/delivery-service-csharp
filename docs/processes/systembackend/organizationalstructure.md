@@ -9,6 +9,8 @@ This allows managers to quickly find and communicate with the right employees fo
 
 Process pattern: [information](../../processpatterns/information.md)
 
+Responsible modules: [backend service](../../backend/systembackend.md)
+
 ## Process description
 
 ![information_overall](../../img/information_overall.png)
@@ -19,3 +21,5 @@ Process pattern: [information](../../processpatterns/information.md)
 - The app returns a list of employees that match the search criteria.
 - The manager can view employee profiles, including contact information, job history, and performance metrics.
 - The manager can use this information to make informed decisions about scheduling, promotions, or disciplinary actions.
+
+![systembackend.organizationalstructure](../../img/activitydiagrams/systembackend.organizationalstructure.png)

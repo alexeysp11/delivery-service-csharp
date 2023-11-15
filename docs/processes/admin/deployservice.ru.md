@@ -10,6 +10,14 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/adminclient.ru.md), [бэкенд-сервис](../../backend/adminbackend.ru.md)
 
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [adminbackend](../../backend/adminbackend.ru.md) | [pingservices](../admin/pingservices.ru.md) |
+
 ## Описание процесса
 
 ![maintenance_overall](../../img/maintenance_overall.png)
@@ -23,3 +31,5 @@
 - Система проверяет статус развертывания и сообщает о любых ошибках или проблемах.
 - Отслеживать состояние развертывания и устранять любые ошибки или проблемы.
 - Администратор подтверждает успешное развертывание и активирует микросервисы.
+
+![admin.deployservice](../../img/activitydiagrams/admin.deployservice.png)

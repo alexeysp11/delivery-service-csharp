@@ -10,6 +10,14 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendnotifications](../notificationsbackend/sendnotifications.md) |
+
 ## Process description
 
 ![maintenance_overall](../../img/maintenance_overall.png)
@@ -23,6 +31,8 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 - System initiates the data transfer process and monitors its progress
 - System verifies the data integrity and consistency between the source and target databases
 - Admin confirms the successful replication and activates the target database
+
+![admin.dbreplication](../../img/activitydiagrams/admin.dbreplication.png)
 
 ## Data structures
 

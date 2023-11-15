@@ -12,6 +12,12 @@
 
 ## Зависимости
 
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [adminbackend](../../backend/adminbackend.ru.md) | [deployservice](../admin/deployservice.ru.md) |
+
 ### Влияет на
 
 | Бэкэнд-сервис | Процесс |

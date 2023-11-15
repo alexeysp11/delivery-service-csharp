@@ -9,6 +9,8 @@
 
 Паттерн процесса: [information](../../processpatterns/information.md)
 
+Ответственные модули: [бэкенд-сервис](../../backend/systembackend.ru.md)
+
 ## Описание процесса
 
 ![information_overall](../../img/information_overall.png)
@@ -19,3 +21,5 @@
 - Приложение возвращает список сотрудников, соответствующих критериям поиска.
 - Менеджер может просматривать профили сотрудников, включая контактную информацию, историю работы и показатели производительности.
 - Менеджер может использовать эту информацию для принятия обоснованных решений о расписании, повышении по службе или дисциплинарных мерах.
+
+![systembackend.organizationalstructure](../../img/activitydiagrams/systembackend.organizationalstructure.png)

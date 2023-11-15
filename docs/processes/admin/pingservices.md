@@ -12,6 +12,12 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 
 ## Dependencies
 
+### Depends on
+
+| Backend service | Process |
+| --- | ---- |
+| [adminbackend](../../backend/adminbackend.md) | [deployservice](../admin/deployservice.md) |
+
 ### Influences on
 
 | Backend service | Process |

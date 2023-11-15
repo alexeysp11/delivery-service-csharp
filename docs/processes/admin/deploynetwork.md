@@ -12,9 +12,13 @@ The process for deploying access points and wireless controllers in the delivery
 
 To find more information about deploying access points and wireless controllers, you can start by researching best practices for WIFI deployment in similar delivery service apps. Wireless controllers can be implemented as dedicated hardware appliances or as software-based solutions that run on servers or virtual machines.
 
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
+
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
 ## Process description
+
+![maintenance_overall](../../img/maintenance_overall.png)
 
 ### Step-by-step execution
 

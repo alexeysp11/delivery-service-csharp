@@ -8,9 +8,13 @@ The process of registering and processing calls involves capturing and storing d
 
 The process responsible for managing voicemail systems involves setting up and maintaining voicemail services for clients who are unavailable to answer incoming calls. This includes recording and storing voicemail messages, providing notifications to clients about new voicemails, and allowing clients to retrieve and manage their voicemail messages.
 
+Process pattern: [maintenance](../../processpatterns/maintenance.md)
+
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
 ## Process description
+
+![maintenance_overall](../../img/maintenance_overall.png)
 
 ### Step-by-step execution
 
