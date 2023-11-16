@@ -2,6 +2,8 @@
 
 [English](hrbackend.md) | [Русский](hrbackend.ru.md)
 
+Бэкэнд-сервис, отвечающий за обработку запросов от HR-менеджеров.
+
 Функционал отдела кадров:
 - Тренировка и развитие
 - Трудовые отношения
@@ -23,3 +25,14 @@
 - Обучение
 - Управление рисками
 - Удовлетворение от работы
+
+[Клиентское приложение](../frontend/hrclient.ru.md)
+
+## Общая модель системы 
+
+![system_overall](../img/system_overall.png)
+
+## Процессы
+
+- [candidateselection](../processes/hr/candidateselection.ru.md)
+- [onboarding](../processes/hr/onboarding.ru.md)

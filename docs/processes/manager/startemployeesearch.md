@@ -15,6 +15,15 @@ Process pattern: [organizational](../../processpatterns/organizational.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [managerbackend](../../backend/managerbackend.md) | [approval](../manager/approval.md) |
+| [hrbackend](../../backend/hrbackend.md) | [candidateselection](../hr/candidateselection.md) |
+
 ## Process description
 
 External services that could be used for getting information about potential candidates when searching for a new employee by manager in the delivery service company include job posting websites (e.g. Indeed, Glassdoor), recruiting agencies, and professional networking sites (e.g. LinkedIn).

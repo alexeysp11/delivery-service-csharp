@@ -26,3 +26,9 @@ Use case scenarios for statistical service could include:
 - Estimating the performance of employees and the company within a certain period of time using methods such as regression analysis and time series analysis.
 - Analyzing customer feedback to identify patterns and trends in their satisfaction levels using methods such as sentiment analysis and clustering.
 - Identifying the most popular delivery routes and times to optimize delivery schedules using methods such as network analysis and data visualization.
+
+## Processes
+
+- [Estimate employee performance](../processes/statisticalbackend/estimateemployeeperformance.md)
+- [Analyze customer feedback](../processes/statisticalbackend/analyzecustomerfeedback.md)
+- [Identify most popular delivery routes](../processes/statisticalbackend/populardevileryroutes.md)

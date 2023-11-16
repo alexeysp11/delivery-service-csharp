@@ -2,6 +2,8 @@
 
 [English](hrbackend.md) | [Русский](hrbackend.ru.md)
 
+The backend service responsible for processing requests from HR managers.
+
 HR functionalities:
 - Training and development
 - Industrial relations
@@ -23,3 +25,14 @@ HR functionalities:
 - Learning
 - Risk management
 - Job satisfaction
+
+[Client app](../frontend/hrclient.md)
+
+## Overall description of the system 
+
+![system_overall](../img/system_overall.png)
+
+## Processes
+
+- [candidateselection](../processes/hr/candidateselection.md)
+- [onboarding](../processes/hr/onboarding.md)

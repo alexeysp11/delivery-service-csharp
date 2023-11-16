@@ -27,3 +27,9 @@ Use case scenarios for predictive service could include:
 - Predicting customer demand for certain products or services to optimize inventory management using methods such as time series forecasting and regression analysis.
 - Forecasting revenue, expenses, profitability, and risks to inform business decisions using methods such as linear regression and decision trees.
 - Predicting customer behavior and preferences to personalize marketing strategies using methods such as recommendation systems and clustering.
+
+## Processes
+
+- [Predict customer demand](../processes/predictivebackend/predictcustomerdemand.md)
+- [Forecast of the financial parameters](../processes/predictivebackend/forecastfinancial.md)
+- [Predict customer preferences](../processes/predictivebackend/predictcustomerpreferences.md)

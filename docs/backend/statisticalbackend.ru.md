@@ -30,3 +30,9 @@
 <!--
 - Предоставление статистик по многим заказам в виде дашбордов (по времени: день, неделя, месяц, год, всё время; по типу графиков: Line chart, Bar chart, Histogram, Scatter plot и т.д.; метрики: общая сумма заказа, стоимость позиции, количество заказов, количество позиций, время оформления заказов, место доставки)
 -->
+
+## Процессы
+
+- [Оценить производительность сотрудников](../processes/statisticalbackend/estimateemployeeperformance.ru.md)
+- [Анализ отзывов клиентов](../processes/statisticalbackend/analyzecustomerfeedback.ru.md)
+- [Определить наиболее популярные маршруты доставки](../processes/statisticalbackend/populardevileryroutes.ru.md)

@@ -46,3 +46,7 @@ Among other things, the following are passed into this process as input paramete
 - If necessary, employees who are on the notification list are notified.
 
 ![manager.approval](../../img/activitydiagrams/manager.approval.png)
+
+## Data structures
+
+The list of objects (data models) for the chain of approval process may include candidate profiles, job descriptions, interview feedback, onboarding checklists, and other relevant data structures necessary for managing HR processes within the delivery service app.
