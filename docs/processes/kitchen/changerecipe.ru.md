@@ -18,6 +18,15 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/kitchenclient.md), [бэкэнд-сервис](../../backend/kitchenbackend.md)
 
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [managerbackend](../../backend/managerbackend.ru.md) | [approval](../manager/approval.ru.md) |
+| [adminbackend](../../backend/adminbackend.ru.md) | [dbreplication](../admin/dbreplication.ru.md) |
+
 ## Описание процесса
 
 ![requesting_overall](../../img/requesting_overall.png)
@@ -30,3 +39,5 @@
 - Сотрудник вносит изменения
 - Приложение обновляет базу данных рецептов с учетом изменений.
 - Приложение уведомляет соответствующих сотрудников об изменениях.
+
+![kitchen.changemenu](../../img/activitydiagrams/kitchen.changemenu.png)

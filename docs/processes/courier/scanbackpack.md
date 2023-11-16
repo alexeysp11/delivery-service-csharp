@@ -11,6 +11,14 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 
+## Dependencies
+
+### Depends on
+
+| Backend service | Process |
+| --- | ---- |
+| [courierbackend](../../backend/courierbackend.md) | [deliverorder](../courier/deliverorder.md) |
+
 ## Process description
 
 - Registration of a backpack by scanning a QR code (in order to register the beginning / end of work during the day and track the location of the courier in real time).

@@ -10,6 +10,15 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/managerclient.md), [бэкэнд-сервис](../../backend/managerbackend.md).
 
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../notificationsbackend/sendnotifications.ru.md) |
+| [fileservice](../../backend/fileservice.ru.md) | [getpdf](../fileservice/getpdf.ru.md) |
+
 ## Описание процесса
 
 ![organizational_overall](../../img/organizational_overall.png)

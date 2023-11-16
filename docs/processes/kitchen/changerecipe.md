@@ -18,6 +18,15 @@ Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/kitchenclient.md), [backend service](../../backend/kitchenbackend.md)
 
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [managerbackend](../../backend/managerbackend.md) | [approval](../manager/approval.md) |
+| [adminbackend](../../backend/adminbackend.md) | [dbreplication](../admin/dbreplication.md) |
+
 ## Process description
 
 ![requesting_overall](../../img/requesting_overall.png)
@@ -30,3 +39,5 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 - Employee submits the changes
 - App updates the recipe database with the modifications
 - App notifies relevant staff members about the changes
+
+![kitchen.changemenu](../../img/activitydiagrams/kitchen.changemenu.png)

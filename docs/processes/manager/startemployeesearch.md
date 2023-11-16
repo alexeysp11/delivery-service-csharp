@@ -5,7 +5,7 @@
 Name: **Start employee search**.
 
 The scenario responsible for launching the search for employees by the manager allows you to search for employees (candidates) to work in the company according to various criteria.
-This allows managers to quickly find and communicate with the right employees for specific tasks or projects.
+This allows managers to form a database of candidates, as well as quickly find and communicate with the right candidates for hiring.
 
 This scenario includes the following processes:
 - the process of coordinating the search for an employee at the preparation stage (coordinating: hiring manager, 1st and 2nd level managers, department head, financial director, general director);
@@ -57,13 +57,15 @@ The stages of the selection process:
 
 ### Step-by-step execution
 
-- The manager opens the delivery service app and navigates to the backend service for managers.
+- The manager opens the app for managers.
 - The manager selects the option to start employee search.
 
 - If there are multiple candidates for a position, the system notifies HR to schedule interviews with each candidate.
 - After interviews are conducted, the interviewers provide feedback and ratings for each candidate.
 - The manager reviews the feedback and ratings and selects the most suitable candidate for the position.
 - The system notifies the chosen candidate and HR to proceed with the hiring process.
+
+![manager.startemployeesearch](../../img/activitydiagrams/manager.startemployeesearch.png)
 
 ## Data structures
 

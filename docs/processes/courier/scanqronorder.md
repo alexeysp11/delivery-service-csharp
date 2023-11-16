@@ -11,6 +11,14 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 
+## Dependencies
+
+### Depends on
+
+| Backend service | Process |
+| --- | ---- |
+| [courierbackend](../../backend/courierbackend.md) | [deliverorder](../courier/deliverorder.md) |
+
 ## Process description
 
 ![delivering_overall](../../img/delivering_overall.png)
