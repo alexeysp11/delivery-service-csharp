@@ -34,5 +34,5 @@
 
 ## Процессы
 
-- [candidateselection](../processes/hr/candidateselection.ru.md)
-- [onboarding](../processes/hr/onboarding.ru.md)
+- [Подбор кандидата](../processes/hr/candidateselection.ru.md)
+- [Онбоардинг](../processes/hr/onboarding.ru.md)

@@ -2,7 +2,7 @@
 
 [English](onboarding.md) | [Русский](onboarding.ru.md)
 
-Name: **Candidate selection**.
+Name: **Onboarding**.
 
 The onboarding process for new employees involves providing the necessary training and resources for them to integrate into their roles within the delivery service app effectively.
 

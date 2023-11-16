@@ -34,5 +34,5 @@ HR functionalities:
 
 ## Processes
 
-- [candidateselection](../processes/hr/candidateselection.md)
-- [onboarding](../processes/hr/onboarding.md)
+- [Candidate selection](../processes/hr/candidateselection.md)
+- [Onboarding](../processes/hr/onboarding.md)
