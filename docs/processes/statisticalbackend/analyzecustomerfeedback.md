@@ -16,7 +16,7 @@ Responsible modules: [backend service](../../backend/statisticalbackend.md)
 
 | Backend service | Process |
 | --- | ---- |
-| [managerbackend](../../backend/managerbackend.md) | [trackperformance](../manager/trackperformance.md) |
+| [statisticalbackend](../../backend/statisticalbackend.md) | [employeeperformance](../statisticalbackend/employeeperformance.md) |
 
 ## Process description
 
@@ -24,7 +24,9 @@ Responsible modules: [backend service](../../backend/statisticalbackend.md)
 
 ### Step-by-step execution
 
-- Collect and process customer feedback data from various sources within the delivery service app
+- A request is received to the statistical backend service, which indicates the location and time period.
 - Apply sentiment analysis and clustering methods to identify patterns and trends in customer satisfaction levels
 - Generate reports and visualizations to communicate feedback analysis results
 - Implement changes based on feedback insights to improve customer satisfaction
+
+![statisticalbackend.analyzecustomerfeedback](../../img/activitydiagrams/statisticalbackend.analyzecustomerfeedback.png)
