@@ -4,6 +4,14 @@
 
 The backend service responsible for processing requests from HR managers.
 
+[Client app](../frontend/hrclient.md)
+
+## Overall description of the system 
+
+![system_overall](../img/system_overall.png)
+
+## Service description
+
 HR functionalities:
 - Training and development
 - Industrial relations
@@ -25,12 +33,6 @@ HR functionalities:
 - Learning
 - Risk management
 - Job satisfaction
-
-[Client app](../frontend/hrclient.md)
-
-## Overall description of the system 
-
-![system_overall](../img/system_overall.png)
 
 ## Processes
 
