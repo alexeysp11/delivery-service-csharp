@@ -21,3 +21,11 @@ The stages of employee onboarding:
 - 6th month: check-in and feedback.
 
 ![maintenance_overall](../../img/maintenance_overall.png)
+
+### Step-by-step execution
+
+- Welcome new candidates to the company
+- Provide access to necessary training materials and resources through the delivery service app
+- Assign a mentor or buddy to guide the new candidate through their onboarding process
+- Track progress and completion of training modules
+- Evaluate the candidate's readiness to integrate into their roles within the delivery service app

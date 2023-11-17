@@ -40,3 +40,11 @@ The stages of the selection process:
 - Onboarding.
 
 ![maintenance_overall](../../img/maintenance_overall.png)
+
+### Step-by-step execution
+
+- Receive job applications and resumes from candidates
+- Screen applications using data-driven methods such as keyword matching and skill assessment
+- Conduct initial interviews based on predefined criteria
+- Use data-driven methods to assess candidate performance and fit for specific roles
+- Make informed hiring decisions based on data analysis

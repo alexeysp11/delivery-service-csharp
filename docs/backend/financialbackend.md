@@ -2,6 +2,19 @@
 
 [English](financialbackend.md) | [Русский](financialbackend.ru.md)
 
+The backend service for financial managers in the delivery service company includes features such as:
+- Financial reporting and analysis tools
+- Budgeting and forecasting capabilities
+- Expense tracking and management
+- Integration with accounting systems
+- Data security and compliance measures
+
+## Overall description of the system 
+
+![system_overall](../img/system_overall.png)
+
+## Service description
+
 Functions of financial manager:
 - Cash management
 - Funding sources
@@ -19,3 +32,5 @@ Functions of financial manager:
 - Investing
 - Budgeting
 - Investing funds
+
+## Processes 

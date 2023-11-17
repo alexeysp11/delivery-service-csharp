@@ -17,3 +17,11 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 ![maintenance_overall](../../img/maintenance_overall.png)
 
 ### Step-by-step execution
+
+- Identify the stakeholders from whom feedback needs to be collected (customers, delivery personnel, etc.)
+- Design feedback forms or surveys to gather insights and assess satisfaction levels
+- Implement the feedback collection mechanism within the delivery service app
+- Communicate the feedback collection process to stakeholders and encourage participation
+- Collect and compile feedback data
+- Analyze feedback data to identify areas for improvement
+- Implement necessary changes based on the feedback received
