@@ -14,6 +14,15 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ![organizational_overall](../../img/organizational_overall.png)
 
+### Step-by-step execution
+
+- Defining the target audience segments
+- Implementing user segmentation logic
+- Testing the targeting functionality
+- Integrating the targeting system with notification creation and scheduling
+- Monitoring and analyzing the effectiveness of targeted notifications
+- Iteratively optimizing the targeting criteria based on feedback and data analysis
+
 ## Data structures
 
 ### Objects 

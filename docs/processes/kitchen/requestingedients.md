@@ -35,3 +35,9 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 - Approved request triggers an automatic update of inventory levels and notifies the employee
 
 ![kitchen.requestingredients](../../img/activitydiagrams/kitchen.requestingredients.png)
+
+## Data structures
+
+- IngredientRequest: properties could include ingredientID, ingredientName, quantityRequested, and kitchenID.
+- Ingredient: properties could include ingredientID, ingredientName, quantityAvailable, and supplierInfo.
+- Order: properties could include orderID, customerName, itemsOrdered, and orderStatus.

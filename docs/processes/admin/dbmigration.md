@@ -15,3 +15,11 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 ![maintenance_overall](../../img/maintenance_overall.png)
 
 ### Step-by-step execution
+
+- Analyzing the current database structure and data
+- Designing the new database structure
+- Creating a backup of the current database
+- Performing the migration process
+- Verifying the data integrity and functionality
+- Testing the new database thoroughly
+- Implementing the new database in the production environment

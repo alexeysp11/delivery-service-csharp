@@ -14,6 +14,15 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ![organizational_overall](../../img/organizational_overall.png)
 
+### Step-by-step execution
+
+- Defining the notification types and triggers
+- Designing the notification scheduling system
+- Implementing the scheduling logic and UI components
+- Testing the scheduling functionality
+- Integrating the scheduling system with other app features
+- Monitoring and optimizing the notification scheduling performance
+
 ## Data structures
 
 ### Objects 

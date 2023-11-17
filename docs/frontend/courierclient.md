@@ -2,7 +2,7 @@
 
 [English](courierclient.md) | [Русский](courierclient.ru.md)
 
-`courierclient` is a client-side application that is used by delivery drivers to manage their routs and deliveries.
+`courierclient` is a client-side application that is used by couriers to manage their routs and deliveries.
 
 The client-side app used by couriers in the delivery service company allows them to view and manage their assigned deliveries, communicate with customers about delivery details, and update the status of deliveries as they are completed.
 

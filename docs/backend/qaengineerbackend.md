@@ -6,6 +6,8 @@ The backend service that manages tasks related to QA engineers in the delivery s
 
 Basic functionalities may include test case assignment, bug tracking and resolution, test environment management, and integration with testing tools.
 
+[Client app](../frontend/qaengineerclient.md)
+
 ## Overall description of the system 
 
 ![system_overall](../img/system_overall.png)
