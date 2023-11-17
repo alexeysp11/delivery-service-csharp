@@ -17,6 +17,9 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 | Backend service | Process |
 | --- | ---- |
 | [managerbackend](../../backend/managerbackend.md) | [changeproductprice](../manager/changeproductprice.md) |
+| [managerbackend](../../backend/managerbackend.md) | [startemployeesearch](../manager/startemployeesearch.md) |
+| [kitchenbackend](../../backend/kitchenbackend.md) | [changemenu](../kitchen/changemenu.md) |
+| [kitchenbackend](../../backend/kitchenbackend.md) | [changerecipe](../kitchen/changerecipe.md) |
 
 ### Influences on
 

@@ -8,9 +8,15 @@
 
 Паттерн процесса: [delivering](../../processpatterns/delivering.ru.md)
 
-Ответственные модули: [клиентское приложение](../../frontend/courierclient.md), [бэкэнд-сервис](../../backend/courierbackend.md)
+Ответственные модули: [клиентское приложение](../../frontend/courierclient.ru.md), [бэкэнд-сервис](../../backend/courierbackend.ru.md)
 
 ## Зависимости
+
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.ru.md) | [preprocessorder](../customer/preprocessorder.ru.md) |
 
 ### Влияет на
 

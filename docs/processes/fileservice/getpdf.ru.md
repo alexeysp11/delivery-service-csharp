@@ -10,6 +10,14 @@
 
 Ответственные модули: [бэкенд-сервис](../../backend/fileservice.ru.md)
 
+## Зависимости
+
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [managerbackend](../../backend/managerbackend.ru.md) | [terminationofemployment](../manager/terminationofemployment.ru.md) |
+
 ## Описание процесса
 
 ![transmittingfile_overall](../../img/transmittingfile_overall.png)

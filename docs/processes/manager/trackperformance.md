@@ -10,6 +10,15 @@ Process pattern: [organizational](../../processpatterns/organizational.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [statisticalbackend](../../backend/statisticalbackend.md) | [employeeperformance](../statisticalbackend/employeeperformance.md) |
+| [statisticalbackend](../../backend/statisticalbackend.md) | [analyzecustomerfeedback](../statisticalbackend/analyzecustomerfeedback.md) |
+
 ## Process description
 
 Metrics that could be used by managers in the delivery service company to measure performance include:

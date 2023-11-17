@@ -12,4 +12,12 @@ Responsible modules: [client application](../../frontend/hrclient.md), [backend 
 
 ## Process description
 
+The stages of employee onboarding:
+- Pre-boarding: preparation for onboarding;
+- 1st day: new employee welcome;
+- 1st week: introduction to company, people and role;
+- 1st month: education and training;
+- 3rd month: check-in and feedback;
+- 6th month: check-in and feedback.
+
 ![maintenance_overall](../../img/maintenance_overall.png)

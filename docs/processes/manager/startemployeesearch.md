@@ -28,18 +28,6 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 External services that could be used for getting information about potential candidates when searching for a new employee by manager in the delivery service company include job posting websites (e.g. Indeed, Glassdoor), recruiting agencies, and professional networking sites (e.g. LinkedIn).
 
-Candidate screening methods: 
-- Background checks,
-- Resume screening,
-- Cover letter screening,
-- Application form,
-- Video screening,
-- Screening through phone calls,
-- Pre-assessment tests,
-- Personality tests,
-- Written tests,
-- Face-to-face interviews.
-
 Full cycle recruiting: 
 - Preparing (vacancy intake with hiring manager, write job description, create job advert),
 - Sourcing (sourcing candidates, check existing talent pool, keep hiring manager informed),
@@ -47,28 +35,15 @@ Full cycle recruiting:
 - Selecting (close contact with hiring manager, use an interview guide to structure the process, automate the interview scheduling),
 - Hiring (perform reference checks, do background check, support manager in making a data-driven hiring decision).
 
-Short-listing matrix could be used in order to evaluate candidates.
-
-The stages of the selection process: 
-- Identifying hiring needs,
-- Creating a recruitment plan,
-- Setting up ads,
-- Application,
-- Screening and pre-selection,
-- Interview,
-- Assessment,
-- References and background check,
-- Decision,
-- Job offer and contract,
-- Onboarding.
-
 ![organizational_overall](../../img/organizational_overall.png)
 
 ### Step-by-step execution
 
 - The manager opens the app for managers.
 - The manager selects the option to start employee search.
-
+- The approval process begins (at this stage, the process can be rejected at any time and returned to the manager for revision).
+- After approval, the HR manager publishes the vacancy.
+- As new resumes are received, the HR manager registers a new candidate (after which a “context” or “flow” is created on the backend service for working with a specific candidate).
 - If there are multiple candidates for a position, the system notifies HR to schedule interviews with each candidate.
 - After interviews are conducted, the interviewers provide feedback and ratings for each candidate.
 - The manager reviews the feedback and ratings and selects the most suitable candidate for the position.

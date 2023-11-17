@@ -16,7 +16,7 @@
 
 | Бэкэнд-сервис | Процесс |
 | --- | ---- |
-| [adminbackend](../../backend/adminbackend.ru.md) | |
+| [adminbackend](../../backend/adminbackend.ru.md) | [sendpush](../notificationsbackend/sendpush.ru.md) |
 
 ### Влияет на
 

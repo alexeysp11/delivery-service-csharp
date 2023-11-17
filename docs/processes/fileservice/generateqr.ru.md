@@ -10,6 +10,14 @@
 
 Ответственные модули: [бэкенд-сервис](../../backend/fileservice.ru.md)
 
+## Зависимости
+
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.ru.md) | [makepayment](../customer/makepayment.ru.md) |
+
 ## Описание процесса
 
 ![transmittingfile_overall](../../img/transmittingfile_overall.png)

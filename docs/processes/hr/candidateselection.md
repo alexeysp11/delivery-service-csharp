@@ -12,4 +12,31 @@ Responsible modules: [client application](../../frontend/hrclient.md), [backend 
 
 ## Process description
 
+Candidate screening methods: 
+- Background checks,
+- Resume screening,
+- Cover letter screening,
+- Application form,
+- Video screening,
+- Screening through phone calls,
+- Pre-assessment tests,
+- Personality tests,
+- Written tests,
+- Face-to-face interviews.
+
+Short-listing matrix could be used in order to evaluate candidates.
+
+The stages of the selection process: 
+- Identifying hiring needs,
+- Creating a recruitment plan,
+- Setting up ads,
+- Application,
+- Screening and pre-selection,
+- Interview,
+- Assessment,
+- References and background check,
+- Decision,
+- Job offer and contract,
+- Onboarding.
+
 ![maintenance_overall](../../img/maintenance_overall.png)

@@ -16,7 +16,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 
 | Backend service | Process |
 | --- | ---- |
-| [adminbackend](../../backend/adminbackend.md) | |
+| [adminbackend](../../backend/adminbackend.md) | [sendpush](../notificationsbackend/sendpush.md) |
 
 ### Influences on
 

@@ -33,6 +33,6 @@
 
 ## Процессы
 
-- [Оценить производительность сотрудников](../processes/statisticalbackend/estimateemployeeperformance.ru.md)
+- [Оценить производительность сотрудников](../processes/statisticalbackend/employeeperformance.ru.md)
 - [Анализ отзывов клиентов](../processes/statisticalbackend/analyzecustomerfeedback.ru.md)
 - [Определить наиболее популярные маршруты доставки](../processes/statisticalbackend/populardevileryroutes.ru.md)

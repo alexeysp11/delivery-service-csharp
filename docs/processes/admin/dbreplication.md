@@ -12,6 +12,17 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 
 ## Dependencies
 
+### Depends on
+
+| Backend service | Process |
+| --- | ---- |
+| [adminbackend](../../backend/adminbackend.md) | [manageaccesslevels](../admin/manageaccesslevels.md) |
+| [adminbackend](../../backend/adminbackend.md) | [managepermissions](../admin/managepermissions.md) |
+| [kitchenbackend](../../backend/kitchenbackend.md) | [changemenu](../kitchen/changemenu.md) |
+| [kitchenbackend](../../backend/kitchenbackend.md) | [changerecipe](../kitchen/changerecipe.md) |
+| [managerbackend](../../backend/managerbackend.md) | [changeproductprice](../manager/changeproductprice.md) |
+| [managerbackend](../../backend/managerbackend.md) | [inventorylevels](../manager/inventorylevels.md) |
+
 ### Influences on
 
 | Backend service | Process |

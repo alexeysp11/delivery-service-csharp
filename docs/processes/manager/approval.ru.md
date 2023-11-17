@@ -17,6 +17,9 @@
 | Бэкэнд-сервис | Процесс |
 | --- | ---- |
 | [managerbackend](../../backend/managerbackend.ru.md) | [changeproductprice](../manager/changeproductprice.ru.md) |
+| [managerbackend](../../backend/managerbackend.ru.md) | [startemployeesearch](../manager/startemployeesearch.ru.md) |
+| [kitchenbackend](../../backend/kitchenbackend.ru.md) | [changemenu](../kitchen/changemenu.ru.md) |
+| [kitchenbackend](../../backend/kitchenbackend.ru.md) | [changerecipe](../kitchen/changerecipe.ru.md) |
 
 ### Влияет на
 

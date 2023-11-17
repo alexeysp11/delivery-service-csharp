@@ -10,6 +10,14 @@ Process pattern: [transmittingfile](../../processpatterns/transmittingfile.md)
 
 Responsible modules: [backend service](../../backend/fileservice.md)
 
+## Dependencies
+
+### Depends on
+
+| Backend service | Process |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.md) | [makepayment](../customer/makepayment.md) |
+
 ## Process description
 
 ![transmittingfile_overall](../../img/transmittingfile_overall.png)

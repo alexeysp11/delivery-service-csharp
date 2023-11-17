@@ -12,6 +12,12 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 
 ## Dependencies
 
+### Depends on
+
+| Backend service | Process |
+| --- | ---- |
+| [customerbackend](../../backend/customerbackend.md) | [preprocessorder](../customer/preprocessorder.md) |
+
 ### Influences on
 
 | Backend service | Process |

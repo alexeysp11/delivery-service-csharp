@@ -29,6 +29,6 @@ Use case scenarios for statistical service could include:
 
 ## Processes
 
-- [Estimate employee performance](../processes/statisticalbackend/estimateemployeeperformance.md)
+- [Estimate employee performance](../processes/statisticalbackend/employeeperformance.md)
 - [Analyze customer feedback](../processes/statisticalbackend/analyzecustomerfeedback.md)
 - [Identify most popular delivery routes](../processes/statisticalbackend/populardevileryroutes.md)

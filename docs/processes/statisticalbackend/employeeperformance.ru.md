@@ -1,9 +1,17 @@
-# estimateemployeeperformance
+# employeeperformance
 
-[English](estimateemployeeperformance.md) | [Русский](estimateemployeeperformance.ru.md)
+[English](employeeperformance.md) | [Русский](employeeperformance.ru.md)
 
 Наименование: **Оценка эффективности сотрудников**.
 
 Сценарий оценки эффективности работы сотрудников и компании включает в себя анализ соответствующих данных и использование таких методов, как регрессионный анализ и анализ временных рядов, для оценки ключевых показателей эффективности за определенный период времени.
 
 Ответственные модули: [бэкэнд-сервис](../../backend/statisticalbackend.md).
+
+## Зависимости
+
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [managerbackend](../../backend/managerbackend.ru.md) | [trackperformance](../manager/trackperformance.ru.md) |

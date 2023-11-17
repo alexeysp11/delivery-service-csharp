@@ -12,6 +12,14 @@
 
 Ответственные модули: [бэкенд-сервис](../../backend/notificationsbackend.ru.md)
 
+## Зависимости
+
+### Зависит от
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../notificationsbackend/sendnotifications.ru.md) |
+
 ## Описание процесса
 
 ![maintenance_overall](../../img/maintenance_overall.png)
