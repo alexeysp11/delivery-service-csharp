@@ -18,7 +18,7 @@
     - телефон.
 - Некоторые поля также отображаются на странице [настройки](../customer/settings.ru.md).
 
-![information_overall](../../img/information_overall.png)
+![information_overall](../../img/processpatterns/information_overall.png)
 
 ## Структуры данных 
 

@@ -6,13 +6,13 @@
 
 Сценарий, отвечающий за управление взаимоотношениями с поставщиками со стороны менеджера компании, занимающейся доставкой, включает ведение базы данных поставщиков, согласование контрактов и цен, отслеживание поставок и качества продуктов или услуг, а также общение с поставщиками по мере необходимости.
 
-Паттерн процесса: [organizational](../../processpatterns/organizational.ru.md)
+Паттерн процесса: [requesting](../../processpatterns/requesting.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/managerclient.md), [бэкэнд-сервис](../../backend/managerbackend.md).
 
 ## Описание процесса
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 Supplier management framework:
 

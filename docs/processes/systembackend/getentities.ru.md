@@ -10,4 +10,4 @@
 
 ## Описание процесса
 
-![information_overall](../../img/information_overall.png)
+![information_overall](../../img/processpatterns/information_overall.png)

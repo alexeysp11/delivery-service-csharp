@@ -10,13 +10,13 @@
 Например, крупномасштабные запросы на изменения, включающие архитектурные решения или значительную работу, можно отнести к категории [запросы на крупные изменения](../admin/majorchangerequest.md), а более мелкие изменения, такие как модификации базы данных или незначительные обновления, можно отнести к категории [запросы на незначительные изменения](../admin/minorchangerequest.md).
 Это может помочь более эффективно расставлять приоритеты и управлять запросами на изменения.
 
-Паттерн процесса: [executing](../../processpatterns/executing.ru.md)
+Паттерн процесса: [requesting](../../processpatterns/requesting.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/adminclient.ru.md), [бэкенд-сервис](../../backend/adminbackend.ru.md)
 
 ## Описание процесса
 
-![executing_overall](../../img/executing_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Пошаговое выполнение
 

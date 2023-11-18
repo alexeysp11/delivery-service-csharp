@@ -18,7 +18,7 @@ Responsible modules: [client application](../../frontend/customerclient.md)
     - phone.
 - Some fields are also displayed on the [settings](../customer/settings.md) page.
 
-![information_overall](../../img/information_overall.png)
+![information_overall](../../img/processpatterns/information_overall.png)
 
 ## Data structures
 

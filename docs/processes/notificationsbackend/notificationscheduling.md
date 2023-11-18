@@ -6,13 +6,13 @@ Name: **Notifications scheduling**.
 
 The scenario responsible for notification scheduling in the delivery service company involves determining when to send notifications to customers based on factors such as delivery times, order status, and customer preferences. 
 
-Process pattern: [organizational](../../processpatterns/organizational.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
 ## Process description
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

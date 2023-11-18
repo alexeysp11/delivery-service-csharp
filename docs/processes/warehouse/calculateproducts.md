@@ -31,7 +31,7 @@ The overall description of the scenario for calculating product quantities in th
 
 The interactive steps within the scenario include scanning product barcodes, entering product quantities, and updating inventory records.
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Step-by-step execution
 

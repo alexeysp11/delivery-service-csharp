@@ -21,11 +21,11 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 
 ## Process description
 
-![delivering_overall](../../img/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 Despite the fact that this process belongs to the macroprocess [delivering](../../processpatterns/delivering.ru.md), the implementation of this process is similar to the processes included in the macroprocess [maintenance](../../processpatterns/maintenance.ru.md), in the context of user notification:
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Step-by-step execution
 

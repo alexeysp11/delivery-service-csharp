@@ -28,7 +28,7 @@ Live streaming also requires a more robust infrastructure to handle real-time da
 The live streaming strategy could be used to transmit static videos, but it may not be the most efficient solution as it involves continuous data transmission even when the video is not being played. 
 Preloading and caching static videos on the client side may be a more efficient solution.
 
-![transmittingfile_overall](../../img/transmittingfile_overall.png)
+![transmittingfile_overall](../../img/processpatterns/transmittingfile_overall.png)
 
 ### Step-by-step execution
 

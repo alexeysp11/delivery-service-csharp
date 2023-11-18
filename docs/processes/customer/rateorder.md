@@ -22,7 +22,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 
 ## Process description
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Step-by-step execution
 

@@ -8,7 +8,7 @@ The scenario responsible for setting inventory levels by manager in the delivery
 
 For this scenario, it is necessary to complete the approval chain (for example, *warehouse manager*, *financial analyst*, *CEO*).
 
-Process pattern: [organizational](../../processpatterns/organizational.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
@@ -24,7 +24,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ## Process description
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

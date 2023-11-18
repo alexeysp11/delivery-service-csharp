@@ -4,7 +4,7 @@
 
 `delivering` - это паттерн реализации бизнес-процессов, которые связаны с созданием заказа на доставку, а также оплатой и доставкой заказа. 
 
-![delivering_overall](../img/delivering_overall.png)
+![delivering_overall](../img/processpatterns/delivering_overall.png)
 
 Процесс управления инвентаризацией:
 

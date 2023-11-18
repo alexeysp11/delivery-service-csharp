@@ -20,7 +20,7 @@
 
 ## Описание процесса
 
-![transmittingfile_overall](../../img/transmittingfile_overall.png)
+![transmittingfile_overall](../../img/processpatterns/transmittingfile_overall.png)
 
 ### Пошаговое выполнение
 

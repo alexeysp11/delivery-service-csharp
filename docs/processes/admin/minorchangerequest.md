@@ -10,13 +10,13 @@ It can be beneficial to separate change requests based on the scale of changes r
 For example, large-scale change requests that involve architectural solutions or significant work could be categorized as [major change requests](../admin/majorchangerequest.md), while smaller changes such as database modifications or minor updates could be categorized as [minor change requests](../admin/minorchangerequest.md). 
 This can help in prioritizing and managing change requests more effectively.
 
-Process pattern: [executing](../../processpatterns/executing.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
 ## Process description
 
-![executing_overall](../../img/executing_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

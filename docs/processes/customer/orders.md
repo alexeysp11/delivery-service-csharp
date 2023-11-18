@@ -45,7 +45,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
         - place of delivery.
 -->
 
-![information_overall](../../img/information_overall.png)
+![information_overall](../../img/processpatterns/information_overall.png)
 
 ### Step-by-step execution
 

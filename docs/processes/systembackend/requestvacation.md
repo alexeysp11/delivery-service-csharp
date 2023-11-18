@@ -12,7 +12,7 @@ Responsible modules: [backend service](../../backend/systembackend.md)
 
 ## Process description
 
-![requesting_overall](../../img/requesting_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

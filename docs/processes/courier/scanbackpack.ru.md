@@ -23,11 +23,11 @@
 
 - Регистрация рюкзака с помощью сканирования QR-кода (для того, чтобы регистрировать начало/конец работы в течение дня и отслеживать местоположение курьера в real time).
 
-![delivering_overall](../../img/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 Несмотря на то, что данный процесс относится к макропроцессу [delivering](../../processpatterns/delivering.ru.md), реализация данного процесса схожа с процессами, входящими в макропроцесс [maintenance](../../processpatterns/maintenance.ru.md), в контексте уведомления пользователя:
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Пошаговое выполнение
 

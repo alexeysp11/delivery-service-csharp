@@ -6,7 +6,7 @@
 
 Сценарий, отвечающий за уведомление сотрудников менеджером в компании, занимающейся доставкой, включает отправку сообщений или оповещений сотрудникам через приложение управления или другие каналы связи для предоставления обновлений о расписаниях, задачах или другой важной информации.
 
-Паттерн процесса: [organizational](../../processpatterns/organizational.ru.md)
+Паттерн процесса: [requesting](../../processpatterns/requesting.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/managerclient.md), [бэкэнд-сервис](../../backend/managerbackend.md).
 
@@ -20,7 +20,7 @@
 
 ## Описание процесса
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Пошаговое выполнение
 

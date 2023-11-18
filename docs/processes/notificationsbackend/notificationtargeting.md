@@ -6,13 +6,13 @@ Name: **Notifications targeting**.
 
 The scenario responsible for notification targeting in the delivery service company involves identifying which customers should receive a particular notification based on factors such as their location, order history, and preferences. 
 
-Process pattern: [organizational](../../processpatterns/organizational.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
 ## Process description
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

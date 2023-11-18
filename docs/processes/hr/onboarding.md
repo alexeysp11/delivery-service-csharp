@@ -20,7 +20,7 @@ The stages of employee onboarding:
 - 3rd month: check-in and feedback;
 - 6th month: check-in and feedback.
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Step-by-step execution
 

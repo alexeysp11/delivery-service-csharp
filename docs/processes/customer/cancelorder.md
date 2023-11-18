@@ -35,11 +35,11 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 
 This process cancels the macroprocess [delivering](../../processpatterns/delivering.md):
 
-![delivering_overall](../../img/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 However, this process is implemented as part of the microprocess [requesting](../../processpatterns/requesting.md):
 
-![requesting_overall](../../img/requesting_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

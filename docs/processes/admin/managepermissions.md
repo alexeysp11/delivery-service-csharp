@@ -6,7 +6,7 @@ Name: **Manage permissions**.
 
 The scenario responsible for managing permissions by admin in the delivery service company involves setting up user accounts with appropriate levels of access to different systems and data, modifying permissions as needed, and ensuring that access is granted only to authorized users.
 
-Process pattern: [organizational](../../processpatterns/organizational.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
@@ -20,7 +20,7 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 
 ## Process description
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

@@ -11,7 +11,7 @@ This scenario includes the following processes:
 - the process of coordinating the search for an employee at the preparation stage (coordinating: hiring manager, 1st and 2nd level managers, department head, financial director, general director);
 - the processes of screening, selection, hiring and onboarding are combined into one thread for each candidate (this thread is launched for each candidate, theoretically an unlimited number of threads can be launched): this solution allows you to simultaneously conduct a series of interviews for several candidates for one position, as well as Hire multiple candidates for one position and track their progress during the probationary period.
 
-Process pattern: [organizational](../../processpatterns/organizational.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
@@ -35,7 +35,7 @@ Full cycle recruiting:
 - Selecting (close contact with hiring manager, use an interview guide to structure the process, automate the interview scheduling),
 - Hiring (perform reference checks, do background check, support manager in making a data-driven hiring decision).
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

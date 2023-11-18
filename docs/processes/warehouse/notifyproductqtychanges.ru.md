@@ -31,7 +31,7 @@
 
 Интерактивные шаги в рамках сценария включают настройку параметров уведомлений, получение оповещений и обновление записей инвентаризации по мере необходимости.
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Пошаговое выполнение
 

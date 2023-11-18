@@ -41,7 +41,7 @@ Nuances associated with the implementation of this backend service:
 
 This process provides the implementation of the [delivering](../../processpatterns/delivering.ru.md) process pattern:
 
-![delivering_overall](../../img/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Step-by-step execution
 

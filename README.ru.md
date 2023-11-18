@@ -64,10 +64,8 @@
 - Описание паттернов процессов:
     - [доставка](docs/processpatterns/delivering.ru.md),
     - [информация](docs/processpatterns/information.ru.md),
-    - [обслуживание](docs/processpatterns/maintenance.ru.md),
-    - [организационный](docs/processpatterns/organizational.ru.md),
+    - [поддержка](docs/processpatterns/maintenance.ru.md),
     - [передача файла](docs/processpatterns/transmittingfile.ru.md),
-    - [выполнение/реализация задачи](docs/processpatterns/executing.ru.md),
     - [запрос](docs/processpatterns/requesting.ru.md).
 - Виды оплаты: 
     - наличная при получении, 

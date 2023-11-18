@@ -31,7 +31,7 @@
 
 Интерактивные шаги в рамках сценария включают сканирование штрих-кодов продуктов, ввод количества продуктов и обновление записей о запасах.
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Пошаговое выполнение
 

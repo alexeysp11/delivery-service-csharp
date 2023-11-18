@@ -6,7 +6,7 @@ Name: **Manage access levels**.
 
 The scenario responsible for managing access levels by manager in the delivery service company involves controlling access to specific areas or systems based on employee roles or responsibilities, ensuring that sensitive data is protected, and monitoring access to ensure compliance with security policies.
 
-Process pattern: [organizational](../../processpatterns/organizational.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
@@ -20,7 +20,7 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 
 ## Process description
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

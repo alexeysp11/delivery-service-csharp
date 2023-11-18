@@ -6,7 +6,7 @@
 
 Сценарий, отвечающий за управление разрешениями администратора в компании, занимающейся доставкой, включает настройку учетных записей пользователей с соответствующими уровнями доступа к различным системам и данным, изменение разрешений по мере необходимости и обеспечение предоставления доступа только авторизованным пользователям.
 
-Паттерн процесса: [organizational](../../processpatterns/organizational.ru.md)
+Паттерн процесса: [requesting](../../processpatterns/requesting.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/adminclient.ru.md), [бэкенд-сервис](../../backend/adminbackend.ru.md)
 
@@ -20,7 +20,7 @@
 
 ## Описание процесса
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Пошаговое выполнение
 

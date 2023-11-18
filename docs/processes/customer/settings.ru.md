@@ -31,7 +31,7 @@
 
 Можно также перейти в [аккаунт пользователя](../systembackend/useraccount.ru.md), чтобы ознакомиться с некоторыми персональными настройками.
 
-![information_overall](../../img/information_overall.png)
+![information_overall](../../img/processpatterns/information_overall.png)
 
 ### Пошаговое выполнение
 

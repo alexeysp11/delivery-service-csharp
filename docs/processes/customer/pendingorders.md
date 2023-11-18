@@ -16,7 +16,7 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 
 This process almost completely repeats [viewing all orders](../customer/orders.md), except that orders are filtered by status to be displayed on this form: it is necessary that it be "Processing", "In the process of cooking", "In delivery".
 
-![information_overall](../../img/information_overall.png)
+![information_overall](../../img/processpatterns/information_overall.png)
 
 ### Step-by-step execution
 

@@ -9,7 +9,7 @@ The scenario responsible for getting business report by manager in the delivery 
 A business report in a delivery service company could consist of financial reports, operational reports, customer satisfaction reports, inventory reports, and employee performance reports. 
 Different types of business reports could be used depending on the specific needs of the company.
 
-Process pattern: [organizational](../../processpatterns/organizational.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md)
 
@@ -21,7 +21,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 - Inventory reports would detail the current stock levels of products. 
 - Employee performance reports would provide information on the productivity and efficiency of employees. Such business report could also be retreived within the [trackperformance](trackperformance.md) process.
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

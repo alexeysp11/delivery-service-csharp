@@ -22,7 +22,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 Overall performance of the company could be estimated by tracking metrics such as revenue growth rate, customer retention rate, and market share. Performance metrics could be used for planning strategies to scale up the company by identifying areas for improvement and setting goals for improvement.
 
-![information_overall](../../img/information_overall.png)
+![information_overall](../../img/processpatterns/information_overall.png)
 
 ### Step-by-step execution
 

@@ -65,9 +65,7 @@ Any company that offers delivery services could potentially use this application
     - [delivering](docs/processpatterns/delivering.md),
     - [information](docs/processpatterns/information.md),
     - [maintenance](docs/processpatterns/maintenance.md),
-    - [organizational](docs/processpatterns/organizational.md),
     - [transmitting file](docs/processpatterns/transmittingfile.md),
-    - [executing a task](docs/processpatterns/executing.md),
     - [requesting](docs/processpatterns/requesting.md).
 - Types of payment: 
     - cash upon receipt, 

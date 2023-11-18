@@ -6,7 +6,7 @@
 
 Сценарий, отвечающий за управление уровнями доступа менеджером в компании, занимающейся доставкой, включает в себя контроль доступа к определенным областям или системам на основе ролей или обязанностей сотрудников, обеспечение защиты конфиденциальных данных и мониторинг доступа для обеспечения соответствия политикам безопасности.
 
-Паттерн процесса: [organizational](../../processpatterns/organizational.ru.md)
+Паттерн процесса: [requesting](../../processpatterns/requesting.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/adminclient.ru.md), [бэкенд-сервис](../../backend/adminbackend.ru.md)
 
@@ -20,7 +20,7 @@
 
 ## Описание процесса
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Пошаговое выполнение
 

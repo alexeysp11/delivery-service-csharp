@@ -39,7 +39,7 @@ The process for monitoring WIFI performance and usage in the delivery service ap
 
 Measures for monitoring WIFI performance and usage may include tracking signal strength, throughput, and latency, identifying areas of congestion or interference, and monitoring user activity and bandwidth consumption.
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Step-by-step execution
 

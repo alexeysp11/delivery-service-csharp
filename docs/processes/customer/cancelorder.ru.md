@@ -35,11 +35,11 @@
 
 Данный процесс отменяет макропроцесс [delivering](../../processpatterns/delivering.ru.md):
 
-![delivering_overall](../../img/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 Однако реализуется данный процесс как часть мкропроцесса [requesting](../../processpatterns/requesting.ru.md):
 
-![requesting_overall](../../img/requesting_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Пошаговое выполнение
 

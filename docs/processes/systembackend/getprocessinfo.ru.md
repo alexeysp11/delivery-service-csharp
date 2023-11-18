@@ -12,6 +12,6 @@
 
 ## Описание процесса
 
-![requesting_overall](../../img/requesting_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Пошаговое выполнение

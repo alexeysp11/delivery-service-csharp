@@ -23,7 +23,7 @@ Responsible modules: [client application](../../frontend/kitchenclient.md), [bac
 
 ## Process description
 
-![requesting_overall](../../img/requesting_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

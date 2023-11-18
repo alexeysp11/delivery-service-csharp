@@ -6,7 +6,7 @@ Name: **Termination of employment**.
 
 The scenario responsible for termination of employment by manager in the delivery service company involves using the management app to initiate the termination process for an employee, including documenting the reason for termination and ensuring that all necessary paperwork and processes are completed.
 
-Process pattern: [organizational](../../processpatterns/organizational.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
@@ -21,7 +21,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ## Process description
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

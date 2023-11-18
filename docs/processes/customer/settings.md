@@ -31,7 +31,7 @@ Settings and personal data page:
 
 You can also go to [user account](../systembackend/useraccount.md) to see some personal settings.
 
-![information_overall](../../img/information_overall.png)
+![information_overall](../../img/processpatterns/information_overall.png)
 
 ### Step-by-step execution
 

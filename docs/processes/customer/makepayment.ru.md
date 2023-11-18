@@ -32,7 +32,7 @@
 - Ответственен за осуществление оплаты за заказ.
 - Вызывается в рамках процесса [makeorder](../customer/makeorder.ru.md) либо после [deliverorder](../courier/deliverorder.ru.md).
 
-![delivering_overall](../../img/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Пошаговое выполнение
 

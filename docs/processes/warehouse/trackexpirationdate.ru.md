@@ -27,7 +27,7 @@
 
 ## Описание процесса
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Пошаговое выполнение
 

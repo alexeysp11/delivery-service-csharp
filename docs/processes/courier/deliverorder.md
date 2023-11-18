@@ -35,7 +35,7 @@ Responsible modules: [client application](../../frontend/courierclient.md), [bac
 - Building the most optimal route for delivery.
 - Display the location of the courier on the map.
 
-![delivering_overall](../../img/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Step-by-step execution
 

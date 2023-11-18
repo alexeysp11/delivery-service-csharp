@@ -37,7 +37,7 @@ Among other things, the following are passed into this process as input paramete
 - A list of employees that should be notified about the approval result,
 - A parameter that shows in what case it is necessary to notify about the decision (in all cases, only in case of refusal, only in case of approval, in no cases).
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Step-by-step execution
 

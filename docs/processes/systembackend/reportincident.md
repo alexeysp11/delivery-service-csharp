@@ -27,7 +27,7 @@ The overall description of the scenario for incident notification in the courier
 
 The interactive steps within the scenario include selecting the type of incident, providing a description of what happened, and submitting the incident report. 
 
-![requesting_overall](../../img/requesting_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

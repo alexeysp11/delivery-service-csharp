@@ -6,13 +6,13 @@ Name: **Managing supplier relationships**.
 
 The scenario responsible for managing supplier relationships by manager in the delivery service company involves maintaining a database of suppliers, negotiating contracts and pricing, tracking deliveries and quality of products or services, and communicating with suppliers as needed.
 
-Process pattern: [organizational](../../processpatterns/organizational.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
 ## Process description
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 Supplier management framework:
 

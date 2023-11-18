@@ -39,7 +39,7 @@ The stages of the selection process:
 - Job offer and contract,
 - Onboarding.
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Step-by-step execution
 

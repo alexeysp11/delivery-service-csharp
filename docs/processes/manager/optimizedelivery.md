@@ -6,7 +6,7 @@ Name: **Optimize delivery**.
 
 The scenario responsible for optimizing delivery process by manager in the delivery service company involves analyzing data on delivery times, routes, and other factors to identify areas for improvement, implementing changes to improve efficiency and reduce costs, and monitoring performance to ensure continuous improvement.
 
-Process pattern: [organizational](../../processpatterns/organizational.md)
+Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
@@ -14,7 +14,7 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 Methods for optimizing delivery process could include using data analytics to identify patterns and trends in delivery times, optimizing driver routes using GPS technology, and implementing real-time tracking of delivery status to improve communication between drivers and customers.
 
-![organizational_overall](../../img/organizational_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution
 

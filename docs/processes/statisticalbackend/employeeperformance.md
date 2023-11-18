@@ -33,7 +33,7 @@ Metrics that could be used by managers in the delivery service company to measur
 - Managers: employee retention rate, team productivity, customer satisfaction ratings
 - Admins: system uptime, response time to support requests, data accuracy rate
 
-![information_overall](../../img/information_overall.png)
+![information_overall](../../img/processpatterns/information_overall.png)
 
 ### Step-by-step execution
 

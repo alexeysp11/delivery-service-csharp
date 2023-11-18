@@ -18,7 +18,7 @@ In a microservice architecture, each microservice may have its own cache that st
 When data in those external services or databases changes, the microservice needs to clear its cache to ensure that it has the most up-to-date data. 
 This can be triggered by events or messages sent from the external services or databases.
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Step-by-step execution
 

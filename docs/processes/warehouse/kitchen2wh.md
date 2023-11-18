@@ -20,7 +20,7 @@ Responsible modules: [client application](../../frontend/warehouseclient.md), [b
 
 ## Process description
 
-![delivering_overall](../../img/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Step-by-step execution
 

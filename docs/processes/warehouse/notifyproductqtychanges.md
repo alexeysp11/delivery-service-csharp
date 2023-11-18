@@ -31,7 +31,7 @@ The overall description of the scenario for notifying about changes in product q
 
 The interactive steps within the scenario include setting up notification preferences, receiving alerts, and updating inventory records as needed.
 
-![maintenance_overall](../../img/maintenance_overall.png)
+![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Step-by-step execution
 

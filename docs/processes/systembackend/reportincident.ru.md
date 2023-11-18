@@ -27,7 +27,7 @@
 
 Интерактивные шаги в сценарии включают выбор типа инцидента, описание того, что произошло, и отправку отчета об инциденте.
 
-![requesting_overall](../../img/requesting_overall.png)
+![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Пошаговое выполнение
 
