@@ -13,6 +13,6 @@ This is a pattern for implementing business processes that are associated with f
 
 ![requesting_overall](../img/processpatterns/requesting_overall.png)
 
-Equipment life cycle:
+This diagram shows the life cycle of equipment operated by company employees:
 
 ![equipmentlifecycle](../img/equipmentlifecycle.png)

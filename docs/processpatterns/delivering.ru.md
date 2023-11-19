@@ -8,6 +8,6 @@
 
 ![delivering_overall](../img/processpatterns/delivering_overall.png)
 
-Жизненный цикл продукта:
+Данная диаграмма демонстрирует жизненный цикл продукта или заказа на доставку еды:
 
 ![productlifecycle](../img/productlifecycle.png)

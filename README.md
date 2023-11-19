@@ -41,7 +41,7 @@ Any company that offers delivery services could potentially use this application
     - [developer](docs/frontend/developerclient.md), 
     - [QA engineer](docs/frontend/qaengineerclient.md), 
     - [tech support](docs/frontend/techsupportclient.md).
-- Types of client applications by deployment type: web, desktop, mobile (Android), telegram bot.
+- Types of client applications by deployment type: web, desktop, mobile (Xamarin, Android), telegram bot.
 - Description of backend services: 
     - [authentication API](docs/backend/authbackend.md), 
     - [customer backend](docs/backend/customerbackend.md), 
@@ -61,7 +61,7 @@ Any company that offers delivery services could potentially use this application
     - [statistical backend](docs/backend/statisticalbackend.md), 
     - [predictive backend](docs/backend/predictivebackend.md), 
     - [notifications](docs/backend/notificationsbackend.md).
-- Description of process patterns: 
+- Description of process patterns (you can read more about process patterns at [this link](docs/processpatterns/README.md)): 
     - [delivering](docs/processpatterns/delivering.md),
     - [information](docs/processpatterns/information.md),
     - [maintenance](docs/processpatterns/maintenance.md),
@@ -100,9 +100,19 @@ Any company that offers delivery services could potentially use this application
 
 ### General system model
 
+This diagram displays a list of client applications, backend services and databases, as well as the general principle of interaction between them.
+
+The diagram notes that the admin backend service is infrastructural and has access to all backend services and databases within the platform, so all the functionality that is necessary for all IT specialists basically goes through the admin backend service.
+
+The principle of naming modules is also indicated.
+
 ![system_overall](docs/img/system_overall.png)
 
 ### Simplified diagram of the layers 
+
+This diagram demonstrates in more detail the principle on which the dynamism of the platform is based in the context of choosing the type of client application (MVC, Blazor, WPF etc) and the data transfer protocol between backend services (WebAPI, gRPC).
+
+It is also indicated how asynchronous communication between services is carried out by dividing the functionality of controllers into `RequestController` and `ResponseController` in order to implement API methods.
 
 ![layers_simplified](docs/img/layers_simplified.png)
 

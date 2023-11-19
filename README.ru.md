@@ -41,7 +41,7 @@
     - [разработчик](docs/frontend/developerclient.ru.md),
     - [QA-инженер](docs/frontend/qaengineerclient.ru.md),
     - [техническая поддержка](docs/frontend/techsupportclient.ru.md).
-- Виды клиентских приложений по типу развертывания: вэб, десктоп, мобильное (Android), бот в телеграм.
+- Виды клиентских приложений по типу развертывания: вэб, десктоп, мобильное (Xamarin, Android), бот в телеграм.
 - Описание бэкенд сервисов: 
     - [authentication API](docs/backend/authbackend.ru.md), 
     - [customer backend](docs/backend/customerbackend.ru.md), 
@@ -61,7 +61,7 @@
     - [statistical backend](docs/backend/statisticalbackend.ru.md), 
     - [predictive backend](docs/backend/predictivebackend.ru.md), 
     - [notifications](docs/backend/notificationsbackend.ru.md).
-- Описание паттернов процессов:
+- Описание паттернов процессов (подробнее про паттерны процессов можно прочитать по [данной ссылке](docs/processpatterns/README.ru.md)):
     - [доставка](docs/processpatterns/delivering.ru.md),
     - [информация](docs/processpatterns/information.ru.md),
     - [поддержка](docs/processpatterns/maintenance.ru.md),
@@ -100,9 +100,19 @@
 
 ### Общая модель системы 
 
+Данная диаграмма отображает список клиентских приложений, бэкэнд-сервисов и БД, а также общий принцип взаимодействия между ними.
+
+На диаграмме отмечено, что админский бэкэнд-сервис является инфраструктурным и имеет доступ ко всем бэкэнд-сервисам и базам данных в рамках прлатформы, поэтому весь функционал, который необходим для всех ИТ-специалистов, в основном проходит через админский бэкэнд-сервис.
+
+Также указан принцип наименования модулей. 
+
 ![system_overall](docs/img/system_overall.png)
 
 ### Упрощенная диаграмма уровней (слоев) приложения 
+
+Данная диаграмма более подробно демонстрирует принцип, на котором основана динамичность платформы в контексте выбора типа клиентского приложения (MVC, Blazor, WPF etc) и протокола передачи данных между бэкэнд-сервисами (WebAPI, gRPC). 
+
+Также указано, как производится асинхронная коммуникация между сервисами путём разделения функционала контроллеров на `RequestController` и `ResponseController` для того, чтобы реализовать API-методы.
 
 ![layers_simplified](docs/img/layers_simplified.png)
 

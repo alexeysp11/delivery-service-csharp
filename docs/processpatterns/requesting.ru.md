@@ -13,6 +13,6 @@
 
 ![requesting_overall](../img/processpatterns/requesting_overall.png)
 
-Жизненный цикл оборудования:
+Данная диаграмма отображает жизненный цикл оборудования, которое эксплуатируется работниками компании:
 
 ![equipmentlifecycle](../img/equipmentlifecycle.png)

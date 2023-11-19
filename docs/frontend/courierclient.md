@@ -14,7 +14,6 @@ The client-side app used by couriers in the delivery service company allows them
 
 ## Description of the application
 
-
 ## Processes 
 
 - [Sign in](../processes/auth/signin.md)

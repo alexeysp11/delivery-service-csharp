@@ -8,6 +8,6 @@ Name: **Delivering**.
 
 ![delivering_overall](../img/processpatterns/delivering_overall.png)
 
-Product life cycle:
+This diagram shows the life cycle of a product or food delivery order:
 
 ![productlifecycle](../img/productlifecycle.png)
