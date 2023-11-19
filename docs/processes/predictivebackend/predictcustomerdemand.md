@@ -16,6 +16,9 @@ Responsible modules: [backend service](../../backend/predictivebackend.md)
 
 ### Step-by-step execution
 
-- Analyze historical sales data within the delivery service app
+- Run an SQL query to obtain historical sales data (data in the database appears through replication/migration from the backend service [customerbackend](../../backend/customerbackend.ru.md)).
+- The following data sampling criteria may be applied:
+    - by dates/months/years (to identify seasonal dependencies and forecasting);
+    - by the time when the order is made (to identify the dependence of the time of day on the quantity of ordered products).
 - Use time series forecasting and regression analysis methods to anticipate future demand for specific products or services
 - Optimize inventory management based on predicted demand

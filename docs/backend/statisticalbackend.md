@@ -27,6 +27,13 @@ Use case scenarios for statistical service could include:
 - Analyzing customer feedback to identify patterns and trends in their satisfaction levels using methods such as sentiment analysis and clustering.
 - Identifying the most popular delivery routes and times to optimize delivery schedules using methods such as network analysis and data visualization.
 
+Getting reports:
+- Financial reports in the business report would include information about revenue, expenses, profitability, and cash flow. 
+- Operational reports would provide data on the performance of the delivery service, such as delivery times and order accuracy. 
+- Customer satisfaction reports would provide feedback from customers about their experience with the delivery service. 
+- Inventory reports would detail the current stock levels of products. 
+- Employee performance reports would provide information on the productivity and efficiency of employees. Such business report could also be retreived within the [trackperformance](../processes/manager/trackperformance.md) process.
+
 ## Processes
 
 - [Estimate employee performance](../processes/statisticalbackend/employeeperformance.md)

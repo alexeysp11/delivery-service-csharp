@@ -15,12 +15,6 @@ Responsible modules: [client application](../../frontend/managerclient.md), [bac
 
 ## Process description
 
-- Financial reports in the business report would include information about revenue, expenses, profitability, and cash flow. 
-- Operational reports would provide data on the performance of the delivery service, such as delivery times and order accuracy. 
-- Customer satisfaction reports would provide feedback from customers about their experience with the delivery service. 
-- Inventory reports would detail the current stock levels of products. 
-- Employee performance reports would provide information on the productivity and efficiency of employees. Such business report could also be retreived within the [trackperformance](trackperformance.md) process.
-
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
 ### Step-by-step execution

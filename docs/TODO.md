@@ -22,6 +22,7 @@
 - &cross; Building the most optimal delivery route and displaying the courier's location on the map could be implemented in this application.
 - &cross; You can add a link to the client application in the documentation for processes.
 - &cross; Describe what processes and process patterns are, how they are divided into backend services; how it is determined which backend service a particular process will belong to.
+- &cross; Write "Getting started" guide for the project.
 
 ## Roadmap for the project 
 

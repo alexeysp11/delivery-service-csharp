@@ -10,6 +10,16 @@ Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
+## Dependencies
+
+### Influences on
+
+| Backend service | Process |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.md) | [sendnotifications](../notificationsbackend/sendnotifications.md) |
+| [managerbackend](../../backend/managerbackend.md) | [trackperformance](../manager/trackperformance.md) |
+| [statisticalbackend](../../backend/statisticalbackend.md) | [populardevileryroutes](../statisticalbackend/populardevileryroutes.md) |
+
 ## Process description
 
 Methods for optimizing delivery process could include using data analytics to identify patterns and trends in delivery times, optimizing driver routes using GPS technology, and implementing real-time tracking of delivery status to improve communication between drivers and customers.

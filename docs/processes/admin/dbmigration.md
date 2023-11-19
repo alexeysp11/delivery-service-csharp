@@ -12,6 +12,18 @@ Responsible modules: [client application](../../frontend/adminclient.md), [backe
 
 ## Process description
 
+Data migration stages:
+- Planning: closely acces the data sources and choose the ideal approach for your migration process (migration could be automated or manual).
+- Data evaluation: check the quality of data and the tools.
+- Source-destination mapping.
+- Data backup: backup your data before migration to avoid data loss.
+- Execution:
+    - Extract data from source.
+    - Intermediate staging data.
+    - Load into destination table.
+- Testing: perform regular testing to maintain data quality.
+- Post-migration auditing: conduct a detailed auditing of the data to ensure data integrity.
+
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Step-by-step execution

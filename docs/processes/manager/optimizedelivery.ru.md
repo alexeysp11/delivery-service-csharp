@@ -10,6 +10,16 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/managerclient.md), [бэкэнд-сервис](../../backend/managerbackend.md).
 
+## Зависимости
+
+### Влияет на
+
+| Бэкэнд-сервис | Процесс |
+| --- | ---- |
+| [notificationsbackend](../../backend/notificationsbackend.ru.md) | [sendnotifications](../notificationsbackend/sendnotifications.ru.md) |
+| [managerbackend](../../backend/managerbackend.ru.md) | [trackperformance](../manager/trackperformance.ru.md) |
+| [statisticalbackend](../../backend/statisticalbackend.ru.md) | [populardevileryroutes](../statisticalbackend/populardevileryroutes.ru.md) |
+
 ## Описание процесса
 
 Методы оптимизации процесса доставки могут включать использование анализа данных для выявления закономерностей и тенденций во времени доставки, оптимизацию маршрутов водителей с использованием технологии GPS и реализацию отслеживания статуса доставки в реальном времени для улучшения связи между водителями и клиентами.
