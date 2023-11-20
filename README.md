@@ -37,7 +37,9 @@ Any company that offers delivery services could potentially use this application
     - [HR](docs/frontend/hrclient.md), 
     - [financial managers](docs/frontend/financialclient.md), 
     - [marketing](docs/frontend/marketingclient.md), 
+    - [lawyer](docs/frontend/lawyerclient.md), 
     - [admins](docs/frontend/adminclient.md), 
+    - [DBA](docs/frontend/dbaclient.ru.md), 
     - [developer](docs/frontend/developerclient.md), 
     - [QA engineer](docs/frontend/qaengineerclient.md), 
     - [tech support](docs/frontend/techsupportclient.md).
@@ -52,7 +54,9 @@ Any company that offers delivery services could potentially use this application
     - [HR backend](docs/backend/hrbackend.md), 
     - [financial backend](docs/backend/financialbackend.md), 
     - [marketing backend](docs/backend/marketingbackend.md), 
+    - [lawyer backend](docs/backend/lawyerbackend.md), 
     - [admin backend](docs/backend/adminbackend.md), 
+    - [DBA backend](docs/backend/dbabackend.md), 
     - [developer backend](docs/backend/developerbackend.md), 
     - [QA engineer backend](docs/backend/qaengineerbackend.md), 
     - [tech support backend](docs/backend/techsupportbackend.md), 
@@ -128,6 +132,7 @@ git clone https://github.com/alexeysp11/delivery-service-csharp.git
 
 ## Docs
 
+- [Versions of the project](docs/versions.md)
 - [TODO](docs/TODO.md)
 - [Contributing to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
 - [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)

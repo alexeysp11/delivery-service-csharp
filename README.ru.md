@@ -34,10 +34,12 @@
     - [склада](docs/frontend/warehouseclient.ru.md), 
     - [курьеров](docs/frontend/courierclient.ru.md), 
     - [менеджеров](docs/frontend/managerclient.ru.md), 
-    - [админов](docs/frontend/adminclient.ru.md), 
     - [HR](docs/frontend/hrclient.ru.md), 
     - [финансовых менеджеров](docs/frontend/financialclient.ru.md), 
     - [маркетинг](docs/frontend/marketingclient.ru.md), 
+    - [юрист](docs/frontend/lawyerclient.ru.md), 
+    - [админов](docs/frontend/adminclient.ru.md), 
+    - [DBA](docs/frontend/dbaclient.ru.md), 
     - [разработчик](docs/frontend/developerclient.ru.md),
     - [QA-инженер](docs/frontend/qaengineerclient.ru.md),
     - [техническая поддержка](docs/frontend/techsupportclient.ru.md).
@@ -52,7 +54,9 @@
     - [HR backend](docs/backend/hrbackend.ru.md), 
     - [financial backend](docs/backend/financialbackend.ru.md), 
     - [marketing backend](docs/backend/marketingbackend.ru.md), 
+    - [lawyer backend](docs/backend/lawyerbackend.ru.md), 
     - [admin backend](docs/backend/adminbackend.ru.md), 
+    - [DBA backend](docs/backend/dbabackend.ru.md), 
     - [developer backend](docs/backend/developerbackend.ru.md),
     - [QA engineer backend](docs/backend/qaengineerbackend.ru.md),
     - [tech support backend](docs/backend/techsupportbackend.ru.md),
@@ -128,6 +132,7 @@ git clone https://github.com/alexeysp11/delivery-service-csharp.git
 
 ## Docs
 
+- [Versions of the project](docs/versions.ru.md)
 - [TODO](docs/TODO.md)
 - [Contributing to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
 - [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)

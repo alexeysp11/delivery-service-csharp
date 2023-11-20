@@ -23,6 +23,7 @@
 - &cross; You can add a link to the client application in the documentation for processes.
 - &cross; Describe what processes and process patterns are, how they are divided into backend services; how it is determined which backend service a particular process will belong to.
 - &cross; Write "Getting started" guide for the project.
+- &cross; In the DBA backend, `pg_stat_statements` could be used for getting daily report on queries. Also `log_min_duration` could be used when it comes to logging those statements whose execution time is too big.
 
 ## Roadmap for the project 
 
