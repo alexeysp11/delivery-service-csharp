@@ -14,6 +14,9 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 ## Process description
 
+Before starting this process, you must notify the user that they need to complete the survey.
+You can notify the user using the [sendnotifications](../notificationsbackend/sendnotifications.md) process.
+
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
 ### Step-by-step execution
@@ -25,3 +28,5 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 - Collect and compile feedback data
 - Analyze feedback data to identify areas for improvement
 - Implement necessary changes based on the feedback received
+
+![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
