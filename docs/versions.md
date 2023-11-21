@@ -13,11 +13,39 @@ Versions:
 
 ## v2.0
 
+## v1.7
+
+A version of the platform that contains functionality to ensure the security of the application (for example, encryption, authentication).
+
+## v1.6
+
+A version of the platform that contains functionality for more advanced interaction with the database (for example, monitoring systems and automation of tasks that are aimed at maintaining the correct operation of the database).
+
+## v1.5
+
+A version of the platform that contains functionality for more advanced network interaction (for example, IP telephony, VPN, proxy, load balancing, data streaming).
+
+## v1.4
+
+A version of the platform that contains functionality for the work of financial managers, marketing departments, and lawyers.
+
+## v1.3
+
+A version of the platform that contains functionality for statistical data processing, as well as receiving business reports and performance assessment.
+This version mainly focuses on processes for managers in order to collect and update data on the performance of employees and the company as a whole.
+
+## v1.2
+
+A version of the platform that contains basic functionality for the work of IT specialists (administrators, DBAs, developers, QA engineers, technical support).
+
 ## v1.1
+
+A version of the platform that contains common basic functionality for the work of any employee of the company.
+This version mainly deals with processes for HR managers.
 
 Processes:
 - [requestvacation](processes/systembackend/requestvacation.md)
 
 ## v1.0
 
-Initial version of the platform.
+The initial version of the platform, which contains basic functionality for placing and delivering an order.
