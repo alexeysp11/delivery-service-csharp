@@ -10,6 +10,8 @@ Process pattern: [transmittingfile](../../processpatterns/transmittingfile.md)
 
 Responsible modules: [backend service](../../backend/fileservice.md)
 
+Platform version: v0.1
+
 ## Dependencies
 
 ### Depends on

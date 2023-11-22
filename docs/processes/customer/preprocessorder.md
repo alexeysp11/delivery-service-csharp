@@ -11,6 +11,8 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [backend service](../../backend/customerbackend.md)
 
+Platform version: v0.1
+
 ## Dependencies
 
 ### Depends on

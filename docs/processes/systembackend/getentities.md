@@ -8,6 +8,8 @@ The scenario responsible for getting entities such as products, employees, custo
 
 Process pattern: [information](../../processpatterns/information.md)
 
+Platform version: v0.1
+
 ## Process description
 
 ![information_overall](../../img/processpatterns/information_overall.png)

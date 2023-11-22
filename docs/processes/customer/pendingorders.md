@@ -12,6 +12,8 @@ Process pattern: [information](../../processpatterns/information.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
+Platform version: v0.1
+
 ## Process description
 
 This process almost completely repeats [viewing all orders](../customer/orders.md), except that orders are filtered by status to be displayed on this form: it is necessary that it be "Processing", "In the process of cooking", "In delivery".

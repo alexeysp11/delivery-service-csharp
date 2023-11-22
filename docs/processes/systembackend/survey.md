@@ -12,6 +12,8 @@ The goal is to continuously improve service quality, customer experience, and op
 
 Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
+Platform version: v0.1
+
 ## Process description
 
 Before starting this process, you must notify the user that they need to complete the survey.

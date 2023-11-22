@@ -10,6 +10,8 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md)
 
+Platform version: v0.1
+
 ## Dependencies
 
 ### Depends on

@@ -12,6 +12,8 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [backend service](../../backend/notificationsbackend.md)
 
+Platform version: v0.1
+
 ## Dependencies
 
 ### Depends on

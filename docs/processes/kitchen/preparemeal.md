@@ -11,6 +11,8 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/kitchenclient.md), [backend service](../../backend/kitchenbackend.md)
 
+Platform version: v0.1
+
 ## Dependencies
 
 ### Depends on

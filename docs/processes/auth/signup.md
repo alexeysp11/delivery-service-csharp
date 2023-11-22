@@ -8,6 +8,8 @@ The sign up scenario in the customer client side app involves a user creating a 
 
 Responsible modules: [backend service](../../backend/authbackend.md).
 
+Platform version: v0.1
+
 ## Process description
 
 [workflow-auth](https://github.com/alexeysp11/workflow-auth) is used as an external **authentication service**.

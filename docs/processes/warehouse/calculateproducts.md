@@ -11,6 +11,8 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 
+Platform version: v0.1
+
 ## Dependencies
 
 ### Depends on

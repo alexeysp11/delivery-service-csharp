@@ -8,6 +8,8 @@ Process pattern: [information](../../processpatterns/information.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md)
 
+Platform version: v0.1
+
 ## Process description
 
 - The controller processes the request and stores the user data necessary for display on the UI.

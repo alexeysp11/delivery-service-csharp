@@ -10,6 +10,8 @@ Process pattern: [delivering](../../processpatterns/delivering.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 
+Platform version: v0.1
+
 ## Dependencies
 
 ### Influences on

@@ -10,6 +10,8 @@
 
 Ответственные модули: [бэкенд-сервис](../../backend/systembackend.ru.md)
 
+Версия платформы: v0.1
+
 ## Описание процесса
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)

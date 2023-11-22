@@ -35,6 +35,8 @@ Responsible modules: [client application](../../frontend/customerclient.md), [ba
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
 
+Platform version: v0.1
+
 ## Data structures
 
 | Object | DTO | Database table |

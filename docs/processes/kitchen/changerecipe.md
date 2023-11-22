@@ -18,6 +18,8 @@ Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/kitchenclient.md), [backend service](../../backend/kitchenbackend.md)
 
+Platform version: v0.1
+
 ## Dependencies
 
 ### Influences on

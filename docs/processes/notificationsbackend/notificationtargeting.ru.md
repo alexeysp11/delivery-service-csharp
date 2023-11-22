@@ -10,6 +10,8 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/managerclient.md), [бэкэнд-сервис](../../backend/managerbackend.md).
 
+Версия платформы: v0.1
+
 ## Описание процесса
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)

@@ -8,6 +8,8 @@
 
 Паттерн процесса: [information](../../processpatterns/information.md)
 
+Версия платформы: v0.1
+
 ## Описание процесса
 
 ![information_overall](../../img/processpatterns/information_overall.png)

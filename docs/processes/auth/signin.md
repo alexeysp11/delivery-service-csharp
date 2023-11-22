@@ -8,6 +8,8 @@ The sign in scenario in the customer client side app involves a user entering th
 
 Responsible modules: [backend service](../../backend/authbackend.md).
 
+Platform version: v0.1
+
 ## Dependencies
 
 ### Influences on

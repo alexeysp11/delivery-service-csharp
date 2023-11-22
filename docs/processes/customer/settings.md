@@ -11,6 +11,8 @@ Process pattern: [information](../../processpatterns/information.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
+Platform version: v0.1
+
 ## Process description
 
 Settings and personal data page:

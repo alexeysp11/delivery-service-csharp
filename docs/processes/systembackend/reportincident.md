@@ -11,6 +11,8 @@ Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [backend service](../../backend/systembackend.md)
 
+Platform version: v0.1
+
 ## Dependencies
 
 ### Influences on
