@@ -12,6 +12,8 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/adminclient.ru.md), [бэкенд-сервис](../../backend/adminbackend.ru.md)
 
+Версия платформы: v0.3
+
 ## Описание процесса
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)

@@ -14,6 +14,8 @@ Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
+Platform version: v0.3
+
 ## Process description
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)

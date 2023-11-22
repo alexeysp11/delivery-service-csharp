@@ -10,6 +10,8 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/techsupportclient.md), [backend service](../../backend/techsupportbackend.md)
 
+Platform version: v0.3
+
 ## Process description
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)

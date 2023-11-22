@@ -15,6 +15,8 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
+Platform version: v0.3
+
 ## Process description
 
 The process responsible for network performance monitoring and optimization in the delivery service app involves continuously monitoring network traffic, bandwidth usage, latency, and other performance metrics to identify bottlenecks or issues that could impact user experience. This process also involves optimizing network configurations and resources to improve overall performance.
