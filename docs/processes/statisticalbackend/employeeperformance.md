@@ -10,6 +10,8 @@ Process pattern: [information](../../processpatterns/information.md)
 
 Responsible modules: [backend service](../../backend/statisticalbackend.md)
 
+Platform version: v0.4
+
 ## Dependencies
 
 ### Depends on

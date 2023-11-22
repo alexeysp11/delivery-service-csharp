@@ -10,6 +10,8 @@ Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [client application](../../frontend/managerclient.md), [backend service](../../backend/managerbackend.md).
 
+Platform version: v0.4
+
 ## Dependencies
 
 ### Influences on

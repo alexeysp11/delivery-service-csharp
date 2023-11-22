@@ -10,6 +10,8 @@
 
 Ответственные модули: [бэкэнд-сервис](../../backend/predictivebackend.md).
 
+Версия платформы: v0.4
+
 ## Описание процесса
 
 ![information_overall](../../img/processpatterns/information_overall.png)
