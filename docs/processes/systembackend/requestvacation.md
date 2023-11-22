@@ -10,6 +10,8 @@ Process pattern: [requesting](../../processpatterns/requesting.md)
 
 Responsible modules: [backend service](../../backend/systembackend.md)
 
+Platform version: v0.2
+
 ## Process description
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)

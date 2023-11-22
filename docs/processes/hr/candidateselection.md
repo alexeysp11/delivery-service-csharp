@@ -10,6 +10,8 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/hrclient.md), [backend service](../../backend/hrbackend.md)
 
+Platform version: v0.2
+
 ## Dependencies
 
 ### Depends on

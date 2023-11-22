@@ -11,6 +11,8 @@ Process pattern: [information](../../processpatterns/information.md)
 
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 
+Platform version: v0.1
+
 ## Process description
 
 ![information_overall](../../img/processpatterns/information_overall.png)

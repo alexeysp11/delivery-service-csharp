@@ -11,6 +11,8 @@ Process pattern: [information](../../processpatterns/information.md)
 
 Responsible modules: [backend service](../../backend/systembackend.md)
 
+Platform version: v0.2
+
 ## Process description
 
 ![information_overall](../../img/processpatterns/information_overall.png)

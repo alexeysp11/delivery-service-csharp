@@ -11,6 +11,8 @@
 
 Ответственные модули: [клиентское приложение](../../frontend/warehouseclient.md), [бэкенд-сервис](../../backend/warehousebackend.md)
 
+Версия платформы: v0.1
+
 ## Описание процесса
 
 ![information_overall](../../img/processpatterns/information_overall.png)
