@@ -11,6 +11,8 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
+Platform version: v0.6
+
 ## Process description
 
 To enhance your knowledge in VoIP and IP telephony, you can start by learning about the basics of VoIP technology, understanding how it differs from traditional telephony, and familiarizing yourself with the protocols and standards used in IP telephony such as SIP (Session Initiation Protocol) and RTP (Real-time Transport Protocol).

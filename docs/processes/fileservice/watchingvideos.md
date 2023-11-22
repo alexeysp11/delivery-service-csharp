@@ -10,6 +10,8 @@ Process pattern: [transmittingfile](../../processpatterns/transmittingfile.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
+Platform version: v0.6
+
 ## Process description
 
 The overall strategy of delivering video from file service to the web browser involves the client side app sending a request to the backend service, which redirects the request to the file service where the video is stored. 

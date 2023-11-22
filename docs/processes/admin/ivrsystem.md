@@ -9,6 +9,8 @@ This may include designing call flows, recording voice prompts, integrating with
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
+Platform version: v0.6
+
 ## Process description
 
 ### Step-by-step execution

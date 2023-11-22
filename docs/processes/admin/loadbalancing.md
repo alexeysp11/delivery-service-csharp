@@ -8,6 +8,8 @@ The process responsible for deploying load balancing in the delivery service app
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
+Platform version: v0.6
+
 ## Process description
 
 Load balancing can be implemented by providing clients with the address of the load balancer itself, which then redirects requests to backend services. This method allows for centralized control and flexibility in managing backend resources. However, it may introduce a single point of failure if the load balancer goes down.

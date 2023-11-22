@@ -11,6 +11,8 @@ Process pattern: [maintenance](../../processpatterns/maintenance.md)
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
+Platform version: v0.6
+
 ## Process description
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)

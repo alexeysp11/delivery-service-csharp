@@ -8,6 +8,8 @@ The process responsible for implementing quality of service (QoS) in the deliver
 
 Responsible modules: [client application](../../frontend/adminclient.md), [backend service](../../backend/adminbackend.md)
 
+Platform version: v0.6
+
 ## Process description
 
 ### Step-by-step execution
