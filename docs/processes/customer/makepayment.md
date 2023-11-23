@@ -26,7 +26,7 @@ Platform version: v0.1
 
 | Backend service | Process |
 | --- | ---- |
-| [fileservice](../../backend/fileservice.md) | [generateqr](../customer/generateqr.md) |
+| [fileservice](../../backend/fileservice.md) | [generateqr](../fileservice/generateqr.md) |
 
 ## Process description
 

@@ -26,7 +26,7 @@
 
 | Бэкэнд-сервис | Процесс |
 | --- | ---- |
-| [fileservice](../../backend/fileservice.ru.md) | [generateqr](../customer/generateqr.ru.md) |
+| [fileservice](../../backend/fileservice.ru.md) | [generateqr](../fileservice/generateqr.ru.md) |
 
 ## Описание процесса
 
