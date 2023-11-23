@@ -42,6 +42,10 @@ Platform version: v0.1
 
 ![customer.makeorder](../../img/activitydiagrams/customer.makeorder.png)
 
+### Sequence diagrams
+
+![customer.makeorder](../../img/sequencediagram/customer.makeorder.png)
+
 ## Data structures
 
 | Object | DTO | Database table |

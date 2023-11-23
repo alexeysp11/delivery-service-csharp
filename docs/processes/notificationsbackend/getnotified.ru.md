@@ -49,3 +49,7 @@
 Пошаговое выполнение процесса идентично процессу [rateorder](../customer/rateorder.ru.md) (за исключением того, что потребитель не оценивает заказ, а просто читает уведомление):
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
+
+### Диаграммы последовательности
+
+![notificationsbackend.getnotified](../../img/sequencediagram/notificationsbackend.getnotified.png)

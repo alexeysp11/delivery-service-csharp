@@ -42,6 +42,10 @@
 
 ![customer.makeorder](../../img/activitydiagrams/customer.makeorder.png)
 
+### Диаграммы последовательности
+
+![customer.makeorder](../../img/sequencediagram/customer.makeorder.png)
+
 ## Структуры данных
 
 | Объект | DTO | Таблица в БД |
