@@ -61,6 +61,10 @@ This process provides the implementation of the [delivering](../../processpatter
 
 ![courier.store2wh](../../img/activitydiagrams/courier.store2wh.png)
 
+### Sequence diagrams
+
+![courier.store2wh](../../img/sequencediagram/courier.store2wh.png)
+
 ## Data structures
 
 | Object | DTO | Database table |

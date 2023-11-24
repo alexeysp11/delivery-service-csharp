@@ -37,3 +37,7 @@
 - Система проверяет QR-код и отображает детали заказа на доставку курьеру.
 
 ![courier.scanqronorder](../../img/activitydiagrams/courier.scanqronorder.png)
+
+### Диаграммы последовательности
+
+![courier.scanqronorder](../../img/sequencediagram/courier.scanqronorder.png)

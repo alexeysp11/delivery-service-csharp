@@ -32,3 +32,7 @@
 - Система обновляет статус заказа на доставку и уведомляет клиента о любых изменениях.
 
 ![courier.updatedeliverystatus](../../img/activitydiagrams/courier.updatedeliverystatus.png)
+
+### Диаграммы последовательности
+
+![courier.updatedeliverystatus](../../img/sequencediagram/courier.updatedeliverystatus.png)

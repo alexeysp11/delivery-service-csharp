@@ -52,6 +52,10 @@ Platform version: v0.1
 
 ![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)
 
+### Sequence diagrams
+
+![courier.deliverorder](../../img/sequencediagram/courier.deliverorder.png)
+
 ## Data structures
 
 | Object | DTO | Database table |

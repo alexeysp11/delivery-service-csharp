@@ -60,3 +60,7 @@
 - Курьер отмечает в системе заказ на доставку как выполненный, в качестве подтверждения прикладывается фото чека.
 
 ![courier.store2wh](../../img/activitydiagrams/courier.store2wh.png)
+
+### Диаграммы последовательности
+
+![courier.store2wh](../../img/sequencediagram/courier.store2wh.png)

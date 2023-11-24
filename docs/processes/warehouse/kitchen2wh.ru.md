@@ -37,3 +37,7 @@
 - Сотрудник склада отмечает, что процесс выполнен.
 
 ![warehouse.kitchen2wh](../../img/activitydiagrams/warehouse.kitchen2wh.png)
+
+### Диаграммы последовательности
+
+![warehouse.kitchen2wh](../../img/sequencediagram/warehouse.kitchen2wh.png)

@@ -49,6 +49,10 @@ Platform version: v0.1
 
 ![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
 
+### Sequence diagrams
+
+![customer.makepayment](../../img/sequencediagram/customer.makepayment.png)
+
 ## Data structures
 
 ### Objects 

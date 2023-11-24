@@ -38,3 +38,7 @@
 - Водители-экспедиторы забирают еду и доставляют ее покупателю.
 
 ![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)
+
+### Диаграммы последовательности
+
+![kitchen.preparemeal](../../img/sequencediagram/kitchen.preparemeal.png)

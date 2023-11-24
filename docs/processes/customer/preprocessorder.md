@@ -50,6 +50,17 @@ Platform version: v0.1
 
 ![customer.preprocessorder](../../img/activitydiagrams/customer.preprocessorder.png)
 
+### Sequence diagrams
+
+In fact, the execution of this process in terms of HTTP requests is limited to obtaining data on the estimated delivery time of the order.
+
+According to the step-by-step execution, this request must store information about the sequence of called processes (this is done for ease of design and understanding of the system).
+However, this process actually updates within HTTP requests executed within child processes.
+
+For example, after preparing an order and sending it to the warehouse, according to the step-by-step execution diagram, the [sendnotifications](../notificationsbackend/sendnotifications.md) process is called (see also the [getnotified](../notificationsbackend/getnotified.md) process sequence diagram).
+
+![customer.preprocessorder](../../img/sequencediagram/customer.preprocessorder.png)
+
 ## Data structures
 
 | Object | DTO | Database table |

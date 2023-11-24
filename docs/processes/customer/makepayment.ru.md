@@ -49,6 +49,10 @@
 
 ![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
 
+### Диаграммы последовательности
+
+![customer.makepayment](../../img/sequencediagram/customer.makepayment.png)
+
 ## Структуры данных
 
 ### Объекты 

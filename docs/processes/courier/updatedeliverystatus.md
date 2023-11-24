@@ -33,6 +33,10 @@ Platform version: v0.1
 
 ![courier.updatedeliverystatus](../../img/activitydiagrams/courier.updatedeliverystatus.png)
 
+### Sequence diagrams
+
+![courier.updatedeliverystatus](../../img/sequencediagram/courier.updatedeliverystatus.png)
+
 ## Data structures
 
 | Object | DTO | Database table |

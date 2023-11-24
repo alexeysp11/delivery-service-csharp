@@ -43,13 +43,16 @@ The interactive steps within the scenario include receiving delivery requests fr
 - If there are not enough real products, then the warehouse employee must fix this in the application (the database is updated) and start the [Deliver from store to warehouse](../courier/store2wh.md) process.
     - Also at this stage, the manager is notified (since this is a planning / accounting collision of products)
 - If there are enough real products, then write off the required amount, take them to the kitchen and close the process.
-
 - Receive delivery requests from the kitchen
 - Select the products needed for the delivery
 - Prepare the products for transport, such as packing them into boxes or crates
 - Update delivery status to indicate that the products have been picked up and are en route to the kitchen
 
 ![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)
+
+## Sequence diagrams
+
+![warehouse.wh2kitchen](../../img/sequencediagram/warehouse.wh2kitchen.png)
 
 ## Data structures
 
