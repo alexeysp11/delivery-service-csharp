@@ -50,6 +50,10 @@ Platform version: v0.1
 
 ![customer.makeorder](../../img/sequencediagram/customer.makeorder.png)
 
+### Sequence diagrams as an integrational soulution
+
+![delivering.makeorderrequest](../../img/sequencediagram/delivering.makeorderrequest.png)
+
 ## Data structures
 
 | Object | DTO | Database table |
