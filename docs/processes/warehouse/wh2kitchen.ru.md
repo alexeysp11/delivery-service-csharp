@@ -35,7 +35,11 @@
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Пошаговое выполнение
+### Flowchart-диаграммы для сетевого взаимодействия
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### План пошагового выполнения процесса
 
 - Склад получает уведомление: 
     - Список необходимых исходных продуктов и их количеством/весом/объемом.
@@ -50,6 +54,6 @@
 
 ![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)
 
-### Диаграммы последовательности
+### Диаграммы последовательности в рамках данного процесса
 
 ![warehouse.wh2kitchen](../../img/sequencediagram/warehouse.wh2kitchen.png)

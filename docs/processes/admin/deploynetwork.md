@@ -22,7 +22,7 @@ Platform version: v0.3
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Admin procures necessary networking hardware and software components based on the design proposal
 - Admin installs and configures network devices such as routers, switches, firewalls, and access points

@@ -39,7 +39,7 @@ The stages of employee onboarding:
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - A request is received to the backend service to start onboarding an employee (as parameters: personal information, interview results, notes and recommendations)
 - Welcoming a new employee to the company (done via newsletter).

@@ -20,7 +20,7 @@ Supplier management framework:
 
 ![supplier_management_framework](https://www.continentalsolution.com/images/supplier_management_framework.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - The manager opens the delivery service app and navigates to the backend service for managers.
 - The manager selects the option to manage supplier relationships.

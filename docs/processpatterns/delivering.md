@@ -11,3 +11,7 @@ Name: **Delivering**.
 This diagram shows the life cycle of a product or food delivery order:
 
 ![productlifecycle](../img/productlifecycle.png)
+
+### Flowcharts for network communication
+
+![overall.delivering](../img/flowcharts/overall.delivering.png)

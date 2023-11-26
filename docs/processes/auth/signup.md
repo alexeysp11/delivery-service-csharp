@@ -16,7 +16,7 @@ Platform version: v0.1
 
 ![authentication](../../img/authentication.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - User opens the customer client side app
 - User clicks on the "Sign Up" button

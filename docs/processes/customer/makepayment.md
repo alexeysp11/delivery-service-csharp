@@ -36,7 +36,11 @@ Platform version: v0.1
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Step-by-step execution
+### Flowcharts for network communication
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### Step-by-step execution plan of the process
 
 - When the customer places their order, they need to select their preferred payment method (see [makeorder](../customer/makeorder.md)).
 - If they choose **cash on delivery**, they confirm the order and pay the courier when they receive their order.
@@ -49,7 +53,7 @@ Platform version: v0.1
 
 ![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
 
-### Sequence diagrams
+### Sequence diagrams within the process
 
 ![customer.makepayment](../../img/sequencediagram/customer.makepayment.png)
 

@@ -31,7 +31,11 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Flowcharts for network communication
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### Step-by-step execution plan of the process
 
 - The courier opens the app on their device.
 - The courier selects the delivery order they are working on.
@@ -40,7 +44,7 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 
 ![courier.scanqronorder](../../img/activitydiagrams/courier.scanqronorder.png)
 
-### Sequence diagrams
+### Sequence diagrams within the process
 
 ![courier.scanqronorder](../../img/sequencediagram/courier.scanqronorder.png)
 

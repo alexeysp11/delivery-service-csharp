@@ -32,7 +32,7 @@ Preloading and caching static videos on the client side may be a more efficient 
 
 ![transmittingfile_overall](../../img/processpatterns/transmittingfile_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - User selects a video to watch.
 - The system checks if the video is available in the backend service.

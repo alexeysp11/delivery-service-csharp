@@ -35,7 +35,7 @@ Platform version: v0.1
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Log into the system as admin
 - Access the database replication tool

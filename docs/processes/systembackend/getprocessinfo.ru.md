@@ -16,4 +16,4 @@
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Пошаговое выполнение
+### План пошагового выполнения процесса

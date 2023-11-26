@@ -43,7 +43,7 @@ However, this process is implemented as part of the microprocess [requesting](..
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - The user opens the [Pending orders](pendingorders.md) or [All orders](orders.md) page.
 - The user selects an order they want to cancel, or opens the order page.

@@ -20,7 +20,7 @@
 
 ![information_overall](../../img/processpatterns/information_overall.png)
 
-### Пошаговое выполнение
+### План пошагового выполнения процесса
 
 См. [просмотр всех заказов](../customer/orders.ru.md).
 

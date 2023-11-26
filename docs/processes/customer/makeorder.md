@@ -31,7 +31,11 @@ Platform version: v0.1
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Step-by-step execution
+### Flowcharts for network communication
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### Step-by-step execution plan of the process
 
 - The user browses through the list of available products and selects the ones they want to order.
 - They proceed to checkout and select preferred delivery option, enter their delivery address and contact details, select their preferred payment method (cash on delivery, POS when receiving, using QR code, using CVC), then confirm the order.
@@ -42,7 +46,7 @@ Platform version: v0.1
 
 ![customer.makeorder](../../img/activitydiagrams/customer.makeorder.png)
 
-### Sequence diagrams
+### Sequence diagrams within the process
 
 ![customer.makeorder](../../img/sequencediagram/customer.makeorder.png)
 

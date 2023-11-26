@@ -24,7 +24,7 @@ Platform version: v0.1
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Admin opens the app.
 - Admin selects "Access Levels" option.

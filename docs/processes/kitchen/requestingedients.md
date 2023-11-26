@@ -26,7 +26,7 @@ Platform version: v0.1
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Kitchen employee logs into the app and navigates to the "Ingredient Request" section
 - Employee selects the required ingredients from a pre-defined list or enters custom requests

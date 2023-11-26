@@ -20,7 +20,7 @@ Platform version: v0.3
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Establish a system for logging and tracking requests that involve significant changes to the system, such as software updates or configuration changes.
 - Require detailed documentation and approval for significant changes before they are implemented.

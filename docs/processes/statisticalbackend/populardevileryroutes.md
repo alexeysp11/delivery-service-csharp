@@ -16,7 +16,7 @@ Platform version: v0.4
 
 ![information_overall](../../img/processpatterns/information_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Analyze delivery data to identify popular routes and times
 - Use network analysis and data visualization methods to optimize delivery schedules for efficient operations

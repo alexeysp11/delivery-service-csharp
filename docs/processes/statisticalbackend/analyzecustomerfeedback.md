@@ -24,7 +24,7 @@ Platform version: v0.4
 
 ![information_overall](../../img/processpatterns/information_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - A request is received to the statistical backend service, which indicates the location and time period.
 - Apply sentiment analysis and clustering methods to identify patterns and trends in customer satisfaction levels

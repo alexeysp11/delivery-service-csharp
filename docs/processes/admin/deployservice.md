@@ -24,7 +24,7 @@ Platform version: v0.3
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Admin logs into the system and accesses the microservices repository on GitHub
 - Admin selects the microservices to deploy and specifies the deployment parameters

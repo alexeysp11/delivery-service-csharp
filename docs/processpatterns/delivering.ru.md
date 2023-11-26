@@ -11,3 +11,7 @@
 Данная диаграмма демонстрирует жизненный цикл продукта или заказа на доставку еды:
 
 ![productlifecycle](../img/productlifecycle.png)
+
+### Flowchart-диаграммы для сетевого взаимодействия
+
+![overall.delivering](../img/flowcharts/overall.delivering.png)

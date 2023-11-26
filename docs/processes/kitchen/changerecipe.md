@@ -33,7 +33,7 @@ Platform version: v0.1
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Kitchen employee logs into the app and navigates to the "Recipe Management" section
 - Employee selects the recipe to be modified

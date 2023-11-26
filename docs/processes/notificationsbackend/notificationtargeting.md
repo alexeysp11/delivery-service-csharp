@@ -16,7 +16,7 @@ Platform version: v0.1
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Defining the target audience segments
 - Implementing user segmentation logic

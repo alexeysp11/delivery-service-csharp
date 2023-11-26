@@ -16,7 +16,7 @@ Platform version: v0.2
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Employee logs into the delivery service app
 - Navigate to the vacation request section

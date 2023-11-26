@@ -21,7 +21,7 @@ You can notify the user using the [sendnotifications](../notificationsbackend/se
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Identify the stakeholders from whom feedback needs to be collected (customers, delivery personnel, etc.)
 - Design feedback forms or surveys to gather insights and assess satisfaction levels

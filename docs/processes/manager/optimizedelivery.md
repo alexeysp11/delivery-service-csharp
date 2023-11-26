@@ -28,7 +28,7 @@ Methods for optimizing delivery process could include using data analytics to id
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Manager opens the app.
 - Manager selects "Optimize Delivery Process" option.

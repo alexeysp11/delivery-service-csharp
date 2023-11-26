@@ -36,7 +36,11 @@
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Пошаговое выполнение
+### Flowchart-диаграммы для сетевого взаимодействия
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### План пошагового выполнения процесса
 
 - Когда клиент размещает заказ, ему необходимо выбрать предпочтительный способ оплаты (см. [makeorder](../customer/makeorder.ru.md)).
 - Если они выбирают **наложенный платеж**, они подтверждают заказ и платят курьеру при получении заказа.
@@ -49,7 +53,7 @@
 
 ![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
 
-### Диаграммы последовательности
+### Диаграммы последовательности в рамках данного процесса
 
 ![customer.makepayment](../../img/sequencediagram/customer.makepayment.png)
 

@@ -18,7 +18,7 @@ Platform version: v0.6
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Admin configures monitoring parameters for IP telephones, such as call volume, connection status, and call quality metrics
 - Monitoring system consistently collects and analyzes data from IP telephones

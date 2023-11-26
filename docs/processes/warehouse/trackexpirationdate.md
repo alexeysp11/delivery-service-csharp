@@ -31,7 +31,7 @@ Platform version: v0.1
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Warehouse employee opens the app.
 - The employee selects the product they want to track.

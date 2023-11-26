@@ -19,7 +19,7 @@ Platform version: v0.4
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Manager opens the app.
 - Manager selects "Business Report" option.

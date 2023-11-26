@@ -31,7 +31,7 @@ The interactive steps within the scenario include selecting the type of incident
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - User opens the app.
 - User selects "Report Incident" option.

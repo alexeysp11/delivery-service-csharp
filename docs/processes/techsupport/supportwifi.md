@@ -16,7 +16,7 @@ Platform version: v0.3
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Identify common issues and challenges faced by WIFI users.
 - Develop support resources and documentation to assist WIFI users with troubleshooting and problem resolution.

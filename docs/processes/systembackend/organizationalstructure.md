@@ -17,7 +17,7 @@ Platform version: v0.2
 
 ![information_overall](../../img/processpatterns/information_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - The app displays a search bar where the manager can input employee names, job titles, or other relevant keywords.
 - The app returns a list of employees that match the search criteria.

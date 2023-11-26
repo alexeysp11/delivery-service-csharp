@@ -43,7 +43,7 @@ Measures for monitoring WIFI performance and usage may include tracking signal s
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Implement security monitoring tools to track and analyze network activity for potential security threats.
 - Regularly review logs and reports from security monitoring tools to identify any suspicious or unauthorized activity.

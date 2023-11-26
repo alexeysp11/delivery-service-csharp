@@ -18,7 +18,7 @@ Platform version: v0.3
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Admin assesses current network infrastructure, including hardware, software, and connectivity requirements
 - Admin identifies network design goals, such as scalability, security, and performance optimization

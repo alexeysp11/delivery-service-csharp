@@ -58,7 +58,7 @@ The stages of the selection process:
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - A request comes to the backend service to open a new candidate (parameters: personal information, application form, resume, cover letter, application, preliminary tests, notes from HR).
 - All information is validated and saved.

@@ -45,7 +45,11 @@ This process provides the implementation of the [delivering](../../processpatter
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Step-by-step execution
+### Flowcharts for network communication
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### Step-by-step execution plan of the process
 
 - The backend service, in whose area of responsibility this process is launched, notifies the employee who launched the process about the need to clarify which products need to be delivered from the store (this action is performed only if the list of products for purchase is not filled in among the parameters).
 - The employee creates a delivery order in the system: list of products, store (loaded automatically from the database).
@@ -61,7 +65,7 @@ This process provides the implementation of the [delivering](../../processpatter
 
 ![courier.store2wh](../../img/activitydiagrams/courier.store2wh.png)
 
-### Sequence diagrams
+### Sequence diagrams within the process
 
 ![courier.store2wh](../../img/sequencediagram/courier.store2wh.png)
 

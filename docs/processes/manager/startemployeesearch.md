@@ -39,7 +39,7 @@ Full cycle recruiting:
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - The manager opens the app for managers.
 - The manager selects the option to start employee search.

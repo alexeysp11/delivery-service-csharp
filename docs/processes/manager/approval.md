@@ -41,7 +41,7 @@ Among other things, the following are passed into this process as input paramete
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - The request goes to the backend service, which provides the work of a specialist who must carry out the approval.
 - The specialist is notified using [notificationsbackend](../../backend/notificationsbackend.ru.md).

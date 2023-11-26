@@ -12,7 +12,7 @@ Platform version: v0.6
 
 ## Process description
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Identify the need for QoS based on network traffic and application requirements.
 - Research and select a suitable QoS solution.

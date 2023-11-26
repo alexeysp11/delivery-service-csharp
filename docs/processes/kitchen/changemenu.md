@@ -28,7 +28,7 @@ Platform version: v0.1
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Employee or manager logs into the app and navigates to the "Menu Management" section
 - User selects the item to be modified or adds a new item to the menu

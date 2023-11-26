@@ -35,7 +35,11 @@ The interactive steps within the scenario include receiving delivery requests fr
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Step-by-step execution
+### Flowcharts for network communication
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### Step-by-step execution plan of the process
 
 - The warehouse receives a notification:
     - List of required starting products and their quantity/weight/volume.
@@ -50,7 +54,7 @@ The interactive steps within the scenario include receiving delivery requests fr
 
 ![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)
 
-## Sequence diagrams
+## Sequence diagrams within the process
 
 ![warehouse.wh2kitchen](../../img/sequencediagram/warehouse.wh2kitchen.png)
 

@@ -42,7 +42,11 @@ Platform version: v0.1
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Step-by-step execution
+### Flowcharts for network communication
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### Step-by-step execution plan of the process
 
 - The service receives a request including order parameters that were specified by the client (the order is represented as an object [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs)).
 - If the **quantity** in the warehouse is **not enough**, then the process [Deliver from store to warehouse](../courier/store2wh.md) is started asynchronously, and a response is sent to the service that called this process.
@@ -50,7 +54,7 @@ Platform version: v0.1
 
 ![customer.preprocessorder](../../img/activitydiagrams/customer.preprocessorder.png)
 
-### Sequence diagrams
+### Sequence diagrams within the process
 
 In fact, the execution of this process in terms of HTTP requests is limited to obtaining data on the estimated delivery time of the order.
 

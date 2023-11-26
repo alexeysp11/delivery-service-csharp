@@ -12,7 +12,7 @@ Platform version: v0.6
 
 ## Process description
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 The step-by-step execution plan for configuring proxy in the admin backend service involves defining proxy settings, setting up proxy servers or services, configuring access control rules, testing proxy functionality, and ensuring secure communication between backend services and external resources.
 

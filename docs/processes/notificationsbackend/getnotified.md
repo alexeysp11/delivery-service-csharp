@@ -33,7 +33,7 @@ Platform version: v0.1
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Getting push notifications from receiver POV:
     - Receiver opens the app.
@@ -50,7 +50,7 @@ The step-by-step execution of the process is identical to the [rateorder](../cus
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
 
-### Sequence diagrams
+### Sequence diagrams within the process
 
 ![notificationsbackend.getnotified](../../img/sequencediagram/notificationsbackend.getnotified.png)
 

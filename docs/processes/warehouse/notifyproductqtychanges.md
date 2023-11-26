@@ -35,7 +35,7 @@ The interactive steps within the scenario include setting up notification prefer
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Set up notification preferences, such as choosing which products to receive alerts for and how often to receive them
 - The system monitors the inventory database for any changes in product quantity.

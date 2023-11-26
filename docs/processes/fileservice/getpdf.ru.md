@@ -24,7 +24,7 @@
 
 ![transmittingfile_overall](../../img/processpatterns/transmittingfile_overall.png)
 
-### Пошаговое выполнение
+### План пошагового выполнения процесса
 
 - Запрос приходит на бэкэнд-сервис [fileservice](../../backend/fileservice.ru.md).
 - Запрос обрабатывается на наличие ошибок.

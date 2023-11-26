@@ -28,7 +28,7 @@ Platform version: v0.1
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Manager opens the app.
 - Manager selects "Set Inventory Levels" option.

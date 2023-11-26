@@ -17,7 +17,7 @@ Platform version: v0.6
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 The step-by-step execution plan for call routing and forwarding in the admin backend service related to IP telephony involves defining call routing rules, configuring call forwarding options, setting up telephony gateways or PBX systems, testing call routing functionality, and ensuring reliable communication for voice calls within the delivery service app.
 

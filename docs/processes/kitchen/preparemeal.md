@@ -27,7 +27,11 @@ Platform version: v0.1
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Step-by-step execution
+### Flowcharts for network communication
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### Step-by-step execution plan of the process
 
 - A customer places an order through the delivery service app.
 - After some steps the order is finally received by the backend service for kitchen.
@@ -39,7 +43,7 @@ Platform version: v0.1
 
 ![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)
 
-### Sequence diagrams
+### Sequence diagrams within the process
 
 ![kitchen.preparemeal](../../img/sequencediagram/kitchen.preparemeal.png)
 

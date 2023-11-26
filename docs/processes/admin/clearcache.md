@@ -22,7 +22,7 @@ This can be triggered by events or messages sent from the external services or d
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Manual Execution:
     - Admin logs into the backend system

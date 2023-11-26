@@ -41,7 +41,7 @@
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Пошаговое выполнение
+### План пошагового выполнения процесса
 
 - Запрос приходит на бэкэнд-сервис, обеспечивающий работу специалиста, который должен провести согласование.
 - Специалист уведомляется с помощью [notificationsbackend](../../backend/notificationsbackend.ru.md).

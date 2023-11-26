@@ -27,7 +27,7 @@ Platform version: v0.1
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - A kitchen employee notices that a piece of equipment is broken or malfunctioning.
 - The employee opens the delivery service app and navigates to the backend service for kitchen.

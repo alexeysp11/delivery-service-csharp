@@ -33,7 +33,7 @@
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Пошаговое выполнение
+### План пошагового выполнения процесса
 
 - Получение push-уведомлений от POV получателя:
     - Получатель открывает приложение.
@@ -50,6 +50,6 @@
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
 
-### Диаграммы последовательности
+### Диаграммы последовательности в рамках данного процесса
 
 ![notificationsbackend.getnotified](../../img/sequencediagram/notificationsbackend.getnotified.png)

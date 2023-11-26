@@ -24,7 +24,11 @@ Platform version: v0.1
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Step-by-step execution
+### Flowcharts for network communication
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### Step-by-step execution plan of the process
 
 - The kitchen staff prepared the order.
 - The kitchen employee opens the application.
@@ -38,7 +42,7 @@ Platform version: v0.1
 
 ![warehouse.kitchen2wh](../../img/activitydiagrams/warehouse.kitchen2wh.png)
 
-### Sequence diagrams
+### Sequence diagrams within the process
 
 ![warehouse.kitchen2wh](../../img/sequencediagram/warehouse.kitchen2wh.png)
 

@@ -24,7 +24,11 @@
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Пошаговое выполнение
+### Flowchart-диаграммы для сетевого взаимодействия
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### План пошагового выполнения процесса
 
 - Сотрудники кухни приготовли заказ.
 - Сотрудник кухни открывает приложение.
@@ -38,6 +42,6 @@
 
 ![warehouse.kitchen2wh](../../img/activitydiagrams/warehouse.kitchen2wh.png)
 
-### Диаграммы последовательности
+### Диаграммы последовательности в рамках данного процесса
 
 ![warehouse.kitchen2wh](../../img/sequencediagram/warehouse.kitchen2wh.png)

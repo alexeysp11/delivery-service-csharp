@@ -12,7 +12,7 @@ Platform version: v0.6
 
 ## Process description
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Determine the need for VPN based on remote access and security requirements.
 - Research and select a suitable VPN solution.

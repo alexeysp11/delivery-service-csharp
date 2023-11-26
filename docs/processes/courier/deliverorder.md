@@ -39,7 +39,11 @@ Platform version: v0.1
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Step-by-step execution
+### Flowcharts for network communication
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### Step-by-step execution plan of the process
 
 - The courier opens the app on their device.
 - The courier selects the delivery order they are working on.
@@ -52,7 +56,7 @@ Platform version: v0.1
 
 ![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)
 
-### Sequence diagrams
+### Sequence diagrams within the process
 
 ![courier.deliverorder](../../img/sequencediagram/courier.deliverorder.png)
 

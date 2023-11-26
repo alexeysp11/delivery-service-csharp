@@ -24,7 +24,11 @@
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Пошаговое выполнение
+### Flowchart-диаграммы для сетевого взаимодействия
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### План пошагового выполнения процесса
 
 - Курьер открывает приложение на своем устройстве.
 - Курьер выбирает заказ доставки, над которым работает.
@@ -33,6 +37,6 @@
 
 ![courier.updatedeliverystatus](../../img/activitydiagrams/courier.updatedeliverystatus.png)
 
-### Диаграммы последовательности
+### Диаграммы последовательности в рамках данного процесса
 
 ![courier.updatedeliverystatus](../../img/sequencediagram/courier.updatedeliverystatus.png)

@@ -26,4 +26,4 @@
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Пошаговое выполнение
+### План пошагового выполнения процесса

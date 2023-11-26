@@ -20,7 +20,7 @@ Platform version: v0.3
 
 ![requesting_overall](../../img/processpatterns/requesting_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Establish a system for logging and tracking requests that involve minor changes to the system, such as user account modifications or minor software updates.
 - Require documentation of minor changes to ensure accountability and compliance with company policies.

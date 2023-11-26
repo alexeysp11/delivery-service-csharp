@@ -31,7 +31,11 @@
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Пошаговое выполнение
+### Flowchart-диаграммы для сетевого взаимодействия
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### План пошагового выполнения процесса
 
 - Курьер открывает приложение на своем устройстве.
 - Курьер выбирает заказ на доставку, над которым работает.
@@ -40,6 +44,6 @@
 
 ![courier.scanqronorder](../../img/activitydiagrams/courier.scanqronorder.png)
 
-### Диаграммы последовательности
+### Диаграммы последовательности в рамках данного процесса
 
 ![courier.scanqronorder](../../img/sequencediagram/courier.scanqronorder.png)

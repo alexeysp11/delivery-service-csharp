@@ -17,7 +17,7 @@ Platform version: v0.1
 
 ![information_overall](../../img/processpatterns/information_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Warehouse employee opens the app.
 - Employee selects "Inventory Report" option.

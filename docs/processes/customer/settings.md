@@ -35,7 +35,7 @@ You can also go to [user account](../systembackend/useraccount.md) to see some p
 
 ![information_overall](../../img/processpatterns/information_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - The user opens "Settings".
 - Some parameters are loaded from the [user account](../systembackend/useraccount.md) page, and some paraters are loaded from the database or [backend service](../../backend/customerbackend.md).

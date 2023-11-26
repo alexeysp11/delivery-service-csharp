@@ -13,7 +13,7 @@ Platform version: v0.6
 
 ## Process description
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Admin designs IVR call flows based on predefined menus, options, and actions
 - Admin configures IVR scripts to interact with callers, gather input, and provide information or services

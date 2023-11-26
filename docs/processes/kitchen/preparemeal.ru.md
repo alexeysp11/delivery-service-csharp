@@ -27,7 +27,11 @@
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Пошаговое выполнение
+### Flowchart-диаграммы для сетевого взаимодействия
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### План пошагового выполнения процесса
 
 - Клиент оформляет заказ через приложение службы доставки.
 - После нескольких шагов заказ наконец получен серверной службой кухни.
@@ -39,6 +43,6 @@
 
 ![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)
 
-### Диаграммы последовательности
+### Диаграммы последовательности в рамках данного процесса
 
 ![kitchen.preparemeal](../../img/sequencediagram/kitchen.preparemeal.png)

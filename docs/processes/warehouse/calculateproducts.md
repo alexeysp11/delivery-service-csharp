@@ -35,7 +35,7 @@ The interactive steps within the scenario include scanning product barcodes, ent
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Warehouse employee opens the app.
 - The employee selects the product they want to calculate.

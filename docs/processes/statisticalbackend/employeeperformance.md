@@ -37,7 +37,7 @@ Metrics that could be used by managers in the delivery service company to measur
 
 ![information_overall](../../img/processpatterns/information_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - A request is received to the statistical backend service, which contains a list of employees for whom efficiency calculations need to be made.
 - Depending on the department in which the employee works, the calculation of his effectiveness is implemented in different ways, i.e. based on different metrics.

@@ -28,7 +28,7 @@ Data migration stages:
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Analyzing the current database structure and data
 - Designing the new database structure

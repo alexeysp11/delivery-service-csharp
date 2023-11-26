@@ -32,7 +32,7 @@ Platform version: v0.1
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - The backend service performs preliminary processing of the request in order to check it for errors.
 - If there are no errors, a cycle is executed in which the [getnotified](../notificationsbackend/getnotified.ru.md) process is called for each system user specified in the recipient list.

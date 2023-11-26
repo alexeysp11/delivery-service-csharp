@@ -26,7 +26,7 @@ Overall performance of the company could be estimated by tracking metrics such a
 
 ![information_overall](../../img/processpatterns/information_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - A manager opens the delivery service app and navigates to the backend service for managers.
 - The manager selects the option to view performance metrics.

@@ -24,7 +24,7 @@ Platform version: v0.1
 
 ![transmittingfile_overall](../../img/processpatterns/transmittingfile_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - The request goes to the backend service [fileservice](../../backend/fileservice.ru.md).
 - The request is being processed for errors.

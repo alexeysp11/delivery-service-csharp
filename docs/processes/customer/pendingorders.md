@@ -20,7 +20,7 @@ This process almost completely repeats [viewing all orders](../customer/orders.m
 
 ![information_overall](../../img/processpatterns/information_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 See [viewing all orders](../customer/orders.md).
 

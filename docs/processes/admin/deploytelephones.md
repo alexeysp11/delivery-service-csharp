@@ -19,7 +19,7 @@ To enhance your knowledge in VoIP and IP telephony, you can start by learning ab
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Admin configures IP telephone settings, including network connection, user credentials, and phone features
 - Admin physically installs and connects IP telephones to the designated network ports

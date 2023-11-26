@@ -42,7 +42,11 @@
 
 ![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
-### Пошаговое выполнение
+### Flowchart-диаграммы для сетевого взаимодействия
+
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
+
+### План пошагового выполнения процесса
 
 - Сервис получает запрос, включающий параметры заказа, которые сформированы клиентом (заказ представлен в виде объекта [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs)).
 - В БД выполняется запрос на получение реального количества необходимых исходных продуктов на складе.
@@ -51,7 +55,7 @@
 
 ![customer.preprocessorder](../../img/activitydiagrams/customer.preprocessorder.png)
 
-### Диаграммы последовательности
+### Диаграммы последовательности в рамках данного процесса
 
 Фактически выполнение данного процесса с точки зрения HTTP-запросов ограничивается получением данных об ориентировочном времени доставки заказа. 
 

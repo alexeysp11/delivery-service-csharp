@@ -16,7 +16,7 @@ Platform version: v0.4
 
 ![information_overall](../../img/processpatterns/information_overall.png)
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Run an SQL query to obtain historical sales data and financial data (data in the database appears through replication/migration from the backend service [customerbackend](../../backend/customerbackend.ru.md)).
 - The following data sampling criteria may be applied:

@@ -20,7 +20,7 @@ Supplier management framework:
 
 ![supplier_management_framework](https://www.continentalsolution.com/images/supplier_management_framework.png)
 
-### Пошаговое выполнение
+### План пошагового выполнения процесса
 
 - Менеджер открывает приложение службы доставки и переходит к серверной службе для менеджеров.
 - Менеджер выбирает вариант управления отношениями с поставщиками.

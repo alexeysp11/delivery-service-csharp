@@ -12,7 +12,7 @@ Platform version: v0.3
 
 ## Process description
 
-### Step-by-step execution
+### Step-by-step execution plan of the process
 
 - Identify potential risks and vulnerabilities in the corporate network.
 - Develop a comprehensive disaster recovery plan that includes backup and recovery procedures.
