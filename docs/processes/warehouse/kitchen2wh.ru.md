@@ -42,6 +42,8 @@
 
 ![warehouse.kitchen2wh](../../img/activitydiagrams/warehouse.kitchen2wh.png)
 
-### Диаграммы последовательности в рамках данного процесса
+### Диаграммы последовательности
 
 ![warehouse.kitchen2wh](../../img/sequencediagram/warehouse.kitchen2wh.png)
+
+![delivering.kitchen2wh](../../img/sequencediagram/delivering.kitchen2wh.png)

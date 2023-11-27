@@ -46,11 +46,7 @@ Platform version: v0.1
 
 ![customer.makeorder](../../img/activitydiagrams/customer.makeorder.png)
 
-### Sequence diagrams within the process
-
-![customer.makeorder](../../img/sequencediagram/customer.makeorder.png)
-
-### Sequence diagrams as an integrational soulution
+### Sequence diagrams
 
 ![delivering.makeorderrequest](../../img/sequencediagram/delivering.makeorderrequest.png)
 

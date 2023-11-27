@@ -43,9 +43,11 @@ Platform version: v0.1
 
 ![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)
 
-### Sequence diagrams within the process
+### Sequence diagrams
 
 ![kitchen.preparemeal](../../img/sequencediagram/kitchen.preparemeal.png)
+
+![delivering.preparemeal](../../img/sequencediagram/delivering.preparemeal.png)
 
 ## Data structures
 

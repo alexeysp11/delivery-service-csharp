@@ -46,9 +46,9 @@
 
 ![customer.makeorder](../../img/activitydiagrams/customer.makeorder.png)
 
-### Диаграммы последовательности в рамках данного процесса
+### Диаграммы последовательности
 
-![customer.makeorder](../../img/sequencediagram/customer.makeorder.png)
+![delivering.makeorderrequest](../../img/sequencediagram/delivering.makeorderrequest.png)
 
 ## Структуры данных
 

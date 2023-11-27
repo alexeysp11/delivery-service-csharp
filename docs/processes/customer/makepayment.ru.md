@@ -53,9 +53,9 @@
 
 ![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
 
-### Диаграммы последовательности в рамках данного процесса
+### Диаграммы последовательности
 
-![customer.makepayment](../../img/sequencediagram/customer.makepayment.png)
+![delivering.makepaymentrequest](../../img/sequencediagram/delivering.makepaymentrequest.png)
 
 ## Структуры данных
 

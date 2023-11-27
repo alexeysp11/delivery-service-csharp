@@ -50,6 +50,6 @@
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
 
-### Диаграммы последовательности в рамках данного процесса
+### Диаграммы последовательности
 
 ![notificationsbackend.getnotified](../../img/sequencediagram/notificationsbackend.getnotified.png)

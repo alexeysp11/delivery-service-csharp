@@ -37,6 +37,6 @@
 
 ![courier.updatedeliverystatus](../../img/activitydiagrams/courier.updatedeliverystatus.png)
 
-### Диаграммы последовательности в рамках данного процесса
+### Диаграммы последовательности
 
 ![courier.updatedeliverystatus](../../img/sequencediagram/courier.updatedeliverystatus.png)

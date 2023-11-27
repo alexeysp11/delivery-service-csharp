@@ -50,7 +50,7 @@ The step-by-step execution of the process is identical to the [rateorder](../cus
 
 ![customer.rateorder](../../img/activitydiagrams/customer.rateorder.png)
 
-### Sequence diagrams within the process
+### Sequence diagrams
 
 ![notificationsbackend.getnotified](../../img/sequencediagram/notificationsbackend.getnotified.png)
 

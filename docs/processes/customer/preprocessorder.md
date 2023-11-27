@@ -54,7 +54,7 @@ Platform version: v0.1
 
 ![customer.preprocessorder](../../img/activitydiagrams/customer.preprocessorder.png)
 
-### Sequence diagrams within the process
+### Sequence diagrams
 
 In fact, the execution of this process in terms of HTTP requests is limited to obtaining data on the estimated delivery time of the order.
 

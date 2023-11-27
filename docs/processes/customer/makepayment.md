@@ -53,9 +53,9 @@ Platform version: v0.1
 
 ![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
 
-### Sequence diagrams within the process
+### Sequence diagrams
 
-![customer.makepayment](../../img/sequencediagram/customer.makepayment.png)
+![delivering.makepaymentrequest](../../img/sequencediagram/delivering.makepaymentrequest.png)
 
 ## Data structures
 

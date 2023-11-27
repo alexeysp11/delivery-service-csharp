@@ -44,6 +44,6 @@
 
 ![courier.scanqronorder](../../img/activitydiagrams/courier.scanqronorder.png)
 
-### Диаграммы последовательности в рамках данного процесса
+### Диаграммы последовательности
 
 ![courier.scanqronorder](../../img/sequencediagram/courier.scanqronorder.png)

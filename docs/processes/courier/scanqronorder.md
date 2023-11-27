@@ -42,7 +42,7 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 
 ![courier.scanqronorder](../../img/activitydiagrams/courier.scanqronorder.png)
 
-### Sequence diagrams within the process
+### Sequence diagrams
 
 ![courier.scanqronorder](../../img/sequencediagram/courier.scanqronorder.png)
 

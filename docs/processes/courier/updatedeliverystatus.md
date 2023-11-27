@@ -37,7 +37,7 @@ Platform version: v0.1
 
 ![courier.updatedeliverystatus](../../img/activitydiagrams/courier.updatedeliverystatus.png)
 
-### Sequence diagrams within the process
+### Sequence diagrams
 
 ![courier.updatedeliverystatus](../../img/sequencediagram/courier.updatedeliverystatus.png)
 

@@ -54,9 +54,11 @@ The interactive steps within the scenario include receiving delivery requests fr
 
 ![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)
 
-## Sequence diagrams within the process
+### Sequence diagrams
 
 ![warehouse.wh2kitchen](../../img/sequencediagram/warehouse.wh2kitchen.png)
+
+![delivering.finishdeliverytokitchen](../../img/sequencediagram/delivering.finishdeliverytokitchen.png)
 
 ## Data structures
 

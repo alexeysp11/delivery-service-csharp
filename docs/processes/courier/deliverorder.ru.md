@@ -56,6 +56,6 @@
 
 ![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)
 
-### Диаграммы последовательности в рамках данного процесса
+### Диаграммы последовательности
 
 ![courier.deliverorder](../../img/sequencediagram/courier.deliverorder.png)

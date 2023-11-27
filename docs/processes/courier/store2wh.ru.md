@@ -65,6 +65,6 @@
 
 ![courier.store2wh](../../img/activitydiagrams/courier.store2wh.png)
 
-### Диаграммы последовательности в рамках данного процесса
+### Диаграммы последовательности
 
 ![courier.store2wh](../../img/sequencediagram/courier.store2wh.png)

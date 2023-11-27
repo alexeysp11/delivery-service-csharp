@@ -43,6 +43,8 @@
 
 ![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)
 
-### Диаграммы последовательности в рамках данного процесса
+### Диаграммы последовательности
 
 ![kitchen.preparemeal](../../img/sequencediagram/kitchen.preparemeal.png)
+
+![delivering.preparemeal](../../img/sequencediagram/delivering.preparemeal.png)

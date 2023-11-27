@@ -56,7 +56,7 @@ Platform version: v0.1
 
 ![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)
 
-### Sequence diagrams within the process
+### Sequence diagrams
 
 ![courier.deliverorder](../../img/sequencediagram/courier.deliverorder.png)
 
