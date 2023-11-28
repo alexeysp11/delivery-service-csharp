@@ -48,3 +48,5 @@
 ![kitchen.preparemeal](../../img/sequencediagram/kitchen.preparemeal.png)
 
 ![delivering.preparemeal](../../img/sequencediagram/delivering.preparemeal.png)
+
+![delivering.rejectwh2kitchen](../../img/sequencediagram/delivering.rejectwh2kitchen.png)

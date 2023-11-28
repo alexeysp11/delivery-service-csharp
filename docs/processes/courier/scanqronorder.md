@@ -46,6 +46,8 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 
 ![courier.scanqronorder](../../img/sequencediagram/courier.scanqronorder.png)
 
+![delivering.scanqronorder](../../img/sequencediagram/delivering.scanqronorder.png)
+
 ## Data structures
 
 | Object | DTO | Database table |

@@ -68,3 +68,11 @@
 ### Диаграммы последовательности
 
 ![courier.store2wh](../../img/sequencediagram/courier.store2wh.png)
+
+![delivering.store2whrequest](../../img/sequencediagram/delivering.store2whrequest.png)
+
+![delivering.finishstore2wh](../../img/sequencediagram/delivering.finishstore2wh.png)
+
+![delivering.confirmstore2wh](../../img/sequencediagram/delivering.confirmstore2wh.png)
+
+![delivering.rejectstore2wh](../../img/sequencediagram/delivering.rejectstore2wh.png)

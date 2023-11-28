@@ -49,6 +49,8 @@ Platform version: v0.1
 
 ![delivering.preparemeal](../../img/sequencediagram/delivering.preparemeal.png)
 
+![delivering.rejectwh2kitchen](../../img/sequencediagram/delivering.rejectwh2kitchen.png)
+
 ## Data structures
 
 | Object | DTO | Database table |

@@ -45,3 +45,5 @@
 ### Диаграммы последовательности
 
 ![courier.scanqronorder](../../img/sequencediagram/courier.scanqronorder.png)
+
+![delivering.scanqronorder](../../img/sequencediagram/delivering.scanqronorder.png)
