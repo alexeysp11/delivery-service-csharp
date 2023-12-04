@@ -19,6 +19,8 @@ To name API methods, the name of the business process and a certain postfix are 
 The following postfixes can be distinguished for business process-oriented methods:
 - `Request`: any user actions that are aimed at starting a process (client applications only);
 - `Respond`: any user actions that are aimed at responding or performing some action within the process (client applications only);
+- `Execute`: any user actions that are aimed at performing some action within the process (client applications only);
+- `Confirm`: any user actions that are aimed at confirming some action within the process (client applications only);
 - `Start`: any actions that are aimed at starting a process (backend services only);
 - `Get`: requests aimed at obtaining data from the database, in the context of some process;
 - `Save`: requests aimed at saving data in the database and subsequent redirection to another service/controller;
