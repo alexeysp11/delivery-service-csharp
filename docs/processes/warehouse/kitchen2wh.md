@@ -57,6 +57,7 @@ Platform version: v0.1
 | [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) | WarehouseDTO | - |
 | Kitchen | KitchenDTO | - |
 | [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | EmployeeDTO | - |
+| [DeliveryKitchen2Wh](../../models/Orders/DeliveryKitchen2Wh.cs) | - | - |
 
 - The kitchen object could have properties such as name, location, capacity, and equipment. It could also have methods for adding or removing equipment, scheduling staff, and managing inventory.
 The Kitchen object in the delivery service app may have properties such as kitchenID, kitchenName, kitchenStaff, inventory, and orderQueue. Methods for this object could include requestIngredient, updateInventory, and processOrder.

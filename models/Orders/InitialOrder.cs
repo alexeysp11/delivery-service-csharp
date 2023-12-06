@@ -6,7 +6,7 @@ namespace DeliveryService.Models.Orders;
 /// <summary>
 /// Model for placing order, that is used to send request from frontend to the controller.
 /// </summary>
-public class PlaceOrderModel
+public class InitialOrder
 {
     /// <summary>
     /// User GUID.

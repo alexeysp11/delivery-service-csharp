@@ -2,4 +2,4 @@
 
 ## Classes 
 
-- [PlaceOrderModel](PlaceOrderModel.md)
+- [InitialOrder](InitialOrder.md)

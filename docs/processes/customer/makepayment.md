@@ -59,22 +59,19 @@ Platform version: v0.1
 
 ## Data structures
 
-### Objects 
-
-- [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs)
-- [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs)
-- Delivery
-- [Payment](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Monetary/Payment.cs)
-- Transaction
-    - Transaction contains information about the payment transaction, such as transaction ID and status
-
-### DTOs 
+| Object | DTO | Database table |
+| --- | ---- | --- |
+| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | DeliveryOrderDTO | [delivery_order_cb](../../dbtables/customer/delivery_order_cb.md) |
+| [InitialOrder](../../../models/Orders/InitialOrder.cs) | InitialOrderDTO | [delivery_initialorder_cb](../../dbtables/customer/delivery_initialorder_cb.md) |
+| [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs) | CustomerDTO | - | 
+| [Payment](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Monetary/Payment.cs) | PaymentDTO | - | 
+| [Transaction](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Monetary/Transaction.cs) | TransactionDTO | - | 
 
 - OrderDTO
 - CustomerDTO
 - DeliveryDTO
-- PaymentDTO: contains information about the payment, such as payment method and total amount
-- TransactionDTO: contains information about the payment transaction, such as transaction ID and status
+- Payment/PaymentDTO: contains information about the payment, such as payment method and total amount
+- Transaction/TransactionDTO: contains information about the payment transaction, such as transaction ID and status
 
 ### DB tables 
 

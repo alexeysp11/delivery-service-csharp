@@ -47,7 +47,7 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult MakeOrder(PlaceOrderModel model)
+    public IActionResult MakeOrder(InitialOrder model)
     {
         string placingOrderMsg = string.Empty;
         try

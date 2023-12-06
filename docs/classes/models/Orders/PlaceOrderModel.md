@@ -1,4 +1,4 @@
-# PlaceOrderModel Class 
+# InitialOrder Class 
 
 Namespace: [DeliveryService.Models.Orders](DeliveryService.Models.Orders.md)
 
@@ -6,12 +6,12 @@ Model for placing order, that is used to send request from frontend to the contr
 
 ## Constructors 
 
-### PlaceOrderModel()
+### InitialOrder()
 
 Default constructor.
 
 ```C#
-public PlaceOrderModel();
+public InitialOrder();
 ```
 
 ## Properties 

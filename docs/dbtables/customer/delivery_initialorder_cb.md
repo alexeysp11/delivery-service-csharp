@@ -1,4 +1,4 @@
-# delivery_placeordermodel_cb Table 
+# delivery_initialorder_cb Table 
 
 *Used by*: [customerbackend](../../backend/customerbackend.md) 
 
@@ -8,6 +8,6 @@ DTO for placing order (used for caching).
 
 ## Objects 
 
-- [PlaceOrderModel](../../classes/models/Orders/PlaceOrderModel.md)
+- [InitialOrder](../../classes/models/Orders/InitialOrder.md)
 
 - orders: contains columns for order ID, customer ID, delivery ID, payment ID, and status
