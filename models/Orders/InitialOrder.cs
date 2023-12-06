@@ -42,4 +42,14 @@ public class InitialOrder
     /// List of the products, that user has placed into the order.
     /// </summary>
     public List<Product> Products { get; set; }
+
+    /// <summary>
+    /// Payment type.
+    /// </summary>
+    public string PaymentType { get; set; }
+    
+    /// <summary>
+    /// Payment method.
+    /// </summary>
+    public string PaymentMethod { get; set; }
 }
