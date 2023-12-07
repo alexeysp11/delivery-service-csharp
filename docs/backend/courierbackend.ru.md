@@ -21,9 +21,12 @@
 ## Процессы 
 
 - [Вход](../processes/auth/signin.ru.md)
-- [Отсканировать QR-код заказа](../processes/courier/scanqronorder.ru.md)
-- [Отсканировать QR-код на рюкзаке](../processes/courier/scanbackpack.ru.md) (для отметки начала/конца работы)
-- [Доставка заказа потребителю](../processes/courier/deliverorder.ru.md)
-- [Доставка из магазина на склад](../processes/courier/store2wh.ru.md)
-- [Обновить статус доставки](../processes/courier/updatedeliverystatus.ru.md)
+
+## Flowchart-шаги
+
+- [Отсканировать QR-код заказа](../flowchartsteps/delivering/scanqronorder.ru.md)
+- [Отсканировать QR-код на рюкзаке](../flowchartsteps/delivering/scanbackpack.ru.md) (для отметки начала/конца работы)
+- [Доставка заказа потребителю](../flowchartsteps/delivering/deliverorder.ru.md)
+- [Доставка из магазина на склад](../flowchartsteps/delivering/store2wh.ru.md)
+- [Обновить статус доставки](../flowchartsteps/delivering/updatedeliverystatus.ru.md)
 - [Уведомить об инциденте](../processes/systembackend/reportincident.ru.md)

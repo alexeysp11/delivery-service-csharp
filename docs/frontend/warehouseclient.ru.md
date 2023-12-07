@@ -18,4 +18,4 @@
 
 - [Вход](../processes/auth/signin.ru.md)
 - [Рассчитать продукцию](../processes/warehouse/calculateproducts.md)
-- [От WH до кухни](../processes/warehouse/wh2kitchen.md)
+- [От WH до кухни](../flowchartsteps/delivering/wh2kitchen.md)

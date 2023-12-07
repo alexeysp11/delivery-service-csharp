@@ -17,9 +17,12 @@ Other possible functionalities of the service include tracking courier performan
 ## Processes 
 
 - [Sign in](../processes/auth/signin.md)
-- [Scan the QR code on the order](../processes/courier/scanqronorder.md)
-- [Scan the QR code on the backpack](../processes/courier/scanbackpack.md) (to mark the start/end of work)
-- [Delivery of the order to the customer](../processes/courier/deliverorder.md)
-- [Delivery from store to warehouse](../processes/courier/store2wh.md)
-- [Update the delivery status](../processes/courier/updatedeliverystatus.md)
+
+## Flowchart steps
+
+- [Scan the QR code on the order](../flowchartsteps/delivering/scanqronorder.md)
+- [Scan the QR code on the backpack](../flowchartsteps/delivering/scanbackpack.md) (to mark the start/end of work)
+- [Delivery of the order to the customer](../flowchartsteps/delivering/deliverorder.md)
+- [Delivery from store to warehouse](../flowchartsteps/delivering/store2wh.md)
+- [Update the delivery status](../flowchartsteps/delivering/updatedeliverystatus.md)
 - [Notify about an incident](../processes/systembackend/reportincident.md)

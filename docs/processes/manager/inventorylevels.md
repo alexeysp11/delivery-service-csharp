@@ -22,7 +22,7 @@ Platform version: v0.1
 | --- | ---- |
 | [adminbackend](../../backend/adminbackend.md) | [dbreplication](../admin/dbreplication.md) |
 | [warehousebackend](../../backend/warehousebackend.md) | [calculateproducts](../warehouse/calculateproducts.md) |
-| [courierbackend](../../backend/courierbackend.md) | [store2wh](../courier/store2wh.md) |
+| [courierbackend](../../backend/courierbackend.md) | [store2wh](../delivering/store2wh.md) |
 
 ## Process description
 

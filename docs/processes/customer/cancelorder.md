@@ -35,9 +35,9 @@ Platform version: v0.1
 - If, when loading the order card, it is already known that the order cannot be canceled, then hide the "Cancel order" button.
 - After canceling an order, the order disappears from the list of current orders.
 
-This process cancels the macroprocess [delivering](../../processpatterns/delivering.md):
+This process cancels the macroprocess [delivering](../../flowchartnames/delivering.md):
 
-![delivering_overall](../../img/processpatterns/delivering_overall.png)
+![delivering_overall](../../img/flowchartnames/delivering_overall.png)
 
 However, this process is implemented as part of the microprocess [requesting](../../processpatterns/requesting.md):
 

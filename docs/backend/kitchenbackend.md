@@ -18,7 +18,10 @@ The service also provides real-time analytics and reporting to help optimize kit
 ## Processes 
 
 - [Sign in](../processes/auth/signin.md)
-- [Order preparation](../processes/kitchen/preparemeal.md)
 - [Order equipment](../processes/systembackend/requestequipment.md)
 - [Receive notifications about delivery of ingredients](../processes/kitchen/notificationsaboutingredients.md)
-- [Deliver from warehouse to kitchen](../processes/warehouse/wh2kitchen.md)
+- [Deliver from warehouse to kitchen](../flowchartsteps/delivering/wh2kitchen.md)
+
+## Flowchart steps
+
+- [Prepare meal](../flowchartsteps/delivering/preparemeal.md)

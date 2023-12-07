@@ -66,11 +66,12 @@
     - [predictive backend](docs/backend/predictivebackend.ru.md), 
     - [notifications](docs/backend/notificationsbackend.ru.md).
 - Описание паттернов процессов (подробнее про паттерны процессов можно прочитать по [данной ссылке](docs/processpatterns/README.ru.md)):
-    - [доставка](docs/processpatterns/delivering.ru.md),
     - [информация](docs/processpatterns/information.ru.md),
     - [поддержка](docs/processpatterns/maintenance.ru.md),
     - [передача файла](docs/processpatterns/transmittingfile.ru.md),
     - [запрос](docs/processpatterns/requesting.ru.md).
+- Описание flowchart-диаграмм (см. также: [flowchart-диаграммы](docs/flowchartnames/README.ru.md), [flowchart-шаги](docs/flowchartsteps/README.ru.md)):
+    - [доставка](docs/flowchartnames/delivering.ru.md).
 - Виды оплаты: 
     - наличная при получении, 
     - через валидатор при получении, 

@@ -28,14 +28,17 @@
 
 - [Вход](../processes/auth/signin.ru.md)
 - [Регистрация](../processes/customer/signup.ru.md)
-- [Оформление заказа](../processes/customer/makeorder.ru.md)
-- [Совершить оплату](../processes/customer/makepayment.ru.md)
-- [Предварительная обработка заказа](../processes/customer/preprocessorder.ru.md)
 - [Все заказы](../processes/customer/orders.ru.md): отображение информации/статистики по предыдущим заказам в виде списков и дашбордов
 - [Текущие заказы](../processes/customer/pendingorders.ru.md): отслеживание статуса заказа
 - [Отменить заказ](../processes/customer/cancelorder.ru.md)
 - [Оценить заказ](../processes/customer/rateorder.ru.md)
 - [Получение пуш-уведомлений](../processes/notificationsbackend/getnotified.ru.md)
+
+## Flowchart-шаги
+
+- [Оформление заказа](../flowchartsteps/delivering/makeorder.ru.md)
+- [Совершить оплату](../flowchartsteps/delivering/makepayment.ru.md)
+- [Предварительная обработка заказа](../flowchartsteps/delivering/preprocessorder.ru.md)
 
 <!--
 ## Методы для обработки сетевых запросов 

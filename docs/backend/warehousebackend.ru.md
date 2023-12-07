@@ -19,9 +19,12 @@
 - [Вход](../processes/auth/signin.ru.md)
 - [Рассчитать продукцию](../processes/warehouse/calculateproducts.ru.md)
 - [Отслеживание сроков годности продукции](../processes/warehouse/trackexpirationdate.ru.md)
-- [От WH до кухни](../processes/warehouse/wh2kitchen.ru.md)
-- [От кухни на склад](../processes/warehouse/kitchen2wh.ru.md)
-- [Доставить из магазина на склад](../processes/courier/store2wh.ru.md)
 - [Уведомлять об изменении количества товара](../processes/warehouse/notifyproductqtychanges.ru.md)
 - [Уведомить об инциденте](../processes/systembackend/reportincident.ru.md)
 - [Создать отчет об инвентаризации](../processes/warehouse/inventoryreport.ru.md)
+
+## Flowchart-шаги
+
+- [От WH до кухни](../flowchartsteps/delivering/wh2kitchen.ru.md)
+- [От кухни на склад](../flowchartsteps/delivering/kitchen2wh.ru.md)
+- [Доставить из магазина на склад](../flowchartsteps/delivering/store2wh.ru.md)

@@ -66,11 +66,12 @@ Any company that offers delivery services could potentially use this application
     - [predictive backend](docs/backend/predictivebackend.md), 
     - [notifications](docs/backend/notificationsbackend.md).
 - Description of process patterns (you can read more about process patterns at [this link](docs/processpatterns/README.md)): 
-    - [delivering](docs/processpatterns/delivering.md),
     - [information](docs/processpatterns/information.md),
     - [maintenance](docs/processpatterns/maintenance.md),
     - [transmitting file](docs/processpatterns/transmittingfile.md),
     - [requesting](docs/processpatterns/requesting.md).
+- Description of process patterns (see also: [flowchart diagrams](docs/flowchartnames/README.md), [flowchart steps](docs/flowchartsteps/README.md)): 
+    - [delivering](docs/flowchartnames/delivering.md).
 - Types of payment: 
     - cash upon receipt, 
     - through a validator upon receipt, 

@@ -19,9 +19,12 @@ Other possible functionalities of the service include generating inventory repor
 - [Sign in](../processes/auth/signin.md)
 - [Calculate products](../processes/warehouse/calculateproducts.md)
 - [Tracking expiration dates of products](../processes/warehouse/trackexpirationdate.md)
-- [From WH to kitchen](../processes/warehouse/wh2kitchen.md)
-- [From kitchen to warehouse](../processes/warehouse/kitchen2wh.md)
-- [Deliver from store to warehouse](../processes/courier/store2wh.md)
 - [Notify about changes in product quantity](../processes/warehouse/notifyproductqtychanges.md)
 - [Notify about an incident](../processes/systembackend/reportincident.md)
 - [Generate invetory report](../processes/warehouse/inventoryreport.md)
+
+## Flowchart steps
+
+- [From WH to kitchen](../flowchartsteps/delivering/wh2kitchen.md)
+- [From kitchen to warehouse](../flowchartsteps/delivering/kitchen2wh.md)
+- [Deliver from store to warehouse](../flowchartsteps/delivering/store2wh.md)

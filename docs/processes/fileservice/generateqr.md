@@ -18,7 +18,7 @@ Platform version: v0.1
 
 | Backend service | Process |
 | --- | ---- |
-| [customerbackend](../../backend/customerbackend.md) | [makepayment](../customer/makepayment.md) |
+| [customerbackend](../../backend/customerbackend.md) | [makepayment](../../flowchartsteps/delivering/makepayment.md) |
 
 ## Process description
 

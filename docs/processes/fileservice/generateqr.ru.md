@@ -18,7 +18,7 @@
 
 | Бэкэнд-сервис | Процесс |
 | --- | ---- |
-| [customerbackend](../../backend/customerbackend.ru.md) | [makepayment](../customer/makepayment.ru.md) |
+| [customerbackend](../../backend/customerbackend.ru.md) | [makepayment](../../flowchartsteps/delivering/makepayment.ru.md) |
 
 ## Описание процесса
 

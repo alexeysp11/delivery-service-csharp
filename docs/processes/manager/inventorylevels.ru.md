@@ -22,7 +22,7 @@
 | --- | ---- |
 | [adminbackend](../../backend/adminbackend.ru.md) | [dbreplication](../admin/dbreplication.ru.md) |
 | [warehousebackend](../../backend/warehousebackend.ru.md) | [calculateproducts](../warehouse/calculateproducts.ru.md) |
-| [courierbackend](../../backend/courierbackend.ru.md) | [store2wh](../courier/store2wh.ru.md) |
+| [courierbackend](../../backend/courierbackend.ru.md) | [store2wh](../delivering/store2wh.ru.md) |
 
 ## Описание процесса
 

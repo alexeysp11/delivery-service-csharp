@@ -20,7 +20,7 @@ Platform version: v0.1
 | Backend service | Process |
 | --- | ---- |
 | [notificationsbackend](../../backend/notificationsbackend.md) | [sendnotifications](../notificationsbackend/sendnotifications.md) |
-| [courierbackend](../../backend/courierbackend.md) | [store2wh](../courier/store2wh.md) |
+| [courierbackend](../../backend/courierbackend.md) | [store2wh](../delivering/store2wh.md) |
 
 ## Process description
 

@@ -17,6 +17,6 @@
 ## Процессы 
 
 - [Вход](../processes/auth/signin.ru.md)
-- [Отсканировать QR-код на рюкзаке](../processes/courier/scanbackpack.ru.md) (для отметки начала/конца работы)
-- [Доставка заказа потребителю](../processes/courier/deliverorder.ru.md)
-- [Доставка из магазина на склад](../processes/courier/store2wh.ru.md)
+- [Отсканировать QR-код на рюкзаке](../flowchartsteps/delivering/scanbackpack.ru.md) (для отметки начала/конца работы)
+- [Доставка заказа потребителю](../flowchartsteps/delivering/deliverorder.ru.md)
+- [Доставка из магазина на склад](../flowchartsteps/delivering/store2wh.ru.md)

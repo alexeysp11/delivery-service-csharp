@@ -28,11 +28,14 @@ Other possible functionalities of the service include saving favorite orders for
 
 - [Sign in](../processes/auth/signin.md)
 - [Sign up](../processes/customer/signup.md)
-- [Placing order](../processes/customer/makeorder.md)
-- [Make a payment](../processes/customer/makepayment.md)
-- [Preprocess order](../processes/customer/preprocessorder.md)
 - [All orders](../processes/customer/orders.md): displayig information and statistical data about previous orders (in a form of lists and dashboards)
 - [Pending orders](../processes/customer/pendingorders.md): order status tracking
 - [Cancel order](../processes/customer/cancelorder.md)
 - [Rate an order](../processes/customer/rateorder.md)
 - [Receiving notifications](../processes/notificationsbackend/getnotified.md)
+
+## Flowchart steps
+
+- [Placing order](../flowchartsteps/delivering/makeorder.md)
+- [Make a payment](../flowchartsteps/delivering/makepayment.md)
+- [Preprocess order](../flowchartsteps/delivering/preprocessorder.md)

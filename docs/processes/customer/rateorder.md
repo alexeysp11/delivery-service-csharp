@@ -28,7 +28,7 @@ Platform version: v0.1
 
 ### Step-by-step execution plan of the process
 
-- The delivery employee updates the order status and signals the completion of delivery (this is implemented within the [updatedeliverystatus](../courier/updatedeliverystatus.ru.md) process).
+- The delivery employee updates the order status and signals the completion of delivery (this is implemented within the [updatedeliverystatus](../delivering/updatedeliverystatus.ru.md) process).
 - The system sends a notification to the customer asking for a rating.
 - Customer rates the order based on their experience.
 - The system stores the rating in the database.
