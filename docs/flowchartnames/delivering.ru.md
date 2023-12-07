@@ -14,6 +14,16 @@
 
 ### Flowchart-диаграммы для сетевого взаимодействия
 
+- [makeorder](../flowchartsteps/delivering/makeorder.ru.md)
+- [makepayment](../flowchartsteps/delivering/makepayment.ru.md)
+- [store2wh](../flowchartsteps/delivering/store2wh.ru.md)
+- [wh2kitchen](../flowchartsteps/delivering/wh2kitchen.ru.md)
+- [preparemeal](../flowchartsteps/delivering/preparemeal.ru.md)
+- [kitchen2wh](../flowchartsteps/delivering/kitchen2wh.ru.md)
+- [scanqronorder](../flowchartsteps/delivering/scanqronorder.ru.md)
+- [scanbackpack](../flowchartsteps/delivering/scanbackpack.ru.md)
+- [deliverorder](../flowchartsteps/delivering/deliverorder.ru.md)
+
 ![overall.delivering](../img/flowcharts/overall.delivering.png)
 
 ## Структуры данных

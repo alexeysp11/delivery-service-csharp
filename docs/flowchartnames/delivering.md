@@ -14,6 +14,16 @@ This diagram shows the life cycle of a product or food delivery order:
 
 ### Flowcharts for network communication
 
+- [makeorder](../flowchartsteps/delivering/makeorder.md)
+- [makepayment](../flowchartsteps/delivering/makepayment.md)
+- [store2wh](../flowchartsteps/delivering/store2wh.md)
+- [wh2kitchen](../flowchartsteps/delivering/wh2kitchen.md)
+- [preparemeal](../flowchartsteps/delivering/preparemeal.md)
+- [kitchen2wh](../flowchartsteps/delivering/kitchen2wh.md)
+- [scanqronorder](../flowchartsteps/delivering/scanqronorder.md)
+- [scanbackpack](../flowchartsteps/delivering/scanbackpack.md)
+- [deliverorder](../flowchartsteps/delivering/deliverorder.md)
+
 ![overall.delivering](../img/flowcharts/overall.delivering.png)
 
 ## Data structures
