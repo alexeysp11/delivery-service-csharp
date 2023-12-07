@@ -16,13 +16,15 @@ This diagram shows the life cycle of a product or food delivery order:
 
 ![overall.delivering](../img/flowcharts/overall.delivering.png)
 
-## Objects/DTOs
+## Data structures
 
 When processing an order (order registration, payment, preparation, delivery), the following objects/DTOs are used:
-- [InitialOrder](../../models/Orders/InitialOrder.cs)/InitialOrderDTO: model for placing an order
-- DeliveryOrder/DeliveryOrderDTO: model for invoicing control
-- [DeliveryWh2Kitchen](../../models/Orders/DeliveryWh2Kitchen.cs) (inherited from DeliveryOperation): model for transferring products from warehouse to kitchen (shipping point, destination, start time, end time, products, ingredients)
-- DeliveryOrder/DeliveryOrderDTO: model for delivering products from a store to a warehouse
-- [CookingOperation](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/CookingOperation.cs): model for preparing an order (start time, end time, products, ingredients, recipes)
-- [DeliveryKitchen2Wh](../../models/Orders/DeliveryKitchen2Wh.cs) (inherited from DeliveryOperation): model for transferring a finished order from the kitchen to the warehouse (shipping point, destination, start time, end time, products, order number, generated order QR code)
-- [DeliveryOperation](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Delivery/DeliveryOperation.cs)/DeliveryOperationDTO: model for delivery (QR code on the order, QR code on the backpack, departure point, destination, start time, end time, order number)
+
+| Object | DTO | Notes |
+| --- | ---- | --- |
+| [InitialOrder](../../models/Orders/InitialOrder.cs) | InitialOrderDTO | model for placing an order |
+| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | DeliveryOrderDTO  | model for invoicing control, or delivering products from a store to a warehouse | 
+| [DeliveryWh2Kitchen](../../models/Orders/DeliveryWh2Kitchen.cs) | DeliveryWh2KitchenDTO | model for transferring products from warehouse to kitchen (shipping point, destination, start time, end time, products, ingredients) |
+| [CookingOperation](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/CookingOperation.cs) | CookingOperationDTO | model for preparing an order (start time, end time, products, ingredients, recipes) |
+| [DeliveryKitchen2Wh](../../models/Orders/DeliveryKitchen2Wh.cs) | DeliveryKitchen2WhDTO | model for transferring a finished order from the kitchen to the warehouse (shipping point, destination, start time, end time, products, order number, generated order QR code) |
+| [DeliveryOperation](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Delivery/DeliveryOperation.cs) | DeliveryOperationDTO  | model for delivery (QR code on the order, QR code on the backpack, departure point, destination, start time, end time, order number) |
