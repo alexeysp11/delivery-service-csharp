@@ -69,4 +69,4 @@ The interactive steps within the scenario include receiving delivery requests fr
 | [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) | WarehouseDTO | - |
 | Kitchen | KitchenDTO | - |
 | [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | EmployeeDTO | - |
-| [DeliveryWh2Kitchen](../../../models/Orders/DeliveryWh2Kitchen.cs) | DeliveryWh2KitchenDTO | - |
+| [DeliveryWh2Kitchen](../../../src/models/Orders/DeliveryWh2Kitchen.cs) | DeliveryWh2KitchenDTO | - |

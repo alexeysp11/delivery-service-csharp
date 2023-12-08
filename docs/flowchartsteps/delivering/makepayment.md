@@ -63,7 +63,7 @@ This process could be called within the [makeorder](../delivering/makeorder.md) 
 | Object | DTO | Database table |
 | --- | ---- | --- |
 | [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | DeliveryOrderDTO | [delivery_order_cb](../../dbtables/customer/delivery_order_cb.md) |
-| [InitialOrder](../../../models/Orders/InitialOrder.cs) | InitialOrderDTO | [delivery_initialorder_cb](../../dbtables/customer/delivery_initialorder_cb.md) |
+| [InitialOrder](../../../src/models/Orders/InitialOrder.cs) | InitialOrderDTO | [delivery_initialorder_cb](../../dbtables/customer/delivery_initialorder_cb.md) |
 | [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs) | CustomerDTO | - | 
 | [Payment](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Monetary/Payment.cs) | PaymentDTO | - | 
 | [Transaction](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Monetary/Transaction.cs) | TransactionDTO | - | 
