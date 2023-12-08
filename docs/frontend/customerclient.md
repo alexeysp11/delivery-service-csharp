@@ -39,5 +39,5 @@
 
 ## Flowchart steps
 
-- [Placing order](../processes/customer/makeorder.md)
-- [Make a payment](../processes/customer/makepayment.md)
+- [Placing order](../flowchartsteps/delivering/makeorder.md)
+- [Make a payment](../flowchartsteps/delivering/makepayment.md)

@@ -39,5 +39,5 @@
 
 ## Flowchart-шаги
 
-- [Оформление заказа](../processes/customer/makeorder.ru.md)
-- [Совершить оплату](../processes/customer/makepayment.ru.md)
+- [Оформление заказа](../flowchartsteps/delivering/makeorder.ru.md)
+- [Совершить оплату](../flowchartsteps/delivering/makepayment.ru.md)
