@@ -5,7 +5,7 @@ publish
 data
 
 customerbackend
-customerclientblazor
-customerclientwpf
+src/frontend/customer/blazor
+src/frontend/customer/wpf
 
 docs/spreadsheets/.~lock.processes.ods#

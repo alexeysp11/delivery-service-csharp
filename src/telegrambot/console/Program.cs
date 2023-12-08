@@ -4,7 +4,7 @@ using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 
-var botClient = new TelegramBotClient(System.IO.File.ReadAllText("../../data/telegrambot.txt"));
+var botClient = new TelegramBotClient(System.IO.File.ReadAllText("../../../data/telegrambot.txt"));
 
 using CancellationTokenSource cts = new ();
 
@@ -40,6 +40,7 @@ async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, Cancel
 
     var chatId = message.Chat.Id;
 
+    Console.OutputEncoding = System.Text.Encoding.UTF8;
     Console.WriteLine($"Received a '{messageText}' message in chat {chatId}.");
 
     // Echo received message text
