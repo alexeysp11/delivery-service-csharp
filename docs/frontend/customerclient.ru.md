@@ -30,11 +30,14 @@
 - [Вход](../processes/auth/signin.ru.md)
 - [Регистрация](../processes/customer/signup.ru.md)
 - [Аккаунт пользователя](../processes/systembackend/useraccount.ru.md)
-- [Оформление заказа](../processes/customer/makeorder.ru.md)
-- [Совершить оплату](../processes/customer/makepayment.ru.md)
 - [Все заказы](../processes/customer/orders.ru.md): отображение информации/статистики по предыдущим заказам в виде списков и дашбордов
 - [Текущие заказы](../processes/customer/pendingorders.ru.md): отслеживание статуса заказа
 - [Отменить заказ](../processes/customer/cancelorder.md)
 - [Настройки](../processes/customer/settings.ru.md)
 - [Получение пуш-уведомлений](../processes/notificationsbackend/getnotified.ru.md)
 - [Просмотр видео](../processes/fileservice/watchingvideos.ru.md)
+
+## Flowchart-шаги
+
+- [Оформление заказа](../processes/customer/makeorder.ru.md)
+- [Совершить оплату](../processes/customer/makepayment.ru.md)

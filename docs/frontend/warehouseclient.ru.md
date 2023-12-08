@@ -18,4 +18,7 @@
 
 - [Вход](../processes/auth/signin.ru.md)
 - [Рассчитать продукцию](../processes/warehouse/calculateproducts.md)
+
+## Flowchart-шаги
+
 - [От WH до кухни](../flowchartsteps/delivering/wh2kitchen.md)

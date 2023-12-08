@@ -30,11 +30,14 @@
 - [Sign in](../processes/auth/signin.md)
 - [Sign up](../processes/customer/signup.md)
 - [User account](../processes/systembackend/useraccount.md)
-- [Placing order](../processes/customer/makeorder.md)
-- [Make a payment](../processes/customer/makepayment.md)
 - [All orders](../processes/customer/orders.md): displayig information and statistical data about previous orders (in a form of lists and dashboards)
 - [Pending orders](../processes/customer/pendingorders.md): order status tracking
 - [Settings](../processes/customer/settings.md)
 - [Cancel order](../processes/customer/cancelorder.md)
 - [Receiving notifications](../processes/notificationsbackend/getnotified.md)
 - [Watching videos](../processes/fileservice/watchingvideos.md)
+
+## Flowchart steps
+
+- [Placing order](../processes/customer/makeorder.md)
+- [Make a payment](../processes/customer/makepayment.md)

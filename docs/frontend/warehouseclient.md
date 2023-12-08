@@ -18,4 +18,7 @@ The client-side app used by warehouse employees in the delivery service company 
 
 - [Sign in](../processes/auth/signin.md)
 - [Calculate products](../processes/warehouse/calculateproducts.md)
+
+## Flowchart steps
+
 - [From WH to kitchen](../flowchartsteps/delivering/wh2kitchen.md)

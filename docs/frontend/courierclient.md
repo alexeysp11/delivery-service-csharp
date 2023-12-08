@@ -17,6 +17,9 @@ The client-side app used by couriers in the delivery service company allows them
 ## Processes 
 
 - [Sign in](../processes/auth/signin.md)
+
+## Flowchart steps
+
 - [Scan the QR code on the backpack](../flowchartsteps/delivering/scanbackpack.md) (to mark the start/end of work)
 - [Delivery of the order to the customer](../flowchartsteps/delivering/deliverorder.md)
 - [Delivery from store to warehouse](../flowchartsteps/delivering/store2wh.md)
