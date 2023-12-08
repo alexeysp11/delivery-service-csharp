@@ -7,7 +7,7 @@ The project structure could be as follows:
 - dbinit
 - docs
 - examples
-- src:
+- src
     - authentication
     - frontend
         - courier
@@ -25,7 +25,7 @@ The project structure could be as follows:
     - telegrambot
     - core
     - models
-- tests: 
+- tests
     - frontend
         - customerclientbl
     - backend
