@@ -115,7 +115,11 @@ The principle of naming modules is also indicated.
 
 ### Simplified diagram of the layers 
 
-This diagram demonstrates in more detail the principle on which the dynamism of the platform is based in the context of choosing the type of client application (MVC, Blazor, WPF etc) and the data transfer protocol between backend services (WebAPI, gRPC).
+The diagram below shows the principle of layering within the platform.
+
+![layers](docs/img/layers.png)
+
+There's also the diagram that demonstrates in more detail the principle on which the dynamism of the platform is based in the context of choosing the type of client application (MVC, Blazor, WPF etc) and the data transfer protocol between backend services (WebAPI, gRPC).
 
 It is also indicated how asynchronous communication between services is carried out by dividing the functionality of controllers into `RequestController` and `ResponseController` in order to implement API methods.
 
