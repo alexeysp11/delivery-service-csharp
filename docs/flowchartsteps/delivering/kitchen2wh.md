@@ -6,7 +6,7 @@ Name: **Deliver from kitchen to WH**.
 
 The scenario for the delivery of products and ingredients from the kitchen to the warehouse by warehouse employees in a delivery service company involves filling out an application for the transportation of finished products, as well as excess or unused ingredients, from the kitchen to the warehouse as part of the process of preparing an order from the client.
 
-Flowchart name: [delivering](../../flowchartnames/delivering.md)
+Flowchart name: [delivering](../../flowchartsteps/delivering/README.md)
 
 Responsible modules: [client application](../../frontend/warehouseclient.md), [backend service](../../backend/warehousebackend.md)
 

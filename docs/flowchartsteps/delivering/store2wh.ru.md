@@ -6,7 +6,7 @@
 
 Сценарий, отвечающий за доставку товаров из магазина на склад курьерами, предполагает получение запросов на конкретные товары от сотрудников склада, покупку этих товаров в магазине, их упаковку для транспортировки и своевременную доставку на склад.
 
-Наименование flowchart-диаграммы: [delivering](../../flowchartnames/delivering.ru.md)
+Наименование flowchart-диаграммы: [delivering](../../flowchartsteps/delivering/README.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/courierclient.md), [бэкэнд-сервис](../../backend/courierbackend.md)
 
@@ -41,7 +41,7 @@
 - Для упрощения процесса проектирования и разработки на начальных этапах, исходим из идеи, что магазин с оптимальным соотношением цены и качества уже выбран (например, вследствие контрактов, заключенных в рамках управления отношений с контрагентами, или заранее установленный адрес ближайшего магазина). Это означает, что **бэкенд-сервису не нужно рассчитывать, в каком магазине выгоднее купить продукцию**, соответственно, **информация по магазину будет получена из БД**. 
 - Построение наиболее оптимального маршрута доставки и отображение местоположения курьера на карте является важной составляющей реального приложения сервиса доставки, но **в данном прототипе приложения эти функции в настоящий момент не реализованы** в целях уменьшения сложности проектирования и реализации.
 
-Данный процесс обеспечивает реализацию паттерна процессов [delivering](../../flowchartnames/delivering.ru.md):
+Данный процесс обеспечивает реализацию паттерна процессов [delivering](../../flowchartsteps/delivering/README.ru.md):
 
 ![delivering_overall](../../img/flowchartnames/delivering_overall.png)
 
@@ -67,12 +67,4 @@
 
 ### Диаграммы последовательности
 
-![courier.store2wh](../../img/sequencediagram/courier.store2wh.png)
-
-![delivering.store2whrequest](../../img/sequencediagram/delivering.store2whrequest.png)
-
 ![delivering.finishstore2wh](../../img/sequencediagram/delivering.finishstore2wh.png)
-
-![delivering.confirmstore2wh](../../img/sequencediagram/delivering.confirmstore2wh.png)
-
-![delivering.rejectstore2wh](../../img/sequencediagram/delivering.rejectstore2wh.png)

@@ -8,7 +8,7 @@
 
 Интерактивные шаги в рамках сценария включают просмотр меню, выбор позиций и настроек, ввод сведений о доставке и подтверждение заказа.
 
-Наименование flowchart-диаграммы: [delivering](../../flowchartnames/delivering.ru.md)
+Наименование flowchart-диаграммы: [delivering](../../flowchartsteps/delivering/README.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/customerclient.ru.md), [бэкенд-сервис](../../backend/customerbackend.ru.md)
 

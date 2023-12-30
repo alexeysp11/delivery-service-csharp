@@ -1,30 +1,32 @@
 # delivering
 
-[English](delivering.md) | [Русский](delivering.ru.md)
+[English](README.md) | [Русский](README.ru.md)
 
 Наименование: **Доставка**.
 
 `delivering` - это паттерн реализации бизнес-процессов, которые связаны с созданием заказа на доставку, а также оплатой и доставкой заказа. 
 
-![delivering_overall](../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/flowchartnames/delivering_overall.png)
 
 Данная диаграмма демонстрирует жизненный цикл продукта или заказа на доставку еды:
 
-![productlifecycle](../img/productlifecycle.png)
+![productlifecycle](../../img/productlifecycle.png)
 
 ### Flowchart-диаграммы для сетевого взаимодействия
 
-- [makeorder](../flowchartsteps/delivering/makeorder.ru.md)
-- [makepayment](../flowchartsteps/delivering/makepayment.ru.md)
-- [store2wh](../flowchartsteps/delivering/store2wh.ru.md)
-- [wh2kitchen](../flowchartsteps/delivering/wh2kitchen.ru.md)
-- [preparemeal](../flowchartsteps/delivering/preparemeal.ru.md)
-- [kitchen2wh](../flowchartsteps/delivering/kitchen2wh.ru.md)
-- [scanqronorder](../flowchartsteps/delivering/scanqronorder.ru.md)
-- [scanbackpack](../flowchartsteps/delivering/scanbackpack.ru.md)
-- [deliverorder](../flowchartsteps/delivering/deliverorder.ru.md)
+- [makeorder](makeorder.ru.md)
+- [makepayment](makepayment.ru.md)
+- [confirmstore2wh](confirmstore2wh.ru.md)
+- [store2wh](store2wh.ru.md)
+- [requeststore2wh](requeststore2wh.ru.md)
+- [wh2kitchen](wh2kitchen.ru.md)
+- [preparemeal](preparemeal.ru.md)
+- [kitchen2wh](kitchen2wh.ru.md)
+- [scanqronorder](scanqronorder.ru.md)
+- [scanbackpack](scanbackpack.ru.md)
+- [deliverorder](deliverorder.ru.md)
 
-![overall.delivering](../img/flowcharts/overall.delivering.png)
+![overall.delivering](../../img/flowcharts/overall.delivering.png)
 
 ## Структуры данных
 

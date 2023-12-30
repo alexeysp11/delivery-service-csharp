@@ -71,7 +71,7 @@
     - [передача файла](docs/processpatterns/transmittingfile.ru.md),
     - [запрос](docs/processpatterns/requesting.ru.md).
 - Описание flowchart-диаграмм (см. также: [flowchart-диаграммы](docs/flowchartnames/README.ru.md), [flowchart-шаги](docs/flowchartsteps/README.ru.md)):
-    - [доставка](docs/flowchartnames/delivering.ru.md).
+    - [доставка](docs/flowchartsteps/delivering/README.ru.md).
 - Виды оплаты: 
     - наличная при получении, 
     - через валидатор при получении, 

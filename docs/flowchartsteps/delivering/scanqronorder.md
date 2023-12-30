@@ -7,7 +7,7 @@ Name: **Scan QR code on order**.
 The scenario responsible for scanning QR code on order before delivering by couriers involves using a mobile app or handheld scanner to scan a unique QR code associated with each order. 
 This verifies that the correct order is being delivered and provides real-time tracking information to the delivery service company and the customer.
 
-Flowchart name: [delivering](../../flowchartnames/delivering.md)
+Flowchart name: [delivering](../../flowchartsteps/delivering/README.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 
@@ -27,7 +27,7 @@ This process is responsible for registration of the delivery order using a QR co
 
 ![delivering_overall](../../img/flowchartnames/delivering_overall.png)
 
-Despite the fact that this process belongs to the macroprocess [delivering](../../flowchartnames/delivering.ru.md), the implementation of this process is similar to the processes included in the macroprocess [maintenance](../../processpatterns/maintenance.ru.md), in the context of user notification:
+Despite the fact that this process belongs to the macroprocess [delivering](../../flowchartsteps/delivering/README.ru.md), the implementation of this process is similar to the processes included in the macroprocess [maintenance](../../processpatterns/maintenance.ru.md), in the context of user notification:
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 

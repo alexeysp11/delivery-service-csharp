@@ -6,7 +6,7 @@ Name: **Deliver order to customer**.
 
 The scenario responsible for delivering order to customer by couriers involves using a mobile app or GPS-enabled device to navigate to the customer's location, delivering the order in a timely and professional manner, and obtaining any necessary signatures or other proof of delivery.
 
-Flowchart name: [delivering](../../flowchartnames/delivering.md)
+Flowchart name: [delivering](../../flowchartsteps/delivering/README.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 

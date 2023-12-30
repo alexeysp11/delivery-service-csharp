@@ -7,7 +7,7 @@ Name: **Prepare order**.
 The prepare food scenario in the delivery service app involves retrieving the order details from the database, calculating the required ingredients and cooking instructions, and preparing the food according to those instructions. 
 The app updates the status of the order as it is prepared and notifies the kitchen staff when it is ready for delivery.
 
-Flowchart name: [delivering](../../flowchartnames/delivering.md)
+Flowchart name: [delivering](../../flowchartsteps/delivering/README.md)
 
 Responsible modules: [client application](../../frontend/kitchenclient.md), [backend service](../../backend/kitchenbackend.md)
 

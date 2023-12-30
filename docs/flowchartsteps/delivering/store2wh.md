@@ -6,7 +6,7 @@ Name: **Deliver order from store to WH**.
 
 The scenario responsible for delivering products from store to warehouse by couriers involves receiving requests for specific products from warehouse employees, buying those products in the store, packaging them for transport, and delivering them to the warehouse in a timely manner.
 
-Flowchart name: [delivering](../../flowchartnames/delivering.md)
+Flowchart name: [delivering](../../flowchartsteps/delivering/README.md)
 
 Responsible modules: [client application](../../frontend/courierclient.md), [backend service](../../backend/courierbackend.md)
 
@@ -41,7 +41,7 @@ Nuances associated with the implementation of this backend service:
 - To simplify the design and development process at the initial stages, we proceed from the idea that the store with the optimal price-quality ratio has already been selected (for example, due to contracts concluded as part of the management of relations with contractors, or a predetermined address of the nearest store). This means that **the backend service does not need to calculate which store is more profitable to buy products from**; accordingly, **information about the store will be obtained from the database**.
 - Building the most optimal delivery route and displaying the courier's location on a map is an important component of a real delivery service application, but **in this prototype application these functions are not currently implemented** in order to reduce the complexity of design and implementation.
 
-This process provides the implementation of the [delivering](../../flowchartnames/delivering.ru.md) process pattern:
+This process provides the implementation of the [delivering](../../flowchartsteps/delivering/README.ru.md) process pattern:
 
 ![delivering_overall](../../img/flowchartnames/delivering_overall.png)
 
@@ -67,15 +67,7 @@ This process provides the implementation of the [delivering](../../flowchartname
 
 ### Sequence diagrams
 
-![courier.store2wh](../../img/sequencediagram/courier.store2wh.png)
-
-![delivering.store2whrequest](../../img/sequencediagram/delivering.store2whrequest.png)
-
 ![delivering.finishstore2wh](../../img/sequencediagram/delivering.finishstore2wh.png)
-
-![delivering.confirmstore2wh](../../img/sequencediagram/delivering.confirmstore2wh.png)
-
-![delivering.rejectstore2wh](../../img/sequencediagram/delivering.rejectstore2wh.png)
 
 ## Data structures
 

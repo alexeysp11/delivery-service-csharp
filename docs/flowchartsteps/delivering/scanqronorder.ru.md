@@ -7,7 +7,7 @@
 Сценарий сканирования QR-кода заказа перед доставкой курьером предполагает использование мобильного приложения или портативного сканера для сканирования уникального QR-кода, связанного с каждым заказом.
 Это подтверждает, что доставляется правильный заказ, и предоставляет информацию об отслеживании в режиме реального времени компании, занимающейся доставкой, и клиенту.
 
-Наименование flowchart-диаграммы: [delivering](../../flowchartnames/delivering.ru.md)
+Наименование flowchart-диаграммы: [delivering](../../flowchartsteps/delivering/README.ru.md)
 
 Ответственные модули: [клиентское приложение](../../frontend/courierclient.md), [бэкэнд-сервис](../../backend/courierbackend.md)
 
@@ -27,7 +27,7 @@
 
 ![delivering_overall](../../img/flowchartnames/delivering_overall.png)
 
-Несмотря на то, что данный процесс относится к макропроцессу [delivering](../../flowchartnames/delivering.ru.md), реализация данного процесса схожа с процессами, входящими в макропроцесс [maintenance](../../processpatterns/maintenance.ru.md), в контексте уведомления пользователя:
+Несмотря на то, что данный процесс относится к макропроцессу [delivering](../../flowchartsteps/delivering/README.ru.md), реализация данного процесса схожа с процессами, входящими в макропроцесс [maintenance](../../processpatterns/maintenance.ru.md), в контексте уведомления пользователя:
 
 ![maintenance_overall](../../img/processpatterns/maintenance_overall.png)
 

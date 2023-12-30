@@ -35,7 +35,7 @@
 - Если при загрузке карточки заказа уже известно, что заказ не может быть отменен, то скрывать кнопку "Отменить заказ".
 - После отмены заказа, заказ пропадает из списка текущих заказов.
 
-Данный процесс отменяет макропроцесс [delivering](../../flowchartnames/delivering.ru.md):
+Данный процесс отменяет макропроцесс [delivering](../../flowchartsteps/delivering/README.ru.md):
 
 ![delivering_overall](../../img/flowchartnames/delivering_overall.png)
 

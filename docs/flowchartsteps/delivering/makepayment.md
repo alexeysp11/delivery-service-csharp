@@ -7,7 +7,7 @@ Name: **Make a payment**.
 The payment scenario in the delivery service app involves a user selecting a payment method and providing their payment information to complete the transaction for their order. 
 The app securely processes the payment and provides confirmation of the successful transaction.
 
-Flowchart name: [delivering](../../flowchartnames/delivering.md)
+Flowchart name: [delivering](../../flowchartsteps/delivering/README.md)
 
 Responsible modules: [client application](../../frontend/customerclient.md), [backend service](../../backend/customerbackend.md)
 
@@ -55,6 +55,13 @@ This process could be called within the [makeorder](../delivering/makeorder.md) 
 ![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
 
 ### Sequence diagrams
+
+In fact, the execution of this process in terms of HTTP requests is limited to obtaining data on the estimated delivery time of the order.
+
+According to the step-by-step execution, this request must store information about the sequence of called processes (this is done for ease of design and understanding of the system).
+However, this process actually updates within HTTP requests executed within child processes.
+
+For example, after preparing an order and sending it to the warehouse, according to the step-by-step execution diagram, the [sendnotifications](../../processes/notificationsbackend/sendnotifications.md) process is called (see also the [getnotified](../../processes/notificationsbackend/getnotified.md) process sequence diagram).
 
 ![delivering.makepaymentrequest](../../img/sequencediagram/delivering.makepaymentrequest.png)
 
