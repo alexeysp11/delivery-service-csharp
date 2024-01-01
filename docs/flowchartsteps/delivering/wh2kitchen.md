@@ -33,7 +33,7 @@ The overall description of the scenario for delivery from the warehouse to the k
 
 The interactive steps within the scenario include receiving delivery requests from the kitchen, selecting products for delivery, preparing products for transport, and updating delivery status.
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Flowcharts for network communication
 
@@ -55,8 +55,6 @@ The interactive steps within the scenario include receiving delivery requests fr
 ![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)
 
 ### Sequence diagrams
-
-![warehouse.wh2kitchen](../../img/sequencediagram/warehouse.wh2kitchen.png)
 
 ![delivering.finishdeliverytokitchen](../../img/sequencediagram/delivering.finishdeliverytokitchen.png)
 

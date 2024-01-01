@@ -22,7 +22,7 @@ Platform version: v0.1
 
 ## Process description
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Flowcharts for network communication
 
@@ -43,8 +43,6 @@ Platform version: v0.1
 ![warehouse.kitchen2wh](../../img/activitydiagrams/warehouse.kitchen2wh.png)
 
 ### Sequence diagrams
-
-![warehouse.kitchen2wh](../../img/sequencediagram/warehouse.kitchen2wh.png)
 
 ![delivering.kitchen2wh](../../img/sequencediagram/delivering.kitchen2wh.png)
 

@@ -33,7 +33,7 @@
 
 Интерактивные шаги, описанные в настоящем документе, включают запрос запросов на доставку с кухни, выбор продуктов для доставки, подготовку продуктов к транспортировке и обработку результатов доставки.
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Flowchart-диаграммы для сетевого взаимодействия
 
@@ -55,7 +55,5 @@
 ![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)
 
 ### Диаграммы последовательности
-
-![warehouse.wh2kitchen](../../img/sequencediagram/warehouse.wh2kitchen.png)
 
 ![delivering.finishdeliverytokitchen](../../img/sequencediagram/delivering.finishdeliverytokitchen.png)

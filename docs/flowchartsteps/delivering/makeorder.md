@@ -27,7 +27,7 @@ Platform version: v0.1
 
 The main process in the application [customer app](../../frontend/customerclient.md) that is responsible for registering the order in the application and includes electronic payment logic.
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Flowcharts for network communication
 

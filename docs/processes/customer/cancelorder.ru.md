@@ -37,7 +37,7 @@
 
 Данный процесс отменяет макропроцесс [delivering](../../flowchartsteps/delivering/README.ru.md):
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 Однако реализуется данный процесс как часть мкропроцесса [requesting](../../processpatterns/requesting.ru.md):
 

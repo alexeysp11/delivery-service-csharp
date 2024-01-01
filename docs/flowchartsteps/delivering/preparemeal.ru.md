@@ -25,7 +25,7 @@
 
 Данный процесс вызывается из процесса [preprocessorder](../delivering/preprocessorder.ru.md).
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Flowchart-диаграммы для сетевого взаимодействия
 
@@ -44,8 +44,6 @@
 ![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)
 
 ### Диаграммы последовательности
-
-![kitchen.preparemeal](../../img/sequencediagram/kitchen.preparemeal.png)
 
 ![delivering.preparemeal](../../img/sequencediagram/delivering.preparemeal.png)
 

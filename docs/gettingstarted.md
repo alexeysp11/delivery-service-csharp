@@ -17,13 +17,14 @@ Accordingly, a client application usually has the following API methods:
 To name API methods, the name of the business process and a certain postfix are used, i.e. `ProcessPostfix` (for example, `Wh2KitchenSave`, `Wh2KitchenRespond`, `MakeOrderRequest`).
 
 The following postfixes can be distinguished for business process-oriented methods:
-- `Request`: any user actions that are aimed at starting a process (client applications only);
-- `Respond`: any user actions that are aimed at responding or performing some action within the process (client applications only);
-- `Execute`: any user actions that are aimed at performing some action within the process (client applications only);
-- `Confirm`: any user actions that are aimed at confirming some action within the process (client applications only);
-- `Start`: any actions that are aimed at starting a process (backend services only);
-- `Get`: requests aimed at obtaining data from the database, in the context of some process;
-- `Save`: requests aimed at saving data in the database and subsequent redirection to another service/controller;
+- `Start`: actions that are aimed at **starting** a process;
+- `Request`: actions that are aimed at **starting** or **requesting** a process;
+- `Respond`: user actions that are aimed at **responding** or **performing** some action within the process;
+- `Execute`: user actions that are aimed at **performing** some action within the process;
+- `Accept`: user actions that are aimed at **accepting** some action/event within the process;
+- `Decline`: user actions that are aimed at **rejecting** some action/event within the process;
+- `Get`: requests aimed at **obtaining data** from the database, in the context of some process;
+- `Save`: requests aimed at **saving data** in the database and subsequent redirection to another service/controller;
 - `Redirect`: same as `Save`.
 
 Theoretically, you could be faced with a potential situation where you need to differentiate (separate) two or three tasks intended for the same user or application instance within the same process.

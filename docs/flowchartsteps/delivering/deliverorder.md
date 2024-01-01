@@ -38,7 +38,7 @@ Functionalities that could be added in the next versions of the platform:
 - Building the most optimal route for delivery.
 - Display the location of the courier on the map.
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Flowcharts for network communication
 

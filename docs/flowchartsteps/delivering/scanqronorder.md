@@ -25,7 +25,7 @@ Platform version: v0.1
 
 This process is responsible for registration of the delivery order using a QR code: start/end of work with the order.
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 Despite the fact that this process belongs to the macroprocess [delivering](../../flowchartsteps/delivering/README.ru.md), the implementation of this process is similar to the processes included in the macroprocess [maintenance](../../processpatterns/maintenance.ru.md), in the context of user notification:
 
@@ -45,8 +45,6 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 ![courier.scanqronorder](../../img/activitydiagrams/courier.scanqronorder.png)
 
 ### Sequence diagrams
-
-![courier.scanqronorder](../../img/sequencediagram/courier.scanqronorder.png)
 
 ![delivering.scanqronorder](../../img/sequencediagram/delivering.scanqronorder.png)
 

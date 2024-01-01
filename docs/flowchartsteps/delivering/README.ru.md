@@ -6,7 +6,7 @@
 
 `delivering` - это паттерн реализации бизнес-процессов, которые связаны с созданием заказа на доставку, а также оплатой и доставкой заказа. 
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 Данная диаграмма демонстрирует жизненный цикл продукта или заказа на доставку еды:
 
@@ -16,9 +16,9 @@
 
 - [makeorder](makeorder.ru.md)
 - [makepayment](makepayment.ru.md)
-- [confirmstore2wh](confirmstore2wh.ru.md)
-- [store2wh](store2wh.ru.md)
 - [requeststore2wh](requeststore2wh.ru.md)
+- [store2wh](store2wh.ru.md)
+- [confirmstore2wh](confirmstore2wh.ru.md)
 - [wh2kitchen](wh2kitchen.ru.md)
 - [preparemeal](preparemeal.ru.md)
 - [kitchen2wh](kitchen2wh.ru.md)

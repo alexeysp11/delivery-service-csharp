@@ -25,7 +25,7 @@
 
 Данный процесс ответственен за регистрацию рюкзака с помощью сканирования QR-кода (для того, чтобы регистрировать начало/конец работы в течение дня и отслеживать местоположение курьера в real time).
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 Несмотря на то, что данный процесс относится к макропроцессу [delivering](../../flowchartsteps/delivering/README.ru.md), реализация данного процесса схожа с процессами, входящими в макропроцесс [maintenance](../../processpatterns/maintenance.ru.md), в контексте уведомления пользователя:
 
@@ -45,7 +45,5 @@
 ![courier.scanqronorder](../../img/activitydiagrams/courier.scanqronorder.png)
 
 ### Диаграммы последовательности
-
-![courier.scanqronorder](../../img/sequencediagram/courier.scanqronorder.png)
 
 ![delivering.scanbackpack](../../img/sequencediagram/delivering.scanbackpack.png)

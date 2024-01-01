@@ -25,7 +25,7 @@ Platform version: v0.1
 
 This process is called from the [preprocessorder](../delivering/preprocessorder.md) process.
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Flowcharts for network communication
 
@@ -44,8 +44,6 @@ This process is called from the [preprocessorder](../delivering/preprocessorder.
 ![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)
 
 ### Sequence diagrams
-
-![kitchen.preparemeal](../../img/sequencediagram/kitchen.preparemeal.png)
 
 ![delivering.preparemeal](../../img/sequencediagram/delivering.preparemeal.png)
 

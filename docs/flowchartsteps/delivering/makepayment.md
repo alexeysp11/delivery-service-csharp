@@ -35,7 +35,7 @@ The [customer app](../../frontend/customerclient.md) allows users to make paymen
 This process is responsible for payment of the order. 
 This process could be called within the [makeorder](../delivering/makeorder.md) or after the [deliverorder](../delivering/deliverorder.md) process.
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Flowcharts for network communication
 

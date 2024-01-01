@@ -37,7 +37,7 @@ Platform version: v0.1
 
 This process cancels the macroprocess [delivering](../../flowchartsteps/delivering/README.md):
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 However, this process is implemented as part of the microprocess [requesting](../../processpatterns/requesting.md):
 

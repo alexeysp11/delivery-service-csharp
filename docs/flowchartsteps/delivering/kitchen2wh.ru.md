@@ -22,7 +22,7 @@
 
 ## Описание процесса
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Flowchart-диаграммы для сетевого взаимодействия
 
@@ -43,7 +43,5 @@
 ![warehouse.kitchen2wh](../../img/activitydiagrams/warehouse.kitchen2wh.png)
 
 ### Диаграммы последовательности
-
-![warehouse.kitchen2wh](../../img/sequencediagram/warehouse.kitchen2wh.png)
 
 ![delivering.kitchen2wh](../../img/sequencediagram/delivering.kitchen2wh.png)

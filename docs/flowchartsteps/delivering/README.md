@@ -6,7 +6,7 @@ Name: **Delivering**.
 
 `delivering` is a pattern for implementing business processes that are associated with creating a delivery order, as well as payment and delivery of the order.
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 This diagram shows the life cycle of a product or food delivery order:
 
@@ -16,9 +16,9 @@ This diagram shows the life cycle of a product or food delivery order:
 
 - [makeorder](makeorder.md)
 - [makepayment](makepayment.md)
-- [confirmstore2wh](confirmstore2wh.md)
-- [store2wh](store2wh.md)
 - [requeststore2wh](requeststore2wh.md)
+- [store2wh](store2wh.md)
+- [confirmstore2wh](confirmstore2wh.md)
 - [wh2kitchen](wh2kitchen.md)
 - [preparemeal](preparemeal.md)
 - [kitchen2wh](kitchen2wh.md)

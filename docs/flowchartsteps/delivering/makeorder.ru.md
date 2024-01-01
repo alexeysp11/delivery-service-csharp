@@ -27,7 +27,7 @@
 
 Основной процесс в приложении [customer app](../../frontend/customerclient.md), который ответственен за регистрацию заказа в приложении и включает в себя логику электронной оплаты.
 
-![delivering_overall](../../img/flowchartnames/delivering_overall.png)
+![delivering_overall](../../img/processpatterns/delivering_overall.png)
 
 ### Flowchart-диаграммы для сетевого взаимодействия
 
