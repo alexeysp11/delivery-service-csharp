@@ -125,6 +125,21 @@ It is also indicated how asynchronous communication between services is carried 
 
 ![layers_simplified](docs/img/layers_simplified.png)
 
+To achieve platform flexibility, client controllers should be empty: it is desirable that all data processing logic be located in BL modules.
+Thus, the client application can be completely different (ASP.NET MVC, Blazor, WPF, React.js etc), i.e. it becomes responsible only for displaying data on the UI.
+For client applications, communication with the database is allowed only for working with the cache.
+
+The client application communicates with its backend service exclusively directly and in most cases over the HTTP protocol.
+
+Microservices can communicate with each other either directly or through a data bus.
+The data bus is implemented in two possible ways:
+- a common web service for backend and system services (a kind of proxy);
+- use of message brokers (for example, RabbitMQ).
+
+The diagrams show separate databases for different services; in fact, the database can be either common to all services or separate (however, due to replication, all services must work with data as if it were the same database, i.e. i.e. have identical tables and records in them).
+
+It should be noted that if there is only one database, then at some steps (see [flowchart steps](docs/flowchartsteps/README.md)) there is no need to “notify” client applications (and sometimes the corresponding backend services), because that the client application will in any case “read” the necessary changes from the database.
+
 ## Project configuration
 
 To download this project and all its dependencies, you must sequentially execute the following commands on the command line:
