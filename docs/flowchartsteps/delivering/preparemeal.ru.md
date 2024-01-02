@@ -41,8 +41,6 @@
 - Водители-курьеры получают информацию о заказе и место получения через приложение.
 - Водители-экспедиторы забирают еду и доставляют ее покупателю.
 
-![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)
-
 ### Диаграммы последовательности
 
 ![delivering.preparemeal](../../img/sequencediagram/delivering.preparemeal.png)

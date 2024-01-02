@@ -52,8 +52,6 @@ This process could be called within the [makeorder](../delivering/makeorder.md) 
     - Add payment geteway after filling out the form if a card is selected as a type of payment.
 - The app confirms the payment and sends to the backend service.
 
-![customer.makepayment](../../img/activitydiagrams/customer.makepayment.png)
-
 ### Sequence diagrams
 
 In fact, the execution of this process in terms of HTTP requests is limited to obtaining data on the estimated delivery time of the order.

@@ -42,8 +42,6 @@
 - Курьер сканирует QR-код в заказе на доставку с помощью камеры своего устройства.
 - Система проверяет QR-код и отображает детали заказа на доставку курьеру.
 
-![courier.scanqronorder](../../img/activitydiagrams/courier.scanqronorder.png)
-
 ### Диаграммы последовательности
 
 ![delivering.scanqronorder](../../img/sequencediagram/delivering.scanqronorder.png)

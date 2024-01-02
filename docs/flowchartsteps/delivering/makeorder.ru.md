@@ -42,8 +42,6 @@
 - Затем в рамках процесса [preprocessorder](preprocessorder.ru.md) введенная пользователем информация отправляется в базу данных и в [customerbackend](../../backend/customerbackend.md), который также уведомляет [kitchenbackend](../../backend/kitchenbackend.md).
 - Пользователь находится на странице [Текущие заказы](pendingorders.ru.md), где он может отслеживать статус своего заказа в режиме реального времени.
 
-![customer.makeorder](../../img/activitydiagrams/customer.makeorder.png)
-
 ### Диаграммы последовательности
 
 ![delivering.makeorderrequest](../../img/sequencediagram/delivering.makeorderrequest.png)

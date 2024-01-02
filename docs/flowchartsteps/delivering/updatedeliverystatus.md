@@ -35,8 +35,6 @@ Platform version: v0.1
 - The courier updates the status of the delivery order (e.g. "en route", "delivered") in the system.
 - The system updates the status of the delivery order and notifies the customer of any changes.
 
-![courier.updatedeliverystatus](../../img/activitydiagrams/courier.updatedeliverystatus.png)
-
 ### Sequence diagrams
 
 ![courier.updatedeliverystatus](../../img/sequencediagram/courier.updatedeliverystatus.png)

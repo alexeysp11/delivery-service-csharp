@@ -70,7 +70,7 @@ Any company that offers delivery services could potentially use this application
     - [maintenance](docs/processpatterns/maintenance.md),
     - [transmitting file](docs/processpatterns/transmittingfile.md),
     - [requesting](docs/processpatterns/requesting.md).
-- Description of process patterns (see also: [flowchart diagrams](docs/flowchartnames/README.md), [flowchart steps](docs/flowchartsteps/README.md)): 
+- Description of process patterns (see also: [flowchart steps](docs/flowchartsteps/README.md)): 
     - [delivering](docs/flowchartsteps/delivering/README.md).
 - Types of payment: 
     - cash upon receipt, 

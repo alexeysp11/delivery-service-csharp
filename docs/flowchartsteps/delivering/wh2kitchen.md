@@ -52,8 +52,6 @@ The interactive steps within the scenario include receiving delivery requests fr
 - Prepare the products for transport, such as packing them into boxes or crates
 - Update delivery status to indicate that the products have been picked up and are en route to the kitchen
 
-![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)
-
 ### Sequence diagrams
 
 ![delivering.finishdeliverytokitchen](../../img/sequencediagram/delivering.finishdeliverytokitchen.png)

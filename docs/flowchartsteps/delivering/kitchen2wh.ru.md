@@ -40,8 +40,6 @@
 - Сотрудник склада идёт на кухню, забирает продукты и относит на склад.
 - Сотрудник склада отмечает, что процесс выполнен.
 
-![warehouse.kitchen2wh](../../img/activitydiagrams/warehouse.kitchen2wh.png)
-
 ### Диаграммы последовательности
 
 ![delivering.kitchen2wh](../../img/sequencediagram/delivering.kitchen2wh.png)

@@ -42,8 +42,6 @@
 - Курьер сканирует QR-код на рюкзаке с помощью камеры своего устройства.
 - Система проверяет QR-код и подтверждает, что он соответствует заказу на доставку.
 
-![courier.scanqronorder](../../img/activitydiagrams/courier.scanqronorder.png)
-
 ### Диаграммы последовательности
 
 ![delivering.scanbackpack](../../img/sequencediagram/delivering.scanbackpack.png)

@@ -42,8 +42,6 @@ The main process in the application [customer app](../../frontend/customerclient
 - Then within the process [preprocessorder](preprocessorder.md) the information entered by the user is sent to the database and to [customerbackend](../../backend/customerbackend.md), which also notifies [kitchenbackend](../../backend/kitchenbackend.md).
 - The user is on the [Pending orders](pendingorders.md) page where they can track the status of their order in real-time.
 
-![customer.makeorder](../../img/activitydiagrams/customer.makeorder.png)
-
 ### Sequence diagrams
 
 ![delivering.makeorderrequest](../../img/sequencediagram/delivering.makeorderrequest.png)

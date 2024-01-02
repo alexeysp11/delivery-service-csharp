@@ -55,8 +55,6 @@
 - Курьер отмечает в системе заказ на доставку как выполненный.
 - Когда курьер отмечает заказ как выполненный, запускается процесс [updatedeliverystatus](../delivering/updatedeliverystatus.ru.md) для того, чтобы закончить доставку.
 
-![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)
-
 ### Диаграммы последовательности
 
 ![courier.deliverorder](../../img/sequencediagram/courier.deliverorder.png)

@@ -52,8 +52,6 @@
 - Подготовьте продукцию к транспортировке, например, упакуйте ее в коробки или ящики.
 - Обновите статус доставки, чтобы указать, что продукты забраны и находятся на пути на кухню.
 
-![warehouse.wh2kitchen](../../img/activitydiagrams/warehouse.wh2kitchen.png)
-
 ### Диаграммы последовательности
 
 ![delivering.finishdeliverytokitchen](../../img/sequencediagram/delivering.finishdeliverytokitchen.png)

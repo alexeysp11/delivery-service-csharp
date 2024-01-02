@@ -63,8 +63,6 @@ This process provides the implementation of the [delivering](../../flowchartstep
 - The courier delivers the products to the warehouse.
 - The courier marks the delivery order in the system as completed, and attaches a photo of the receipt as confirmation.
 
-![courier.store2wh](../../img/activitydiagrams/courier.store2wh.png)
-
 ### Sequence diagrams
 
 ![delivering.finishstore2wh](../../img/sequencediagram/delivering.finishstore2wh.png)

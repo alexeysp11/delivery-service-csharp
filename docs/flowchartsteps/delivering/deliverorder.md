@@ -55,8 +55,6 @@ Functionalities that could be added in the next versions of the platform:
 - The courier marks the delivery order as complete in the system.
 - When the courier marks the order as completed, the [updatedeliverystatus](../delivering/updatedeliverystatus.md) process is launched to complete delivery.
 
-![courier.deliverorder](../../img/activitydiagrams/courier.deliverorder.png)
-
 ### Sequence diagrams
 
 ![courier.deliverorder](../../img/sequencediagram/courier.deliverorder.png)

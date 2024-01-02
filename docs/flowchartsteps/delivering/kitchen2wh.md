@@ -40,8 +40,6 @@ Platform version: v0.1
 - A warehouse employee goes to the kitchen, picks up food and takes it to the warehouse.
 - The warehouse employee notes that the process is completed.
 
-![warehouse.kitchen2wh](../../img/activitydiagrams/warehouse.kitchen2wh.png)
-
 ### Sequence diagrams
 
 ![delivering.kitchen2wh](../../img/sequencediagram/delivering.kitchen2wh.png)

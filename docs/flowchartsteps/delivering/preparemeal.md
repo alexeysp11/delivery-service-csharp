@@ -41,8 +41,6 @@ This process is called from the [preprocessorder](../delivering/preprocessorder.
 - Delivery drivers receive the order details and pickup location through the app.
 - Delivery drivers pick up the food and deliver it to the customer.
 
-![kitchen.preparemeal](../../img/activitydiagrams/kitchen.preparemeal.png)
-
 ### Sequence diagrams
 
 ![delivering.preparemeal](../../img/sequencediagram/delivering.preparemeal.png)
