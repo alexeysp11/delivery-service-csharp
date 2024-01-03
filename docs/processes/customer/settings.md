@@ -48,11 +48,11 @@ You can also go to [user account](../systembackend/useraccount.md) to see some p
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs) | - | - |
-| [Contact](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Contact.cs) | - | - |
-| [Address](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Address.cs) | - | - |
-| PaymentMethod | PaymentMethodDTO | - |
-| Card | CardDTO | - |
-| - | UserDTO | - |
+| Object | DTO |
+| --- | ---- |
+| [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs) | - |
+| [Contact](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Contact.cs) | - |
+| [Address](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Address.cs) | - |
+| PaymentMethod | PaymentMethodDTO |
+| Card | CardDTO |
+| - | UserDTO |

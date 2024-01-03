@@ -43,7 +43,7 @@ Platform version: v0.1
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| EquipmentRequest | EquipmentRequestDTO | - |
-| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | EmployeeDTO | - |
+| Object | DTO |
+| --- | ---- |
+| EquipmentRequest | EquipmentRequestDTO |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | EmployeeDTO |

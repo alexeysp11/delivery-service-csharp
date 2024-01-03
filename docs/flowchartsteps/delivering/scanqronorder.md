@@ -48,12 +48,12 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| QRCode | - | - |
-| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | - | - |
-| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
-| - | DeliveryStartDTO | - |
+| Object | DTO |
+| --- | ---- |
+| QRCode | - |
+| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | - |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - |
+| - | DeliveryStartDTO |
 
 - QRCode object could have properties like codeValue, expirationDate, etc. 
 - Order object could have properties like orderNumber, customer details, product details, QR code, etc. 

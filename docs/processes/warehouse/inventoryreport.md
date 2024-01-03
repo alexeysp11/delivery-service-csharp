@@ -28,11 +28,11 @@ Platform version: v0.1
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| InventoryReport | InventoryReportDTO | - |
-| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
-| [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs) | - | - |
+| Object | DTO |
+| --- | ---- |
+| InventoryReport | InventoryReportDTO |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - |
+| [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs) | - |
 
 - InventoryReport object could have properties like reportDate, inventoryLevel, product details, etc. 
 - InventoryReportDTO could have properties like reportDate, inventoryLevel, productName, productDescription, productPrice, etc.

@@ -41,7 +41,3 @@
 - [UserCredentials](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/UserCredentials.cs)
 - [VSURequest](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/VSURequest.cs)
 - [VSUResponse](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/VSUResponse.cs)
-
-### Таблицы в БД
-
-- [delivery_customer_cb](../../dbtables/customer/delivery_customer_cb.md)

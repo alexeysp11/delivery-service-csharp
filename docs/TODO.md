@@ -11,8 +11,6 @@
 - &cross; Add algorithms to handle exceptions to the diagrams.
 - &check; Probably, it's better to move [signin](processes/auth/signin.md) and [signup](processes/customer/signup.md) into the folder that stores data for authentication service.
 - &cross; Use [UserAccount](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/UserAccount.cs) for [customer backend](backend/customerbackend.md) and [client-side customer app](frontend/customerclient.md).
-- &cross; Add the [delivery_customer_tmp_cb](dbtables/customer/delivery_customer_tmp_cb.md) table.
-- &cross; Edit [delivery_whproduct_whb](dbtables/warehouse/delivery_whproduct_whb.md).
 - &cross; Add SKU and ASN classes for the [warehousebackend](backend/warehousebackend.md) service.
 - &check; Place the sections "Related modules" and "Human-readable name" just after languages.
 - &check; Create the common diagram that shows interaction between services in order to retrieve some data for customer client-side app (e.g. orders, pending orders, settings, user account, watching videos).

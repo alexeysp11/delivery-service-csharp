@@ -49,11 +49,11 @@ This process is called from the [preprocessorder](../delivering/preprocessorder.
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
+| Object | DTO |
+| --- | ---- |
 | Meal | MealDTO | - |
-| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | EmployeeDTO | - |
-| [CookingOperation](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/CookingOperation.cs) | - | - |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | EmployeeDTO |
+| [CookingOperation](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/CookingOperation.cs) | - |
 
 - Meal
     - The object that represents a meal in the delivery service app could have properties such as name, description, ingredients, price, and availability. It could also have methods for adding or removing ingredients, updating the price, and checking availability.

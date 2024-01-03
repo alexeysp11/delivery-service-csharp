@@ -56,7 +56,7 @@ The step-by-step execution of the process is identical to the [rateorder](../cus
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| [Notification](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Notification.cs) | NotificationDTO | - |
-| [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs) | CustomerDTO | - |
+| Object | DTO |
+| --- | ---- |
+| [Notification](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Notification.cs) | NotificationDTO |
+| [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs) | CustomerDTO |

@@ -41,11 +41,11 @@ Platform version: v0.1
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | - | - |
-| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
-| DeliveryStatus | - | - |
-| - | DeliveryStatusUpdateDTO | - |
+| Object | DTO |
+| --- | ---- |
+| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | - |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - |
+| DeliveryStatus | - |
+| - | DeliveryStatusUpdateDTO |
 
 - DeliveryStatusUpdateDTO could have properties like deliveryId, status, statusDate, etc.

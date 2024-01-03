@@ -41,14 +41,14 @@ Platform version: v0.1
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs) | - | - |
-| [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/ProductCategory.cs) | - | - |
-| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | OrderDTO | - |
-| [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs) | - | - |
-| DeliveryOrderRate | - | - |
-| - | UserDTO | - |
+| Object | DTO |
+| --- | ---- |
+| [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs) | - |
+| [ProductCategory](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/ProductCategory.cs) | - |
+| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | OrderDTO |
+| [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs) | - |
+| DeliveryOrderRate | - |
+| - | UserDTO |
 
 - The delivery order rate model
     - The delivery order rate model could have properties such as order ID, rating, comments, and timestamp. It could also have methods for submitting ratings, retrieving ratings for a specific order, and calculating average ratings. 

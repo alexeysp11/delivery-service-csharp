@@ -47,11 +47,11 @@ The interactive steps within the scenario include selecting the type of incident
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| [Incident](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Incident.cs) | IncidentDTO | - |
-| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
-| DeliveryService | - | - |
+| Object | DTO |
+| --- | ---- |
+| [Incident](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Incident.cs) | IncidentDTO |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - |
+| DeliveryService | - |
 
 - DeliveryService object could have properties like name, contact information, delivery area, etc. 
 - IncidentDTO could have properties like incidentType, location, date, severity, serviceName, serviceContactInfo, etc.

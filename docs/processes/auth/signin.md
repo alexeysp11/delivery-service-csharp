@@ -49,7 +49,3 @@ Platform version: v0.1
 - [VUCResponse](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/VUCResponse.cs)
 - [SessionToken](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/SessionToken.cs)
 - [TokenRequest](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/TokenRequest.cs)
-
-### Database tables
-
-- [delivery_customer_cb](../../dbtables/customer/delivery_customer_cb.md)

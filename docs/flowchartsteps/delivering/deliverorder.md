@@ -61,8 +61,8 @@ Functionalities that could be added in the next versions of the platform:
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
-| DeliveryStatus | - | - |
-| [DeliveryOperation](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Delivery/DeliveryOperation.cs) | - | - |
+| Object | DTO |
+| --- | ---- |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - |
+| DeliveryStatus | - |
+| [DeliveryOperation](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Delivery/DeliveryOperation.cs) | - |

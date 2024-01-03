@@ -48,13 +48,13 @@ Despite the fact that this process belongs to the macroprocess [delivering](../.
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| QRCode | - | - |
-| Backpack | - | - |
-| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
-| Delivery | DeliveryDTO | - |
-| - | BackpackScanDTO | - |
+| Object | DTO |
+| --- | ---- |
+| QRCode | - |
+| Backpack | - |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - |
+| Delivery | DeliveryDTO |
+| - | BackpackScanDTO |
 
 - QRCode
     - QRCode object could have properties like codeValue, expirationDate, etc. 

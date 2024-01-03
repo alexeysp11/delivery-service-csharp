@@ -69,14 +69,14 @@ This process provides the implementation of the [delivering](../../flowchartstep
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs) | - | - |
-| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - | - |
-| Store | - | - |
-| [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) | - | - |
-| Delivery | DeliveryDTO | - |
-| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | - | - |
+| Object | DTO |
+| --- | ---- |
+| [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs) | - |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | - |
+| Store | - |
+| [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) | - |
+| Delivery | DeliveryDTO |
+| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | - |
 
 - The store object could have properties such as name, location, inventory, and staff. It could also have methods for managing inventory levels, scheduling staff, and processing orders.
 - Warehouse object could have properties like location, inventory levels, etc. 

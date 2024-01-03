@@ -58,11 +58,11 @@ The interactive steps within the scenario include receiving delivery requests fr
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs) | ProductDTO | - |
-| [Ingredient](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Ingredient.cs) | IngredientDTO | - |
-| [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) | WarehouseDTO | - |
-| Kitchen | KitchenDTO | - |
-| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | EmployeeDTO | - |
-| [DeliveryWh2Kitchen](../../../src/models/Orders/DeliveryWh2Kitchen.cs) | DeliveryWh2KitchenDTO | - |
+| Object | DTO |
+| --- | ---- |
+| [Product](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Product.cs) | ProductDTO |
+| [Ingredient](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Products/Ingredient.cs) | IngredientDTO |
+| [Warehouse](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Warehouse.cs) | WarehouseDTO |
+| Kitchen | KitchenDTO |
+| [Employee](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/InformationSystem/Employee.cs) | EmployeeDTO |
+| [DeliveryWh2Kitchen](../../../src/models/Orders/DeliveryWh2Kitchen.cs) | DeliveryWh2KitchenDTO |

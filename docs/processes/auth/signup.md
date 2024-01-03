@@ -41,7 +41,3 @@ Platform version: v0.1
 - [UserCredentials](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/UserCredentials.cs)
 - [VSURequest](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/VSURequest.cs)
 - [VSUResponse](https://github.com/alexeysp11/workflow-auth/blob/main/models/NetworkParameters/VSUResponse.cs)
-
-### Database tables
-
-- [delivery_customer_cb](../../dbtables/customer/delivery_customer_cb.md)

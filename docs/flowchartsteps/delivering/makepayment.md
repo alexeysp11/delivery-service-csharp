@@ -65,13 +65,13 @@ For example, after preparing an order and sending it to the warehouse, according
 
 ## Data structures
 
-| Object | DTO | Database table |
-| --- | ---- | --- |
-| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | DeliveryOrderDTO | [delivery_order_cb](../../dbtables/customer/delivery_order_cb.md) |
-| [InitialOrder](../../../src/models/Orders/InitialOrder.cs) | InitialOrderDTO | [delivery_initialorder_cb](../../dbtables/customer/delivery_initialorder_cb.md) |
-| [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs) | CustomerDTO | - | 
-| [Payment](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Monetary/Payment.cs) | PaymentDTO | - | 
-| [Transaction](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Monetary/Transaction.cs) | TransactionDTO | - | 
+| Object | DTO |
+| --- | ---- |
+| [DeliveryOrder](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/BusinessDocuments/DeliveryOrder.cs) | DeliveryOrderDTO |
+| [InitialOrder](../../../src/models/Orders/InitialOrder.cs) | InitialOrderDTO |
+| [Customer](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Customers/Customer.cs) | CustomerDTO |
+| [Payment](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Monetary/Payment.cs) | PaymentDTO |
+| [Transaction](https://github.com/alexeysp11/workflow-lib/blob/main/src/Models/Business/Monetary/Transaction.cs) | TransactionDTO |
 
 - OrderDTO
 - CustomerDTO
