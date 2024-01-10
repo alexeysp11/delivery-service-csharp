@@ -7,5 +7,11 @@ data
 customerbackend
 src/frontend/customer/blazor
 src/frontend/customer/wpf
+src/frontend/courier/blazor
+src/frontend/courier/wpf
+src/frontend/kitchen/blazor
+src/frontend/kitchen/wpf
+src/frontend/warehouse/blazor
+src/frontend/warehouse/wpf
 
 docs/spreadsheets/.~lock.processes.ods#
