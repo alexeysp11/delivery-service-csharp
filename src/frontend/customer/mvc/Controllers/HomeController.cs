@@ -5,7 +5,8 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using DeliveryService.CustomerClientBL.Models;
-using DeliveryService.Models.Orders;
+using Cims.WorkflowLib.Models.Business.Delivery;
+using Cims.WorkflowLib.Models.Business.BusinessDocuments;
 
 namespace DeliveryService.CustomerClientMVC.Controllers;
 

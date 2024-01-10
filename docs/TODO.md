@@ -23,6 +23,8 @@
 - &cross; Write "Getting started" guide for the project.
 - &cross; In the DBA backend, `pg_stat_statements` could be used for getting daily report on queries. Also `log_min_duration` could be used when it comes to logging those statements whose execution time is too big.
 - &cross; Platform migration to Linux system.
+- &cross; Consider to use the following architecture for interaction between microservices:
+![iiko-architecture](https://habrastorage.org/webt/qh/bu/qt/qhbuqtdm4-uylhriivfq3vwpfyq.png)
 
 ## Roadmap for the project 
 

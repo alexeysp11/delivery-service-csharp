@@ -6,7 +6,7 @@ namespace DeliveryService.Models;
 public class SessionTokenInfo
 {
     /// <summary>
-    /// 
+    /// Session token GUID.
     /// </summary>
     public System.Guid SessionTokenGuid { get; set; }
     
