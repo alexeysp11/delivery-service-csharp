@@ -1,6 +1,10 @@
 # projectstructure
 
-## Grocery applications
+[English](projectstructure.md) | [Русский](projectstructure.ru.md)
+
+This file describes the structure of the project in general (product applications: client applications, backend services; infrastructure backend services), and also lists the functionality that applies to each application.
+
+## Product applications
 
 ### Client applications
 
