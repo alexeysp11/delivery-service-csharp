@@ -6,7 +6,7 @@ using Cims.WorkflowLib.Models.Business.Products;
 using Cims.WorkflowLib.Models.Network;
 using DeliveryService.Core.Contexts;
 
-namespace Cims.WorkflowLib.Example01.Controllers
+namespace DeliveryService.CustomerClientBL.Controllers
 {
     /// <summary>
     /// A class that represents a client-side app controller that processes requests from the customer.
