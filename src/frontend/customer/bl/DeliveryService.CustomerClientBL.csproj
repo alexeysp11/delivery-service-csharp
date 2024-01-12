@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\models\DeliveryService.Models.csproj" />
+    <ProjectReference Include="..\..\..\core\DeliveryService.Core.csproj" />
   </ItemGroup>
 
 </Project>
