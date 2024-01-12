@@ -311,7 +311,7 @@ namespace DeliveryService.CustomerBackendBL.Controllers
         }
 
         /// <summary>
-        /// 
+        /// A method that redirects a request to pre-process a delivery order.
         /// </summary>
         public string PreprocessOrderRedirect(DeliveryOrder model)
         {

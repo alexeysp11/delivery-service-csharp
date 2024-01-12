@@ -642,7 +642,8 @@ namespace DeliveryService.WarehouseBackendBL.Controllers
         }
 
         /// <summary>
-        /// 
+        /// The method that is responsible for carrying out the delivery of ingredients 
+        /// from the warehouse to the kitchen as part of processing a delivery order.
         /// </summary>
         public string Wh2KitchenExecute(DeliveryOrder model)
         {
@@ -840,7 +841,8 @@ namespace DeliveryService.WarehouseBackendBL.Controllers
         #endregion  // kitchen2wh
 
         /// <summary>
-        /// 
+        /// A method that allows you to randomly select a warehouse employee who will be responsible for performing 
+        /// an atomic operation as part of processing a delivery order. 
         /// </summary>
         private Employee GetWarehouseEmployeeRandomly()
         {
