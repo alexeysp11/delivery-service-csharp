@@ -24,6 +24,7 @@ namespace DeliveryService.CustomerClientBL.Controllers
             _contextOptions = contextOptions;
         }
 
+        #region makeorder
         /// <summary>
         /// The method that is responsible for placing an order.
         /// </summary>
@@ -57,7 +58,9 @@ namespace DeliveryService.CustomerClientBL.Controllers
             System.Console.WriteLine("CustomerClient.MakeOrderRequest: end");
             return response;
         }
+        #endregion  // makeorder
         
+        #region makepayment
         /// <summary>
         /// A method that stores the data necessary to carry out electronic payment on the part of the client.
         /// </summary>
@@ -125,5 +128,6 @@ namespace DeliveryService.CustomerClientBL.Controllers
             System.Console.WriteLine("CustomerClient.MakePaymentRespond: end");
             return response;
         }
+        #endregion  // makepayment
     }
 }

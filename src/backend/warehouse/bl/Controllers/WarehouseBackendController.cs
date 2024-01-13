@@ -211,7 +211,7 @@ namespace DeliveryService.WarehouseBackendBL.Controllers
         }
         #endregion  // preprocessorder
 
-        #region store2wh
+        #region requeststore2wh
         /// <summary>
         /// A method that allows you to begin the process of delivering products from the store to the warehouse.
         /// </summary>

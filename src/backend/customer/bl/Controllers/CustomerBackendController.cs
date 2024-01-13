@@ -309,7 +309,9 @@ namespace DeliveryService.CustomerBackendBL.Controllers
             System.Console.WriteLine("CustomerBackend.MakePayment: end");
             return response;
         }
+        #endregion  // makepayment
 
+        #region preprocessorder
         /// <summary>
         /// A method that redirects a request to pre-process a delivery order.
         /// </summary>
@@ -345,6 +347,6 @@ namespace DeliveryService.CustomerBackendBL.Controllers
             System.Console.WriteLine("CustomerBackend.PreprocessOrderRedirect: end");
             return response;
         }
-        #endregion  // makepayment
+        #endregion  // preprocessorder
     }
 }
