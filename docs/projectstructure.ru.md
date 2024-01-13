@@ -4,43 +4,51 @@
 
 Данный файл описывает структуру проекта в общем виде (продуктовые приложения: клиентские приложения, бэкэнд-сервисы; инфраструктурные бэкэнд-сервисы), а также перечисляет функционал, который относится к каждому приложению.
 
-## Продуктовые приложения
+## Оформление и обработка заказа на доставку
 
-### Клиентские приложения
+### Продуктовые приложения
+
+#### Клиентские приложения
 
 - функционал, который нужен для оформления заказа на клиентском приложении **потребителя**.
-    - оформить заказ (UI: &check;; controller: &cross;; BL: &cross;).
-    - оплатить заказ (UI: &cross;; controller: &cross;; BL: &cross;).
     - отображение списка заказов (UI: &cross;; controller: &cross;; BL: &cross;).
+    - оформить заказ (UI: &check;; controller: &cross;; BL: &check;).
+    - оплатить заказ (UI: &cross;; controller: &cross;; BL: &check;).
 - функционал, который нужен для обработки заказа на клиентском приложении **курьера**.
-    - выполнить доставку из магазина на склад (UI: &cross;; controller: &cross;; BL: &cross;).
-    - выполнить доставку заказа потребителю (UI: &cross;; controller: &cross;; BL: &cross;).
+    - отображение списка заказов на доставку (UI: &cross;; controller: &cross;; BL: &cross;).
+    - выполнить доставку из магазина на склад (UI: &cross;; controller: &cross;; BL: &check;).
+    - выполнить доставку заказа потребителю (UI: &cross;; controller: &cross;; BL: &check;).
 - функционал, который нужен для обработки заказа на клиентском приложении **кухни**.
-    - приготовить заказ (UI: &cross;; controller: &cross;; BL: &cross;).
+    - отображение списка заказов, которые необходимо приготовить (UI: &cross;; controller: &cross;; BL: &cross;).
+    - приготовить заказ (UI: &cross;; controller: &cross;; BL: &check;).
 - функционал, который нужен для обработки заказа на клиентском приложении **склада**.
-    - запросить доставку из магазина на склад (UI: &cross;; controller: &cross;; BL: &cross;).
-    - подтвердить доставку из магазина на склад (UI: &cross;; controller: &cross;; BL: &cross;).
-    - выполнить доставку со склада на кухню (UI: &cross;; controller: &cross;; BL: &cross;).
-    - выполнить доставку с кухни на склад (UI: &cross;; controller: &cross;; BL: &cross;).
+    - отображение списка заказов доставку из магазина на склад, которые необходимо запросить (UI: &cross;; controller: &cross;; BL: &cross;).
+    - отображение списка заказов доставку из магазина на склад, которые необходимо подтвердить (UI: &cross;; controller: &cross;; BL: &cross;).
+    - отображение списка заказов доставку со склад на кухню (UI: &cross;; controller: &cross;; BL: &cross;).
+    - отображение списка заказов доставку с кухни на склад (UI: &cross;; controller: &cross;; BL: &cross;).
+    - запросить доставку из магазина на склад (UI: &cross;; controller: &cross;; BL: &check;).
+    - подтвердить доставку из магазина на склад (UI: &cross;; controller: &cross;; BL: &check;).
+    - выполнить доставку со склада на кухню (UI: &cross;; controller: &cross;; BL: &check;).
+    - выполнить доставку с кухни на склад (UI: &cross;; controller: &cross;; BL: &check;).
 
-### Бэкэнд-сервисы
+#### Бэкэнд-сервисы
 
 - функционал, который нужен для обработки заказа на бэкэнд-сервисе **потребителя**.
-    - оформить заказ (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
-    - оплатить заказ (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
+    - оформить заказ (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
+    - оплатить заказ (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
     - отображение списка заказов (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
 - функционал, который нужен для обработки заказа на бэкэнд-сервисе **курьера**.
-    - выполнить доставку из магазина на склад (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
-    - выполнить доставку заказа потребителю (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
+    - выполнить доставку из магазина на склад (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
+    - выполнить доставку заказа потребителю (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
 - функционал, который нужен для обработки заказа на бэкэнд-сервисе **кухни**.
-    - приготовить заказ (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
+    - приготовить заказ (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
 - функционал, который нужен для обработки заказа на бэкэнд-сервисе **склада**.
-    - запросить доставку из магазина на склад (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
-    - подтвердить доставку из магазина на склад (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
-    - выполнить доставку со склада на кухню (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
-    - выполнить доставку с кухни на склад (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
+    - запросить доставку из магазина на склад (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
+    - подтвердить доставку из магазина на склад (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
+    - выполнить доставку со склада на кухню (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
+    - выполнить доставку с кухни на склад (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
 
-## Инфраструктурные бэкэнд-сервисы
+### Инфраструктурные бэкэнд-сервисы
 
 - функционал, который нужен для обработки заказа на бэкэнд-сервисе для файлов.
     - получить файл.
@@ -59,18 +67,23 @@
 - src
     - authentication
     - frontend
-        - courier
+        ...
         - customer
             - bl
             - blazor
             - mvc
             - wpf
+        ...
     - backend
+        ...
         - customer
             - bl
-            - mvc
+            - grpc
+            - webapi
+        ...
         - fileservice
-        - pushnotifications
+        - notifications
+        ...
     - telegrambot
     - core
     - models

@@ -4,43 +4,50 @@
 
 This file describes the structure of the project in general (product applications: client applications, backend services; infrastructure backend services), and also lists the functionality that applies to each application.
 
-## Product applications
+## Placement and processing of delivery orders
 
-### Client applications
+### Grocery applications
+
+#### Client applications
 
 - functionality that is needed to place an order on the **customer** client application.
-    - place an order (UI: &check;; controller: &cross;; BL: &cross;).
-    - pay for the order (UI: &cross;; controller: &cross;; BL: &cross;).
-    - display of a list of orders (UI: &cross;; controller: &cross;; BL: &cross;).
+     - display of a list of orders (UI: &cross;; controller: &cross;; BL: &cross;).
+     - place an order (UI: &check;; controller: &cross;; BL: &check;).
+     - pay for the order (UI: &cross;; controller: &cross;; BL: &check;).
 - functionality that is needed to process an order on the **courier** client application.
-    - perform delivery from the store to the warehouse (UI: &cross;; controller: &cross;; BL: &cross;).
-    - deliver the order to the customer (UI: &cross;; controller: &cross;; BL: &cross;).
+     - displaying a list of delivery orders (UI: &cross;; controller: &cross;; BL: &cross;).
+     - perform delivery from the store to the warehouse (UI: &cross;; controller: &cross;; BL: &check;).
+     - deliver the order to the customer (UI: &cross;; controller: &cross;; BL: &check;).
 - functionality that is needed to process an order on the **kitchen** client application.
-    - prepare an order (UI: &cross;; controller: &cross;; BL: &cross;).
+     - displaying a list of orders that need to be prepared (UI: &cross;; controller: &cross;; BL: &cross;).
+     - prepare an order (UI: &cross;; controller: &cross;; BL: &check;).
 - functionality that is needed to process an order on the **warehouse** client application.
-    - request delivery from the store to the warehouse (UI: &cross;; controller: &cross;; BL: &cross;).
-    - confirm delivery from the store to the warehouse (UI: &cross;; controller: &cross;; BL: &cross;).
-    - perform delivery from the warehouse to the kitchen (UI: &cross;; controller: &cross;; BL: &cross;).
-    - perform delivery from the kitchen to the warehouse (UI: &cross;; controller: &cross;; BL: &cross;).
+     - displaying a list of delivery orders from the store to the warehouse that need to be requested (UI: &cross;; controller: &cross;; BL: &cross;).
+     - displaying a list of orders for delivery from the store to the warehouse that need to be confirmed (UI: &cross;; controller: &cross;; BL: &cross;).
+     - displaying a list of orders for delivery from the warehouse to the kitchen (UI: &cross;; controller: &cross;; BL: &cross;).
+     - displaying a list of orders for delivery from the kitchen to the warehouse (UI: &cross;; controller: &cross;; BL: &cross;).
+     - request delivery from the store to the warehouse (UI: &cross;; controller: &cross;; BL: &check;).
+     - confirm delivery from the store to the warehouse (UI: &cross;; controller: &cross;; BL: &check;).
+     - perform delivery from the warehouse to the kitchen (UI: &cross;; controller: &cross;; BL: &check;).
+     - perform delivery from the kitchen to the warehouse (UI: &cross;; controller: &cross;; BL: &check;).
 
-### Backend services
+#### Backend services
 
 - functionality that is needed to process an order on the **customer** backend service.
-    - place an order (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
-    - pay for the order (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
-    - displaying a list of orders (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
+     - place an order (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
+     - pay for the order (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
 - functionality that is needed to process an order on the **courier** backend service.
-    - perform delivery from the store to the warehouse (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
-    - deliver the order to the customer (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
+     - perform delivery from the store to the warehouse (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
+     - deliver the order to the customer (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
 - functionality that is needed to process an order on the **kitchen** backend service.
-    - prepare an order (controller WebAPI: &cross; controller gRPC: &cross;; BL: &cross;).
+     - prepare an order (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
 - functionality that is needed to process an order on the backend service of the **warehouse**.
-    - request delivery from the store to the warehouse (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
-    - confirm delivery from the store to the warehouse (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
-    - perform delivery from the warehouse to the kitchen (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
-    - perform delivery from the kitchen to the warehouse (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &cross;).
+     - request delivery from the store to the warehouse (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
+     - confirm delivery from the store to the warehouse (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
+     - perform delivery from the warehouse to the kitchen (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
+     - perform delivery from the kitchen to the warehouse (controller WebAPI: &cross;; controller gRPC: &cross;; BL: &check;).
 
-## Infrastructure backend services
+### Infrastructure backend services
 
 - functionality that is needed to process an order on the backend service for files.
     - get file.
@@ -59,18 +66,23 @@ The project structure could be as follows:
 - src
     - authentication
     - frontend
-        - courier
+        ...
         - customer
             - bl
             - blazor
             - mvc
             - wpf
+        ...
     - backend
+        ...
         - customer
             - bl
-            - mvc
+            - grpc
+            - webapi
+        ...
         - fileservice
-        - pushnotifications
+        - notifications
+        ...
     - telegrambot
     - core
     - models
