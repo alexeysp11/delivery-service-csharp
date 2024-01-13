@@ -136,6 +136,19 @@ The data bus is implemented in two possible ways:
 - a common web service for backend and system services (a kind of proxy);
 - use of message brokers (for example, RabbitMQ).
 
+Details of communication between microservices:
+- if service A **knows** which service to contact:
+     - service A contacts the resolver to send a request to service B;
+     - the resolver accesses the database to determine the method of interaction, based on this it calls the corresponding class from the library [workflow-lib](https://github.com/alexeysp11/workflow-lib) for communication (directly via HTTP, directly via gRPC, HTTP proxy, gRPC proxy, RabbitMQ etc);
+     - in the case of any communication via HTTP or gRPC, the calling module simply waits for the response and gives it to the module that initiated the communication and called the resolver;
+     - in the case of communication via a message broker, we simply send the status of whether the message is recorded in the queue.
+- if service A **doesn’t know** which service to contact:
+     - service A contacts the resolver to send a request to the next module;
+     - the resolver accesses the database to determine the next module and how to interact with it;
+     - after this, all interaction between services is carried out in the same way as in the previous option.
+
+The above methods of interservice communication would allow very flexible configuration of communication between microservices through configs or databases.
+
 The diagrams show separate databases for different services; in fact, the database can be either common to all services or separate (however, due to replication, all services must work with data as if it were the same database, i.e. i.e. have identical tables and records in them).
 
 It should be noted that if there is only one database, then at some steps (see [flowchart steps](docs/flowchartsteps/README.md)) there is no need to “notify” client applications (and sometimes the corresponding backend services), because that the client application will in any case “read” the necessary changes from the database.
