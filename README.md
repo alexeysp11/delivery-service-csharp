@@ -119,9 +119,9 @@ The diagram below shows the principle of layering within the platform.
 
 ![layers](docs/img/layers.png)
 
-There's also the diagram that demonstrates in more detail the principle on which the dynamism of the platform is based in the context of choosing the type of client application (MVC, Blazor, WPF etc) and the data transfer protocol between backend services (WebAPI, gRPC).
+### Diagram of interaction between application layers
 
-It is also indicated how asynchronous communication between services is carried out by dividing the functionality of controllers into `RequestController` and `ResponseController` in order to implement API methods.
+There's also the diagram that demonstrates in more detail the principle on which the dynamism of the platform is based in the context of choosing the type of client application (MVC, Blazor, WPF etc) and the data transfer protocol between backend services (WebAPI, gRPC).
 
 ![layers_simplified](docs/img/layers_simplified.png)
 
@@ -148,6 +148,16 @@ Details of communication between microservices:
      - after this, all interaction between services is carried out in the same way as in the previous option.
 
 The above methods of interservice communication would allow very flexible configuration of communication between microservices through configs or databases.
+
+Advantages of a flexible approach to interaction between microservices:
+- The ability to choose the most appropriate method of interaction for each specific task.
+- Reducing dependencies between microservices, which increases their independence and simplifies development and testing.
+- Simplification of system scaling, since each microservice can be scaled independently of others.
+
+Disadvantages of an agile approach to interaction between microservices:
+- Increasing complexity of the system due to the need to support several methods of interaction and their combinations.
+- Increased network load due to the use of different network protocols.
+- Complication of debugging and monitoring of the system.
 
 The diagrams show separate databases for different services; in fact, the database can be either common to all services or separate (however, due to replication, all services must work with data as if it were the same database, i.e. i.e. have identical tables and records in them).
 
