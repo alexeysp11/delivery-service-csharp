@@ -29,3 +29,13 @@ The following postfixes can be distinguished for business process-oriented metho
 
 Theoretically, you could be faced with a potential situation where you need to differentiate (separate) two or three tasks intended for the same user or application instance within the same process.
 Most likely, it is recommended to simply transfer the functionality of a secondary task to a separate business process to avoid confusion in the naming of methods.
+
+## Performing migrations for the database
+
+Below is a diagram of the interaction between application layers:
+
+![layers_simplified](img/layers_simplified.png)
+
+To work correctly with database migrations, the following solution is proposed:
+- Create a script (or an application for running scripts) that would allow migrations to be performed for all services at once.
+- During development, in case of changes in models or DbContext, run a script for migrations.
