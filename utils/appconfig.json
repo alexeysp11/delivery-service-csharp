@@ -1,0 +1,23 @@
+{
+    "projects": {
+        "frontend": [
+            "src/frontend/admin/mvc",
+            "src/frontend/courier/mvc",
+            "src/frontend/customer/mvc",
+            "src/frontend/kitchen/mvc",
+            "src/frontend/warehouse/mvc"
+        ],
+        "backend": [
+            "src/backend/admin/grpc",
+            "src/backend/admin/webapi",
+            "src/backend/courier/grpc",
+            "src/backend/courier/webapi",
+            "src/backend/customer/grpc",
+            "src/backend/customer/webapi",
+            "src/backend/kitchen/grpc",
+            "src/backend/kitchen/webapi",
+            "src/backend/warehouse/grpc",
+            "src/backend/warehouse/webapi"
+        ]
+    }
+}
