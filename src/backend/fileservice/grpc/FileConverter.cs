@@ -6,7 +6,6 @@ using Cims.WorkflowLib.DocFormats.Images;
 using Cims.WorkflowLib.DocFormats.TextBased;
 using Cims.WorkflowLib.DocFormats.Spreadsheets;
 using Cims.WorkflowLib.Models.Documents;
-using DeliveryService.Models.Enums;
 using FileserviceRequestModel = DeliveryService.Models.FileserviceRequest; 
 using FileserviceResponseModel = DeliveryService.Models.FileserviceResponse; 
 

@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="..\models\Protos\fileservice.proto" GrpcServices="Server" />
+    <Protobuf Include="..\..\..\models\Protos\fileservice.proto" GrpcServices="Server" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../models/DeliveryService.Models.csproj" />
+    <ProjectReference Include="../../../models/DeliveryService.Models.csproj" />
     <ProjectReference Include="../../../workflow-lib/src/Cims.WorkflowLib.csproj" />
     <ProjectReference Include="..\bl\DeliveryService.Backend.Fileservice.BL.csproj" />
   </ItemGroup>
