@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="../../models/DeliveryService.Models.csproj" />
     <ProjectReference Include="../../../workflow-lib/src/Cims.WorkflowLib.csproj" />
+    <ProjectReference Include="..\bl\DeliveryService.Backend.Fileservice.BL.csproj" />
   </ItemGroup>
 
 </Project>
