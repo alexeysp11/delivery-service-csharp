@@ -12,4 +12,10 @@
     <ProjectReference Include="..\models\DeliveryService.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1" />
+  </ItemGroup>
+
 </Project>
