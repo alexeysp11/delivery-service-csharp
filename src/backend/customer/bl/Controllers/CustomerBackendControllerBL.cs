@@ -10,19 +10,19 @@ using Cims.WorkflowLib.Models.Business.Products;
 using Cims.WorkflowLib.Models.Network;
 using DeliveryService.Core.Contexts;
 
-namespace DeliveryService.CustomerBackendBL.Controllers
+namespace DeliveryService.Backend.Customer.BL.Controllers
 {
     /// <summary>
     /// A class that represents a backend service controller that processes requests from the customer.
     /// </summary>
-    public class CustomerBackendController
+    public class CustomerBackendControllerBL
     {
         private DbContextOptions<DeliveringContext> _contextOptions { get; set; }
 
         /// <summary>
         /// Constructor by default.
         /// </summary>
-        public CustomerBackendController(
+        public CustomerBackendControllerBL(
             DbContextOptions<DeliveringContext> contextOptions) 
         {
             _contextOptions = contextOptions;
@@ -207,7 +207,7 @@ namespace DeliveryService.CustomerBackendBL.Controllers
                     OrderExecutorType = OrderExecutorType.Company,
                     Origin = organization.Company.Address,
                     Destination = destination,
-                    OpenOrderDt = System.DateTime.Now
+                    OpenOrderDt = System.DateTime.UtcNow
                 };
                 initialOrder.DeliveryOrder = deliveryOrder;
                 context.DeliveryOrders.Add(deliveryOrder);

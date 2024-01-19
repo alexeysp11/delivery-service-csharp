@@ -208,7 +208,7 @@ namespace DeliveryService.CourierBackendBL.Controllers
                 deliveryOperation.Status = EnumExtensions.GetDisplayName(BusinessTaskStatus.Closed);
 
                 // Change the status of the corresponding delivery order.
-                deliveryOrder.CloseOrderDt = System.DateTime.Now;
+                deliveryOrder.CloseOrderDt = System.DateTime.UtcNow;
                 deliveryOrder.Status = EnumExtensions.GetDisplayName(OrderStatus.Finished);
                 context.SaveChanges();
 

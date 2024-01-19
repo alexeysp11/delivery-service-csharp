@@ -131,7 +131,7 @@ namespace DeliveryService.WarehouseBackendBL.Controllers
                     ExecutorName = courierEmployee.FullName,
                     OrderExecutorType = OrderExecutorType.Employee,
                     Destination = model.Origin,
-                    OpenOrderDt = System.DateTime.Now
+                    OpenOrderDt = System.DateTime.UtcNow
                 };
                 var deliveryOrderProductsStore2Wh = new List<DeliveryOrderProduct>();
                 foreach (var whingredient in whingredients)
@@ -151,7 +151,7 @@ namespace DeliveryService.WarehouseBackendBL.Controllers
                         WHProduct = whingredient,
                         DeliveryOrderProduct = deliveryOrderProduct,
                         DeliveryOrder = deliveryOrderProduct.DeliveryOrder,
-                        Date = System.DateTime.Now,
+                        Date = System.DateTime.UtcNow,
                         OldQuantity = whingredient.Quantity,
                         NewQuantity = whingredient.Quantity - qtyDelta,
                         QuantityDelta = qtyDelta
@@ -514,7 +514,7 @@ namespace DeliveryService.WarehouseBackendBL.Controllers
                 }
 
                 // Change the status of the corresponding delivery order.
-                deliveryOrder.CloseOrderDt = System.DateTime.Now;
+                deliveryOrder.CloseOrderDt = System.DateTime.UtcNow;
                 deliveryOrder.Status = EnumExtensions.GetDisplayName(OrderStatus.Finished);
 
                 // Get the parent delivery order that should be delivered from the warehouse to the kitchen.
