@@ -1,0 +1,13 @@
+{
+  "userUid": "8de6a336-e928-4bf4-99a0-d273b78afc63",
+  "login": "login6",
+  "phoneNumber": "PhoneNumber6",
+  "city": "city 1, country 1",
+  "address": "123, address str.",
+  "productIds": [
+    1, 2, 1
+  ],
+  "paymentType": "Card",
+  "paymentMethod": "paymentMethod",
+  "paymentAmount": 180
+}
