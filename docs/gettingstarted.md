@@ -30,6 +30,13 @@ The following postfixes can be distinguished for business process-oriented metho
 Theoretically, you could be faced with a potential situation where you need to differentiate (separate) two or three tasks intended for the same user or application instance within the same process.
 Most likely, it is recommended to simply transfer the functionality of a secondary task to a separate business process to avoid confusion in the naming of methods.
 
+### Database
+
+- Production: `deliveryservice`
+- Test: `deliveryservicetest`
+- Production OLAP: `deliveryserviceolap`
+- Test OLAP: `deliveryserviceolaptest`
+
 ## Performing migrations for the database
 
 Below is a diagram of the interaction between application layers:

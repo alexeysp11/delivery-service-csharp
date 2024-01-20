@@ -25,3 +25,5 @@
 - &cross; Platform migration to Linux system.
 - &cross; Consider to use the following architecture for interaction between microservices:
 ![iiko-architecture](https://habrastorage.org/webt/qh/bu/qt/qhbuqtdm4-uylhriivfq3vwpfyq.png)
+- &cross; Consider to use OLAP database:
+![olap-postgres](https://thecodinginterface-images.s3.amazonaws.com/blogposts/olap-aurora-postgres/olap-aurora-postgres.jpeg)
