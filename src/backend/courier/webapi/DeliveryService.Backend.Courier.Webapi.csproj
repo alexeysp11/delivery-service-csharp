@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\core\DeliveryService.Core.csproj" />
     <ProjectReference Include="..\bl\DeliveryService.Backend.Courier.BL.csproj" />
   </ItemGroup>
 
