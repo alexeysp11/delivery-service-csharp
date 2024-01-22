@@ -1,7 +1,7 @@
 using Grpc.Core;
-using grpc;
+using DeliveryService.Backend.Warehouse.Grpc;
 
-namespace grpc.Services;
+namespace DeliveryService.Backend.Warehouse.Grpc.Services;
 
 public class WarehouseBackendService : WarehouseBackend.WarehouseBackendBase
 {

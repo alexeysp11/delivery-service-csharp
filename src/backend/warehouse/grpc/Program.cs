@@ -1,4 +1,4 @@
-using grpc.Services;
+using DeliveryService.Backend.Warehouse.Grpc.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
