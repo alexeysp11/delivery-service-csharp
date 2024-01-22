@@ -4,19 +4,19 @@ using Cims.WorkflowLib.Models.Business.BusinessDocuments;
 using Cims.WorkflowLib.Models.Business.Customers;
 using DeliveryService.Core.Contexts;
 
-namespace DeliveryService.NotificationsBackendBL.Controllers
+namespace DeliveryService.Backend.Notifications.BL
 {
     /// <summary>
     /// Backend service controller that allows to send notifications to the users of the system.
     /// </summary>
-    public class NotificationsBackendController
+    public class NotificationsBackendControllerBL
     {
         private DbContextOptions<DeliveringContext> _contextOptions { get; set; }
 
         /// <summary>
         /// Constructor by default.
         /// </summary>
-        public NotificationsBackendController(
+        public NotificationsBackendControllerBL(
             DbContextOptions<DeliveringContext> contextOptions) 
         {
             _contextOptions = contextOptions;
