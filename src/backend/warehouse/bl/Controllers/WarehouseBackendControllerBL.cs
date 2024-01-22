@@ -11,19 +11,19 @@ using Cims.WorkflowLib.Models.Business.Processes;
 using Cims.WorkflowLib.Models.Network;
 using DeliveryService.Core.Contexts;
 
-namespace DeliveryService.WarehouseBackendBL.Controllers
+namespace DeliveryService.Backend.Warehouse.BL.Controllers
 {
     /// <summary>
     /// Backend service controller that serves requests from the warehouse employees.
     /// </summary>
-    public class WarehouseBackendController
+    public class WarehouseBackendControllerBL
     {
         private DbContextOptions<DeliveringContext> _contextOptions { get; set; }
 
         /// <summary>
         /// Constructor by default.
         /// </summary>
-        public WarehouseBackendController(
+        public WarehouseBackendControllerBL(
             DbContextOptions<DeliveringContext> contextOptions) 
         {
             _contextOptions = contextOptions;
