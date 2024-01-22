@@ -3,7 +3,7 @@ using DeliveryService.Backend.Customer.Grpc;
 
 namespace DeliveryService.Backend.Customer.Grpc.Services;
 
-public class CustomerBackendService : Greeter.GreeterBase
+public class CustomerBackendService : CustomerBackend.CustomerBackendBase
 {
     private readonly ILogger<CustomerBackendService> _logger;
     public CustomerBackendService(ILogger<CustomerBackendService> logger)
