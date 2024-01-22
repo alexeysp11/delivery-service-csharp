@@ -9,12 +9,12 @@ using Cims.WorkflowLib.Models.Business.Processes;
 using Cims.WorkflowLib.Models.Network;
 using DeliveryService.Core.Contexts;
 
-namespace DeliveryService.CourierBackendBL.Controllers
+namespace DeliveryService.Backend.Courier.BL.Controllers
 {
     /// <summary>
     /// Backend service controller that serves requests from the courier.
     /// </summary>
-    public class CourierBackendController
+    public class CourierBackendControllerBL
     {
         private DbContextOptions<DeliveringContext> _contextOptions { get; set; }
         private Notification Notification { get; set; }
@@ -22,7 +22,7 @@ namespace DeliveryService.CourierBackendBL.Controllers
         /// <summary>
         /// Constructor by default.
         /// </summary>
-        public CourierBackendController(
+        public CourierBackendControllerBL(
             DbContextOptions<DeliveringContext> contextOptions) 
         {
             _contextOptions = contextOptions;
