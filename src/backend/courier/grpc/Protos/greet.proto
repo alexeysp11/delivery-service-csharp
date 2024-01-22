@@ -4,7 +4,7 @@ option csharp_namespace = "DeliveryService.Backend.Courier.Grpc";
 
 package greet;
 
-service Greeter {
+service CourierBackend {
   rpc Store2WhStart (HelloRequest) returns (HelloReply);
   rpc Store2WhExecute (HelloRequest) returns (HelloReply);
   rpc DeliverOrderStart (HelloRequest) returns (HelloReply);
