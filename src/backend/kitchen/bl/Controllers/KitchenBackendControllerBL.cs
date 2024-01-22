@@ -13,14 +13,14 @@ namespace DeliveryService.KitchenBackendBL.Controllers
     /// <summary>
     /// Backend service controller that serves requests from the kitchen employees.
     /// </summary>
-    public class KitchenBackendController
+    public class KitchenBackendControllerBL
     {
         private DbContextOptions<DeliveringContext> _contextOptions { get; set; }
 
         /// <summary>
         /// Constructor by default.
         /// </summary>
-        public KitchenBackendController(
+        public KitchenBackendControllerBL(
             DbContextOptions<DeliveringContext> contextOptions) 
         {
             _contextOptions = contextOptions;
