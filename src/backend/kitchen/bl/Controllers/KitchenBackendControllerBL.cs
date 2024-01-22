@@ -8,7 +8,7 @@ using Cims.WorkflowLib.Models.Network;
 using Cims.WorkflowLib.Models.Business.Processes;
 using DeliveryService.Core.Contexts;
 
-namespace DeliveryService.KitchenBackendBL.Controllers
+namespace DeliveryService.Backend.Kitchen.BL.Controllers
 {
     /// <summary>
     /// Backend service controller that serves requests from the kitchen employees.
