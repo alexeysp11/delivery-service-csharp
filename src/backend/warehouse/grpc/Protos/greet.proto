@@ -4,18 +4,21 @@ option csharp_namespace = "grpc";
 
 package greet;
 
-// The greeting service definition.
-service Greeter {
-  // Sends a greeting
-  rpc SayHello (HelloRequest) returns (HelloReply);
+service WarehouseBackend {
+  rpc PreprocessOrderRedirect (HelloRequest) returns (HelloReply);
+  rpc RequestStore2WhStart (HelloRequest) returns (HelloReply);
+  rpc RequestStore2WhRespond (HelloRequest) returns (HelloReply);
+  rpc Store2WhSave (HelloRequest) returns (HelloReply);
+  rpc ConfirmStore2WhAccept (HelloRequest) returns (HelloReply);
+  rpc Wh2KitchenStart (HelloRequest) returns (HelloReply);
+  rpc Wh2KitchenExecute (HelloRequest) returns (HelloReply);
+  rpc Kitchen2WhStart (HelloRequest) returns (HelloReply);
+  rpc Kitchen2WhExecute (HelloRequest) returns (HelloReply);
 }
 
-// The request message containing the user's name.
 message HelloRequest {
   string name = 1;
 }
-
-// The response message containing the greetings.
 message HelloReply {
   string message = 1;
 }
