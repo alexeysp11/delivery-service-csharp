@@ -21,25 +21,26 @@ public class CustomerBackendController : ControllerBase
     }
 
     [HttpPost(Name = "MakeOrderRequest")]
-    public ApiOperation MakeOrderRequest(InitialOrder model)
+    public string MakeOrderRequest(InitialOrder model)
     {
-        var apiOperation = new ApiOperation();
-        if (apiOperation == null)
-        {
-            apiOperation = new ApiOperation();
-            apiOperation.ResponseObject = "API operation could not be null";
-            return apiOperation;
-        }
+        return _backendControllerBL.MakeOrderRequest(model);
+    }
 
-        // InitialOrder model = apiOperation.RequestObject as InitialOrder;
-        if (model == null)
-        {
-            apiOperation.ResponseObject = "Request object could not be null";
-            return apiOperation;
-        }
-        
-        apiOperation.ResponseObject = _backendControllerBL.MakeOrderRequest(model);
+    [HttpPost(Name = "MakePaymentStart")]
+    public string MakePaymentStart(InitialOrder model)
+    {
+        return _backendControllerBL.MakePaymentStart(model);
+    }
 
-        return apiOperation;
+    [HttpPost(Name = "MakePaymentRespond")]
+    public string MakePaymentRespond(DeliveryOrder model)
+    {
+        return _backendControllerBL.MakePaymentRespond(model);
+    }
+
+    [HttpPost(Name = "PreprocessOrderRedirect")]
+    public string PreprocessOrderRedirect(DeliveryOrder model)
+    {
+        return _backendControllerBL.PreprocessOrderRedirect(model);
     }
 }
