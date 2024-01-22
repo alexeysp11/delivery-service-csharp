@@ -1,9 +1,11 @@
 using System.Collections.Generic;
 using Grpc.Core;
 using Google.Protobuf;
+using Cims.WorkflowLib.Models.Documents;
+using Cims.WorkflowLib.Models.Documents.Enums;
 using DeliveryService.Fileservice;
-using DeliveryService.Models.Enums;
 using DeliveryService.Models.Protos;
+using DeliveryService.Backend.FileService.BL.Controllers;
 using FileserviceRequestModel = DeliveryService.Models.FileserviceRequest;
 using FileserviceResponseModel = DeliveryService.Models.FileserviceResponse;
 
@@ -21,8 +23,8 @@ public class FileserviceService : DeliveryService.Models.Protos.Fileservice.File
     {
         // Get attachment file type
         AttachmentFileType attachmentFileType;
-        if (System.Enum.TryParse<AttachmentFileType>(request.AttachmentFileType, true, out attachmentFileType) == false)
-            attachmentFileType = AttachmentFileType.JSON;
+        // if (System.Enum.TryParse<AttachmentFileType>(request.AttachmentFileType, true, out attachmentFileType) == false)
+        //     attachmentFileType = AttachmentFileType.JSON;
         // Convert ByteString to the object, that represents elements to convert
         // object objValues;
         // using(MemoryStream ms = new MemoryStream(request.Values.ToStringUtf8()))
@@ -31,7 +33,7 @@ public class FileserviceService : DeliveryService.Models.Protos.Fileservice.File
         var requestModel = new FileserviceRequestModel
         {
             SessionTokenGuid = new System.Guid(request.SessionTokenGuid),
-            AttachmentFileType = attachmentFileType,
+            // AttachmentFileType = attachmentFileType,
             Values = System.Text.Json.JsonSerializer.Deserialize<List<Cims.WorkflowLib.Models.Documents.TextDocElement>>(request.Values.ToStringUtf8())
         };
         // Get response model 
