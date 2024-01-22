@@ -1,7 +1,7 @@
 using Cims.WorkflowLib.Models.Business.BusinessDocuments;
 using Cims.WorkflowLib.Models.Network;
 
-namespace DeliveryService.FileServiceBL.Controllers
+namespace DeliveryService.Backend.FileService.BL.Controllers
 {
     /// <summary>
     /// A backend service that is responsible for generating and processing files.
