@@ -20,25 +20,25 @@ public class CustomerBackendController : ControllerBase
         _backendControllerBL = backendControllerBL;
     }
 
-    [HttpPost(Name = "MakeOrderRequest")]
+    [HttpPost("MakeOrderRequest")]
     public string MakeOrderRequest(InitialOrder model)
     {
         return _backendControllerBL.MakeOrderRequest(model);
     }
 
-    [HttpPost(Name = "MakePaymentStart")]
+    [HttpPost("MakePaymentStart")]
     public string MakePaymentStart(InitialOrder model)
     {
         return _backendControllerBL.MakePaymentStart(model);
     }
 
-    [HttpPost(Name = "MakePaymentRespond")]
+    [HttpPost("MakePaymentRespond")]
     public string MakePaymentRespond(DeliveryOrder model)
     {
         return _backendControllerBL.MakePaymentRespond(model);
     }
 
-    [HttpPost(Name = "PreprocessOrderRedirect")]
+    [HttpPost("PreprocessOrderRedirect")]
     public string PreprocessOrderRedirect(DeliveryOrder model)
     {
         return _backendControllerBL.PreprocessOrderRedirect(model);
