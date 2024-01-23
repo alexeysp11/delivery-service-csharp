@@ -20,7 +20,7 @@ public class NotificationsBackendController : ControllerBase
         _backendController = backendController;
     }
 
-    [HttpGet(Name = "SendNotifications")]
+    [HttpPost("SendNotifications")]
     public string SendNotifications(IEnumerable<Notification> notifications)
     {
         return _backendController.SendNotifications(notifications);
