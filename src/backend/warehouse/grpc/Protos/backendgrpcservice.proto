@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "DeliveryService.Backend.Warehouse.Grpc";
+
+package backendgrpcservice;
+
+service WarehouseBackend {
+  rpc PreprocessOrderRedirect (HelloRequest) returns (GrpcApiReply);
+  rpc RequestStore2WhStart (HelloRequest) returns (GrpcApiReply);
+  rpc RequestStore2WhRespond (HelloRequest) returns (GrpcApiReply);
+  rpc Store2WhSave (HelloRequest) returns (GrpcApiReply);
+  rpc ConfirmStore2WhAccept (HelloRequest) returns (GrpcApiReply);
+  rpc Wh2KitchenStart (HelloRequest) returns (GrpcApiReply);
+  rpc Wh2KitchenExecute (HelloRequest) returns (GrpcApiReply);
+  rpc Kitchen2WhStart (HelloRequest) returns (GrpcApiReply);
+  rpc Kitchen2WhExecute (HelloRequest) returns (GrpcApiReply);
+}
+
+message HelloRequest {
+  string name = 1;
+}
+message GrpcApiReply {
+  string message = 1;
+}

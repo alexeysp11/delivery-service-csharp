@@ -11,73 +11,73 @@ public class WarehouseBackendService : WarehouseBackend.WarehouseBackendBase
         _logger = logger;
     }
 
-    public override Task<HelloReply> PreprocessOrderRedirect(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> PreprocessOrderRedirect(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> RequestStore2WhStart(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> RequestStore2WhStart(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> RequestStore2WhRespond(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> RequestStore2WhRespond(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> Store2WhSave(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> Store2WhSave(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> ConfirmStore2WhAccept(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> ConfirmStore2WhAccept(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> Wh2KitchenStart(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> Wh2KitchenStart(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> Wh2KitchenExecute(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> Wh2KitchenExecute(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> Kitchen2WhStart(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> Kitchen2WhStart(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> Kitchen2WhExecute(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> Kitchen2WhExecute(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
