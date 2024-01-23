@@ -11,17 +11,17 @@ public class KitchenBackendService : KitchenBackend.KitchenBackendBase
         _logger = logger;
     }
 
-    public override Task<HelloReply> PrepareMealStart(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> PrepareMealStart(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> PrepareMealExecute(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> PrepareMealExecute(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });

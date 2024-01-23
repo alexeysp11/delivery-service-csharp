@@ -2,16 +2,16 @@ syntax = "proto3";
 
 option csharp_namespace = "DeliveryService.Backend.Kitchen.Grpc";
 
-package greet;
+package backendgrpcservice;
 
 service KitchenBackend {
-  rpc PrepareMealStart (HelloRequest) returns (HelloReply);
-  rpc PrepareMealExecute (HelloRequest) returns (HelloReply);
+  rpc PrepareMealStart (HelloRequest) returns (GrpcApiReply);
+  rpc PrepareMealExecute (HelloRequest) returns (GrpcApiReply);
 }
 
 message HelloRequest {
   string name = 1;
 }
-message HelloReply {
+message GrpcApiReply {
   string message = 1;
 }
