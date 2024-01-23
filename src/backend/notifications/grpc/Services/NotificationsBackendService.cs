@@ -11,9 +11,9 @@ public class NotificationsBackendService : NotificationsBackend.NotificationsBac
         _logger = logger;
     }
 
-    public override Task<HelloReply> SendNotifications(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> SendNotifications(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });

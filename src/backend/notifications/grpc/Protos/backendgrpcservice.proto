@@ -2,15 +2,15 @@ syntax = "proto3";
 
 option csharp_namespace = "DeliveryService.Backend.Notifications.Grpc";
 
-package greet;
+package backendgrpcservice;
 
 service NotificationsBackend {
-  rpc SendNotifications (HelloRequest) returns (HelloReply);
+  rpc SendNotifications (HelloRequest) returns (GrpcApiReply);
 }
 
 message HelloRequest {
   string name = 1;
 }
-message HelloReply {
+message GrpcApiReply {
   string message = 1;
 }
