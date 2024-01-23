@@ -20,55 +20,55 @@ public class WarehouseBackendController : ControllerBase
         _backendController = backendController;
     }
 
-    [HttpPost(Name = "PreprocessOrderRedirect")]
+    [HttpPost("PreprocessOrderRedirect")]
     public string PreprocessOrderRedirect(DeliveryOrder model)
     {
         return _backendController.PreprocessOrderRedirect(model);
     }
 
-    [HttpPost(Name = "RequestStore2WhStart")]
+    [HttpPost("RequestStore2WhStart")]
     public string RequestStore2WhStart(DeliveryOrder model)
     {
         return _backendController.RequestStore2WhStart(model);
     }
 
-    [HttpPost(Name = "RequestStore2WhRespond")]
+    [HttpPost("RequestStore2WhRespond")]
     public string RequestStore2WhRespond(DeliveryOrder model)
     {
         return _backendController.RequestStore2WhRespond(model);
     }
 
-    [HttpPost(Name = "Store2WhSave")]
+    [HttpPost("Store2WhSave")]
     public string Store2WhSave(DeliveryOrder model)
     {
         return _backendController.Store2WhSave(model);
     }
 
-    [HttpPost(Name = "ConfirmStore2WhAccept")]
+    [HttpPost("ConfirmStore2WhAccept")]
     public string ConfirmStore2WhAccept(DeliveryOrder model)
     {
         return _backendController.ConfirmStore2WhAccept(model);
     }
 
-    [HttpPost(Name = "Wh2KitchenStart")]
+    [HttpPost("Wh2KitchenStart")]
     public string Wh2KitchenStart(DeliveryOrder model)
     {
         return _backendController.Wh2KitchenStart(model);
     }
 
-    [HttpPost(Name = "Wh2KitchenExecute")]
+    [HttpPost("Wh2KitchenExecute")]
     public string Wh2KitchenExecute(DeliveryOrder model)
     {
         return _backendController.Wh2KitchenExecute(model);
     }
 
-    [HttpPost(Name = "Kitchen2WhStart")]
+    [HttpPost("Kitchen2WhStart")]
     public string Kitchen2WhStart(DeliveryOrder model)
     {
         return _backendController.Kitchen2WhStart(model);
     }
 
-    [HttpPost(Name = "Kitchen2WhExecute")]
+    [HttpPost("Kitchen2WhExecute")]
     public string Kitchen2WhExecute(DeliveryOrder model)
     {
         return _backendController.Kitchen2WhExecute(model);
