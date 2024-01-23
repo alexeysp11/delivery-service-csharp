@@ -289,6 +289,12 @@ namespace DeliveryService.Backend.Customer.BL.Controllers
                 // Initializing.
                 if (model == null)
                     throw new System.Exception("Input parameter could not be null");
+                using var context = new DeliveringContext(_contextOptions);
+
+                // Get the object related to the specified delivery order.
+                var deliveryOrder = context.DeliveryOrders.FirstOrDefault(x => x.Id == model.Id);
+                if (deliveryOrder == null)
+                    throw new System.Exception($"Delivery order could not be null (delivery order ID: {model.Id})");
 
                 // Validation.
                 System.Console.WriteLine("CustomerBackend.MakePayment: validation");
@@ -297,7 +303,7 @@ namespace DeliveryService.Backend.Customer.BL.Controllers
                 System.Console.WriteLine("CustomerBackend.MakePayment: cache");
 
                 // Calculate delivery time.
-                string preprocessResponse = PreprocessOrderRedirect(model);
+                string preprocessResponse = PreprocessOrderRedirect(deliveryOrder);
 
                 response = "success";
             }
@@ -324,6 +330,12 @@ namespace DeliveryService.Backend.Customer.BL.Controllers
                 // Initializing.
                 if (model == null)
                     throw new System.Exception("Input parameter could not be null");
+                using var context = new DeliveringContext(_contextOptions);
+
+                // Get the object related to the specified delivery order.
+                var deliveryOrder = context.DeliveryOrders.FirstOrDefault(x => x.Id == model.Id);
+                if (deliveryOrder == null)
+                    throw new System.Exception($"Delivery order could not be null (delivery order ID: {model.Id})");
                 
                 // Validation.
                 System.Console.WriteLine("CustomerBackend.PreprocessOrderRedirect: validation");

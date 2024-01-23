@@ -226,9 +226,6 @@ namespace DeliveryService.Backend.Warehouse.BL.Controllers
                     throw new System.Exception("Input parameter could not be null");
                 using var context = new DeliveringContext(_contextOptions);
                 
-                // Update DB.
-                System.Console.WriteLine("WarehouseBackend.RequestStore2WhStart: update DB");
-                
                 // Getting the products that should be delivered.
                 var deliveryOrder = context.DeliveryOrders.FirstOrDefault(x => x.Id == model.Id);
                 if (deliveryOrder == null)
@@ -238,6 +235,9 @@ namespace DeliveryService.Backend.Warehouse.BL.Controllers
                     .Where(x => x.DeliveryOrder.Id == model.Id && x.Product != null);
                 if (deliveryOrderProducts.Count() == 0)
                     throw new System.Exception($"There are no existing products associated with the specified DeliveryOrder (ID: {model.Id})");
+                
+                // Update DB.
+                System.Console.WriteLine("WarehouseBackend.RequestStore2WhStart: update DB");
                 
                 // Get sender and receiver of the notification.
                 var adminUser = context.UserAccounts.FirstOrDefault();
@@ -324,9 +324,6 @@ namespace DeliveryService.Backend.Warehouse.BL.Controllers
                 if (model == null)
                     throw new System.Exception("Input parameter could not be null");
                 using var context = new DeliveringContext(_contextOptions);
-                
-                // Update DB.
-                System.Console.WriteLine("WarehouseBackend.RequestStore2WhRespond: cache");
 
                 // The BusinessTask and DeliveryOrder classes are connected using the BusinessTaskDeliveryOrder class,
                 // so get the collection of business task objects that are related to the delivery order.
@@ -341,6 +338,9 @@ namespace DeliveryService.Backend.Warehouse.BL.Controllers
                     .Select(x => x.BusinessTask);
                 if (businessTasks == null || !businessTasks.Any())
                     throw new System.Exception($"The collection of BusinessTask objects could not be null or empty (delivery order ID: {model.Id})");
+                
+                // Update DB.
+                System.Console.WriteLine("WarehouseBackend.RequestStore2WhRespond: cache");
                 
                 // Iterate through the entire collection of business tasks and "close" each of them 
                 // by setting Status to Closed.
@@ -554,16 +554,16 @@ namespace DeliveryService.Backend.Warehouse.BL.Controllers
                 if (model == null)
                     throw new System.Exception("Input parameter could not be null");
                 using var context = new DeliveringContext(_contextOptions);
-                
-                // Update DB.
-                System.Console.WriteLine("WarehouseBackend.Wh2KitchenStart: cache");
-                
+
                 // Getting the products that should be delivered.
                 var deliveryOrderProducts = context.DeliveryOrderProducts
                     .Include(x => x.Product)
                     .Where(x => x.DeliveryOrder.Id == model.Id && x.Product != null);
                 if (deliveryOrderProducts.Count() == 0)
                     throw new System.Exception($"There are no existing products associated with the specified DeliveryOrder (ID: {model.Id})");
+                
+                // Update DB.
+                System.Console.WriteLine("WarehouseBackend.Wh2KitchenStart: cache");
                 
                 // Get sender and receiver of the notification.
                 var adminUser = context.UserAccounts.FirstOrDefault();
@@ -655,7 +655,7 @@ namespace DeliveryService.Backend.Warehouse.BL.Controllers
                 if (model == null)
                     throw new System.Exception("Input parameter could not be null");
                 using var context = new DeliveringContext(_contextOptions);
-                
+
                 // Update DB.
                 System.Console.WriteLine("WarehouseBackend.Wh2KitchenExecute: cache");
 
@@ -803,7 +803,7 @@ namespace DeliveryService.Backend.Warehouse.BL.Controllers
                 if (model == null)
                     throw new System.Exception("Input parameter could not be null");
                 using var context = new DeliveringContext(_contextOptions);
-                
+
                 // Update DB.
                 System.Console.WriteLine("WarehouseBackend.Kitchen2WhExecute: cache");
 

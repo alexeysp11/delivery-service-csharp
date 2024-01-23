@@ -154,12 +154,6 @@ namespace DeliveryService.Backend.Kitchen.BL.Controllers
                 if (model == null)
                     throw new System.Exception("Input parameter could not be null");
                 using var context = new DeliveringContext(_contextOptions);
-                
-                // Validation.
-                System.Console.WriteLine("KitchenBackend.PrepareMealExecute: validation");
-                
-                // Insert into cache.
-                System.Console.WriteLine("KitchenBackend.PrepareMealExecute: cache");
 
                 // Close a business task that is associated with a delivery order.
                 var deliveryOrder = context.DeliveryOrders.FirstOrDefault(x => x.Id == model.Id);
@@ -175,6 +169,9 @@ namespace DeliveryService.Backend.Kitchen.BL.Controllers
                     throw new System.Exception($"Could not find the business task CookingOperation (delivery order ID: {model.Id})");
                 cookingOperation.Status = EnumExtensions.GetDisplayName(BusinessTaskStatus.Closed);
                 context.SaveChanges();
+                
+                // Insert into cache.
+                System.Console.WriteLine("KitchenBackend.PrepareMealExecute: cache");
 
                 // Send HTTP request.
                 // string backendResponse = new WarehouseBackendController(_contextOptions).Kitchen2WhStart(new ApiOperation

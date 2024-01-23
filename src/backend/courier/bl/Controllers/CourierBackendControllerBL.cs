@@ -93,7 +93,7 @@ namespace DeliveryService.Backend.Courier.BL.Controllers
                 if (model == null)
                     throw new System.Exception("Input parameter could not be null");
                 using var context = new DeliveringContext(_contextOptions);
-                
+
                 // Update DB.
                 System.Console.WriteLine("CourierBackend.Store2WhExecute: cache");
 
@@ -141,13 +141,13 @@ namespace DeliveryService.Backend.Courier.BL.Controllers
                     throw new System.Exception("Input parameter could not be null");
                 using var context = new DeliveringContext(_contextOptions);
                 
-                // Update DB.
-                System.Console.WriteLine("CourierBackend.DeliverOrderStart: cache");
-                
                 // Get the object related to the specified delivery order.
                 var deliveryOrder = context.DeliveryOrders.FirstOrDefault(x => x.Id == model.Id);
                 if (deliveryOrder == null)
                     throw new System.Exception($"Delivery order could not be null (delivery order ID: {model.Id})");
+                
+                // Update DB.
+                System.Console.WriteLine("CourierBackend.DeliverOrderStart: cache");
 
                 // Create a DeliveryOperation object and associate it with the delivery order.
                 NotifyDeliverOrder(model, "DeliverOrder");
