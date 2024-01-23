@@ -148,6 +148,7 @@ Details of communication between microservices:
      - after this, all interaction between services is carried out in the same way as in the previous option.
 
 The above methods of interservice communication would allow very flexible configuration of communication between microservices through configs or databases.
+The corresponding classes for configuring inter-service communication can be found in the namespace [Cims.WorkflowLib.Models.Network.MicroserviceConfigurations](https://github.com/alexeysp11/workflow-lib/tree/main/src/Models/Network/MicroserviceConfigurations).
 
 Advantages of a flexible approach to interaction between microservices:
 - The ability to choose the most appropriate method of interaction for each specific task.
