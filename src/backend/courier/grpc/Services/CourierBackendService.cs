@@ -11,33 +11,33 @@ public class CourierBackendService : CourierBackend.CourierBackendBase
         _logger = logger;
     }
 
-    public override Task<HelloReply> Store2WhStart(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> Store2WhStart(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> Store2WhExecute(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> Store2WhExecute(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> DeliverOrderStart(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> DeliverOrderStart(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });
     }
 
-    public override Task<HelloReply> DeliverOrderExecute(HelloRequest request, ServerCallContext context)
+    public override Task<GrpcApiReply> DeliverOrderExecute(HelloRequest request, ServerCallContext context)
     {
-        return Task.FromResult(new HelloReply
+        return Task.FromResult(new GrpcApiReply
         {
             Message = "Hello " + request.Name
         });

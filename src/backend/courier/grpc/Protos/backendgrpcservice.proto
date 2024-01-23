@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "DeliveryService.Backend.Courier.Grpc";
+
+package backendgrpcservice;
+
+service CourierBackend {
+  rpc Store2WhStart (HelloRequest) returns (GrpcApiReply);
+  rpc Store2WhExecute (HelloRequest) returns (GrpcApiReply);
+  rpc DeliverOrderStart (HelloRequest) returns (GrpcApiReply);
+  rpc DeliverOrderExecute (HelloRequest) returns (GrpcApiReply);
+}
+
+message HelloRequest {
+  string name = 1;
+}
+message GrpcApiReply {
+  string message = 1;
+}
