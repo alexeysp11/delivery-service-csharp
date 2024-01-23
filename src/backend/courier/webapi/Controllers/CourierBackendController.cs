@@ -19,25 +19,25 @@ public class CourierBackendController : ControllerBase
         _backendController = backendController;
     }
 
-    [HttpPost(Name = "Store2WhStart")]
+    [HttpPost("Store2WhStart")]
     public string Store2WhStart(DeliveryOrder model)
     {
         return _backendController.Store2WhStart(model);
     }
 
-    [HttpPost(Name = "Store2WhExecute")]
+    [HttpPost("Store2WhExecute")]
     public string Store2WhExecute(DeliveryOrder model)
     {
         return _backendController.Store2WhExecute(model);
     }
 
-    [HttpPost(Name = "DeliverOrderStart")]
+    [HttpPost("DeliverOrderStart")]
     public string DeliverOrderStart(DeliveryOrder model)
     {
         return _backendController.DeliverOrderStart(model);
     }
 
-    [HttpPost(Name = "DeliverOrderExecute")]
+    [HttpPost("DeliverOrderExecute")]
     public string DeliverOrderExecute(DeliveryOrder model)
     {
         return _backendController.DeliverOrderExecute(model);
