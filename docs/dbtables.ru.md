@@ -4,7 +4,7 @@
 
 ## Общая модель системы 
 
-![system_overall](../img/system_overall.png)
+![system_overall](img/system_overall.png)
 
 ## Проектирование баз данных в микросервисной архитектуре
 
@@ -19,7 +19,9 @@
 
 Принимая во внимание, что некоторые микросервисы могут использовать одни и те же таблицы/экземпляры, было бы разумно разделить данные по контексту, в котором они используются (например, данные о финансовых операциях, связанных с клиентами, могут быть отделены от данных о работник и его работа).
 
-Таким образом, следующие микросервисы могут использовать единственную «внутреннюю» базу данных: [kitchenbackend](../backend/kitchenbackend.md), [warehousebackend](../backend/warehousebackend.md), [courierbackend](../backend/courierbackend.md). Следующие микросервисы могут использовать только базу данных, связанную с клиентом: [customerbackend](../backend/customerbackend.md). Следующие микросервисы могут использовать обе базы данных: [managerbackend](../backend/managerbackend.md), [adminbackend](../backend/adminbackend.md), [financialbackend](../backend/financialbackend.md), [statisticalbackend](../backend/statisticalbackend.md), [predictivebackend](../backend/predictivebackend.md).
+- Следующие микросервисы могут использовать единственную «внутреннюю» базу данных: [kitchenbackend](../backend/kitchenbackend.md), [warehousebackend](../backend/warehousebackend.md), [courierbackend](../backend/courierbackend.md). 
+- Следующие микросервисы могут использовать только базу данных, связанную с клиентом: [customerbackend](../backend/customerbackend.md). 
+- Следующие микросервисы могут использовать обе базы данных: [managerbackend](../backend/managerbackend.md), [adminbackend](../backend/adminbackend.md), [financialbackend](../backend/financialbackend.md), [statisticalbackend](../backend/statisticalbackend.md), [predictivebackend](../backend/predictivebackend.md).
 
 Разделение данных по контексту может помочь управлять зависимостями данных и повысить производительность, но также может усложнить управление несколькими базами данных.
 

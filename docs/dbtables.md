@@ -4,7 +4,7 @@
 
 ## Overall description of the system 
 
-![system_overall](../img/system_overall.png)
+![system_overall](img/system_overall.png)
 
 ## Design databases in the microservice architecture
 
@@ -19,7 +19,9 @@ Using a separate database for each microservice provides strong isolation and au
 
 Taking into account that some of the microservices could use the same tables/instances, it could be resonable to separate data by context where the data is being used (e.g. data about financial operations that are related to customers could be separated from the data about the employee and their work).
 
-So the following microservices could use the only "internal" database: [kitchenbackend](../backend/kitchenbackend.md), [warehousebackend](../backend/warehousebackend.md), [courierbackend](../backend/courierbackend.md). The following microserivces could use only customer related database: [customerbackend](../backend/customerbackend.md). The following microservices could use both database: [managerbackend](../backend/managerbackend.md), [adminbackend](../backend/adminbackend.md), [financialbackend](../backend/financialbackend.md), [statisticalbackend](../backend/statisticalbackend.md), [predictivebackend](../backend/predictivebackend.md).
+- The following microservices could use the only "internal" database: [kitchenbackend](../backend/kitchenbackend.md), [warehousebackend](../backend/warehousebackend.md), [courierbackend](../backend/courierbackend.md). 
+- The following microserivces could use only customer related database: [customerbackend](../backend/customerbackend.md). 
+- The following microservices could use both database: [managerbackend](../backend/managerbackend.md), [adminbackend](../backend/adminbackend.md), [financialbackend](../backend/financialbackend.md), [statisticalbackend](../backend/statisticalbackend.md), [predictivebackend](../backend/predictivebackend.md).
 
 Separating data by context can help manage data dependencies and improve performance, but may also introduce complexity in managing multiple databases. 
 
