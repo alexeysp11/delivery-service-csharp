@@ -20,13 +20,13 @@ public class KitchenBackendController : ControllerBase
         _backendController = backendController;
     }
 
-    [HttpGet(Name = "PrepareMealStart")]
+    [HttpPost("PrepareMealStart")]
     public string PrepareMealStart(DeliveryOrder model)
     {
         return _backendController.PrepareMealStart(model);
     }
 
-    [HttpGet(Name = "PrepareMealExecute")]
+    [HttpPost("PrepareMealExecute")]
     public string PrepareMealExecute(DeliveryOrder model)
     {
         return _backendController.PrepareMealExecute(model);
