@@ -5,11 +5,15 @@ option csharp_namespace = "DeliveryService.Backend.Notifications.Grpc";
 package backendgrpcservice;
 
 service NotificationsBackend {
-  rpc SendNotifications (HelloRequest) returns (GrpcApiReply);
+  rpc SendNotifications (NotificationsRequest) returns (GrpcApiReply);
 }
 
-message HelloRequest {
-  string name = 1;
+message GrpcNotification {
+  string titleText = 1;
+  string bodyText = 2;
+}
+message NotificationsRequest {
+  repeated GrpcNotification notifications = 1;
 }
 message GrpcApiReply {
   string message = 1;
