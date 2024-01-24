@@ -5,12 +5,16 @@ option csharp_namespace = "DeliveryService.Backend.Kitchen.Grpc";
 package backendgrpcservice;
 
 service KitchenBackend {
-  rpc PrepareMealStart (HelloRequest) returns (GrpcApiReply);
-  rpc PrepareMealExecute (HelloRequest) returns (GrpcApiReply);
+  rpc PrepareMealStart (DeliveryOrderRequest) returns (GrpcApiReply);
+  rpc PrepareMealExecute (DeliveryOrderRequest) returns (GrpcApiReply);
 }
 
-message HelloRequest {
-  string name = 1;
+message DeliveryOrderRequest {
+  int64 id = 1;
+  string uid = 2;
+  string name = 3;
+  string description = 4;
+  int32 businessEntityStatus = 5;
 }
 message GrpcApiReply {
   string message = 1;
