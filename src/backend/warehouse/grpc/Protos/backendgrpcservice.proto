@@ -5,19 +5,23 @@ option csharp_namespace = "DeliveryService.Backend.Warehouse.Grpc";
 package backendgrpcservice;
 
 service WarehouseBackend {
-  rpc PreprocessOrderRedirect (HelloRequest) returns (GrpcApiReply);
-  rpc RequestStore2WhStart (HelloRequest) returns (GrpcApiReply);
-  rpc RequestStore2WhRespond (HelloRequest) returns (GrpcApiReply);
-  rpc Store2WhSave (HelloRequest) returns (GrpcApiReply);
-  rpc ConfirmStore2WhAccept (HelloRequest) returns (GrpcApiReply);
-  rpc Wh2KitchenStart (HelloRequest) returns (GrpcApiReply);
-  rpc Wh2KitchenExecute (HelloRequest) returns (GrpcApiReply);
-  rpc Kitchen2WhStart (HelloRequest) returns (GrpcApiReply);
-  rpc Kitchen2WhExecute (HelloRequest) returns (GrpcApiReply);
+  rpc PreprocessOrderRedirect (DeliveryOrderRequest) returns (GrpcApiReply);
+  rpc RequestStore2WhStart (DeliveryOrderRequest) returns (GrpcApiReply);
+  rpc RequestStore2WhRespond (DeliveryOrderRequest) returns (GrpcApiReply);
+  rpc Store2WhSave (DeliveryOrderRequest) returns (GrpcApiReply);
+  rpc ConfirmStore2WhAccept (DeliveryOrderRequest) returns (GrpcApiReply);
+  rpc Wh2KitchenStart (DeliveryOrderRequest) returns (GrpcApiReply);
+  rpc Wh2KitchenExecute (DeliveryOrderRequest) returns (GrpcApiReply);
+  rpc Kitchen2WhStart (DeliveryOrderRequest) returns (GrpcApiReply);
+  rpc Kitchen2WhExecute (DeliveryOrderRequest) returns (GrpcApiReply);
 }
 
-message HelloRequest {
-  string name = 1;
+message DeliveryOrderRequest {
+  int64 id = 1;
+  string uid = 2;
+  string name = 3;
+  string description = 4;
+  int32 businessEntityStatus = 5;
 }
 message GrpcApiReply {
   string message = 1;
