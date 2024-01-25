@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Cims.WorkflowLib.Models.AppSettings;
 using DeliveryService.Core.Contexts;
+using DeliveryService.Frontend.Customer.BL.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,7 @@ builder.Services.AddSingleton<NetworkAppSettings>(settings =>
 builder.Services.AddDbContext<DeliveringContext>(options =>
         options.UseNpgsql("Server=127.0.0.1;Port=5432;Database=deliveryservicetest;Username=postgres;Password=postgres", 
             b => b.MigrationsAssembly("DeliveryService.Core")));
+builder.Services.AddScoped<CustomerClientControllerBL>();
 
 var app = builder.Build();
 
