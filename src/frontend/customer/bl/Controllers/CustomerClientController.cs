@@ -6,19 +6,19 @@ using Cims.WorkflowLib.Models.Business.Products;
 using Cims.WorkflowLib.Models.Network;
 using DeliveryService.Core.Contexts;
 
-namespace DeliveryService.CustomerClientBL.Controllers
+namespace DeliveryService.Frontend.Customer.BL.Controllers
 {
     /// <summary>
     /// A class that represents a client-side app controller that processes requests from the customer.
     /// </summary>
-    public class CustomerClientController
+    public class CustomerClientControllerBL
     {
         private DbContextOptions<DeliveringContext> _contextOptions { get; set; }
 
         /// <summary>
         /// Constructor by default.
         /// </summary>
-        public CustomerClientController(
+        public CustomerClientControllerBL(
             DbContextOptions<DeliveringContext> contextOptions)
         {
             _contextOptions = contextOptions;

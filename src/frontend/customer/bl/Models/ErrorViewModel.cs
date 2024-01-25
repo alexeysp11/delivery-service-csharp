@@ -1,4 +1,4 @@
-namespace DeliveryService.CustomerClientBL.Models;
+namespace DeliveryService.Frontend.Customer.BL.Models;
 
 public class ErrorViewModel
 {
