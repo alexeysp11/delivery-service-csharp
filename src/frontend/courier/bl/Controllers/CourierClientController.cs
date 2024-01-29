@@ -3,7 +3,7 @@ using Cims.WorkflowLib.Models.Business.BusinessDocuments;
 using Cims.WorkflowLib.Models.Network;
 using DeliveryService.Core.Contexts;
 
-namespace DeliveryService.CourierClientBL.Controllers
+namespace DeliveryService.Frontend.Courier.BL.Controllers
 {
     /// <summary>
     /// Client-side app controller that serves requests from the courier.
