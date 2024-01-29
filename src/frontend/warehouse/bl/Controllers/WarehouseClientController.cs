@@ -4,7 +4,7 @@ using Cims.WorkflowLib.Models.Business.Delivery;
 using Cims.WorkflowLib.Models.Network;
 using DeliveryService.Core.Contexts;
 
-namespace DeliveryService.WarehouseClientBL.Controllers
+namespace DeliveryService.Frontend.Warehouse.BL.Controllers
 {
     /// <summary>
     /// Client-side app controller that serves requests from the kitchen employees.
