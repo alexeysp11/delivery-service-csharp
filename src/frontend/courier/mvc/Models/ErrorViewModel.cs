@@ -1,4 +1,4 @@
-namespace mvc.Models;
+namespace DeliveryService.Frontend.Courier.Mvc.Models;
 
 public class ErrorViewModel
 {
