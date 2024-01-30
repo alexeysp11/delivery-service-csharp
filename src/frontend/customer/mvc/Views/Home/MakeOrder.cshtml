@@ -5,6 +5,7 @@
 @using Cims.WorkflowLib.Models.Business.Delivery;
 @using Cims.WorkflowLib.Models.Business.Products;
 @model Cims.WorkflowLib.Models.Business.BusinessDocuments.InitialOrder;
+@inject DeliveryService.Core.Resolvers.MenuResolver MenuResolver;
 @{
     ViewData["Title"] = "Make order";
 }
@@ -14,7 +15,7 @@
     IEnumerable<ProductCategory> categories = new List<ProductCategory>();
     try
     {
-        menuItems = new MenuResolver().GetMenu();
+        menuItems = @MenuResolver.GetMenu();
         categories = menuItems.Select(x => x.ProductCategory).Distinct();
     }
     catch (System.Exception ex)
