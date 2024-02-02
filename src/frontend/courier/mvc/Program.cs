@@ -22,7 +22,7 @@ builder.Services.AddSingleton<NetworkAppSettings>(settings =>
         }
     );
 builder.Services.AddDbContext<DeliveringContext>(options =>
-        options.UseNpgsql("Server=127.0.0.1;Port=5432;Database=deliveryservicetest;Username=postgres;Password=postgres", 
+        options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"), 
             b => b.MigrationsAssembly("DeliveryService.Core")));
 builder.Services.AddScoped<CourierClientController>();
 
