@@ -125,7 +125,9 @@ There's also the diagram that demonstrates in more detail the principle on which
 
 ![layers_simplified](docs/img/layers_simplified.png)
 
-To achieve platform flexibility, client controllers should be empty: it is desirable that all data processing logic be located in BL modules.
+The diagrams show separate databases for different services; in fact, the database can be either common to all services or separate (however, due to replication, all services must work with data as if it were the same database, i.e. i.e. have identical tables and records in them).
+
+To achieve platform flexibility, controllers should be empty: it is desirable that all data processing logic be located in BL modules.
 Thus, the client application can be completely different (ASP.NET MVC, Blazor, WPF, React.js etc), i.e. it becomes responsible only for displaying data on the UI.
 For client applications, communication with the database is allowed only for working with the cache.
 
@@ -135,6 +137,8 @@ Microservices can communicate with each other either directly or through a data 
 The data bus is implemented in two possible ways:
 - a common web service for backend and system services (a kind of proxy);
 - use of message brokers (for example, RabbitMQ).
+
+### Service discovery 
 
 Details of communication between microservices:
 - if service A **knows** which service to contact:
@@ -150,19 +154,43 @@ Details of communication between microservices:
 The above methods of interservice communication would allow very flexible configuration of communication between microservices through configs or databases.
 The corresponding classes for configuring inter-service communication can be found in the namespace [Cims.WorkflowLib.Models.Network.MicroserviceConfigurations](https://github.com/alexeysp11/workflow-lib/tree/main/src/Models/Network/MicroserviceConfigurations).
 
-Advantages of a flexible approach to interaction between microservices:
+Positive consequences of implementing this approach:
+- Simplification of configuration and updating of components without the need to rebuild the code.
 - The ability to choose the most appropriate method of interaction for each specific task.
+- Flexibility to change connections and configurations of components without changing the code.
+- Centralized storage of information about connections and configurations for convenient management.
+- Ability to dynamically change connections and configurations without restarting components.
+- Increased flexibility and adaptability of the system thanks to dynamic connection management.
+- Improved scalability due to the ability to add new components without changing the code.
 - Reducing dependencies between microservices, which increases their independence and simplifies development and testing.
 - Simplification of system scaling, since each microservice can be scaled independently of others.
+- Improved testing with the ability to easily change configurations to test different scenarios.
 
-Disadvantages of an agile approach to interaction between microservices:
+Negative consequences of implementing this approach:
 - Increasing complexity of the system due to the need to support several methods of interaction and their combinations.
+- Potential increase in database load due to storage of configuration and communication data.
+- Potential performance issues due to additional database queries to retrieve configurations.
 - Increased network load due to the use of different network protocols.
-- Complication of debugging and monitoring of the system.
+- The risk of dependencies between components due to implicit communication through the database.
+- Risk of problems with fault tolerance due to a centralized point of failure - the database.
+- Potential scaling issues due to database performance limitations when dealing with a large number of queries.
+- Complication of debugging and monitoring of the system on the production server.
 
-The diagrams show separate databases for different services; in fact, the database can be either common to all services or separate (however, due to replication, all services must work with data as if it were the same database, i.e. i.e. have identical tables and records in them).
+Ways to improve the approach:
+- Implementation of a mechanism for caching query results to improve performance.
+- Implementation of a fallback mechanism to handle failures in communication between components.
+- Development of monitoring to track the performance and condition of components.
+- Expanded configuration options via a web interface for ease of administration.
+- Implementation of a mechanism for automatically scaling components when the load changes.
+- Development of a logging system to track and analyze requests and responses.
+- Implementation of a mechanism for updating the configuration of components without restarting the entire system.
+- Implementation of an error and exception handling mechanism to improve system reliability.
+- Development of a testing system to check the functionality and compliance of business logic.
+- Implementation of an automatic data backup mechanism to ensure security.
 
-It should be noted that if there is only one database, then at some steps (see [flowchart steps](docs/flowchartsteps/README.md)) there is no need to “notify” client applications (and sometimes the corresponding backend services), because that the client application will in any case “read” the necessary changes from the database.
+### Registration and monitoring of the services
+
+![services_registration_monitoring](docs/img/services_registration_monitoring.png)
 
 ## Project configuration
 
