@@ -10,6 +10,7 @@ using Cims.WorkflowLib.Models.Business.Products;
 using Cims.WorkflowLib.Models.Business.Processes;
 using Cims.WorkflowLib.Models.Business.SocialCommunication;
 using Cims.WorkflowLib.Models.Network;
+using Cims.WorkflowLib.Models.Network.MicroserviceConfigurations;
 
 namespace DeliveryService.Core.Contexts
 {
@@ -59,5 +60,9 @@ namespace DeliveryService.Core.Contexts
         public DbSet<DeliveryKitchen2Wh> DeliveriesKitchen2Wh { get; set; }
         public DbSet<DeliveryOperation> DeliveryOperations { get; set; }
         public DbSet<CookingOperation> CookingOperations { get; set; }
+
+        public DbSet<Endpoint> Endpoints { get; set; }
+        public DbSet<MicroserviceCommunicationConfiguration> MicroserviceCommunicationConfigurations { get; set; }
+        public DbSet<NetworkInteractionDetails> NetworkInteractionDetails { get; set; }
     }
 }
