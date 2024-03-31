@@ -32,7 +32,6 @@ Any company that offers delivery services could potentially use this application
     - [customers](docs/frontend/customerclient.md), 
     - [employee](docs/frontend/kitchenclient.md), 
     - [admins](docs/frontend/adminclient.md).
-- Types of client applications by deployment type: web, desktop, mobile (Xamarin, Android), telegram bot.
 - Description of backend services: 
     - [authentication](docs/backend/authbackend.md), 
     - [customer](docs/backend/customerbackend.md), 
@@ -50,36 +49,44 @@ Any company that offers delivery services could potentially use this application
     - [requesting](docs/processpatterns/requesting.md).
 - Description of process patterns (see also: [flowchart steps](docs/flowchartsteps/README.md)): 
     - [delivering](docs/flowchartsteps/delivering/README.md).
+
+### Business requirements
+
+- Displaying information on orders in the form of lists: a list of all orders, information on a specific order (actual time of registration, cooking and delivery; estimated time of cooking and delivery, total order amount, cost of order items, delivery place; status).
+- Tracking the location of the courier.
 - Types of payment: 
     - cash upon receipt, 
     - through a validator upon receipt, 
     - through the bank's application using a QR code, 
     - in the application using CVC.
-- Upload files to the server (images, videos, Word, Excel, PDF).
-- Download files from the server (images, Word, Excel, PDF).
-- Sending notifications about promotions via email and/or Telegram.
-<!--
-- Generation of a QR code for payment.
-- Displaying information on orders in the form of lists: a list of all orders, information on a specific order (actual time of registration, cooking and delivery; estimated time of cooking and delivery, total order amount, cost of order items, delivery place; status).
-- Statistics on many orders in the form of dashboards (by time: day, week, month, year, all time; by type of charts: Line chart, Bar chart, Histogram, Scatter plot, etc.; metrics: total order amount, cost positions, number of orders, number of positions, time of ordering, place of delivery).
-- Metrics for internal use: the actual time of ordering, cooking and delivery; the total amount of the order, the value of the order items, the number of orders, the number of items, the time of ordering, the place of delivery, the place of user registration.
-- Predictive models for all metrics: for a group of users (filter: city, country, age, gender, matches in users' full name, place of delivery, place of registration; display: list of users, brief information about the user).
-- Tracking the location of the courier.
--->
+- File operations:
+    - Upload files to the server (images, videos, Word, Excel, PDF).
+    - Download files from the server (images, Word, Excel, PDF).
+- Notifications:
+    - Sending notifications about promotions via email and/or Telegram.
+- Statistics:
+    - Statistics on many orders in the form of dashboards (by time: day, week, month, year, all time; by type of charts: Line chart, Bar chart, Histogram, Scatter plot, etc.; metrics: total order amount, cost positions, number of orders, number of positions, time of ordering, place of delivery).
+    - Metrics for internal use: the actual time of ordering, cooking and delivery; the total amount of the order, the value of the order items, the number of orders, the number of items, the time of ordering, the place of delivery, the place of user registration.
+    - Predictive models for all metrics: for a group of users (filter: city, country, age, gender, matches in users' full name, place of delivery, place of registration; display: list of users, brief information about the user).
 
-### Technical requirements for the system
+### Technical requirements
 
-- Distributed system for storing records in the database: make an analysis of the database, which is optimal for writing and reading.
+- Distributed system for storing records in the database.
 - Several storage types: SQL, sessions, file storage.
-- Load balancing - Load balancer.
-- Web (ASP.NET Core MVC + React), desktop (WPF), [Telegram.Bot](https://github.com/TelegramBots/Telegram.Bot).
-- Using gRPC, RabbitMQ, ElasticSearch, WebAPI and worker.
-- RabbitMQ can have multiple "subscribers".
+- Load balancer.
+- Types of client applications by deployment type: 
+    - web (ASP.NET Core MVC, Blazor, React);
+    - desktop (WPF);
+    - mobile (Xamarin, Android);
+    - telegram bot.
+- Types of backend applications by deployment type: 
+    - WebAPI;
+    - gRPC.
+- Using RabbitMQ, ElasticSearch, Firebase, [MailKit](https://github.com/jstedfast/MailKit), payment gateway.
 - Asynchronous and multithreading programming (for example, when forming images).
 - External services: 
     - [workflow-auth](https://github.com/alexeysp11/workflow-auth), 
     - [workflow-lib](https://github.com/alexeysp11/workflow-lib)
-    <!--, Firebase, email delivery service, payment gateway.-->
 
 ### General system model
 
