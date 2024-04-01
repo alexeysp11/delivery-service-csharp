@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Cims.WorkflowLib.Models.AppSettings;
+using WorkflowLib.Models.AppSettings;
 using DeliveryService.Backend.Customer.BL.Controllers;
 using DeliveryService.Core.Contexts;
 

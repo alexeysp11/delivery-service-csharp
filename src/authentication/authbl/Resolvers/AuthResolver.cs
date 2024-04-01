@@ -1,7 +1,7 @@
 using WokflowLib.Authentication.AuthBL;
 using WokflowLib.Authentication.Models.ConfigParameters;
 using WokflowLib.Authentication.Models.NetworkParameters;
-using Cims.WorkflowLib.Models.ErrorHandling;
+using WorkflowLib.Models.ErrorHandling;
 
 namespace DeliveryService.Authentication.AuthWebApi.AuthBL;
 

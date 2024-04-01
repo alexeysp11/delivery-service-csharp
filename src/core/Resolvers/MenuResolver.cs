@@ -1,8 +1,8 @@
 using System.Data;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using Cims.WorkflowLib.DbConnections;
-using Cims.WorkflowLib.Models.Business.Products;
+using WorkflowLib.DbConnections;
+using WorkflowLib.Models.Business.Products;
 using DeliveryService.Core.Contexts;
 
 namespace DeliveryService.Core.Resolvers;

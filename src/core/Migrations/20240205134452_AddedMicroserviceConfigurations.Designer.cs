@@ -24,7 +24,7 @@ namespace DeliveryService.Core.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Address", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Address", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -76,7 +76,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Addresses");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.BusinessDocuments.BusinessTaskDeliveryOrder", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.BusinessDocuments.BusinessTaskDeliveryOrder", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -114,7 +114,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("BusinessTaskDeliveryOrders");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.BusinessDocuments.Contract", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.BusinessDocuments.Contract", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -142,7 +142,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Contract");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.BusinessDocuments.InitialOrder", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.BusinessDocuments.InitialOrder", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -211,7 +211,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("InitialOrders");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.BusinessDocuments.Order", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.BusinessDocuments.Order", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -292,7 +292,7 @@ namespace DeliveryService.Core.Migrations
                     b.HasDiscriminator<string>("Discriminator").HasValue("Order");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Customers.Company", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Customers.Company", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -344,7 +344,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Companies");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Customers.Contact", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Customers.Contact", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -387,7 +387,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Contacts");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Customers.Customer", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Customers.Customer", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -442,7 +442,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Customers");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Customers.Notification", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Customers.Notification", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -488,7 +488,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Notifications");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Delivery.DeliveryMethod", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Delivery.DeliveryMethod", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -519,7 +519,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("DeliveryMethods");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.Employee", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.Employee", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -583,7 +583,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Employees");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.Organization", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.Organization", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -618,7 +618,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Organizations");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.OrganizationItem", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.OrganizationItem", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -667,7 +667,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("OrganizationItems");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.Skill", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.Skill", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -697,7 +697,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Skill");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.UserAccount", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.UserAccount", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -761,7 +761,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("UserAccounts");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.UserGroup", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.UserGroup", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -808,7 +808,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("UserGroups");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Monetary.Payment", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Monetary.Payment", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -862,7 +862,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Payments");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Processes.BusinessTask", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Processes.BusinessTask", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -943,7 +943,7 @@ namespace DeliveryService.Core.Migrations
                     b.HasDiscriminator<string>("Discriminator").HasValue("BusinessTask");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.DeliveryOrderProduct", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.DeliveryOrderProduct", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -981,7 +981,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("DeliveryOrderProducts");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.Ingredient", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.Ingredient", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1024,7 +1024,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Ingredients");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.InitialOrderIngredient", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.InitialOrderIngredient", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1077,7 +1077,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("InitialOrderIngredients");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.InitialOrderProduct", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.InitialOrderProduct", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1130,7 +1130,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("InitialOrderProducts");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.OrderProduct", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.OrderProduct", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1168,7 +1168,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("OrderProducts");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.Product", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.Product", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1210,7 +1210,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.ProductCategory", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.ProductCategory", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1244,7 +1244,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("ProductCategories");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.ProductTransfer", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.ProductTransfer", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1320,7 +1320,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("ProductTransfers");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.Project", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.Project", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1388,7 +1388,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Project");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.ProjectPhase", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.ProjectPhase", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1423,7 +1423,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("ProjectPhase");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.ProjectPlanItem", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.ProjectPlanItem", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1456,7 +1456,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("ProjectPlanItem");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.Recipe", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.Recipe", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1489,7 +1489,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Recipes");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.WHProduct", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.WHProduct", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1528,7 +1528,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("WHProducts");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Risk", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Risk", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1596,7 +1596,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Risk");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.SocialCommunication.Comment", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.SocialCommunication.Comment", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1637,7 +1637,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Comments");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Network.MicroserviceConfigurations.Endpoint", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Network.MicroserviceConfigurations.Endpoint", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -1665,7 +1665,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("Endpoints");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Network.MicroserviceConfigurations.MicroserviceCommunicationConfiguration", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Network.MicroserviceConfigurations.MicroserviceCommunicationConfiguration", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -1699,7 +1699,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("MicroserviceCommunicationConfigurations");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Network.MicroserviceConfigurations.NetworkInteractionDetails", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Network.MicroserviceConfigurations.NetworkInteractionDetails", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -1724,7 +1724,7 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("NetworkInteractionDetails");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Performance.ExecutionTime", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Performance.ExecutionTime", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -1830,9 +1830,9 @@ namespace DeliveryService.Core.Migrations
                     b.ToTable("ContractOrganization");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", b =>
                 {
-                    b.HasBaseType("Cims.WorkflowLib.Models.Business.BusinessDocuments.Order");
+                    b.HasBaseType("WorkflowLib.Models.Business.BusinessDocuments.Order");
 
                     b.Property<long?>("DeliveryMethodId")
                         .HasColumnType("bigint");
@@ -1865,16 +1865,16 @@ namespace DeliveryService.Core.Migrations
                     b.HasDiscriminator().HasValue("DeliveryOrder");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Cooking.CookingOperation", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Cooking.CookingOperation", b =>
                 {
-                    b.HasBaseType("Cims.WorkflowLib.Models.Business.Processes.BusinessTask");
+                    b.HasBaseType("WorkflowLib.Models.Business.Processes.BusinessTask");
 
                     b.HasDiscriminator().HasValue("CookingOperation");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Delivery.DeliveryOperation", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Delivery.DeliveryOperation", b =>
                 {
-                    b.HasBaseType("Cims.WorkflowLib.Models.Business.Processes.BusinessTask");
+                    b.HasBaseType("WorkflowLib.Models.Business.Processes.BusinessTask");
 
                     b.Property<long?>("ContactId")
                         .HasColumnType("bigint");
@@ -1905,9 +1905,9 @@ namespace DeliveryService.Core.Migrations
                     b.HasDiscriminator().HasValue("DeliveryOperation");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Delivery.DeliveryKitchen2Wh", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Delivery.DeliveryKitchen2Wh", b =>
                 {
-                    b.HasBaseType("Cims.WorkflowLib.Models.Business.Delivery.DeliveryOperation");
+                    b.HasBaseType("WorkflowLib.Models.Business.Delivery.DeliveryOperation");
 
                     b.Property<string>("GeneratedOrderQrCode")
                         .HasColumnType("text");
@@ -1915,20 +1915,20 @@ namespace DeliveryService.Core.Migrations
                     b.HasDiscriminator().HasValue("DeliveryKitchen2Wh");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Delivery.DeliveryWh2Kitchen", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Delivery.DeliveryWh2Kitchen", b =>
                 {
-                    b.HasBaseType("Cims.WorkflowLib.Models.Business.Delivery.DeliveryOperation");
+                    b.HasBaseType("WorkflowLib.Models.Business.Delivery.DeliveryOperation");
 
                     b.HasDiscriminator().HasValue("DeliveryWh2Kitchen");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.BusinessDocuments.BusinessTaskDeliveryOrder", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.BusinessDocuments.BusinessTaskDeliveryOrder", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Processes.BusinessTask", "BusinessTask")
+                    b.HasOne("WorkflowLib.Models.Business.Processes.BusinessTask", "BusinessTask")
                         .WithMany()
                         .HasForeignKey("BusinessTaskId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", "DeliveryOrder")
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", "DeliveryOrder")
                         .WithMany()
                         .HasForeignKey("DeliveryOrderId");
 
@@ -1937,47 +1937,47 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("DeliveryOrder");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.BusinessDocuments.InitialOrder", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.BusinessDocuments.InitialOrder", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Cooking.CookingOperation", null)
+                    b.HasOne("WorkflowLib.Models.Business.Cooking.CookingOperation", null)
                         .WithMany("InitialOrders")
                         .HasForeignKey("CookingOperationId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Delivery.DeliveryKitchen2Wh", null)
+                    b.HasOne("WorkflowLib.Models.Business.Delivery.DeliveryKitchen2Wh", null)
                         .WithMany("InitialOrders")
                         .HasForeignKey("DeliveryKitchen2WhId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", "DeliveryOrder")
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", "DeliveryOrder")
                         .WithMany()
                         .HasForeignKey("DeliveryOrderId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Delivery.DeliveryWh2Kitchen", null)
+                    b.HasOne("WorkflowLib.Models.Business.Delivery.DeliveryWh2Kitchen", null)
                         .WithMany("InitialOrders")
                         .HasForeignKey("DeliveryWh2KitchenId");
 
                     b.Navigation("DeliveryOrder");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.BusinessDocuments.Order", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.BusinessDocuments.Order", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.Order", "ParentOrder")
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.Order", "ParentOrder")
                         .WithMany()
                         .HasForeignKey("ParentOrderId");
 
                     b.Navigation("ParentOrder");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Customers.Company", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Customers.Company", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Address", "Address")
+                    b.HasOne("WorkflowLib.Models.Business.Address", "Address")
                         .WithMany()
                         .HasForeignKey("AddressId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Customers.Contact", "Contact")
+                    b.HasOne("WorkflowLib.Models.Business.Customers.Contact", "Contact")
                         .WithMany()
                         .HasForeignKey("ContactId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Address", "ShippingAddress")
+                    b.HasOne("WorkflowLib.Models.Business.Address", "ShippingAddress")
                         .WithMany()
                         .HasForeignKey("ShippingAddressId");
 
@@ -1988,17 +1988,17 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("ShippingAddress");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Customers.Customer", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Customers.Customer", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Customers.Company", "Company")
+                    b.HasOne("WorkflowLib.Models.Business.Customers.Company", "Company")
                         .WithMany()
                         .HasForeignKey("CompanyId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Customers.Contact", "Contact")
+                    b.HasOne("WorkflowLib.Models.Business.Customers.Contact", "Contact")
                         .WithMany()
                         .HasForeignKey("ContactId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.UserAccount", "UserAccount")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.UserAccount", "UserAccount")
                         .WithMany()
                         .HasForeignKey("UserAccountId");
 
@@ -2009,13 +2009,13 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("UserAccount");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.Organization", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.Organization", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Customers.Company", "Company")
+                    b.HasOne("WorkflowLib.Models.Business.Customers.Company", "Company")
                         .WithMany()
                         .HasForeignKey("CompanyId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.OrganizationItem", "HeadItem")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.OrganizationItem", "HeadItem")
                         .WithMany()
                         .HasForeignKey("HeadItemId");
 
@@ -2024,17 +2024,17 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("HeadItem");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.OrganizationItem", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.OrganizationItem", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Address", "Address")
+                    b.HasOne("WorkflowLib.Models.Business.Address", "Address")
                         .WithMany()
                         .HasForeignKey("AddressId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.OrganizationItem", "ParentItem")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.OrganizationItem", "ParentItem")
                         .WithMany("SubItems")
                         .HasForeignKey("ParentItemId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.UserAccount", "User")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.UserAccount", "User")
                         .WithMany()
                         .HasForeignKey("UserId");
 
@@ -2045,35 +2045,35 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.Skill", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.Skill", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.Employee", null)
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.Employee", null)
                         .WithMany("Skills")
                         .HasForeignKey("EmployeeId");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.UserAccount", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.UserAccount", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.Employee", null)
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.Employee", null)
                         .WithMany("UserAccounts")
                         .HasForeignKey("EmployeeId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.OrganizationItem", null)
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.OrganizationItem", null)
                         .WithMany("Users")
                         .HasForeignKey("OrganizationItemId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.UserGroup", null)
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.UserGroup", null)
                         .WithMany("Users")
                         .HasForeignKey("UserGroupId");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.UserGroup", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.UserGroup", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.UserAccount", "ChangeAuthor")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.UserAccount", "ChangeAuthor")
                         .WithMany()
                         .HasForeignKey("ChangeAuthorId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.UserAccount", "CreationAuthor")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.UserAccount", "CreationAuthor")
                         .WithMany()
                         .HasForeignKey("CreationAuthorId");
 
@@ -2082,40 +2082,40 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("CreationAuthor");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Monetary.Payment", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Monetary.Payment", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.Order", null)
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.Order", null)
                         .WithMany("Payments")
                         .HasForeignKey("OrderId");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Processes.BusinessTask", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Processes.BusinessTask", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Performance.ExecutionTime", "ActualExecutionTime")
+                    b.HasOne("WorkflowLib.Models.Performance.ExecutionTime", "ActualExecutionTime")
                         .WithMany()
                         .HasForeignKey("ActualExecutionTimeId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", null)
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", null)
                         .WithMany("PreparingOperations")
                         .HasForeignKey("DeliveryOrderId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Performance.ExecutionTime", "EstimatedExecutionTime")
+                    b.HasOne("WorkflowLib.Models.Performance.ExecutionTime", "EstimatedExecutionTime")
                         .WithMany()
                         .HasForeignKey("EstimatedExecutionTimeId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.UserAccount", "Executor")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.UserAccount", "Executor")
                         .WithMany()
                         .HasForeignKey("ExecutorId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.UserAccount", "ExecutorIsEmulation")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.UserAccount", "ExecutorIsEmulation")
                         .WithMany()
                         .HasForeignKey("ExecutorIsEmulationId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.UserAccount", "ExecutorReplaced")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.UserAccount", "ExecutorReplaced")
                         .WithMany()
                         .HasForeignKey("ExecutorReplacedId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Processes.BusinessTask", "ParentTask")
+                    b.HasOne("WorkflowLib.Models.Business.Processes.BusinessTask", "ParentTask")
                         .WithMany("ChildTasks")
                         .HasForeignKey("ParentTaskId");
 
@@ -2132,13 +2132,13 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("ParentTask");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.DeliveryOrderProduct", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.DeliveryOrderProduct", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", "DeliveryOrder")
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", "DeliveryOrder")
                         .WithMany()
                         .HasForeignKey("DeliveryOrderId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.Product", "Product")
+                    b.HasOne("WorkflowLib.Models.Business.Products.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId");
 
@@ -2147,17 +2147,17 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.Ingredient", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.Ingredient", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.Product", "FinalProduct")
+                    b.HasOne("WorkflowLib.Models.Business.Products.Product", "FinalProduct")
                         .WithMany()
                         .HasForeignKey("FinalProductId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.Product", "IngredientProduct")
+                    b.HasOne("WorkflowLib.Models.Business.Products.Product", "IngredientProduct")
                         .WithMany()
                         .HasForeignKey("IngredientProductId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.Recipe", null)
+                    b.HasOne("WorkflowLib.Models.Business.Products.Recipe", null)
                         .WithMany("Ingredients")
                         .HasForeignKey("RecipeId");
 
@@ -2166,25 +2166,25 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("IngredientProduct");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.InitialOrderIngredient", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.InitialOrderIngredient", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Cooking.CookingOperation", null)
+                    b.HasOne("WorkflowLib.Models.Business.Cooking.CookingOperation", null)
                         .WithMany("InitialOrderIngredients")
                         .HasForeignKey("CookingOperationId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Delivery.DeliveryWh2Kitchen", null)
+                    b.HasOne("WorkflowLib.Models.Business.Delivery.DeliveryWh2Kitchen", null)
                         .WithMany("InitialOrderIngredients")
                         .HasForeignKey("DeliveryWh2KitchenId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.Ingredient", "Ingredient")
+                    b.HasOne("WorkflowLib.Models.Business.Products.Ingredient", "Ingredient")
                         .WithMany()
                         .HasForeignKey("IngredientId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.InitialOrder", "InitialOrder")
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.InitialOrder", "InitialOrder")
                         .WithMany()
                         .HasForeignKey("InitialOrderId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.InitialOrderProduct", "InitialOrderProduct")
+                    b.HasOne("WorkflowLib.Models.Business.Products.InitialOrderProduct", "InitialOrderProduct")
                         .WithMany()
                         .HasForeignKey("InitialOrderProductId");
 
@@ -2195,25 +2195,25 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("InitialOrderProduct");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.InitialOrderProduct", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.InitialOrderProduct", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Cooking.CookingOperation", null)
+                    b.HasOne("WorkflowLib.Models.Business.Cooking.CookingOperation", null)
                         .WithMany("InitialOrderProducts")
                         .HasForeignKey("CookingOperationId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Delivery.DeliveryKitchen2Wh", null)
+                    b.HasOne("WorkflowLib.Models.Business.Delivery.DeliveryKitchen2Wh", null)
                         .WithMany("InitialOrderProducts")
                         .HasForeignKey("DeliveryKitchen2WhId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Delivery.DeliveryWh2Kitchen", null)
+                    b.HasOne("WorkflowLib.Models.Business.Delivery.DeliveryWh2Kitchen", null)
                         .WithMany("InitialOrderProducts")
                         .HasForeignKey("DeliveryWh2KitchenId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.InitialOrder", "InitialOrder")
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.InitialOrder", "InitialOrder")
                         .WithMany()
                         .HasForeignKey("InitialOrderId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.Product", "Product")
+                    b.HasOne("WorkflowLib.Models.Business.Products.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId");
 
@@ -2222,13 +2222,13 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.OrderProduct", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.OrderProduct", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.Order", "Order")
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.Order", "Order")
                         .WithMany()
                         .HasForeignKey("OrderId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.Product", "Product")
+                    b.HasOne("WorkflowLib.Models.Business.Products.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId");
 
@@ -2237,38 +2237,38 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.Product", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.Product", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.ProductCategory", "ProductCategory")
+                    b.HasOne("WorkflowLib.Models.Business.Products.ProductCategory", "ProductCategory")
                         .WithMany("Products")
                         .HasForeignKey("ProductCategoryId");
 
                     b.Navigation("ProductCategory");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.ProductTransfer", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.ProductTransfer", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", "DeliveryOrder")
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", "DeliveryOrder")
                         .WithMany()
                         .HasForeignKey("DeliveryOrderId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.DeliveryOrderProduct", "DeliveryOrderProduct")
+                    b.HasOne("WorkflowLib.Models.Business.Products.DeliveryOrderProduct", "DeliveryOrderProduct")
                         .WithMany()
                         .HasForeignKey("DeliveryOrderProductId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.Order", "Order")
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.Order", "Order")
                         .WithMany()
                         .HasForeignKey("OrderId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.OrderProduct", "OrderProduct")
+                    b.HasOne("WorkflowLib.Models.Business.Products.OrderProduct", "OrderProduct")
                         .WithMany()
                         .HasForeignKey("OrderProductId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.ProductTransfer", "Parent")
+                    b.HasOne("WorkflowLib.Models.Business.Products.ProductTransfer", "Parent")
                         .WithMany()
                         .HasForeignKey("ParentId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.WHProduct", "WHProduct")
+                    b.HasOne("WorkflowLib.Models.Business.Products.WHProduct", "WHProduct")
                         .WithMany()
                         .HasForeignKey("WHProductId");
 
@@ -2285,27 +2285,27 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("WHProduct");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.Project", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.Project", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Customers.Company", "Company")
+                    b.HasOne("WorkflowLib.Models.Business.Customers.Company", "Company")
                         .WithMany("Projects")
                         .HasForeignKey("CompanyId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.Contract", "Contract")
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.Contract", "Contract")
                         .WithMany()
                         .HasForeignKey("ContractId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Customers.Customer", "Customer")
+                    b.HasOne("WorkflowLib.Models.Business.Customers.Customer", "Customer")
                         .WithMany()
                         .HasForeignKey("CustomerId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Address", "Location")
+                    b.HasOne("WorkflowLib.Models.Business.Address", "Location")
                         .WithMany()
                         .HasForeignKey("LocationId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.Employee", "Manager")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.Employee", "Manager")
                         .WithMany()
                         .HasForeignKey("ManagerId");
 
@@ -2320,13 +2320,13 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("Manager");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.ProjectPhase", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.ProjectPhase", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.Project", "Project")
+                    b.HasOne("WorkflowLib.Models.Business.Products.Project", "Project")
                         .WithMany("ProjectPhases")
                         .HasForeignKey("ProjectId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.ProjectPlanItem", "ProjectPlanItem")
+                    b.HasOne("WorkflowLib.Models.Business.Products.ProjectPlanItem", "ProjectPlanItem")
                         .WithMany()
                         .HasForeignKey("ProjectPlanItemId");
 
@@ -2335,50 +2335,50 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("ProjectPlanItem");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.ProjectPlanItem", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.ProjectPlanItem", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.ProjectPlanItem", null)
+                    b.HasOne("WorkflowLib.Models.Business.Products.ProjectPlanItem", null)
                         .WithMany("Items")
                         .HasForeignKey("ProjectPlanItemId");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.Recipe", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.Recipe", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.Product", "Product")
+                    b.HasOne("WorkflowLib.Models.Business.Products.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId");
 
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.WHProduct", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.WHProduct", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.Product", "Product")
+                    b.HasOne("WorkflowLib.Models.Business.Products.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId");
 
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Risk", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Risk", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Processes.BusinessTask", null)
+                    b.HasOne("WorkflowLib.Models.Business.Processes.BusinessTask", null)
                         .WithMany("Risks")
                         .HasForeignKey("BusinessTaskId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.Employee", "ChangeAuthor")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.Employee", "ChangeAuthor")
                         .WithMany()
                         .HasForeignKey("ChangeAuthorId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.Employee", "CreationAuthor")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.Employee", "CreationAuthor")
                         .WithMany()
                         .HasForeignKey("CreationAuthorId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Products.Project", null)
+                    b.HasOne("WorkflowLib.Models.Business.Products.Project", null)
                         .WithMany("Risks")
                         .HasForeignKey("ProjectId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.Employee", "ResolvingAuthor")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.Employee", "ResolvingAuthor")
                         .WithMany()
                         .HasForeignKey("ResolvingAuthorId");
 
@@ -2389,30 +2389,30 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("ResolvingAuthor");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.SocialCommunication.Comment", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.SocialCommunication.Comment", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Processes.BusinessTask", null)
+                    b.HasOne("WorkflowLib.Models.Business.Processes.BusinessTask", null)
                         .WithMany("Comments")
                         .HasForeignKey("BusinessTaskId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.UserAccount", "CreationAuthor")
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.UserAccount", "CreationAuthor")
                         .WithMany()
                         .HasForeignKey("CreationAuthorId");
 
                     b.Navigation("CreationAuthor");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Network.MicroserviceConfigurations.MicroserviceCommunicationConfiguration", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Network.MicroserviceConfigurations.MicroserviceCommunicationConfiguration", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Network.MicroserviceConfigurations.Endpoint", "EndpointFrom")
+                    b.HasOne("WorkflowLib.Models.Network.MicroserviceConfigurations.Endpoint", "EndpointFrom")
                         .WithMany()
                         .HasForeignKey("EndpointFromId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Network.MicroserviceConfigurations.Endpoint", "EndpointTo")
+                    b.HasOne("WorkflowLib.Models.Network.MicroserviceConfigurations.Endpoint", "EndpointTo")
                         .WithMany()
                         .HasForeignKey("EndpointToId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Network.MicroserviceConfigurations.NetworkInteractionDetails", "NetworkInteractionDetails")
+                    b.HasOne("WorkflowLib.Models.Network.MicroserviceConfigurations.NetworkInteractionDetails", "NetworkInteractionDetails")
                         .WithMany()
                         .HasForeignKey("NetworkInteractionDetailsId");
 
@@ -2425,13 +2425,13 @@ namespace DeliveryService.Core.Migrations
 
             modelBuilder.Entity("CompanyContract", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.Contract", null)
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.Contract", null)
                         .WithMany()
                         .HasForeignKey("ContractsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Customers.Company", null)
+                    b.HasOne("WorkflowLib.Models.Business.Customers.Company", null)
                         .WithMany()
                         .HasForeignKey("CustomerCompaniesId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -2440,13 +2440,13 @@ namespace DeliveryService.Core.Migrations
 
             modelBuilder.Entity("CompanyEmployee", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Customers.Company", null)
+                    b.HasOne("WorkflowLib.Models.Business.Customers.Company", null)
                         .WithMany()
                         .HasForeignKey("CompaniesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.Employee", null)
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.Employee", null)
                         .WithMany()
                         .HasForeignKey("EmployeesId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -2455,13 +2455,13 @@ namespace DeliveryService.Core.Migrations
 
             modelBuilder.Entity("ContractCustomer", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.Contract", null)
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.Contract", null)
                         .WithMany()
                         .HasForeignKey("ContractsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Customers.Customer", null)
+                    b.HasOne("WorkflowLib.Models.Business.Customers.Customer", null)
                         .WithMany()
                         .HasForeignKey("CustomersId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -2470,13 +2470,13 @@ namespace DeliveryService.Core.Migrations
 
             modelBuilder.Entity("ContractEmployee", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.Contract", null)
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.Contract", null)
                         .WithMany()
                         .HasForeignKey("ContractsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.Employee", null)
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.Employee", null)
                         .WithMany()
                         .HasForeignKey("OurEmployeesId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -2485,38 +2485,38 @@ namespace DeliveryService.Core.Migrations
 
             modelBuilder.Entity("ContractOrganization", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.Contract", null)
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.Contract", null)
                         .WithMany()
                         .HasForeignKey("ContractsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.InformationSystem.Organization", null)
+                    b.HasOne("WorkflowLib.Models.Business.InformationSystem.Organization", null)
                         .WithMany()
                         .HasForeignKey("OurOrganizationsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Delivery.DeliveryMethod", "DeliveryMethod")
+                    b.HasOne("WorkflowLib.Models.Business.Delivery.DeliveryMethod", "DeliveryMethod")
                         .WithMany()
                         .HasForeignKey("DeliveryMethodId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Delivery.DeliveryOperation", "DeliveryOperation")
+                    b.HasOne("WorkflowLib.Models.Business.Delivery.DeliveryOperation", "DeliveryOperation")
                         .WithMany()
                         .HasForeignKey("DeliveryOperationId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Address", "Destination")
+                    b.HasOne("WorkflowLib.Models.Business.Address", "Destination")
                         .WithMany()
                         .HasForeignKey("DestinationId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Address", "Origin")
+                    b.HasOne("WorkflowLib.Models.Business.Address", "Origin")
                         .WithMany()
                         .HasForeignKey("OriginId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", "ParentDeliveryOrder")
+                    b.HasOne("WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", "ParentDeliveryOrder")
                         .WithMany()
                         .HasForeignKey("ParentDeliveryOrderId");
 
@@ -2531,21 +2531,21 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("ParentDeliveryOrder");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Delivery.DeliveryOperation", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Delivery.DeliveryOperation", b =>
                 {
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Customers.Contact", "Contact")
+                    b.HasOne("WorkflowLib.Models.Business.Customers.Contact", "Contact")
                         .WithMany()
                         .HasForeignKey("ContactId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Delivery.DeliveryMethod", "DeliveryMethod")
+                    b.HasOne("WorkflowLib.Models.Business.Delivery.DeliveryMethod", "DeliveryMethod")
                         .WithMany()
                         .HasForeignKey("DeliveryMethodId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Address", "Destination")
+                    b.HasOne("WorkflowLib.Models.Business.Address", "Destination")
                         .WithMany()
                         .HasForeignKey("DestinationId");
 
-                    b.HasOne("Cims.WorkflowLib.Models.Business.Address", "Origin")
+                    b.HasOne("WorkflowLib.Models.Business.Address", "Origin")
                         .WithMany()
                         .HasForeignKey("OriginId");
 
@@ -2558,36 +2558,36 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("Origin");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.BusinessDocuments.Order", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.BusinessDocuments.Order", b =>
                 {
                     b.Navigation("Payments");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Customers.Company", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Customers.Company", b =>
                 {
                     b.Navigation("Projects");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.Employee", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.Employee", b =>
                 {
                     b.Navigation("Skills");
 
                     b.Navigation("UserAccounts");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.OrganizationItem", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.OrganizationItem", b =>
                 {
                     b.Navigation("SubItems");
 
                     b.Navigation("Users");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.InformationSystem.UserGroup", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.InformationSystem.UserGroup", b =>
                 {
                     b.Navigation("Users");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Processes.BusinessTask", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Processes.BusinessTask", b =>
                 {
                     b.Navigation("ChildTasks");
 
@@ -2596,34 +2596,34 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("Risks");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.ProductCategory", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.ProductCategory", b =>
                 {
                     b.Navigation("Products");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.Project", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.Project", b =>
                 {
                     b.Navigation("ProjectPhases");
 
                     b.Navigation("Risks");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.ProjectPlanItem", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.ProjectPlanItem", b =>
                 {
                     b.Navigation("Items");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Products.Recipe", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Products.Recipe", b =>
                 {
                     b.Navigation("Ingredients");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.BusinessDocuments.DeliveryOrder", b =>
                 {
                     b.Navigation("PreparingOperations");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Cooking.CookingOperation", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Cooking.CookingOperation", b =>
                 {
                     b.Navigation("InitialOrderIngredients");
 
@@ -2632,14 +2632,14 @@ namespace DeliveryService.Core.Migrations
                     b.Navigation("InitialOrders");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Delivery.DeliveryKitchen2Wh", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Delivery.DeliveryKitchen2Wh", b =>
                 {
                     b.Navigation("InitialOrderProducts");
 
                     b.Navigation("InitialOrders");
                 });
 
-            modelBuilder.Entity("Cims.WorkflowLib.Models.Business.Delivery.DeliveryWh2Kitchen", b =>
+            modelBuilder.Entity("WorkflowLib.Models.Business.Delivery.DeliveryWh2Kitchen", b =>
                 {
                     b.Navigation("InitialOrderIngredients");
 

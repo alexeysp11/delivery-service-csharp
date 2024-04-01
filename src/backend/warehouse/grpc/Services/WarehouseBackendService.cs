@@ -1,5 +1,5 @@
 using Grpc.Core;
-using Cims.WorkflowLib.Models.Business.BusinessDocuments;
+using WorkflowLib.Models.Business.BusinessDocuments;
 using DeliveryService.Backend.Warehouse.BL.Controllers;
 using DeliveryService.Backend.Warehouse.Grpc;
 

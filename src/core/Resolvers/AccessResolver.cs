@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
-using Cims.WorkflowLib.NetworkAPIs;
+using WorkflowLib.NetworkAPIs;
 using WokflowLib.Authentication.Models.NetworkParameters;
 
 namespace DeliveryService.Core.Resolvers;

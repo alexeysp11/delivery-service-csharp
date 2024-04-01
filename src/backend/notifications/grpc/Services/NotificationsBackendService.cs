@@ -1,6 +1,6 @@
 using Grpc.Core;
-using Cims.WorkflowLib.Models.Business.BusinessDocuments;
-using Cims.WorkflowLib.Models.Business.Customers;
+using WorkflowLib.Models.Business.BusinessDocuments;
+using WorkflowLib.Models.Business.Customers;
 using DeliveryService.Backend.Notifications.BL;
 using DeliveryService.Backend.Notifications.Grpc;
 

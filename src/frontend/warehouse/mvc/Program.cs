@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
-using Cims.WorkflowLib.Models.AppSettings;
+using WorkflowLib.Models.AppSettings;
 using DeliveryService.Core.Contexts;
 using DeliveryService.Frontend.Warehouse.BL.Controllers;
 

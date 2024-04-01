@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Cims.WorkflowLib.NetworkAPIs;
-using Cims.WorkflowLib.Models.Network;
-using Cims.WorkflowLib.Models.Performance;
+using WorkflowLib.NetworkAPIs;
+using WorkflowLib.Models.Network;
+using WorkflowLib.Models.Performance;
 using DeliveryService.Authentication.AuthWebApi;
 using WokflowLib.Authentication.Models.NetworkParameters;
 

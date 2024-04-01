@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Cims.WorkflowLib.Models.Business.Delivery;
-using Cims.WorkflowLib.Models.Business.BusinessDocuments;
+using WorkflowLib.Models.Business.Delivery;
+using WorkflowLib.Models.Business.BusinessDocuments;
 using DeliveryService.Frontend.Customer.BL.Controllers;
 using DeliveryService.Frontend.Customer.BL.Models;
 

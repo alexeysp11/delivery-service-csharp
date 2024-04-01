@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Cims.WorkflowLib.Models.Business.BusinessDocuments;
-using Cims.WorkflowLib.Models.Business.Monetary;
-using Cims.WorkflowLib.Models.Business.Products;
-using Cims.WorkflowLib.Models.Network;
+using WorkflowLib.Models.Business.BusinessDocuments;
+using WorkflowLib.Models.Business.Monetary;
+using WorkflowLib.Models.Business.Products;
+using WorkflowLib.Models.Network;
 using DeliveryService.Core.Contexts;
 
 namespace DeliveryService.Frontend.Customer.BL.Controllers

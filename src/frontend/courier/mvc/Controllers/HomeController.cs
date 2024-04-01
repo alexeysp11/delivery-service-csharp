@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using DeliveryService.Frontend.Courier.Mvc.Models;
 using DeliveryService.Frontend.Courier.BL.Controllers;
-using Cims.WorkflowLib.Models.Business.BusinessDocuments;
+using WorkflowLib.Models.Business.BusinessDocuments;
 
 namespace DeliveryService.Frontend.Courier.Mvc.Controllers;
 

@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using Grpc.Core;
 using Google.Protobuf;
-using Cims.WorkflowLib.Models.Documents;
-using Cims.WorkflowLib.Models.Documents.Enums;
+using WorkflowLib.Models.Documents;
+using WorkflowLib.Models.Documents.Enums;
 using DeliveryService.Fileservice;
 using DeliveryService.Models.Protos;
 using DeliveryService.Backend.FileService.BL.Controllers;
@@ -34,7 +34,7 @@ public class FileserviceService : DeliveryService.Models.Protos.Fileservice.File
         {
             SessionTokenGuid = new System.Guid(request.SessionTokenGuid),
             // AttachmentFileType = attachmentFileType,
-            Values = System.Text.Json.JsonSerializer.Deserialize<List<Cims.WorkflowLib.Models.Documents.TextDocElement>>(request.Values.ToStringUtf8())
+            Values = System.Text.Json.JsonSerializer.Deserialize<List<WorkflowLib.Models.Documents.TextDocElement>>(request.Values.ToStringUtf8())
         };
         // Get response model 
         var responseModel = new FileConverter().GetFile(requestModel);

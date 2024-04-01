@@ -3,7 +3,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using Cims.WorkflowLib.Models.AppSettings;
+using WorkflowLib.Models.AppSettings;
 using WokflowLib.Authentication.Models.NetworkParameters;
 using DeliveryService.Core.Resolvers;
 using DeliveryService.Frontend.Customer.BL;

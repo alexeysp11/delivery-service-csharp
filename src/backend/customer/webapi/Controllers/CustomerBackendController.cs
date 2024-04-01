@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Cims.WorkflowLib.Models.Business.BusinessDocuments;
-using Cims.WorkflowLib.Models.Network;
+using WorkflowLib.Models.Business.BusinessDocuments;
+using WorkflowLib.Models.Network;
 using DeliveryService.Backend.Customer.BL.Controllers;
 
 namespace DeliveryService.Backend.Customer.Webapi.Controllers;
