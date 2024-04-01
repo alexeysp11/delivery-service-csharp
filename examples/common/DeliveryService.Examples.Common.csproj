@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="..\..\models\Protos\fileservice.proto" GrpcServices="Client" />
-    <Protobuf Include="..\..\models\Protos\authgrcpapi.proto" GrpcServices="Client" />
+    <Protobuf Include="..\..\src\models\Protos\fileservice.proto" GrpcServices="Client" />
+    <Protobuf Include="..\..\src\models\Protos\authgrcpapi.proto" GrpcServices="Client" />
   </ItemGroup>
 
   <ItemGroup>

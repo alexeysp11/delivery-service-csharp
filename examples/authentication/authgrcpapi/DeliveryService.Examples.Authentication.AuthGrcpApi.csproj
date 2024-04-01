@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="../../common/DeliveryService.Examples.Common.csproj" />
-    <ProjectReference Include="../../../../workflow-lib/src/Cims.WorkflowLib.csproj" />
+    <ProjectReference Include="../../../../workflow-lib/src/WorkflowLib.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using Google.Protobuf; 
-using Cims.WorkflowLib.Models.Documents;
-using Cims.WorkflowLib.Models.Documents.Enums;
+using WorkflowLib.Models.Documents;
+using WorkflowLib.Models.Documents.Enums;
 using DeliveryService.Examples.Common;
 using DeliveryService.Models.Protos;
 
