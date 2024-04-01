@@ -3,7 +3,7 @@
 using System.IO;
 using System.Reflection;
 using System.Text;
-using Cims.WorkflowLib.Extensions;
+using WorkflowLib.Extensions;
 using DeliveryService.Utils.Common;
 
 // Get the address to the following directories:
